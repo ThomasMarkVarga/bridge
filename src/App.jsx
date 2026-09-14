@@ -215,7 +215,7 @@ export default function App() {
         <header className="mb-4 flex items-start justify-between gap-3">
           <div>
             <h1 className="text-3xl sm:text-5xl">
-              Bridge<span style={{ color: 'var(--coral)' }}>.</span>
+              Bridge<span style={{ color: 'var(--stamp)' }}>.</span>
             </h1>
             <p className="mt-2 text-base font-extrabold sm:text-lg">
               Take <span className="hl hl-lime tabular">12</span> days off. Get{' '}

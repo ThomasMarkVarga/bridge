@@ -57,11 +57,11 @@ function Swatch({ kind }) {
   }
   if (kind === 'holiday') {
     return (
-      <span className={base} style={{ background: 'var(--day-holiday)', borderColor: 'var(--line)', color: 'var(--ink-fixed)' }} aria-hidden="true">
+      <span className={base} style={{ background: 'var(--day-holiday)', borderColor: 'var(--line)', color: 'var(--on-sea)' }} aria-hidden="true">
         <span className="leading-none">1</span>
         <span
           className="mt-[2px] h-[4px] w-[4px] rounded-full border"
-          style={{ borderColor: 'var(--ink-fixed)', borderWidth: 1.5 }}
+          style={{ borderColor: 'currentColor', borderWidth: 1.5 }}
         />
       </span>
     )

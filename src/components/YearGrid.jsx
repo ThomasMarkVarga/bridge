@@ -528,9 +528,10 @@ function DayCell({
           outline: changed ? 'var(--b-thick) solid var(--sky)' : undefined,
           outlineOffset: changed ? '2px' : undefined,
           boxShadow: day.pinned ? 'inset 0 0 0 var(--b) var(--day-pinned)' : undefined,
-          // Coral and sea chips are the same in both themes, so their number stays
-          // near-black rather than following the theme's ink.
-          color: isLeave || day.holidayName ? 'var(--ink-fixed)' : undefined
+          // Both chips keep the same fill in either theme, so each carries its own
+          // text colour rather than following the theme's ink. Sea green is dark
+          // enough to need pale text; coral is not.
+          color: isLeave ? 'var(--ink-fixed)' : day.holidayName ? 'var(--on-sea)' : undefined
         }}
       >
         <span
@@ -541,6 +542,15 @@ function DayCell({
           {dayNumber}
         </span>
         <Marker kind={marker} />
+        {/* The pier. A day you pay for is what holds the span up, so it is drawn
+            doing exactly that. */}
+        {isLeave && inBreak && (
+          <span
+            aria-hidden="true"
+            className="absolute bottom-[-6px] left-1/2 block h-[7px] w-[3px] -translate-x-1/2"
+            style={{ background: 'var(--line)' }}
+          />
+        )}
       </button>
 
       {menuOpen && <DayMenu day={day} onPin={onPin} onBlackout={onBlackout} onClose={onToggleMenu} />}
@@ -562,7 +572,7 @@ function Marker({ kind }) {
     return (
       <span
         className={`${common} rounded-full border`}
-        style={{ borderColor: 'var(--ink-fixed)', borderWidth: 1.5 }}
+        style={{ borderColor: 'currentColor', borderWidth: 1.5 }}
         aria-hidden="true"
       />
     )

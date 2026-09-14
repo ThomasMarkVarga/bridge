@@ -15,6 +15,24 @@
 
 ## Global Rules
 
+### The idea
+
+The whole interface is built on one thing: a bridge. Your leave days are the piers
+and the weekends and holidays they connect are the deck. That is what the app does,
+so it is what the app looks like.
+
+- **Drafting paper.** The ground is faintly gridded, a fine rule every 24px and a
+  heavier one every 120px, drawn with gradients so it costs no request.
+- **Ticket stock.** Every card has two punched holes on its left edge, and the row
+  of actions at the foot of a ticket sits below a perforated tear line. A leave
+  plan is something you tear off and carry to someone.
+- **Spans.** A break in the calendar is a deck with a pier dropping from every day
+  you pay for, so the picture states the app's whole argument without a caption.
+- **Stamps.** The ratio lands at an angle, double-ruled, the way a rubber stamp
+  lands. Section labels are luggage tags, square-cornered on one side.
+
+Nothing has a blurred shadow. Every shadow is a hard offset in ink.
+
 ### Color Palette
 
 | Role | Hex | CSS Variable |

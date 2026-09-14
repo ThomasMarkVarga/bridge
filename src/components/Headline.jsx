@@ -89,8 +89,10 @@ export default function Headline({ plan, periodLabel, countryLabel, busy }) {
       </p>
 
       {ratio && (
-        <p className="mt-2 text-base font-extrabold" style={{ color: 'var(--muted-foreground)' }}>
-          That is {ratio}.
+        <p className="mt-5">
+          <span className="stamp text-xl">
+            {(plan.totalDaysOff / plan.leaveSpent).toFixed(1)}&times; your leave
+          </span>
         </p>
       )}
 

@@ -3,8 +3,17 @@
 /*
  * Bridge's visual layer.
  *
- * Flat, outlined and loud: a sand ground, deep sea-ink outlines, and hard offset
- * shadows with no blur anywhere.
+ * The whole interface is built on one idea: a bridge. Your leave days are the
+ * piers and the weekends and holidays they connect are the deck. That is what the
+ * app does, so it is what the app looks like.
+ *
+ * The ground is drafting paper, faintly gridded. Cards are ticket stock with
+ * punched corners and a perforated tear line above the actions. The break bars in
+ * the calendar are spans, with a pier dropping from every day you pay for. The
+ * ratio is a rubber stamp, set at an angle, the way a stamp lands.
+ *
+ * Flat, outlined and loud: deep sea-ink outlines and hard offset shadows with no
+ * blur anywhere.
  *
  * The palette is the seaside rather than the arcade. Coral marks the days you
  * book, sea green the public holidays you already had, sky blue the days you fix
@@ -84,6 +93,11 @@
    */
   --ink-fixed: #16202b;
   --paper-fixed: #fffefb;
+  /*
+   * Stamp ink. Coral is a fill colour: as text on a pale card it measures 2.8:1,
+   * which is unreadable. This is the same hue pushed dark enough to be text.
+   */
+  --stamp: #c23f20;
   --on-sea: var(--paper-fixed);
   --on-sky: var(--paper-fixed);
 
@@ -124,6 +138,9 @@
   --day-pinned: var(--sky);
   --day-blackout: var(--ink);
 
+  --grid-faint: rgba(22, 32, 43, 0.045);
+  --grid-strong: rgba(22, 32, 43, 0.09);
+
   color-scheme: light;
 }
 
@@ -146,6 +163,10 @@
     --muted: #26313c;
     --day-weekend: #2d3a46;
     --day-leave-band: #5c2f24;
+    --grid-faint: rgba(243, 239, 228, 0.045);
+    --grid-strong: rgba(243, 239, 228, 0.085);
+    /* On a dark card the undarkened coral is the readable one. */
+    --stamp: #ff6b4a;
     /* Lifted so they still read against a dark ground. */
     --sea: #2fc7ab;
     --sky: #8aa6ff;
@@ -167,6 +188,9 @@
   --muted: #26313c;
   --day-weekend: #2d3a46;
   --day-leave-band: #5c2f24;
+  --grid-faint: rgba(243, 239, 228, 0.045);
+  --grid-strong: rgba(243, 239, 228, 0.085);
+  --stamp: #ff6b4a;
   --sea: #2fc7ab;
   --sky: #8aa6ff;
   --on-sea: var(--ink-fixed);
@@ -180,8 +204,19 @@
     -webkit-text-size-adjust: 100%;
   }
 
+  /*
+   * Drafting paper: a fine grid with a heavier rule every fifth line. Drawn with
+   * gradients, so it costs no request and scales to any screen. Text never sits
+   * on it directly, it sits on cards, so it cannot touch anyone's contrast.
+   */
   body {
-    background: var(--background);
+    background-color: var(--background);
+    background-image:
+      linear-gradient(to right, var(--grid-strong) 0 1px, transparent 1px 100%),
+      linear-gradient(to bottom, var(--grid-strong) 0 1px, transparent 1px 100%),
+      linear-gradient(to right, var(--grid-faint) 0 1px, transparent 1px 100%),
+      linear-gradient(to bottom, var(--grid-faint) 0 1px, transparent 1px 100%);
+    background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
     color: var(--foreground);
     font-family: var(--font-sans);
     font-size: 16px;
@@ -243,12 +278,85 @@
     box-shadow: 8px 8px 0 0 var(--shadow-ink);
   }
 
+  /*
+   * Ticket stock. The two punched holes on the left edge are what make a card
+   * read as something torn off and carried away, which is exactly what a leave
+   * plan is.
+   */
   .card {
+    position: relative;
     background: var(--card);
     color: var(--card-foreground);
     border: var(--b-thick) solid var(--line);
     border-radius: var(--r-lg);
     box-shadow: 4px 4px 0 0 var(--shadow-ink);
+  }
+
+  .card::before,
+  .card::after {
+    content: '';
+    position: absolute;
+    left: -7px;
+    width: 12px;
+    height: 12px;
+    border: var(--b-thick) solid var(--line);
+    border-radius: 999px;
+    background: var(--background);
+    pointer-events: none;
+  }
+
+  .card::before {
+    top: 26px;
+  }
+
+  .card::after {
+    bottom: 26px;
+  }
+
+  /* A perforated tear line, for the row of actions at the foot of a ticket. */
+  .perf {
+    position: relative;
+    border-top: var(--b) dashed var(--line);
+    padding-top: 14px;
+    margin-top: 14px;
+  }
+
+  .perf::before,
+  .perf::after {
+    content: '';
+    position: absolute;
+    top: -9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: var(--background);
+    border: var(--b) solid var(--line);
+  }
+
+  .perf::before {
+    left: -26px;
+  }
+
+  .perf::after {
+    right: -26px;
+  }
+
+  /*
+   * A rubber stamp. Double-ruled, letterspaced, and landed at a slight angle,
+   * because a stamp is never quite straight.
+   */
+  .stamp {
+    display: inline-block;
+    transform: rotate(-3.5deg);
+    padding: 8px 16px 6px;
+    border: var(--b-thick) solid var(--stamp);
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 2px var(--card), inset 0 0 0 4px var(--stamp);
+    color: var(--stamp);
+    font-family: var(--font-display);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1;
   }
 
   .btn {
