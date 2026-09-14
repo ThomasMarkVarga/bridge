@@ -9,8 +9,6 @@
  * Someone glancing at it should get "that is a lot of time off" before they read
  * a single word.
  */
-import { toDayNumber, dayOfWeek } from '../solver/plainDate.js'
-
 const WIDTH = 1200
 const HEIGHT = 630
 
@@ -61,6 +59,27 @@ function hardRect(ctx, x, y, w, h, radius, fill, stroke, offset = 6) {
 }
 
 /**
+ * Split the plan by month, into the days you pay for and the days they unlock.
+ *
+ * Twelve bars say "here is your year" far faster than 365 tiny squares, and they
+ * survive being shrunk to a thumbnail in a chat window, which is the only size
+ * this image is ever really seen at.
+ */
+function byMonth(calendar, plan) {
+  const months = Array.from({ length: 12 }, () => ({ booked: 0, free: 0 }))
+  const leave = new Set(plan.leaveDates)
+  for (const b of plan.breaks) {
+    for (let i = b.startIndex; i <= b.endIndex; i++) {
+      const day = calendar[i]
+      const m = Number(day.date.slice(5, 7)) - 1
+      if (leave.has(day.date)) months[m].booked++
+      else months[m].free++
+    }
+  }
+  return months
+}
+
+/**
  * Draw the card.
  *
  * @param {object} input
@@ -81,118 +100,174 @@ export function drawShareCard({ plan, calendar, countryLabel, periodLabel, theme
   c.style.height = `${HEIGHT}px`
 
   const ctx = c.getContext('2d')
-  ctx.scale(dpr, dpr)
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
   const t = THEMES[theme] || THEMES.light
+
+  const display = (size) => `400 ${size}px 'Archivo Black', 'Public Sans', system-ui, sans-serif`
+  const body = (size, weight = 600) =>
+    `${weight} ${size}px 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif`
+
+  const write = (str, x, y, font, fill, align = 'left') => {
+    ctx.font = font
+    ctx.fillStyle = fill
+    ctx.textAlign = align
+    ctx.textBaseline = 'alphabetic'
+    ctx.fillText(str, x, y)
+    ctx.textAlign = 'left'
+  }
 
   ctx.fillStyle = t.bg
   ctx.fillRect(0, 0, WIDTH, HEIGHT)
+  hardRect(ctx, 32, 32, WIDTH - 72, HEIGHT - 72, 16, t.panel, t.rule, 8)
 
-  const display = (size) => `400 ${size}px 'Archivo Black', 'Public Sans', system-ui, sans-serif`
-  const body = (size, weight = 500) =>
-    `${weight} ${size}px 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif`
+  const L = 76
+  const PANEL_RIGHT = WIDTH - 40
 
-  const PAD = 64
-
-  // The outlined panel the whole card sits in.
-  hardRect(ctx, 28, 28, WIDTH - 66, HEIGHT - 66, 14, t.panel, t.rule, 6)
-
-  ctx.textBaseline = 'alphabetic'
-
-  // A sticker, exactly like the ones on the page.
-  ctx.font = body(20, 800)
-  const stickerText = 'NO SIGN-UP · NOTHING LEAVES YOUR DEVICE'
-  const stickerW = ctx.measureText(stickerText).width + 36
-  hardRect(ctx, PAD, 62, stickerW, 40, 8, t.tag, INK_FIXED, 3)
-  ctx.fillStyle = INK_FIXED
-  ctx.fillText(stickerText, PAD + 18, 89)
+  // A tag, square-cornered on the top left, the shape the page uses everywhere.
+  const tagLabel = `${countryLabel} \u00b7 ${periodLabel}`.toUpperCase()
+  ctx.font = display(15)
+  const tagW = ctx.measureText(tagLabel).width + 30
+  tagRect(ctx, L, 72, tagW, 38, t.tag, INK_FIXED)
+  write(tagLabel, L + 15, 96, display(15), INK_FIXED)
 
   // The number, as large as it will go. This is the whole point of the card.
-  ctx.fillStyle = t.ink
-  ctx.font = display(104)
-  const headline = `${plan.totalDaysOff} days off`
-  ctx.fillText(headline, PAD, 196)
+  write(`${plan.totalDaysOff} days off`, L, 206, display(104), t.ink)
+  write(
+    `from ${plan.leaveSpent} days of leave, in ${plan.breaks.length} ${plan.breaks.length === 1 ? 'break' : 'breaks'}`,
+    L,
+    252,
+    body(31),
+    t.muted
+  )
 
-  ctx.font = body(34, 600)
-  ctx.fillStyle = t.muted
-  const breaks = plan.breaks.length === 1 ? '1 break' : `${plan.breaks.length} breaks`
-  ctx.fillText(`from ${plan.leaveSpent} days of leave, in ${breaks}`, PAD, 246)
+  // The multiplier, as a sticker, because it is the line people repeat.
+  const ratio = plan.leaveSpent > 0 ? (plan.totalDaysOff / plan.leaveSpent).toFixed(1) : '0'
+  const stickW = 250
+  const stickX = PANEL_RIGHT - stickW - 36
+  hardRect(ctx, stickX, 96, stickW, 118, 14, t.leave, INK_FIXED, 6)
+  write(`${ratio}\u00d7`, stickX + stickW / 2, 172, display(62), INK_FIXED, 'center')
+  write('DAYS OFF PER DAY BOOKED', stickX + stickW / 2, 199, body(15, 800), INK_FIXED, 'center')
 
-  ctx.font = body(26, 800)
-  ctx.fillStyle = t.ink
-  ctx.fillText(`${countryLabel} · ${periodLabel}`, PAD, 292)
+  drawMonthBars(ctx, { calendar, plan, t, L, write, display, body, right: PANEL_RIGHT })
 
-  // The year as a shape: 7 rows of days, one column per week.
-  drawYearStrip(ctx, { calendar, plan, theme: t, x: PAD, y: 328, width: WIDTH - PAD * 2, height: 150 })
+  // A key, so the two halves of each bar are not a guess.
+  const keyY = 546
+  swatch(ctx, L, keyY - 11, t.leave, t.rule)
+  write('days you book', L + 22, keyY, body(16), t.muted)
+  swatch(ctx, L + 168, keyY - 11, t.band, t.rule)
+  write('days they unlock', L + 190, keyY, body(16), t.muted)
 
-  // The longest break, named, because that is the thing people react to.
   const longest = plan.breaks.reduce((a, b) => (b.length > (a?.length || 0) ? b : a), null)
   if (longest) {
-    ctx.font = body(24, 600)
-    ctx.fillStyle = t.muted
-    const label = `Longest stretch: ${formatSpan(longest.start, longest.end)} · ${longest.length} days for ${longest.cost} booked`
-    ctx.fillText(label, PAD, HEIGHT - 96)
+    write(
+      `Longest: ${formatSpan(longest.start, longest.end)}, ${longest.length} days for ${longest.cost} booked`,
+      PANEL_RIGHT - 36,
+      keyY,
+      body(16),
+      t.muted,
+      'right'
+    )
   }
 
-  ctx.font = display(26)
-  ctx.fillStyle = t.ink
-  ctx.fillText('Bridge', PAD, HEIGHT - 56)
-  ctx.font = body(21, 600)
-  ctx.fillStyle = t.muted
-  ctx.fillText('Work out which days to book.', PAD + 130, HEIGHT - 56)
+  write('Bridge', L, 578, display(21), t.ink)
+  write('Work out which days to book. Nothing leaves your device.', L + 102, 578, body(17), t.muted)
 
   return c
 }
 
-/**
- * Seven rows, one column per week, so a break reads as a solid vertical block and
- * a run of them reads as a rhythm across the year.
- */
-function drawYearStrip(ctx, { calendar, plan, theme, x, y, width, height }) {
-  if (!calendar.length) return
+function drawMonthBars(ctx, { calendar, plan, t, L, write, display, body, right }) {
+  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+  const months = byMonth(calendar, plan)
+  const peak = Math.max(1, ...months.map((m) => m.booked + m.free))
 
-  const leave = new Set(plan.leaveDates)
-  const inBreak = new Set()
-  for (const b of plan.breaks) {
-    for (let i = b.startIndex; i <= b.endIndex; i++) inBreak.add(i)
-  }
+  const chartBottom = 486
+  const chartH = 190
+  const gap = 13
+  const barW = Math.floor((WIDTH - L * 2 - gap * 11) / 12)
 
-  const first = calendar[0]
-  const startOffset = dayOfWeek(first.date) - 1 // Monday is column 0
-  const totalSlots = startOffset + calendar.length
-  const weeks = Math.ceil(totalSlots / 7)
+  ctx.strokeStyle = t.rule
+  ctx.lineWidth = 3
+  ctx.beginPath()
+  ctx.moveTo(L, chartBottom + 2)
+  ctx.lineTo(L + 12 * barW + 11 * gap, chartBottom + 2)
+  ctx.stroke()
 
-  const gap = 2
-  const cell = Math.min((width - (weeks - 1) * gap) / weeks, (height - 6 * gap) / 7)
-  const gridW = weeks * cell + (weeks - 1) * gap
-  const originX = x + (width - gridW) / 2
+  for (let m = 0; m < 12; m++) {
+    const x = L + m * (barW + gap)
+    const total = months[m].booked + months[m].free
 
-  for (let i = 0; i < calendar.length; i++) {
-    const day = calendar[i]
-    const slot = startOffset + i
-    const col = Math.floor(slot / 7)
-    const row = slot % 7
+    if (total === 0) {
+      // An empty month still gets a mark, so the gaps in the year are visible.
+      ctx.fillStyle = t.weekend
+      roundRect(ctx, x, chartBottom - 6, barW, 6, 2)
+      ctx.fill()
+    } else {
+      const h = Math.max(14, Math.round((total / peak) * chartH))
+      const bookedH = Math.round((months[m].booked / total) * h)
+      const y = chartBottom - h
 
-    const cx = originX + col * (cell + gap)
-    const cy = y + row * (cell + gap)
+      ctx.fillStyle = t.rule
+      roundRect(ctx, x + 4, y + 4, barW, h, 6)
+      ctx.fill()
 
-    let fill = theme.work
-    if (day.isFree) fill = day.holidayName ? theme.holiday : theme.weekend
-    if (inBreak.has(i)) fill = theme.band
-    if (leave.has(day.date)) fill = theme.leave
+      ctx.fillStyle = t.band
+      roundRect(ctx, x, y, barW, h, 6)
+      ctx.fill()
 
-    ctx.fillStyle = fill
-    roundRect(ctx, cx, cy, cell, cell, Math.min(3, cell / 4))
-    ctx.fill()
+      // The days you pay for, stacked at the bottom of the bar.
+      ctx.save()
+      roundRect(ctx, x, y, barW, h, 6)
+      ctx.clip()
+      ctx.fillStyle = t.leave
+      ctx.fillRect(x, chartBottom - bookedH, barW, bookedH)
+      ctx.restore()
 
-    // Every day you actually book is outlined, so the pattern of bookings reads
-    // even when the picture is shrunk to a thumbnail.
-    if (leave.has(day.date)) {
-      ctx.strokeStyle = INK_FIXED
-      ctx.lineWidth = 1.5
-      roundRect(ctx, cx, cy, cell, cell, Math.min(3, cell / 4))
+      ctx.strokeStyle = t.rule
+      ctx.lineWidth = 3
+      roundRect(ctx, x, y, barW, h, 6)
       ctx.stroke()
+
+      write(String(total), x + barW / 2, y - 12, display(19), t.ink, 'center')
     }
+    write(MONTHS[m], x + barW / 2, chartBottom + 26, body(16, 800), t.muted, 'center')
   }
+}
+
+/** The luggage-tag silhouette: rounded everywhere except the top left. */
+function tagRect(ctx, x, y, w, h, fill, stroke) {
+  const r = 8
+  const path = () => {
+    ctx.beginPath()
+    ctx.moveTo(x, y)
+    ctx.lineTo(x + w - r, y)
+    ctx.arcTo(x + w, y, x + w, y + r, r)
+    ctx.lineTo(x + w, y + h - r)
+    ctx.arcTo(x + w, y + h, x + w - r, y + h, r)
+    ctx.lineTo(x + r, y + h)
+    ctx.arcTo(x, y + h, x, y + h - r, r)
+    ctx.closePath()
+  }
+  ctx.save()
+  ctx.translate(4, 4)
+  path()
+  ctx.fillStyle = stroke
+  ctx.fill()
+  ctx.restore()
+  path()
+  ctx.fillStyle = fill
+  ctx.fill()
+  ctx.lineWidth = 3
+  ctx.strokeStyle = stroke
+  ctx.stroke()
+}
+
+function swatch(ctx, x, y, fill, stroke) {
+  roundRect(ctx, x, y, 14, 14, 3)
+  ctx.fillStyle = fill
+  ctx.fill()
+  ctx.lineWidth = 2
+  ctx.strokeStyle = stroke
+  ctx.stroke()
 }
 
 function roundRect(ctx, x, y, w, h, r) {
@@ -267,9 +342,11 @@ export function shareText({ plan, countryLabel, periodLabel }) {
 
 /** Alt text, so the image is not a dead end for anyone. */
 export function shareCardAlt({ plan, countryLabel, periodLabel }) {
+  const ratio = plan.leaveSpent > 0 ? (plan.totalDaysOff / plan.leaveSpent).toFixed(1) : '0'
   return (
-    `A calendar of ${periodLabel} for ${countryLabel}, with ${plan.breaks.length} ` +
-    `${plan.breaks.length === 1 ? 'break' : 'breaks'} marked. ` +
-    `${plan.leaveSpent} days of leave become ${plan.totalDaysOff} days off.`
+    `${plan.leaveSpent} days of leave become ${plan.totalDaysOff} days off in ${periodLabel}, for ` +
+    `${countryLabel}, across ${plan.breaks.length} ${plan.breaks.length === 1 ? 'break' : 'breaks'}, ` +
+    `which is ${ratio} days off for every day booked. A bar for each month shows how many days off ` +
+    `it holds, split into the days you book and the weekends and holidays they unlock.`
   )
 }
