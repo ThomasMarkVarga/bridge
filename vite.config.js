@@ -49,8 +49,22 @@ function stampServiceWorker() {
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), stampServiceWorker()],
-  server: { port: 8765, strictPort: true, host: true },
-  preview: { port: 8765, strictPort: true, host: true },
+  server: {
+    port: 8765,
+    strictPort: true,
+    host: true,
+    // Tunnelling the dev server (ngrok, Cloudflare, LocalTunnel) sends a Host
+    // header Vite rejects by default as a DNS-rebinding guard. These subdomains
+    // are allowed so a phone can open the real thing; everything else still is
+    // not, which keeps the guard doing its job.
+    allowedHosts: ['localhost', '.ngrok-free.app', '.ngrok.io', '.ngrok.app', '.trycloudflare.com', '.loca.lt']
+  },
+  preview: {
+    port: 8765,
+    strictPort: true,
+    host: true,
+    allowedHosts: ['localhost', '.ngrok-free.app', '.ngrok.io', '.ngrok.app', '.trycloudflare.com', '.loca.lt']
+  },
   build: {
     target: 'es2020',
     // Holiday JSON is fetched at runtime from this origin, never inlined.
