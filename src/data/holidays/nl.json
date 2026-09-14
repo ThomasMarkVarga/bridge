@@ -1,0 +1,375 @@
+{
+ "country": "NL",
+ "countryName": "Netherlands",
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Good Friday and Liberation Day are days off at some Dutch employers and not others. Check your contract."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Tweede paasdag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-27",
+    "name": "Koningsdag",
+    "nameEn": "King's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Hemelvaartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pinksteren",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Tweede pinksterdag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Oudejaarsavond",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Tweede paasdag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-27",
+    "name": "Koningsdag",
+    "nameEn": "King's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Hemelvaartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pinksteren",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Tweede pinksterdag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Oudejaarsavond",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Tweede paasdag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-27",
+    "name": "Koningsdag",
+    "nameEn": "King's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Hemelvaartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pinksteren",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Tweede pinksterdag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Oudejaarsavond",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-03",
+    "name": "Goede Vrijdag",
+    "nameEn": "Good Friday",
+    "type": "school"
+   },
+   {
+    "date": "2026-05-04",
+    "name": "Nationale Dodenherdenking",
+    "nameEn": "Remembrance of the Dead",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-05",
+    "name": "Bevrijdingsdag",
+    "nameEn": "Liberation Day",
+    "type": "school"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Moederdag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Vaderdag",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-15",
+    "name": "Prinsjesdag",
+    "nameEn": "Prince's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Sint-Maarten",
+    "nameEn": "Saint Martin",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-05",
+    "name": "Sinterklaasavond",
+    "nameEn": "St Nicholas' Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-15",
+    "name": "Koninkrijksdag",
+    "nameEn": "Kingdom Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-26",
+    "name": "Goede Vrijdag",
+    "nameEn": "Good Friday",
+    "type": "school"
+   },
+   {
+    "date": "2027-05-04",
+    "name": "Nationale Dodenherdenking",
+    "nameEn": "Remembrance of the Dead",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-05",
+    "name": "Bevrijdingsdag",
+    "nameEn": "Liberation Day",
+    "type": "school"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Moederdag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "Vaderdag",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-21",
+    "name": "Prinsjesdag",
+    "nameEn": "Prince's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Sint-Maarten",
+    "nameEn": "Saint Martin",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-05",
+    "name": "Sinterklaasavond",
+    "nameEn": "St Nicholas' Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-15",
+    "name": "Koninkrijksdag",
+    "nameEn": "Kingdom Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-14",
+    "name": "Goede Vrijdag",
+    "nameEn": "Good Friday",
+    "type": "school"
+   },
+   {
+    "date": "2028-05-04",
+    "name": "Nationale Dodenherdenking",
+    "nameEn": "Remembrance of the Dead",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Bevrijdingsdag",
+    "nameEn": "Liberation Day",
+    "type": "school"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Moederdag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-18",
+    "name": "Vaderdag",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-19",
+    "name": "Prinsjesdag",
+    "nameEn": "Prince's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Sint-Maarten",
+    "nameEn": "Saint Martin",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-05",
+    "name": "Sinterklaasavond",
+    "nameEn": "St Nicholas' Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-15",
+    "name": "Koninkrijksdag",
+    "nameEn": "Kingdom Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-14T21:53:18.130Z"
+}

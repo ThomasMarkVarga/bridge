@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.probe/
+.claude/
+*.local
+.DS_Store

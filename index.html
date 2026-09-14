@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+    <title>Bridge · Work out which days to book</title>
+    <meta
+      name="description"
+      content="Pick your country and how many days of leave you have. Bridge works out which days to book so they join up with weekends and public holidays into the longest possible stretches off. Runs entirely in your browser."
+    />
+    <link rel="canonical" href="https://bridge.pages.dev/" />
+    <meta name="theme-color" content="#f0fdfa" />
+    <meta name="color-scheme" content="light dark" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bridge" />
+    <meta property="og:title" content="Take 12 days off. Get 28." />
+    <meta
+      property="og:description"
+      content="Work out which leave days to book so they bridge weekends and public holidays. No account, no server, nothing leaves your device."
+    />
+    <meta property="og:url" content="https://bridge.pages.dev/" />
+    <meta property="og:image" content="https://bridge.pages.dev/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="A year calendar with several breaks marked, above the words twenty-one leave days become fifty-four days off."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Take 12 days off. Get 28." />
+    <meta
+      name="twitter:description"
+      content="Work out which leave days to book so they bridge weekends and public holidays. Runs entirely in your browser."
+    />
+    <meta name="twitter:image" content="https://bridge.pages.dev/og.png" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- The two font files are served from this origin. No font CDN is contacted. -->
+    <link
+      rel="preload"
+      href="/fonts/inter-latin-wght-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="max-width: 40rem; margin: 3rem auto; padding: 0 1rem; font-family: system-ui, sans-serif">
+        <h1>Bridge needs JavaScript</h1>
+        <p>
+          Bridge works out your leave plan on your own device rather than on a server, which is why it needs no account
+          and sends nothing anywhere. That calculation runs in JavaScript, so the page cannot do anything without it.
+        </p>
+        <p>Turn JavaScript on for this page and reload.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

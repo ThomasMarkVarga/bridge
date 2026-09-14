@@ -1,0 +1,3678 @@
+{
+ "country": "US",
+ "countryName": "United States",
+ "subdivisionLabel": "State",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "AL",
+   "name": "Alabama"
+  },
+  {
+   "code": "AK",
+   "name": "Alaska"
+  },
+  {
+   "code": "AZ",
+   "name": "Arizona"
+  },
+  {
+   "code": "AR",
+   "name": "Arkansas"
+  },
+  {
+   "code": "CA",
+   "name": "California"
+  },
+  {
+   "code": "CO",
+   "name": "Colorado"
+  },
+  {
+   "code": "CT",
+   "name": "Connecticut"
+  },
+  {
+   "code": "DE",
+   "name": "Delaware"
+  },
+  {
+   "code": "DC",
+   "name": "District of Columbia"
+  },
+  {
+   "code": "FL",
+   "name": "Florida"
+  },
+  {
+   "code": "GA",
+   "name": "Georgia"
+  },
+  {
+   "code": "HI",
+   "name": "Hawaii"
+  },
+  {
+   "code": "ID",
+   "name": "Idaho"
+  },
+  {
+   "code": "IL",
+   "name": "Illinois"
+  },
+  {
+   "code": "IN",
+   "name": "Indiana"
+  },
+  {
+   "code": "IA",
+   "name": "Iowa"
+  },
+  {
+   "code": "KS",
+   "name": "Kansas"
+  },
+  {
+   "code": "KY",
+   "name": "Kentucky"
+  },
+  {
+   "code": "LA",
+   "name": "Louisiana"
+  },
+  {
+   "code": "ME",
+   "name": "Maine"
+  },
+  {
+   "code": "MD",
+   "name": "Maryland"
+  },
+  {
+   "code": "MA",
+   "name": "Massachusetts"
+  },
+  {
+   "code": "MI",
+   "name": "Michigan"
+  },
+  {
+   "code": "MN",
+   "name": "Minnesota"
+  },
+  {
+   "code": "MS",
+   "name": "Mississippi"
+  },
+  {
+   "code": "MO",
+   "name": "Missouri"
+  },
+  {
+   "code": "MT",
+   "name": "Montana"
+  },
+  {
+   "code": "NE",
+   "name": "Nebraska"
+  },
+  {
+   "code": "NV",
+   "name": "Nevada"
+  },
+  {
+   "code": "NH",
+   "name": "New Hampshire"
+  },
+  {
+   "code": "NJ",
+   "name": "New Jersey"
+  },
+  {
+   "code": "NM",
+   "name": "New Mexico"
+  },
+  {
+   "code": "NY",
+   "name": "New York"
+  },
+  {
+   "code": "NC",
+   "name": "North Carolina"
+  },
+  {
+   "code": "ND",
+   "name": "North Dakota"
+  },
+  {
+   "code": "OH",
+   "name": "Ohio"
+  },
+  {
+   "code": "OK",
+   "name": "Oklahoma"
+  },
+  {
+   "code": "OR",
+   "name": "Oregon"
+  },
+  {
+   "code": "PA",
+   "name": "Pennsylvania"
+  },
+  {
+   "code": "RI",
+   "name": "Rhode Island"
+  },
+  {
+   "code": "SC",
+   "name": "South Carolina"
+  },
+  {
+   "code": "SD",
+   "name": "South Dakota"
+  },
+  {
+   "code": "TN",
+   "name": "Tennessee"
+  },
+  {
+   "code": "TX",
+   "name": "Texas"
+  },
+  {
+   "code": "UT",
+   "name": "Utah"
+  },
+  {
+   "code": "VT",
+   "name": "Vermont"
+  },
+  {
+   "code": "VA",
+   "name": "Virginia"
+  },
+  {
+   "code": "WA",
+   "name": "Washington"
+  },
+  {
+   "code": "WV",
+   "name": "West Virginia"
+  },
+  {
+   "code": "WI",
+   "name": "Wisconsin"
+  },
+  {
+   "code": "WY",
+   "name": "Wyoming"
+  }
+ ],
+ "notes": [
+  "These are federal holidays. Private employers in the United States do not have to give any of them off, and most give fewer."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Dr. Martin Luther King Jr./ Civil Rights Day",
+    "type": "public",
+    "regions": [
+     "AZ"
+    ]
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Dr. Martin Luther King Jr./Robert E. Lee's Birthdays",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AK",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MT",
+     "NC",
+     "ND",
+     "NE",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Martin Luther King's and Robert E. Lee's Birthdays",
+    "type": "public",
+    "regions": [
+     "MS"
+    ]
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Martin Luther King, Jr./ Civil Rights Day",
+    "type": "public",
+    "regions": [
+     "NH"
+    ]
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Martin Luther King, Jr./ Idaho Human Rights Day",
+    "type": "public",
+    "regions": [
+     "ID"
+    ]
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Robert E. Lee/Martin Luther King Birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2026-02-12",
+    "name": "Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "CT",
+     "IA",
+     "IL",
+     "MO",
+     "NJ",
+     "NY"
+    ]
+   },
+   {
+    "date": "2026-02-15",
+    "name": "Susan B. Anthony Day",
+    "type": "public",
+    "regions": [
+     "FL",
+     "NY",
+     "WI",
+     "WV"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Commemoration of America's 250th Birthday",
+    "type": "public",
+    "regions": [
+     "FL"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "George Washington Day",
+    "type": "public",
+    "regions": [
+     "VA"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "George Washington's Birthday/Daisy Gatson Bates Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "George Washington/Thomas Jefferson Birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Lincoln's and Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "MT"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Lincoln/Washington Presidents' Day",
+    "type": "public",
+    "regions": [
+     "AZ"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "President's Day",
+    "type": "public",
+    "regions": [
+     "AK",
+     "ID",
+     "MD",
+     "NE",
+     "NH",
+     "TN",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Presidents Day",
+    "type": "public",
+    "regions": [
+     "NJ",
+     "NV",
+     "OR"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Presidents' Day",
+    "type": "public",
+    "regions": [
+     "CA",
+     "HI",
+     "ND",
+     "NM",
+     "OK",
+     "PA",
+     "SD",
+     "TX",
+     "VT",
+     "WA"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Washington and Lincoln Day",
+    "type": "public",
+    "regions": [
+     "UT"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "*",
+     "CT",
+     "DC",
+     "IA",
+     "IL",
+     "IN",
+     "LA",
+     "MA",
+     "MI",
+     "MO",
+     "MS",
+     "NY",
+     "RI",
+     "SC",
+     "WI"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Washington's Birthday/President's Day",
+    "type": "public",
+    "regions": [
+     "ME"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Washington's and Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "MN"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Washington-Lincoln Day",
+    "type": "public",
+    "regions": [
+     "CO",
+     "OH"
+    ]
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Mardi Gras",
+    "type": "public",
+    "regions": [
+     "LA"
+    ]
+   },
+   {
+    "date": "2026-03-02",
+    "name": "Casimir Pulaski Day",
+    "type": "public",
+    "regions": [
+     "IL"
+    ]
+   },
+   {
+    "date": "2026-03-03",
+    "name": "Town Meeting Day",
+    "type": "public",
+    "regions": [
+     "VT"
+    ]
+   },
+   {
+    "date": "2026-03-17",
+    "name": "Evacuation Day",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2026-03-26",
+    "name": "Prince Jonah Kuhio Kalanianaole Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2026-03-30",
+    "name": "Seward's Day",
+    "type": "public",
+    "regions": [
+     "AK"
+    ]
+   },
+   {
+    "date": "2026-03-31",
+    "name": "César Chávez Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public",
+    "regions": [
+     "CT",
+     "DE",
+     "HI",
+     "IN",
+     "KY",
+     "LA",
+     "NC",
+     "NJ",
+     "TN"
+    ]
+   },
+   {
+    "date": "2026-04-16",
+    "name": "Emancipation Day",
+    "type": "public",
+    "regions": [
+     "DC"
+    ]
+   },
+   {
+    "date": "2026-04-20",
+    "name": "Patriots' Day",
+    "type": "public",
+    "regions": [
+     "MA",
+     "ME"
+    ]
+   },
+   {
+    "date": "2026-04-24",
+    "name": "Arbor Day",
+    "type": "public",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2026-04-27",
+    "name": "Confederate Memorial Day",
+    "type": "public",
+    "regions": [
+     "AL",
+     "MS"
+    ]
+   },
+   {
+    "date": "2026-04-27",
+    "name": "State Holiday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2026-05-05",
+    "name": "Primary Election Day",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2026-05-08",
+    "name": "Truman Day",
+    "type": "public",
+    "regions": [
+     "MO"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Confederate Memorial Day",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2026-05-19",
+    "name": "Malcolm X Day",
+    "type": "public",
+    "regions": [
+     "IL"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Jefferson Davis' birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2026-06-11",
+    "name": "Kamehameha Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2026-06-14",
+    "name": "Flag Day",
+    "type": "public",
+    "regions": [
+     "PA"
+    ]
+   },
+   {
+    "date": "2026-06-17",
+    "name": "Bunker Hill Day",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2026-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-20",
+    "name": "West Virginia Day",
+    "type": "public",
+    "regions": [
+     "WV"
+    ]
+   },
+   {
+    "date": "2026-07-03",
+    "name": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2026-07-04",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-24",
+    "name": "Pioneer Day",
+    "type": "public",
+    "regions": [
+     "UT"
+    ]
+   },
+   {
+    "date": "2026-08-10",
+    "name": "Victory Day",
+    "type": "public",
+    "regions": [
+     "RI"
+    ]
+   },
+   {
+    "date": "2026-08-17",
+    "name": "Bennington Battle Day",
+    "type": "public",
+    "regions": [
+     "VT"
+    ]
+   },
+   {
+    "date": "2026-08-21",
+    "name": "Statehood Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2026-09-07",
+    "name": "Labor Day",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-08",
+    "name": "Primary Election Day",
+    "type": "public",
+    "regions": [
+     "WI"
+    ]
+   },
+   {
+    "date": "2026-10-05",
+    "name": "Frances Xavier Cabrini Day",
+    "type": "public",
+    "regions": [
+     "CO"
+    ]
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Columbus Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AL",
+     "AR",
+     "AZ",
+     "CT",
+     "GA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MI",
+     "MO",
+     "MS",
+     "MT",
+     "ND",
+     "NE",
+     "NJ",
+     "NM",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Indigenous Peoples' Day",
+    "type": "public",
+    "regions": [
+     "AK",
+     "DC",
+     "IA",
+     "ME",
+     "MN",
+     "NM",
+     "VT"
+    ]
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Native American Day",
+    "type": "public",
+    "regions": [
+     "SD"
+    ]
+   },
+   {
+    "date": "2026-10-18",
+    "name": "Alaska Day",
+    "type": "public",
+    "regions": [
+     "AK"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "name": "Nevada Day",
+    "type": "public",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "name": "Election Day",
+    "type": "public",
+    "regions": [
+     "DE",
+     "IL",
+     "IN",
+     "LA",
+     "MT",
+     "NH",
+     "NJ",
+     "NY",
+     "VA",
+     "WI"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "name": "General Election Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-26",
+    "name": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Day After Thanksgiving",
+    "type": "public",
+    "regions": [
+     "DE",
+     "FL"
+    ]
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Day after Thanksgiving",
+    "type": "public",
+    "regions": [
+     "NC",
+     "NH",
+     "NM",
+     "OK",
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Day after Thanksgiving Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Family Day",
+    "type": "public",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Lincoln's Day",
+    "type": "public",
+    "regions": [
+     "WV"
+    ]
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Native American Heritage Day",
+    "type": "public",
+    "regions": [
+     "MD"
+    ]
+   },
+   {
+    "date": "2026-11-27",
+    "name": "State Holiday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "AR",
+     "KY",
+     "MI",
+     "MT",
+     "NC",
+     "TN",
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Day after Christmas",
+    "type": "public",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-12-31",
+    "name": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "KY",
+     "MI",
+     "MT"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Dr. Martin Luther King Jr./ Civil Rights Day",
+    "type": "public",
+    "regions": [
+     "AZ"
+    ]
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Dr. Martin Luther King Jr./Robert E. Lee's Birthdays",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AK",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MT",
+     "NC",
+     "ND",
+     "NE",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Martin Luther King's and Robert E. Lee's Birthdays",
+    "type": "public",
+    "regions": [
+     "MS"
+    ]
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Martin Luther King, Jr./ Civil Rights Day",
+    "type": "public",
+    "regions": [
+     "NH"
+    ]
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Martin Luther King, Jr./ Idaho Human Rights Day",
+    "type": "public",
+    "regions": [
+     "ID"
+    ]
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Robert E. Lee/Martin Luther King Birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Mardi Gras",
+    "type": "public",
+    "regions": [
+     "LA"
+    ]
+   },
+   {
+    "date": "2027-02-12",
+    "name": "Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "CT",
+     "IA",
+     "IL",
+     "MO",
+     "NJ",
+     "NY"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "George Washington Day",
+    "type": "public",
+    "regions": [
+     "VA"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "George Washington's Birthday/Daisy Gatson Bates Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "George Washington/Thomas Jefferson Birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Lincoln's and Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "MT"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Lincoln/Washington Presidents' Day",
+    "type": "public",
+    "regions": [
+     "AZ"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "President's Day",
+    "type": "public",
+    "regions": [
+     "AK",
+     "ID",
+     "MD",
+     "NE",
+     "NH",
+     "TN",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Presidents Day",
+    "type": "public",
+    "regions": [
+     "NJ",
+     "NV",
+     "OR"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Presidents' Day",
+    "type": "public",
+    "regions": [
+     "CA",
+     "HI",
+     "ND",
+     "NM",
+     "OK",
+     "PA",
+     "SD",
+     "TX",
+     "VT",
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Susan B. Anthony Day",
+    "type": "public",
+    "regions": [
+     "FL",
+     "NY",
+     "WI",
+     "WV"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Washington and Lincoln Day",
+    "type": "public",
+    "regions": [
+     "UT"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "*",
+     "CT",
+     "DC",
+     "IA",
+     "IL",
+     "IN",
+     "LA",
+     "MA",
+     "MI",
+     "MO",
+     "MS",
+     "NY",
+     "RI",
+     "SC",
+     "WI"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Washington's Birthday/President's Day",
+    "type": "public",
+    "regions": [
+     "ME"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Washington's and Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "MN"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Washington-Lincoln Day",
+    "type": "public",
+    "regions": [
+     "CO",
+     "OH"
+    ]
+   },
+   {
+    "date": "2027-03-01",
+    "name": "Casimir Pulaski Day",
+    "type": "public",
+    "regions": [
+     "IL"
+    ]
+   },
+   {
+    "date": "2027-03-02",
+    "name": "Town Meeting Day",
+    "type": "public",
+    "regions": [
+     "VT"
+    ]
+   },
+   {
+    "date": "2027-03-17",
+    "name": "Evacuation Day",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public",
+    "regions": [
+     "CT",
+     "DE",
+     "HI",
+     "IN",
+     "KY",
+     "LA",
+     "NC",
+     "NJ",
+     "TN"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Prince Jonah Kuhio Kalanianaole Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Seward's Day",
+    "type": "public",
+    "regions": [
+     "AK"
+    ]
+   },
+   {
+    "date": "2027-03-31",
+    "name": "César Chávez Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2027-04-16",
+    "name": "Emancipation Day",
+    "type": "public",
+    "regions": [
+     "DC"
+    ]
+   },
+   {
+    "date": "2027-04-19",
+    "name": "Patriots' Day",
+    "type": "public",
+    "regions": [
+     "MA",
+     "ME"
+    ]
+   },
+   {
+    "date": "2027-04-26",
+    "name": "Confederate Memorial Day",
+    "type": "public",
+    "regions": [
+     "AL",
+     "MS"
+    ]
+   },
+   {
+    "date": "2027-04-26",
+    "name": "State Holiday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2027-04-30",
+    "name": "Arbor Day",
+    "type": "public",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2027-05-04",
+    "name": "Primary Election Day",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2027-05-08",
+    "name": "Truman Day",
+    "type": "public",
+    "regions": [
+     "MO"
+    ]
+   },
+   {
+    "date": "2027-05-10",
+    "name": "Confederate Memorial Day",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2027-05-19",
+    "name": "Malcolm X Day",
+    "type": "public",
+    "regions": [
+     "IL"
+    ]
+   },
+   {
+    "date": "2027-05-31",
+    "name": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-07",
+    "name": "Jefferson Davis' birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2027-06-11",
+    "name": "Kamehameha Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2027-06-14",
+    "name": "Flag Day",
+    "type": "public",
+    "regions": [
+     "PA"
+    ]
+   },
+   {
+    "date": "2027-06-17",
+    "name": "Bunker Hill Day",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2027-06-18",
+    "name": "Juneteenth (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "West Virginia Day",
+    "type": "public",
+    "regions": [
+     "WV"
+    ]
+   },
+   {
+    "date": "2027-07-04",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-05",
+    "name": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-07-24",
+    "name": "Pioneer Day",
+    "type": "public",
+    "regions": [
+     "UT"
+    ]
+   },
+   {
+    "date": "2027-08-09",
+    "name": "Victory Day",
+    "type": "public",
+    "regions": [
+     "RI"
+    ]
+   },
+   {
+    "date": "2027-08-16",
+    "name": "Bennington Battle Day",
+    "type": "public",
+    "regions": [
+     "VT"
+    ]
+   },
+   {
+    "date": "2027-08-20",
+    "name": "Statehood Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2027-09-06",
+    "name": "Labor Day",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-14",
+    "name": "Primary Election Day",
+    "type": "public",
+    "regions": [
+     "WI"
+    ]
+   },
+   {
+    "date": "2027-10-04",
+    "name": "Frances Xavier Cabrini Day",
+    "type": "public",
+    "regions": [
+     "CO"
+    ]
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Columbus Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AL",
+     "AR",
+     "AZ",
+     "CT",
+     "GA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MI",
+     "MO",
+     "MS",
+     "MT",
+     "ND",
+     "NE",
+     "NJ",
+     "NM",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Indigenous Peoples' Day",
+    "type": "public",
+    "regions": [
+     "AK",
+     "DC",
+     "IA",
+     "ME",
+     "MN",
+     "NM",
+     "VT"
+    ]
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Native American Day",
+    "type": "public",
+    "regions": [
+     "SD"
+    ]
+   },
+   {
+    "date": "2027-10-18",
+    "name": "Alaska Day",
+    "type": "public",
+    "regions": [
+     "AK"
+    ]
+   },
+   {
+    "date": "2027-10-29",
+    "name": "Nevada Day",
+    "type": "public",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Election Day",
+    "type": "public",
+    "regions": [
+     "IN",
+     "MT",
+     "NJ",
+     "NY",
+     "WI"
+    ]
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-25",
+    "name": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Day After Thanksgiving",
+    "type": "public",
+    "regions": [
+     "DE",
+     "FL"
+    ]
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Day after Thanksgiving",
+    "type": "public",
+    "regions": [
+     "NC",
+     "NH",
+     "NM",
+     "OK",
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Day after Thanksgiving Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Family Day",
+    "type": "public",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Lincoln's Day",
+    "type": "public",
+    "regions": [
+     "WV"
+    ]
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Native American Heritage Day",
+    "type": "public",
+    "regions": [
+     "MD"
+    ]
+   },
+   {
+    "date": "2027-11-26",
+    "name": "State Holiday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2027-12-23",
+    "name": "Christmas Eve (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "NC"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "AR",
+     "KY",
+     "MI",
+     "MT",
+     "NC",
+     "TN",
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Day after Christmas",
+    "type": "public",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "KY",
+     "MI",
+     "MT"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Dr. Martin Luther King Jr./ Civil Rights Day",
+    "type": "public",
+    "regions": [
+     "AZ"
+    ]
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Dr. Martin Luther King Jr./Robert E. Lee's Birthdays",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AK",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MT",
+     "NC",
+     "ND",
+     "NE",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Martin Luther King's and Robert E. Lee's Birthdays",
+    "type": "public",
+    "regions": [
+     "MS"
+    ]
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Martin Luther King, Jr./ Civil Rights Day",
+    "type": "public",
+    "regions": [
+     "NH"
+    ]
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Martin Luther King, Jr./ Idaho Human Rights Day",
+    "type": "public",
+    "regions": [
+     "ID"
+    ]
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Robert E. Lee/Martin Luther King Birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2028-02-12",
+    "name": "Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "CT",
+     "IA",
+     "IL",
+     "MO",
+     "NJ",
+     "NY"
+    ]
+   },
+   {
+    "date": "2028-02-15",
+    "name": "Susan B. Anthony Day",
+    "type": "public",
+    "regions": [
+     "FL",
+     "NY",
+     "WI",
+     "WV"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "George Washington Day",
+    "type": "public",
+    "regions": [
+     "VA"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "George Washington's Birthday/Daisy Gatson Bates Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "George Washington/Thomas Jefferson Birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Lincoln's and Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "MT"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Lincoln/Washington Presidents' Day",
+    "type": "public",
+    "regions": [
+     "AZ"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "President's Day",
+    "type": "public",
+    "regions": [
+     "AK",
+     "ID",
+     "MD",
+     "NE",
+     "NH",
+     "TN",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Presidents Day",
+    "type": "public",
+    "regions": [
+     "NJ",
+     "NV",
+     "OR"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Presidents' Day",
+    "type": "public",
+    "regions": [
+     "CA",
+     "HI",
+     "ND",
+     "NM",
+     "OK",
+     "PA",
+     "SD",
+     "TX",
+     "VT",
+     "WA"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Washington and Lincoln Day",
+    "type": "public",
+    "regions": [
+     "UT"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "*",
+     "CT",
+     "DC",
+     "IA",
+     "IL",
+     "IN",
+     "LA",
+     "MA",
+     "MI",
+     "MO",
+     "MS",
+     "NY",
+     "RI",
+     "SC",
+     "WI"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Washington's Birthday/President's Day",
+    "type": "public",
+    "regions": [
+     "ME"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Washington's and Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "MN"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Washington-Lincoln Day",
+    "type": "public",
+    "regions": [
+     "CO",
+     "OH"
+    ]
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Mardi Gras",
+    "type": "public",
+    "regions": [
+     "LA"
+    ]
+   },
+   {
+    "date": "2028-03-06",
+    "name": "Casimir Pulaski Day",
+    "type": "public",
+    "regions": [
+     "IL"
+    ]
+   },
+   {
+    "date": "2028-03-07",
+    "name": "Town Meeting Day",
+    "type": "public",
+    "regions": [
+     "VT"
+    ]
+   },
+   {
+    "date": "2028-03-17",
+    "name": "Evacuation Day",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2028-03-26",
+    "name": "Prince Jonah Kuhio Kalanianaole Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2028-03-27",
+    "name": "Prince Jonah Kuhio Kalanianaole Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2028-03-27",
+    "name": "Seward's Day",
+    "type": "public",
+    "regions": [
+     "AK"
+    ]
+   },
+   {
+    "date": "2028-03-31",
+    "name": "César Chávez Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public",
+    "regions": [
+     "CT",
+     "DE",
+     "HI",
+     "IN",
+     "KY",
+     "LA",
+     "NC",
+     "NJ",
+     "TN"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Emancipation Day",
+    "type": "public",
+    "regions": [
+     "DC"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Patriots' Day",
+    "type": "public",
+    "regions": [
+     "MA",
+     "ME"
+    ]
+   },
+   {
+    "date": "2028-04-24",
+    "name": "Confederate Memorial Day",
+    "type": "public",
+    "regions": [
+     "AL",
+     "MS"
+    ]
+   },
+   {
+    "date": "2028-04-24",
+    "name": "State Holiday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2028-04-28",
+    "name": "Arbor Day",
+    "type": "public",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2028-05-02",
+    "name": "Primary Election Day",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2028-05-08",
+    "name": "Truman Day",
+    "type": "public",
+    "regions": [
+     "MO"
+    ]
+   },
+   {
+    "date": "2028-05-10",
+    "name": "Confederate Memorial Day",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2028-05-19",
+    "name": "Malcolm X Day",
+    "type": "public",
+    "regions": [
+     "IL"
+    ]
+   },
+   {
+    "date": "2028-05-29",
+    "name": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Jefferson Davis' birthday",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2028-06-11",
+    "name": "Kamehameha Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2028-06-12",
+    "name": "Kamehameha Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2028-06-14",
+    "name": "Flag Day",
+    "type": "public",
+    "regions": [
+     "PA"
+    ]
+   },
+   {
+    "date": "2028-06-17",
+    "name": "Bunker Hill Day",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2028-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-20",
+    "name": "West Virginia Day",
+    "type": "public",
+    "regions": [
+     "WV"
+    ]
+   },
+   {
+    "date": "2028-07-04",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-24",
+    "name": "Pioneer Day",
+    "type": "public",
+    "regions": [
+     "UT"
+    ]
+   },
+   {
+    "date": "2028-08-14",
+    "name": "Victory Day",
+    "type": "public",
+    "regions": [
+     "RI"
+    ]
+   },
+   {
+    "date": "2028-08-18",
+    "name": "Statehood Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2028-08-21",
+    "name": "Bennington Battle Day",
+    "type": "public",
+    "regions": [
+     "VT"
+    ]
+   },
+   {
+    "date": "2028-09-04",
+    "name": "Labor Day",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-12",
+    "name": "Primary Election Day",
+    "type": "public",
+    "regions": [
+     "WI"
+    ]
+   },
+   {
+    "date": "2028-10-02",
+    "name": "Frances Xavier Cabrini Day",
+    "type": "public",
+    "regions": [
+     "CO"
+    ]
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Columbus Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AL",
+     "AR",
+     "AZ",
+     "CT",
+     "GA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MI",
+     "MO",
+     "MS",
+     "MT",
+     "ND",
+     "NE",
+     "NJ",
+     "NM",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Indigenous Peoples' Day",
+    "type": "public",
+    "regions": [
+     "AK",
+     "DC",
+     "IA",
+     "ME",
+     "MN",
+     "NM",
+     "VT"
+    ]
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Native American Day",
+    "type": "public",
+    "regions": [
+     "SD"
+    ]
+   },
+   {
+    "date": "2028-10-18",
+    "name": "Alaska Day",
+    "type": "public",
+    "regions": [
+     "AK"
+    ]
+   },
+   {
+    "date": "2028-10-27",
+    "name": "Nevada Day",
+    "type": "public",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2028-11-07",
+    "name": "Election Day",
+    "type": "public",
+    "regions": [
+     "DE",
+     "IL",
+     "IN",
+     "LA",
+     "MT",
+     "NH",
+     "NJ",
+     "NY",
+     "VA",
+     "WI"
+    ]
+   },
+   {
+    "date": "2028-11-07",
+    "name": "General Election Day",
+    "type": "public",
+    "regions": [
+     "HI"
+    ]
+   },
+   {
+    "date": "2028-11-10",
+    "name": "Veterans Day (substitute day)",
+    "type": "bank",
+    "substitute": true
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-23",
+    "name": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Day After Thanksgiving",
+    "type": "public",
+    "regions": [
+     "DE",
+     "FL"
+    ]
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Day after Thanksgiving",
+    "type": "public",
+    "regions": [
+     "NC",
+     "NH",
+     "NM",
+     "OK",
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Day after Thanksgiving Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Family Day",
+    "type": "public",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Lincoln's Birthday",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Lincoln's Day",
+    "type": "public",
+    "regions": [
+     "WV"
+    ]
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Native American Heritage Day",
+    "type": "public",
+    "regions": [
+     "MD"
+    ]
+   },
+   {
+    "date": "2028-11-24",
+    "name": "State Holiday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2028-12-22",
+    "name": "Christmas Eve (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "NC"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "AR",
+     "KY",
+     "MI",
+     "MT",
+     "NC",
+     "TN",
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Washington's Birthday",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Day after Christmas",
+    "type": "public",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-12-31",
+    "name": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "KY",
+     "MI",
+     "MT"
+    ]
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-19",
+    "name": "Confederate Heroes Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-15",
+    "name": "Susan B. Anthony Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2026-03-02",
+    "name": "Texas Independence Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-03-17",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MD",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MS",
+     "MT",
+     "NC",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2026-03-31",
+    "name": "Cesar Chavez Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-15",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-21",
+    "name": "San Jacinto Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-04-22",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-19",
+    "name": "Malcolm X Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2026-05-23",
+    "name": "Harvey Milk Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2026-06-19",
+    "name": "Emancipation Day In Texas",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-09",
+    "name": "Indigenous Peoples' Day",
+    "type": "observance",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2026-08-27",
+    "name": "Lyndon Baines Johnson Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Columbus Day",
+    "type": "observance",
+    "regions": [
+     "CO",
+     "NH"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CO",
+     "CT",
+     "DC",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MS",
+     "MT",
+     "ND",
+     "NE",
+     "NJ",
+     "NV",
+     "NY",
+     "OH",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MN",
+     "MO",
+     "MS",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2026-12-31",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MN",
+     "MO",
+     "MS",
+     "NC",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-19",
+    "name": "Confederate Heroes Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Susan B. Anthony Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2027-03-02",
+    "name": "Texas Independence Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-03-17",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MD",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MS",
+     "MT",
+     "NC",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-31",
+    "name": "Cesar Chavez Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-04-15",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-21",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-21",
+    "name": "San Jacinto Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-19",
+    "name": "Malcolm X Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2027-05-23",
+    "name": "Harvey Milk Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2027-06-19",
+    "name": "Emancipation Day In Texas",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-06-20",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-09",
+    "name": "Indigenous Peoples' Day",
+    "type": "observance",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2027-08-27",
+    "name": "Lyndon Baines Johnson Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Columbus Day",
+    "type": "observance",
+    "regions": [
+     "CO",
+     "NH"
+    ]
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CO",
+     "CT",
+     "DC",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MS",
+     "MT",
+     "ND",
+     "NE",
+     "NJ",
+     "NV",
+     "NY",
+     "OH",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MN",
+     "MO",
+     "MS",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MN",
+     "MO",
+     "MS",
+     "NC",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-19",
+    "name": "Confederate Heroes Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-15",
+    "name": "Susan B. Anthony Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2028-03-02",
+    "name": "Texas Independence Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-03-17",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "KY",
+     "LA",
+     "MD",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MS",
+     "MT",
+     "NC",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2028-03-31",
+    "name": "Cesar Chavez Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-18",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-21",
+    "name": "San Jacinto Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-04-26",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-19",
+    "name": "Malcolm X Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2028-05-23",
+    "name": "Harvey Milk Day",
+    "type": "observance",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2028-06-18",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-19",
+    "name": "Emancipation Day In Texas",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-08-09",
+    "name": "Indigenous Peoples' Day",
+    "type": "observance",
+    "regions": [
+     "NV"
+    ]
+   },
+   {
+    "date": "2028-08-27",
+    "name": "Lyndon Baines Johnson Day",
+    "type": "observance",
+    "regions": [
+     "TX"
+    ]
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Columbus Day",
+    "type": "observance",
+    "regions": [
+     "CO",
+     "NH"
+    ]
+   },
+   {
+    "date": "2028-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-07",
+    "name": "Election Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "KS",
+     "KY",
+     "MA",
+     "MD",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MS",
+     "NC",
+     "ND",
+     "NE",
+     "NM",
+     "NV",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VT",
+     "WA",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CO",
+     "CT",
+     "DC",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "KS",
+     "KY",
+     "LA",
+     "MA",
+     "ME",
+     "MI",
+     "MN",
+     "MO",
+     "MS",
+     "MT",
+     "ND",
+     "NE",
+     "NJ",
+     "NV",
+     "NY",
+     "OH",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MN",
+     "MO",
+     "MS",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   },
+   {
+    "date": "2028-12-31",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AK",
+     "AL",
+     "AR",
+     "AZ",
+     "CA",
+     "CO",
+     "CT",
+     "DC",
+     "DE",
+     "FL",
+     "GA",
+     "HI",
+     "IA",
+     "ID",
+     "IL",
+     "IN",
+     "KS",
+     "LA",
+     "MA",
+     "MD",
+     "ME",
+     "MN",
+     "MO",
+     "MS",
+     "NC",
+     "ND",
+     "NE",
+     "NH",
+     "NJ",
+     "NM",
+     "NV",
+     "NY",
+     "OH",
+     "OK",
+     "OR",
+     "PA",
+     "RI",
+     "SC",
+     "SD",
+     "TN",
+     "TX",
+     "UT",
+     "VA",
+     "VT",
+     "WA",
+     "WI",
+     "WV",
+     "WY"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-14T21:53:18.509Z"
+}

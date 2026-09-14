@@ -1,0 +1,913 @@
+{
+ "country": "PL",
+ "countryName": "Poland",
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Nowy Rok",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Święto Trzech Króli",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Niedziela Wielkanocna",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Drugi dzień Wielkanocy",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Święto Państwowe; Święto Pracy",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-03",
+    "name": "Święto Narodowe Trzeciego Maja",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Zielone Świątki",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Dzień Bożego Ciała",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Wniebowzięcie Najświętszej Maryi Panny",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Wszystkich Świętych",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Narodowe Święto Niepodległości",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Wigilia Bożego Narodzenia",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Pierwszy dzień Bożego Narodzenia",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Drugi dzień Bożego Narodzenia",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Nowy Rok",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Święto Trzech Króli",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Niedziela Wielkanocna",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Drugi dzień Wielkanocy",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Święto Państwowe; Święto Pracy",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "Święto Narodowe Trzeciego Maja",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Zielone Świątki",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Dzień Bożego Ciała",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Wniebowzięcie Najświętszej Maryi Panny",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Wszystkich Świętych",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Narodowe Święto Niepodległości",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Wigilia Bożego Narodzenia",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Pierwszy dzień Bożego Narodzenia",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Drugi dzień Bożego Narodzenia",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Nowy Rok",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Święto Trzech Króli",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Niedziela Wielkanocna",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Drugi dzień Wielkanocy",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Święto Państwowe; Święto Pracy",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-03",
+    "name": "Święto Narodowe Trzeciego Maja",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Zielone Świątki",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Dzień Bożego Ciała",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Wniebowzięcie Najświętszej Maryi Panny",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Wszystkich Świętych",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Narodowe Święto Niepodległości",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Wigilia Bożego Narodzenia",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Pierwszy dzień Bożego Narodzenia",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Drugi dzień Bożego Narodzenia",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-21",
+    "name": "Dzień Babci",
+    "nameEn": "Grandmother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-01-22",
+    "name": "Dzień Dziadka",
+    "nameEn": "Grandfather's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-12",
+    "name": "Tłusty Czwartek",
+    "nameEn": "Fat Thursday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-14",
+    "name": "Walentynki",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Ostatki",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Środa Popielcowa",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-19",
+    "name": "Dzień Nauki Polskiej",
+    "nameEn": "Polish Science Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-01",
+    "name": "Narodowy Dzień Pamięci „Żołnierzy Wyklętych”",
+    "nameEn": "National Cursed Soldiers Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Dzień Kobiet",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-10",
+    "name": "Dzień Mężczyzny",
+    "nameEn": "Men's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "Pierwszy Dzień Wiosny / Dzień Wagarowicza",
+    "nameEn": "First Day of Spring / Truant's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-24",
+    "name": "Narodowy Dzień Pamięci Polaków ratujących Żydów pod okupacją niemiecką",
+    "nameEn": "National Day for the Remembrance of Poles Rescuing Jews under German Occupation",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-29",
+    "name": "Niedziela Palmowa",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Wielki Czwartek",
+    "nameEn": "Maundy Thursday",
+    "type": "school"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Wielki Piątek",
+    "nameEn": "Good Friday",
+    "type": "school"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "Wielka Sobota",
+    "nameEn": "Easter Saturday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-14",
+    "name": "Święto Chrztu Polski",
+    "nameEn": "Baptism of Poland Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-19",
+    "name": "Dzień Pamięci Ofiar Holocaustu i Powstania w Getcie Warszawskim",
+    "nameEn": "Warsaw Ghetto Uprising Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-22",
+    "name": "Dzień Ziemi",
+    "nameEn": "International Mother Earth Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-02",
+    "name": "Dzień Flagi Rzeczypospolitej Polskiej",
+    "nameEn": "Flag Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-05-08",
+    "name": "Narodowy Dzień Zwycięstwa",
+    "nameEn": "National Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-09",
+    "name": "Dzień Europy",
+    "nameEn": "Europe Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-26",
+    "name": "Dzień Matki",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Dzień Dziecka",
+    "nameEn": "Children's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-12",
+    "name": "Dzień Walki i Męczeństwa Wsi Polskiej",
+    "nameEn": "Day of Struggle and Martyrdom of the Polish Villages",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-23",
+    "name": "Dzień Ojca",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-01",
+    "name": "Narodowy Dzień Pamięci Powstania Warszawskiego",
+    "nameEn": "National Warsaw Uprising Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-31",
+    "name": "Dzień Solidarności i Wolności",
+    "nameEn": "Day of Solidarity and Freedom",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-01",
+    "name": "Rocznica wybuchu II wojny światowej",
+    "nameEn": "Anniversary of the outbreak of the Second World War in Poland",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-17",
+    "name": "Rocznica agresji ZSRR na Polskę",
+    "nameEn": "Anniversary of the Soviet invasion of Poland",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-30",
+    "name": "Dzień Chłopaka",
+    "nameEn": "Boy's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-19",
+    "name": "Narodowy Dzień Pamięci Duchownych Niezłomnych",
+    "nameEn": "National Day of Remembrance for Steadfast Clergy",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-06",
+    "name": "Mikołajki",
+    "nameEn": "Saint Nicholas",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-27",
+    "name": "Narodowy Dzień Pamięci Zwycięskiego Powstania Wielkopolskiego",
+    "nameEn": "Greater Poland Uprising Remebrence Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Sylwester",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-21",
+    "name": "Dzień Babci",
+    "nameEn": "Grandmother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-01-22",
+    "name": "Dzień Dziadka",
+    "nameEn": "Grandfather's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-04",
+    "name": "Tłusty Czwartek",
+    "nameEn": "Fat Thursday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Ostatki",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-10",
+    "name": "Środa Popielcowa",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Walentynki",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-19",
+    "name": "Dzień Nauki Polskiej",
+    "nameEn": "Polish Science Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-01",
+    "name": "Narodowy Dzień Pamięci „Żołnierzy Wyklętych”",
+    "nameEn": "National Cursed Soldiers Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Dzień Kobiet",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-10",
+    "name": "Dzień Mężczyzny",
+    "nameEn": "Men's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-21",
+    "name": "Niedziela Palmowa",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-21",
+    "name": "Pierwszy Dzień Wiosny / Dzień Wagarowicza",
+    "nameEn": "First Day of Spring / Truant's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-24",
+    "name": "Narodowy Dzień Pamięci Polaków ratujących Żydów pod okupacją niemiecką",
+    "nameEn": "National Day for the Remembrance of Poles Rescuing Jews under German Occupation",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Wielki Czwartek",
+    "nameEn": "Maundy Thursday",
+    "type": "school"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Wielki Piątek",
+    "nameEn": "Good Friday",
+    "type": "school"
+   },
+   {
+    "date": "2027-03-27",
+    "name": "Wielka Sobota",
+    "nameEn": "Easter Saturday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-14",
+    "name": "Święto Chrztu Polski",
+    "nameEn": "Baptism of Poland Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-19",
+    "name": "Dzień Pamięci Ofiar Holocaustu i Powstania w Getcie Warszawskim",
+    "nameEn": "Warsaw Ghetto Uprising Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-22",
+    "name": "Dzień Ziemi",
+    "nameEn": "International Mother Earth Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Dzień Flagi Rzeczypospolitej Polskiej",
+    "nameEn": "Flag Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-05-08",
+    "name": "Narodowy Dzień Zwycięstwa",
+    "nameEn": "National Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Dzień Europy",
+    "nameEn": "Europe Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-26",
+    "name": "Dzień Matki",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-01",
+    "name": "Dzień Dziecka",
+    "nameEn": "Children's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-12",
+    "name": "Dzień Walki i Męczeństwa Wsi Polskiej",
+    "nameEn": "Day of Struggle and Martyrdom of the Polish Villages",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-23",
+    "name": "Dzień Ojca",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-01",
+    "name": "Narodowy Dzień Pamięci Powstania Warszawskiego",
+    "nameEn": "National Warsaw Uprising Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-31",
+    "name": "Dzień Solidarności i Wolności",
+    "nameEn": "Day of Solidarity and Freedom",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-01",
+    "name": "Rocznica wybuchu II wojny światowej",
+    "nameEn": "Anniversary of the outbreak of the Second World War in Poland",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-17",
+    "name": "Rocznica agresji ZSRR na Polskę",
+    "nameEn": "Anniversary of the Soviet invasion of Poland",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-30",
+    "name": "Dzień Chłopaka",
+    "nameEn": "Boy's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-19",
+    "name": "Narodowy Dzień Pamięci Duchownych Niezłomnych",
+    "nameEn": "National Day of Remembrance for Steadfast Clergy",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-06",
+    "name": "Mikołajki",
+    "nameEn": "Saint Nicholas",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-27",
+    "name": "Narodowy Dzień Pamięci Zwycięskiego Powstania Wielkopolskiego",
+    "nameEn": "Greater Poland Uprising Remebrence Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Sylwester",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-21",
+    "name": "Dzień Babci",
+    "nameEn": "Grandmother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-01-22",
+    "name": "Dzień Dziadka",
+    "nameEn": "Grandfather's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-14",
+    "name": "Walentynki",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-19",
+    "name": "Dzień Nauki Polskiej",
+    "nameEn": "Polish Science Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-24",
+    "name": "Tłusty Czwartek",
+    "nameEn": "Fat Thursday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Ostatki",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Narodowy Dzień Pamięci „Żołnierzy Wyklętych”",
+    "nameEn": "National Cursed Soldiers Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Środa Popielcowa",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Dzień Kobiet",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-10",
+    "name": "Dzień Mężczyzny",
+    "nameEn": "Men's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-21",
+    "name": "Pierwszy Dzień Wiosny / Dzień Wagarowicza",
+    "nameEn": "First Day of Spring / Truant's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-24",
+    "name": "Narodowy Dzień Pamięci Polaków ratujących Żydów pod okupacją niemiecką",
+    "nameEn": "National Day for the Remembrance of Poles Rescuing Jews under German Occupation",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-09",
+    "name": "Niedziela Palmowa",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Wielki Czwartek",
+    "nameEn": "Maundy Thursday",
+    "type": "school"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Wielki Piątek",
+    "nameEn": "Good Friday",
+    "type": "school"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Święto Chrztu Polski",
+    "nameEn": "Baptism of Poland Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Wielka Sobota",
+    "nameEn": "Easter Saturday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-19",
+    "name": "Dzień Pamięci Ofiar Holocaustu i Powstania w Getcie Warszawskim",
+    "nameEn": "Warsaw Ghetto Uprising Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-22",
+    "name": "Dzień Ziemi",
+    "nameEn": "International Mother Earth Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-02",
+    "name": "Dzień Flagi Rzeczypospolitej Polskiej",
+    "nameEn": "Flag Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-05-08",
+    "name": "Narodowy Dzień Zwycięstwa",
+    "nameEn": "National Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Dzień Europy",
+    "nameEn": "Europe Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-26",
+    "name": "Dzień Matki",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-01",
+    "name": "Dzień Dziecka",
+    "nameEn": "Children's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-12",
+    "name": "Dzień Walki i Męczeństwa Wsi Polskiej",
+    "nameEn": "Day of Struggle and Martyrdom of the Polish Villages",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-23",
+    "name": "Dzień Ojca",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-01",
+    "name": "Narodowy Dzień Pamięci Powstania Warszawskiego",
+    "nameEn": "National Warsaw Uprising Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-31",
+    "name": "Dzień Solidarności i Wolności",
+    "nameEn": "Day of Solidarity and Freedom",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-01",
+    "name": "Rocznica wybuchu II wojny światowej",
+    "nameEn": "Anniversary of the outbreak of the Second World War in Poland",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-17",
+    "name": "Rocznica agresji ZSRR na Polskę",
+    "nameEn": "Anniversary of the Soviet invasion of Poland",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-30",
+    "name": "Dzień Chłopaka",
+    "nameEn": "Boy's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-19",
+    "name": "Narodowy Dzień Pamięci Duchownych Niezłomnych",
+    "nameEn": "National Day of Remembrance for Steadfast Clergy",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-06",
+    "name": "Mikołajki",
+    "nameEn": "Saint Nicholas",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-27",
+    "name": "Narodowy Dzień Pamięci Zwycięskiego Powstania Wielkopolskiego",
+    "nameEn": "Greater Poland Uprising Remebrence Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Sylwester",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-14T21:53:18.145Z"
+}

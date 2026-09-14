@@ -1,0 +1,1383 @@
+{
+ "country": "DE",
+ "countryName": "Germany",
+ "subdivisionLabel": "Bundesland",
+ "requireSubdivision": true,
+ "defaultSubdivision": "BY",
+ "subdivisions": [
+  {
+   "code": "BB",
+   "name": "Brandenburg"
+  },
+  {
+   "code": "BE",
+   "name": "Berlin"
+  },
+  {
+   "code": "BW",
+   "name": "Baden-Württemberg"
+  },
+  {
+   "code": "BY",
+   "name": "Bayern"
+  },
+  {
+   "code": "HB",
+   "name": "Hansestadt Bremen"
+  },
+  {
+   "code": "HE",
+   "name": "Hessen"
+  },
+  {
+   "code": "HH",
+   "name": "Hansestadt Hamburg"
+  },
+  {
+   "code": "MV",
+   "name": "Mecklenburg-Vorpommern"
+  },
+  {
+   "code": "NI",
+   "name": "Niedersachsen"
+  },
+  {
+   "code": "NW",
+   "name": "Nordrhein-Westfalen"
+  },
+  {
+   "code": "RP",
+   "name": "Rheinland-Pfalz"
+  },
+  {
+   "code": "SH",
+   "name": "Schleswig-Holstein"
+  },
+  {
+   "code": "SL",
+   "name": "Saarland"
+  },
+  {
+   "code": "SN",
+   "name": "Sachsen"
+  },
+  {
+   "code": "ST",
+   "name": "Sachsen-Anhalt"
+  },
+  {
+   "code": "TH",
+   "name": "Thüringen"
+  }
+ ],
+ "notes": [
+  "Christmas Eve and New Year’s Eve are listed here as bank holidays, but they are not statutory public holidays in any Bundesland. Some employers give them, some give a half day, some give neither. Check your contract.",
+  "Assumption in Bayern and Corpus Christi in Sachsen and Thüringen apply only in some municipalities, not across the whole Bundesland."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Heilige Drei Könige",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "ST"
+    ]
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Internationaler Frauentag",
+    "nameEn": "International Women's Day",
+    "type": "public",
+    "regions": [
+     "BE",
+     "MV"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "BB"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Maifeiertag",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Christi Himmelfahrt",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "BB"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "HE",
+     "NW",
+     "RP",
+     "SL"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "SL"
+    ]
+   },
+   {
+    "date": "2026-09-20",
+    "name": "Weltkindertag",
+    "nameEn": "International Children's Day",
+    "type": "public",
+    "regions": [
+     "TH"
+    ]
+   },
+   {
+    "date": "2026-10-03",
+    "name": "Tag der Deutschen Einheit",
+    "nameEn": "National Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Reformationstag",
+    "nameEn": "Reformation Day",
+    "type": "public",
+    "regions": [
+     "BB",
+     "HB",
+     "HH",
+     "MV",
+     "NI",
+     "SH",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "NW",
+     "RP",
+     "SL"
+    ]
+   },
+   {
+    "date": "2026-11-18",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "public",
+    "regions": [
+     "SN"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "1. Weihnachtstag",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "2. Weihnachtstag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Heilige Drei Könige",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "ST"
+    ]
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Internationaler Frauentag",
+    "nameEn": "International Women's Day",
+    "type": "public",
+    "regions": [
+     "BE",
+     "MV"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "BB"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Maifeiertag",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Christi Himmelfahrt",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "BB"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "HE",
+     "NW",
+     "RP",
+     "SL"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "SL"
+    ]
+   },
+   {
+    "date": "2027-09-20",
+    "name": "Weltkindertag",
+    "nameEn": "International Children's Day",
+    "type": "public",
+    "regions": [
+     "TH"
+    ]
+   },
+   {
+    "date": "2027-10-03",
+    "name": "Tag der Deutschen Einheit",
+    "nameEn": "National Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Reformationstag",
+    "nameEn": "Reformation Day",
+    "type": "public",
+    "regions": [
+     "BB",
+     "HB",
+     "HH",
+     "MV",
+     "NI",
+     "SH",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "NW",
+     "RP",
+     "SL"
+    ]
+   },
+   {
+    "date": "2027-11-17",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "public",
+    "regions": [
+     "SN"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "1. Weihnachtstag",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "2. Weihnachtstag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Heilige Drei Könige",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "ST"
+    ]
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Internationaler Frauentag",
+    "nameEn": "International Women's Day",
+    "type": "public",
+    "regions": [
+     "BE",
+     "MV"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "BB"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Maifeiertag",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Christi Himmelfahrt",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "BB"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "HE",
+     "NW",
+     "RP",
+     "SL"
+    ]
+   },
+   {
+    "date": "2028-06-17",
+    "name": "75-jähriges Jubiläum des Volksaufstands in der DDR",
+    "nameEn": "75th anniversary of the GDR uprising",
+    "type": "public",
+    "regions": [
+     "BE"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "SL"
+    ]
+   },
+   {
+    "date": "2028-09-20",
+    "name": "Weltkindertag",
+    "nameEn": "International Children's Day",
+    "type": "public",
+    "regions": [
+     "TH"
+    ]
+   },
+   {
+    "date": "2028-10-03",
+    "name": "Tag der Deutschen Einheit",
+    "nameEn": "National Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-31",
+    "name": "Reformationstag",
+    "nameEn": "Reformation Day",
+    "type": "public",
+    "regions": [
+     "BB",
+     "HB",
+     "HH",
+     "MV",
+     "NI",
+     "SH",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "BW",
+     "BY",
+     "NW",
+     "RP",
+     "SL"
+    ]
+   },
+   {
+    "date": "2028-11-22",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "public",
+    "regions": [
+     "SN"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "1. Weihnachtstag",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "2. Weihnachtstag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-02",
+    "name": "Lichtmess",
+    "nameEn": "Candlemas",
+    "type": "observance",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2026-02-12",
+    "name": "Weiberfastnacht",
+    "nameEn": "Women's Carnival Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-14",
+    "name": "Valentinstag",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Rosenmontag",
+    "nameEn": "Shrove Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Faschingsdienstag",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Aschermittwoch",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "school",
+    "regions": [
+     "BW"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BE",
+     "BW",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BE",
+     "BW",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "observance",
+    "regions": [
+     "SN",
+     "TH"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "observance",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Reformationstag",
+    "nameEn": "Reformation Day",
+    "type": "school",
+    "regions": [
+     "BW"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "SH",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Allerseelen",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Sankt Martin (Faschingsbeginn)",
+    "nameEn": "Saint Martin",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-15",
+    "name": "Volkstrauertag",
+    "nameEn": "Memorial Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-18",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "BW",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2026-11-18",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "school",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2026-11-22",
+    "name": "Totensonntag",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-29",
+    "name": "1. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-06",
+    "name": "2. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-13",
+    "name": "3. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-20",
+    "name": "4. Advent",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-02",
+    "name": "Lichtmess",
+    "nameEn": "Candlemas",
+    "type": "observance",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2027-02-04",
+    "name": "Weiberfastnacht",
+    "nameEn": "Women's Carnival Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Rosenmontag",
+    "nameEn": "Shrove Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Faschingsdienstag",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-10",
+    "name": "Aschermittwoch",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Valentinstag",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "school",
+    "regions": [
+     "BW"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BE",
+     "BW",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BE",
+     "BW",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "observance",
+    "regions": [
+     "SN",
+     "TH"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "observance",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Reformationstag",
+    "nameEn": "Reformation Day",
+    "type": "school",
+    "regions": [
+     "BW"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "SH",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Allerseelen",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Sankt Martin (Faschingsbeginn)",
+    "nameEn": "Saint Martin",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-14",
+    "name": "Volkstrauertag",
+    "nameEn": "Memorial Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-17",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "BW",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2027-11-17",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "school",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2027-11-21",
+    "name": "Totensonntag",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-28",
+    "name": "1. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-05",
+    "name": "2. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-12",
+    "name": "3. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-19",
+    "name": "4. Advent",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-02",
+    "name": "Lichtmess",
+    "nameEn": "Candlemas",
+    "type": "observance",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2028-02-14",
+    "name": "Valentinstag",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-24",
+    "name": "Weiberfastnacht",
+    "nameEn": "Women's Carnival Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-28",
+    "name": "Rosenmontag",
+    "nameEn": "Shrove Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Faschingsdienstag",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Aschermittwoch",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "school",
+    "regions": [
+     "BW"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BE",
+     "BW",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BE",
+     "BW",
+     "BY",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "observance",
+    "regions": [
+     "SN",
+     "TH"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "observance",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2028-10-31",
+    "name": "Reformationstag",
+    "nameEn": "Reformation Day",
+    "type": "school",
+    "regions": [
+     "BW"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "SH",
+     "SN",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Allerseelen",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Sankt Martin (Faschingsbeginn)",
+    "nameEn": "Saint Martin",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-19",
+    "name": "Volkstrauertag",
+    "nameEn": "Memorial Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-22",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BB",
+     "BE",
+     "BW",
+     "HB",
+     "HE",
+     "HH",
+     "MV",
+     "NI",
+     "NW",
+     "RP",
+     "SH",
+     "SL",
+     "ST",
+     "TH"
+    ]
+   },
+   {
+    "date": "2028-11-22",
+    "name": "Buß- und Bettag",
+    "nameEn": "Day of Prayer and Repentance",
+    "type": "school",
+    "regions": [
+     "BY"
+    ]
+   },
+   {
+    "date": "2028-11-26",
+    "name": "Totensonntag",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-03",
+    "name": "1. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-10",
+    "name": "2. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-17",
+    "name": "3. Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "4. Advent",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-14T21:53:18.005Z"
+}

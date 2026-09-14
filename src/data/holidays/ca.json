@@ -1,0 +1,1230 @@
+{
+ "country": "CA",
+ "countryName": "Canada",
+ "subdivisionLabel": "Province",
+ "requireSubdivision": true,
+ "defaultSubdivision": "ON",
+ "subdivisions": [
+  {
+   "code": "AB",
+   "name": "Alberta"
+  },
+  {
+   "code": "BC",
+   "name": "British Columbia"
+  },
+  {
+   "code": "MB",
+   "name": "Manitoba"
+  },
+  {
+   "code": "NB",
+   "name": "New Brunswick"
+  },
+  {
+   "code": "NL",
+   "name": "Newfoundland and Labrador"
+  },
+  {
+   "code": "NS",
+   "name": "Nova Scotia"
+  },
+  {
+   "code": "NT",
+   "name": "Northwest Territories"
+  },
+  {
+   "code": "NU",
+   "name": "Nunavut"
+  },
+  {
+   "code": "ON",
+   "name": "Ontario"
+  },
+  {
+   "code": "PE",
+   "name": "Prince Edward Island"
+  },
+  {
+   "code": "QC",
+   "name": "Quebec"
+  },
+  {
+   "code": "SK",
+   "name": "Saskatchewan"
+  },
+  {
+   "code": "YT",
+   "name": "Yukon"
+  }
+ ],
+ "notes": [],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Family Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "NB",
+     "ON",
+     "SK"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Heritage Day",
+    "type": "public",
+    "regions": [
+     "NS"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Islander Day",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Louis Riel Day",
+    "type": "public",
+    "regions": [
+     "MB"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "NT",
+     "ON",
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-05-18",
+    "name": "National Patriots' Day",
+    "type": "public",
+    "regions": [
+     "QC"
+    ]
+   },
+   {
+    "date": "2026-05-18",
+    "name": "Victoria Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "MB",
+     "NT",
+     "NU",
+     "ON",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-06-21",
+    "name": "National Indigenous Peoples Day",
+    "type": "public",
+    "regions": [
+     "NT",
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-06-24",
+    "name": "National Holiday",
+    "type": "public",
+    "regions": [
+     "QC"
+    ]
+   },
+   {
+    "date": "2026-07-01",
+    "name": "Canada Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AB",
+     "BC",
+     "MB",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "ON",
+     "PE",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-07-01",
+    "name": "Memorial Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2026-07-09",
+    "name": "Nunavut Day",
+    "type": "bank",
+    "regions": [
+     "NU"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "British Columbia Day",
+    "type": "public",
+    "regions": [
+     "BC"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Civic Holiday",
+    "type": "public",
+    "regions": [
+     "NT",
+     "NU"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "New Brunswick Day",
+    "type": "public",
+    "regions": [
+     "NB"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Saskatchewan Day",
+    "type": "public",
+    "regions": [
+     "SK"
+    ]
+   },
+   {
+    "date": "2026-08-17",
+    "name": "Discovery Day",
+    "type": "public",
+    "regions": [
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-08-21",
+    "name": "Gold Cup Parade Day",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2026-09-07",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Thanksgiving",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "MB",
+     "NT",
+     "NU",
+     "ON",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Remembrance Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "PE",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "NT",
+     "ON"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Family Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "NB",
+     "ON",
+     "SK"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Heritage Day",
+    "type": "public",
+    "regions": [
+     "NS"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Islander Day",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Louis Riel Day",
+    "type": "public",
+    "regions": [
+     "MB"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "NT",
+     "ON",
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-05-24",
+    "name": "National Patriots' Day",
+    "type": "public",
+    "regions": [
+     "QC"
+    ]
+   },
+   {
+    "date": "2027-05-24",
+    "name": "Victoria Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "MB",
+     "NT",
+     "NU",
+     "ON",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-06-21",
+    "name": "National Indigenous Peoples Day",
+    "type": "public",
+    "regions": [
+     "NT",
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-06-24",
+    "name": "National Holiday",
+    "type": "public",
+    "regions": [
+     "QC"
+    ]
+   },
+   {
+    "date": "2027-07-01",
+    "name": "Canada Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AB",
+     "BC",
+     "MB",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "ON",
+     "PE",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-07-01",
+    "name": "Memorial Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2027-07-09",
+    "name": "Nunavut Day",
+    "type": "bank",
+    "regions": [
+     "NU"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "British Columbia Day",
+    "type": "public",
+    "regions": [
+     "BC"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Civic Holiday",
+    "type": "public",
+    "regions": [
+     "NT",
+     "NU"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "New Brunswick Day",
+    "type": "public",
+    "regions": [
+     "NB"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Saskatchewan Day",
+    "type": "public",
+    "regions": [
+     "SK"
+    ]
+   },
+   {
+    "date": "2027-08-16",
+    "name": "Discovery Day",
+    "type": "public",
+    "regions": [
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-08-20",
+    "name": "Gold Cup Parade Day",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2027-09-06",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Thanksgiving",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "MB",
+     "NT",
+     "NU",
+     "ON",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Remembrance Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "PE",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "NT",
+     "ON"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Family Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "NB",
+     "ON",
+     "SK"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Heritage Day",
+    "type": "public",
+    "regions": [
+     "NS"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Islander Day",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Louis Riel Day",
+    "type": "public",
+    "regions": [
+     "MB"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "NT",
+     "ON",
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-05-22",
+    "name": "National Patriots' Day",
+    "type": "public",
+    "regions": [
+     "QC"
+    ]
+   },
+   {
+    "date": "2028-05-22",
+    "name": "Victoria Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "MB",
+     "NT",
+     "NU",
+     "ON",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-06-21",
+    "name": "National Indigenous Peoples Day",
+    "type": "public",
+    "regions": [
+     "NT",
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-06-24",
+    "name": "National Holiday",
+    "type": "public",
+    "regions": [
+     "QC"
+    ]
+   },
+   {
+    "date": "2028-07-01",
+    "name": "Canada Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AB",
+     "BC",
+     "MB",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "ON",
+     "PE",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-07-01",
+    "name": "Memorial Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2028-07-09",
+    "name": "Nunavut Day",
+    "type": "bank",
+    "regions": [
+     "NU"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "British Columbia Day",
+    "type": "public",
+    "regions": [
+     "BC"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Civic Holiday",
+    "type": "public",
+    "regions": [
+     "NT",
+     "NU"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "New Brunswick Day",
+    "type": "public",
+    "regions": [
+     "NB"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Saskatchewan Day",
+    "type": "public",
+    "regions": [
+     "SK"
+    ]
+   },
+   {
+    "date": "2028-08-18",
+    "name": "Gold Cup Parade Day",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2028-08-21",
+    "name": "Discovery Day",
+    "type": "public",
+    "regions": [
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-09-04",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Thanksgiving",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "MB",
+     "NT",
+     "NU",
+     "ON",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Remembrance Day",
+    "type": "public",
+    "regions": [
+     "AB",
+     "BC",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "PE",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "NT",
+     "ON"
+    ]
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-02",
+    "name": "Groundhog Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-17",
+    "name": "Saint Patrick's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2026-03-17",
+    "name": "St. Patrick’s Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AB",
+     "BC",
+     "MB",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "ON",
+     "PE",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "AB",
+     "PE",
+     "QC"
+    ]
+   },
+   {
+    "date": "2026-04-23",
+    "name": "Saint George's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-24",
+    "name": "Discovery Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2026-07-12",
+    "name": "Orangemen's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Civic Holiday",
+    "type": "optional",
+    "regions": [
+     "ON"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Heritage Day",
+    "type": "optional",
+    "regions": [
+     "AB"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Natal Day",
+    "type": "optional",
+    "regions": [
+     "NS"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Terry Fox Day",
+    "type": "optional",
+    "regions": [
+     "MB"
+    ]
+   },
+   {
+    "date": "2026-09-30",
+    "name": "National Day for Truth and Reconciliation",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BC",
+     "MB",
+     "NL",
+     "NS",
+     "NT",
+     "YT"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Remembrance Day",
+    "type": "optional",
+    "regions": [
+     "MB",
+     "ON"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-02",
+    "name": "Groundhog Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-17",
+    "name": "Saint Patrick's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2027-03-17",
+    "name": "St. Patrick’s Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AB",
+     "BC",
+     "MB",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "ON",
+     "PE",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "AB",
+     "PE",
+     "QC"
+    ]
+   },
+   {
+    "date": "2027-04-23",
+    "name": "Saint George's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-24",
+    "name": "Discovery Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2027-07-12",
+    "name": "Orangemen's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Civic Holiday",
+    "type": "optional",
+    "regions": [
+     "ON"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Heritage Day",
+    "type": "optional",
+    "regions": [
+     "AB"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Natal Day",
+    "type": "optional",
+    "regions": [
+     "NS"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Terry Fox Day",
+    "type": "optional",
+    "regions": [
+     "MB"
+    ]
+   },
+   {
+    "date": "2027-09-30",
+    "name": "National Day for Truth and Reconciliation",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BC",
+     "MB",
+     "NL",
+     "NS",
+     "NT",
+     "YT"
+    ]
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Remembrance Day",
+    "type": "optional",
+    "regions": [
+     "MB",
+     "ON"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-02",
+    "name": "Groundhog Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-17",
+    "name": "Saint Patrick's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2028-03-17",
+    "name": "St. Patrick’s Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AB",
+     "BC",
+     "MB",
+     "NB",
+     "NS",
+     "NT",
+     "NU",
+     "ON",
+     "PE",
+     "QC",
+     "SK",
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "AB",
+     "PE",
+     "QC"
+    ]
+   },
+   {
+    "date": "2028-04-23",
+    "name": "Saint George's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-18",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-24",
+    "name": "Discovery Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2028-07-12",
+    "name": "Orangemen's Day",
+    "type": "optional",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Civic Holiday",
+    "type": "optional",
+    "regions": [
+     "ON"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Heritage Day",
+    "type": "optional",
+    "regions": [
+     "AB"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Natal Day",
+    "type": "optional",
+    "regions": [
+     "NS"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Terry Fox Day",
+    "type": "optional",
+    "regions": [
+     "MB"
+    ]
+   },
+   {
+    "date": "2028-09-30",
+    "name": "National Day for Truth and Reconciliation",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BC",
+     "MB",
+     "NL",
+     "NS",
+     "NT",
+     "YT"
+    ]
+   },
+   {
+    "date": "2028-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Remembrance Day",
+    "type": "optional",
+    "regions": [
+     "MB",
+     "ON"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-14T21:53:18.566Z"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Bridge — work out which days to book",
+  "short_name": "Bridge",
+  "description": "Turn your annual leave into the longest possible stretches off, without a server or an account.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f0fdfa",
+  "theme_color": "#0d9488",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

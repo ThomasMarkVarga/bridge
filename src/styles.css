@@ -1,0 +1,317 @@
+@import 'tailwindcss';
+
+/*
+ * Bridge's visual layer.
+ *
+ * Tokens come from design-system/bridge/MASTER.md: Flat Design, Inter, teal for
+ * the interface and orange for the days you book. Nothing here uses a gradient or
+ * a heavy shadow, and every transition is short.
+ *
+ * Fonts are served from this origin. Nothing is fetched from a font CDN, because
+ * the page must make no network requests at all once it has loaded.
+ */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308,
+    U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Only fetched when the page actually shows Romanian, Polish or Turkish letters. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/fonts/inter-latin-ext-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+    U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+    U+2C60-2C7F, U+A720-A7FF;
+}
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+
+  --radius-card: 12px;
+  --radius-control: 8px;
+}
+
+/*
+ * Light is the default. Dark follows the system unless the person has chosen,
+ * in which case data-theme on the root wins.
+ */
+:root {
+  /* The design system's teal and orange, each darkened until white text on the
+     button and the day number on its own fill both clear 4.5:1. The published
+     tokens sat at 3.74 and 4.22, which is a real failure at 13px and 16px. */
+  --primary: #0f766e;
+  --on-primary: #ffffff;
+  --secondary: #115e59;
+  --accent: #b03a08;
+  --on-accent: #ffffff;
+  --background: #f0fdfa;
+  --foreground: #10403c;
+  --card: #ffffff;
+  --card-foreground: #10403c;
+  --muted: #e8f1f4;
+  --muted-foreground: #40566b;
+  --border: #c9e4e0;
+  --border-strong: #8fbfb9;
+  --destructive: #b91c1c;
+  --on-destructive: #ffffff;
+  --ring: #0f766e;
+
+  /* The calendar's own language. */
+  --day-work: transparent;
+  --day-weekend: #dbe7ea;
+  --day-holiday: #cfe9e4;
+  --day-leave: #b03a08;
+  --day-leave-soft: #fde3d3;
+  --day-pinned: #7c3aed;
+  --day-blackout: #7a8c9a;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --primary: #5eead4;
+    --on-primary: #06201f;
+    --secondary: #2dd4bf;
+    --accent: #fb923c;
+    --on-accent: #2a1203;
+    --background: #071a1c;
+    --foreground: #e2f4f1;
+    --card: #0e2629;
+    --card-foreground: #e2f4f1;
+    --muted: #163236;
+    --muted-foreground: #a3c2c2;
+    --border: #1f434a;
+    --border-strong: #35646c;
+    --destructive: #fca5a5;
+    --on-destructive: #2a0707;
+    --ring: #5eead4;
+
+    --day-work: transparent;
+    --day-weekend: #1a353b;
+    --day-holiday: #1d4a47;
+    --day-leave: #fb923c;
+    --day-leave-soft: #4a2410;
+    --day-pinned: #c4b5fd;
+    --day-blackout: #64798a;
+
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --primary: #5eead4;
+  --on-primary: #06201f;
+  --secondary: #2dd4bf;
+  --accent: #fb923c;
+  --on-accent: #2a1203;
+  --background: #071a1c;
+  --foreground: #e2f4f1;
+  --card: #0e2629;
+  --card-foreground: #e2f4f1;
+  --muted: #163236;
+  --muted-foreground: #a3c2c2;
+  --border: #1f434a;
+  --border-strong: #35646c;
+  --destructive: #fca5a5;
+  --on-destructive: #2a0707;
+  --ring: #5eead4;
+
+  --day-work: transparent;
+  --day-weekend: #1a353b;
+  --day-holiday: #1d4a47;
+  --day-leave: #fb923c;
+  --day-leave-soft: #4a2410;
+  --day-pinned: #c4b5fd;
+  --day-blackout: #64798a;
+
+  color-scheme: dark;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    font-synthesis-weight: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Flat Design: a focus ring you cannot miss, on everything operable. */
+  :focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  button,
+  select,
+  input,
+  [role='button'] {
+    font: inherit;
+    color: inherit;
+  }
+
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']),
+  summary {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: var(--primary);
+    color: var(--on-primary);
+  }
+
+  /* Numbers that line up: dates, counts and ratios must not jiggle as they change. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+  }
+}
+
+@layer components {
+  .card {
+    background: var(--card);
+    color: var(--card-foreground);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-card);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 0 16px;
+    border-radius: var(--radius-control);
+    border: 1px solid transparent;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+  }
+
+  .btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  .btn-primary {
+    background: var(--primary);
+    color: var(--on-primary);
+  }
+
+  .btn-primary:hover:not(:disabled) {
+    background: var(--secondary);
+    color: var(--on-primary);
+  }
+
+  .btn-quiet {
+    background: transparent;
+    color: var(--foreground);
+    border-color: var(--border-strong);
+  }
+
+  .btn-quiet:hover:not(:disabled) {
+    background: var(--muted);
+  }
+
+  .field {
+    min-height: 44px;
+    width: 100%;
+    padding: 0 12px;
+    background: var(--card);
+    color: var(--card-foreground);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-control);
+    transition: border-color 160ms ease;
+  }
+
+  .field:hover {
+    border-color: var(--primary);
+  }
+
+  .label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: var(--muted-foreground);
+    margin-bottom: 6px;
+  }
+
+  .hint {
+    font-size: 13px;
+    color: var(--muted-foreground);
+  }
+
+  /*
+   * Blacked-out days carry a stripe, not just a colour. This is the pattern that
+   * keeps the calendar readable for someone who cannot separate the hues.
+   */
+  .stripe-blackout {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      var(--day-blackout) 0,
+      var(--day-blackout) 2px,
+      transparent 2px,
+      transparent 5px
+    );
+  }
+}
+
+/* Anything that moves, stops moving when the system asks it to. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* The skip link, visible only when it has focus. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  left: 8px;
+  top: 8px;
+  padding: 10px 14px;
+  background: var(--primary);
+  color: var(--on-primary);
+  border-radius: var(--radius-control);
+}

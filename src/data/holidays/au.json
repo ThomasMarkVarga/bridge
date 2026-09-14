@@ -1,0 +1,2880 @@
+{
+ "country": "AU",
+ "countryName": "Australia",
+ "subdivisionLabel": "State",
+ "requireSubdivision": true,
+ "defaultSubdivision": "NSW",
+ "subdivisions": [
+  {
+   "code": "ACT",
+   "name": "Australian Capital Territory"
+  },
+  {
+   "code": "NSW",
+   "name": "New South Wales"
+  },
+  {
+   "code": "NT",
+   "name": "Northern Territory"
+  },
+  {
+   "code": "QLD",
+   "name": "Queensland"
+  },
+  {
+   "code": "SA",
+   "name": "South Australia"
+  },
+  {
+   "code": "TAS",
+   "name": "Tasmania"
+  },
+  {
+   "code": "VIC",
+   "name": "Victoria"
+  },
+  {
+   "code": "WA",
+   "name": "Western Australia"
+  }
+ ],
+ "notes": [],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-26",
+    "name": "Australia Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-02",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2026-03-09",
+    "name": "Adelaide Cup Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2026-03-09",
+    "name": "Canberra Day",
+    "type": "public",
+    "regions": [
+     "ACT"
+    ]
+   },
+   {
+    "date": "2026-03-09",
+    "name": "Eight Hours Day",
+    "type": "public",
+    "regions": [
+     "TAS"
+    ]
+   },
+   {
+    "date": "2026-03-09",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "Easter Saturday",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "SA",
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "SA",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-25",
+    "name": "Anzac Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-27",
+    "name": "Anzac Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "ACT",
+     "NSW",
+     "WA"
+    ]
+   },
+   {
+    "date": "2026-05-04",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "QLD"
+    ]
+   },
+   {
+    "date": "2026-05-04",
+    "name": "May Day",
+    "type": "public",
+    "regions": [
+     "NT"
+    ]
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Reconciliation Day",
+    "type": "public",
+    "regions": [
+     "ACT"
+    ]
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Western Australia Day",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2026-06-08",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "ACT",
+     "NSW",
+     "NT",
+     "SA",
+     "TAS",
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Bank Holiday",
+    "type": "bank",
+    "regions": [
+     "NSW"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Picnic Day",
+    "type": "public",
+    "regions": [
+     "NT"
+    ]
+   },
+   {
+    "date": "2026-09-25",
+    "name": "AFL Grand Final Friday",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-28",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2026-10-05",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "QLD"
+    ]
+   },
+   {
+    "date": "2026-10-05",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "ACT",
+     "NSW",
+     "SA"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "name": "Melbourne Cup",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "NT",
+     "QLD",
+     "SA"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Proclamation Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2026-12-28",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "TAS"
+    ]
+   },
+   {
+    "date": "2026-12-28",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2026-12-28",
+    "name": "Proclamation Day",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2026-12-31",
+    "name": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "NT",
+     "SA"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-26",
+    "name": "Australia Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-01",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Adelaide Cup Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Canberra Day",
+    "type": "public",
+    "regions": [
+     "ACT"
+    ]
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Eight Hours Day",
+    "type": "public",
+    "regions": [
+     "TAS"
+    ]
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-27",
+    "name": "Easter Saturday",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "SA",
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "SA",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-25",
+    "name": "Anzac Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "SA",
+     "TAS",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-04-26",
+    "name": "Anzac Day",
+    "type": "public",
+    "regions": [
+     "NT",
+     "QLD"
+    ]
+   },
+   {
+    "date": "2027-04-26",
+    "name": "Anzac Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "ACT",
+     "NSW",
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-05-03",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "QLD"
+    ]
+   },
+   {
+    "date": "2027-05-03",
+    "name": "May Day",
+    "type": "public",
+    "regions": [
+     "NT"
+    ]
+   },
+   {
+    "date": "2027-05-31",
+    "name": "Reconciliation Day",
+    "type": "public",
+    "regions": [
+     "ACT"
+    ]
+   },
+   {
+    "date": "2027-06-07",
+    "name": "Western Australia Day",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-06-14",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "ACT",
+     "NSW",
+     "NT",
+     "SA",
+     "TAS",
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Bank Holiday",
+    "type": "bank",
+    "regions": [
+     "NSW"
+    ]
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Picnic Day",
+    "type": "public",
+    "regions": [
+     "NT"
+    ]
+   },
+   {
+    "date": "2027-09-24",
+    "name": "AFL Grand Final Friday",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-27",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-10-04",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "QLD"
+    ]
+   },
+   {
+    "date": "2027-10-04",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "ACT",
+     "NSW",
+     "SA"
+    ]
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Melbourne Cup",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "NT",
+     "QLD",
+     "SA"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "QLD",
+     "TAS",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Proclamation Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2027-12-27",
+    "name": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "NT",
+     "SA"
+    ]
+   },
+   {
+    "date": "2027-12-27",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "QLD",
+     "TAS",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-12-28",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "TAS"
+    ]
+   },
+   {
+    "date": "2027-12-28",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2027-12-28",
+    "name": "Proclamation Day",
+    "type": "public",
+    "substitute": true,
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "NT",
+     "SA"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "SA",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2028-01-03",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Australia Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-06",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2028-03-13",
+    "name": "Adelaide Cup Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2028-03-13",
+    "name": "Canberra Day",
+    "type": "public",
+    "regions": [
+     "ACT"
+    ]
+   },
+   {
+    "date": "2028-03-13",
+    "name": "Eight Hours Day",
+    "type": "public",
+    "regions": [
+     "TAS"
+    ]
+   },
+   {
+    "date": "2028-03-13",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Easter Saturday",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "SA",
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "SA",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-25",
+    "name": "Anzac Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "QLD"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "May Day",
+    "type": "public",
+    "regions": [
+     "NT"
+    ]
+   },
+   {
+    "date": "2028-05-29",
+    "name": "Reconciliation Day",
+    "type": "public",
+    "regions": [
+     "ACT"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Western Australia Day",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2028-06-12",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "ACT",
+     "NSW",
+     "NT",
+     "SA",
+     "TAS",
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Bank Holiday",
+    "type": "bank",
+    "regions": [
+     "NSW"
+    ]
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Picnic Day",
+    "type": "public",
+    "regions": [
+     "NT"
+    ]
+   },
+   {
+    "date": "2028-09-25",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "WA"
+    ]
+   },
+   {
+    "date": "2028-09-29",
+    "name": "AFL Grand Final Friday",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-02",
+    "name": "King's Birthday",
+    "type": "public",
+    "regions": [
+     "QLD"
+    ]
+   },
+   {
+    "date": "2028-10-02",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "ACT",
+     "NSW",
+     "SA"
+    ]
+   },
+   {
+    "date": "2028-11-07",
+    "name": "Melbourne Cup",
+    "type": "public",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "NT",
+     "QLD",
+     "SA"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "ACT",
+     "NSW",
+     "NT",
+     "QLD",
+     "TAS",
+     "VIC",
+     "WA"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Proclamation Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2028-12-31",
+    "name": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "NT",
+     "SA"
+    ]
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-03",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-04",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-07",
+    "name": "Easter Tuesday",
+    "type": "optional",
+    "regions": [
+     "TAS"
+    ]
+   },
+   {
+    "date": "2026-04-07",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-08",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-09",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-10",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-11",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-12",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-13",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-14",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-15",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-16",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-17",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-18",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-04-19",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-27",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-06-28",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-06-29",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-06-30",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-01",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-02",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-03",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-04",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-05",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-06",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-07",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-08",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-09",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-10",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-11",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-07-12",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-06",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-19",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-20",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-21",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-22",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-23",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-24",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-25",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-26",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-27",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-28",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-29",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-09-30",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-10-01",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-10-02",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-10-03",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-10-04",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-19",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-20",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-21",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-22",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-23",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-27",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-28",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-29",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2026-12-30",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-03",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-04",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-05",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-07",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-08",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-09",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-10",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-11",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-12",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-13",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-14",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-15",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-16",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-17",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-19",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-20",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-21",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-22",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-23",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-24",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-25",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-26",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-01-27",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-03-27",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-03-30",
+    "name": "Easter Tuesday",
+    "type": "optional",
+    "regions": [
+     "TAS"
+    ]
+   },
+   {
+    "date": "2027-03-30",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-03-31",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-01",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-02",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-03",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-04",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-05",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-06",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-07",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-08",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-09",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-10",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-04-11",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-26",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-06-27",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-06-28",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-06-29",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-06-30",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-01",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-02",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-03",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-04",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-05",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-06",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-07",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-08",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-09",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-10",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-07-11",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-05",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-18",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-19",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-20",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-21",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-22",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-23",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-24",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-25",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-26",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-27",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-28",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-29",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-09-30",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-10-01",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-10-02",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-10-03",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-18",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-19",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-20",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-21",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-22",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-23",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-27",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-28",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-29",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2027-12-30",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-03",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-04",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-05",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-07",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-08",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-09",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-10",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-11",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-12",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-13",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-14",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-15",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-16",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-18",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-19",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-20",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-21",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-22",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-23",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-24",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-25",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-01-27",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-01",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-02",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-03",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-04",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-05",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-06",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-07",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-08",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-09",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-10",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-11",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-12",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Term 1 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-04-18",
+    "name": "Easter Tuesday",
+    "type": "optional",
+    "regions": [
+     "TAS"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-01",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-02",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-03",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-04",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-05",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-06",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-07",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-08",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-09",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-10",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-11",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-12",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-13",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-14",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-15",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-07-16",
+    "name": "Term 2 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-09-03",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-23",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-09-24",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-09-25",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-09-26",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-09-27",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-09-28",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-09-29",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-09-30",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-01",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-02",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-03",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-04",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-05",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-06",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-07",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-10-08",
+    "name": "Term 3 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-22",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-23",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-27",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-28",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-29",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   },
+   {
+    "date": "2028-12-30",
+    "name": "Term 4 holidays",
+    "type": "school",
+    "regions": [
+     "VIC"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-14T21:53:18.611Z"
+}
