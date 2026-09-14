@@ -164,12 +164,31 @@ Build command `npm run build`, output directory `dist`.
 ## Stack
 
 React 18 and Vite, plain JavaScript with JSDoc types where the solver gets dense.
-Tailwind CSS v4 for styling. Inter, self-hosted as a variable woff2 with the
-Latin-Extended subset behind a `unicode-range` so it only downloads when a page
-actually shows Romanian or Polish letters. No router and no state library: the URL
-hash is the state.
+Tailwind CSS v4 for styling, with the design tokens as plain CSS custom
+properties. No router and no state library: the URL hash is the state.
 
-Initial load is about 76KB gzipped.
+Type is Archivo Black for headings and Public Sans for everything else, both
+self-hosted as woff2 with the Latin-Extended subsets behind a `unicode-range`, so
+those files are only fetched when a page actually shows Romanian or Polish
+letters.
+
+Initial load is about 76KB gzipped, in five requests, none of them to anywhere
+else.
+
+### Look
+
+Flat, outlined and loud: a sand ground, deep sea-ink outlines, hard offset shadows
+with no blur, and tight corners. Colour carries meaning rather than decoration.
+Coral marks the days you book, sea green the public holidays you already had, sky
+blue the days you fix yourself, and one warm yellow carries every action.
+
+No day state in the calendar depends on colour alone. Each one also has a shape
+under the number: a filled dot for a day you book, a ring for a public holiday, a
+diamond for a day you pinned, and diagonal stripes with a struck-through number for
+a day you ruled out.
+
+Light and dark both follow the system, with a manual override. Every text pair
+clears 4.5:1 and every outline clears 3:1 in both themes.
 
 ### A note on dates
 

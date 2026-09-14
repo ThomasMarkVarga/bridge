@@ -31,7 +31,7 @@ export default function Controls({ state, onChange, countryData, years, optionsO
   const needsRegion = country && country.subdivisions.length > 0
 
   return (
-    <div className="card p-4 sm:p-5">
+    <div className="card anim-pop p-4 sm:p-5">
       {/* On a phone the country gets its own row and the two numbers share one,
           so the answer underneath still lands above the fold. */}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-[1.4fr_0.8fr_0.9fr]">
@@ -159,7 +159,7 @@ function MoreOptions({ state, onChange, countryData }) {
   }
 
   return (
-    <div className="mt-4 grid gap-5 border-t pt-4" style={{ borderColor: 'var(--border)' }}>
+    <div className="anim-pop mt-4 grid gap-5 border-t-[3px] pt-4" style={{ borderColor: 'var(--border)' }}>
       <fieldset>
         <legend className="label mb-2" id={workId}>
           Which days do you work?
@@ -176,10 +176,10 @@ function MoreOptions({ state, onChange, countryData }) {
                 onClick={() => toggleDay(day)}
                 className="btn min-h-11 min-w-[3.25rem] px-2 text-sm"
                 style={{
-                  background: on ? 'var(--primary)' : 'transparent',
-                  color: on ? 'var(--on-primary)' : 'var(--foreground)',
-                  borderColor: on ? 'var(--primary)' : 'var(--border-strong)',
-                  fontWeight: on ? 700 : 500
+                  background: on ? 'var(--sun)' : 'var(--card)',
+                  color: on ? 'var(--ink-fixed)' : 'var(--foreground)',
+                  borderColor: 'var(--line)',
+                  fontWeight: 800
                 }}
               >
                 {name}

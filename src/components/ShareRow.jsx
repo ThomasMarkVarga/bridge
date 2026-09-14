@@ -56,8 +56,9 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
   }
 
   return (
-    <section className="card p-4 sm:p-5" aria-labelledby="share-heading">
-      <h2 id="share-heading" className="mb-1 text-lg font-bold">
+    <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 4 }} aria-labelledby="share-heading">
+      <span className="pill pill-pink mb-2">Yours to keep</span>
+      <h2 id="share-heading" className="mb-1 text-2xl">
         Take it with you
       </h2>
       <p className="hint mb-4">
@@ -104,7 +105,7 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
 
       {cardOpen && (
         <div className="mt-4">
-          <div className="overflow-hidden rounded-lg border" style={{ borderColor: 'var(--border)' }}>
+          <div className="overflow-hidden rounded-[10px] border-[2px]" style={{ borderColor: 'var(--line)' }}>
             <canvas
               ref={canvasRef}
               className="block h-auto w-full"
@@ -151,7 +152,10 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
         {said}
       </p>
       {said && (
-        <p className="mt-3 text-sm" style={{ color: 'var(--primary)' }}>
+        <p
+          className="mt-3 inline-block rounded-[10px] border-[2px] px-3 py-1.5 text-sm font-extrabold"
+          style={{ borderColor: 'var(--line)', background: 'var(--sun)', color: 'var(--ink-fixed)' }}
+        >
           {said}
         </p>
       )}

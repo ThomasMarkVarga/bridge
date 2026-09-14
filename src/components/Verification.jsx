@@ -17,8 +17,9 @@ export default function Verification({ countryNotes = [], countryName, dataGener
   const online = useOnline()
 
   return (
-    <section className="card p-4 sm:p-5" aria-labelledby="verify-heading">
-      <h2 id="verify-heading" className="text-lg font-bold">
+    <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 5 }} aria-labelledby="verify-heading">
+      <span className="pill pill-blue mb-2">Do not take our word for it</span>
+      <h2 id="verify-heading" className="text-2xl">
         Check it yourself
       </h2>
       <p className="hint mt-1 mb-4">
@@ -26,25 +27,32 @@ export default function Verification({ countryNotes = [], countryName, dataGener
       </p>
 
       <div className="grid gap-3 sm:grid-cols-2">
-        <div className="rounded-lg border p-3" style={{ borderColor: 'var(--border)' }}>
-          <p className="label mb-1">Requests to anywhere else</p>
-          <p className="tabular text-3xl font-extrabold" style={{ color: offSite === 0 ? 'var(--primary)' : 'var(--destructive)' }}>
-            {offSite}
+        <div
+          className="rounded-[10px] border-[2px] p-3"
+          style={{
+            borderColor: 'var(--line)',
+            background: offSite === 0 ? 'var(--sun)' : 'var(--destructive)',
+            color: 'var(--ink-fixed)'
+          }}
+        >
+          <p className="label mb-1" style={{ color: 'var(--ink-fixed)' }}>
+            Requests to anywhere else
           </p>
-          <p className="hint mt-1">
+          <p className="tabular display text-5xl">{offSite}</p>
+          <p className="mt-1 text-sm font-semibold">
             Counted live in this page. {total} {total === 1 ? 'request' : 'requests'} in total, all of them to this
             site, for the page itself and the holiday dates.
           </p>
-          <p className="hint mt-2">
+          <p className="mt-2 text-sm font-semibold">
             To check: open your browser&rsquo;s developer tools, go to the Network tab and reload. Nothing should point
             anywhere but this domain.
           </p>
         </div>
 
-        <div className="rounded-lg border p-3" style={{ borderColor: 'var(--border)' }}>
+        <div className="rounded-[10px] border-[2px] p-3" style={{ borderColor: 'var(--line)' }}>
           <p className="label mb-1">Works without a connection</p>
-          <p className="flex items-center gap-2 text-base font-bold">
-            <Icon name={online ? 'check' : 'offline'} size={20} style={{ color: 'var(--primary)' }} />
+          <p className="flex items-center gap-2 text-base font-extrabold">
+            <Icon name={online ? 'check' : 'offline'} size={20} />
             {online ? 'You are online' : 'You are offline, and it still works'}
           </p>
           <p className="hint mt-2">
@@ -56,7 +64,7 @@ export default function Verification({ countryNotes = [], countryName, dataGener
 
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <div>
-          <h3 className="mb-1 text-base font-bold">How it works</h3>
+          <h3 className="mb-2 text-base">How it works</h3>
           <ul className="grid gap-1.5 text-sm">
             <li>The whole calculation runs in this page, on your device.</li>
             <li>Holiday dates ship with the app as plain files. Nothing is looked up.</li>
@@ -73,7 +81,7 @@ export default function Verification({ countryNotes = [], countryName, dataGener
         </div>
 
         <div>
-          <h3 className="mb-1 text-base font-bold">What this cannot do</h3>
+          <h3 className="mb-2 text-base">What this cannot do</h3>
           <ul className="grid gap-1.5 text-sm">
             <li>
               Holiday dates can be wrong or change. Governments move them, and some are announced only weeks ahead.
@@ -91,8 +99,11 @@ export default function Verification({ countryNotes = [], countryName, dataGener
       </div>
 
       {countryNotes.length > 0 && (
-        <div className="mt-4 rounded-lg border p-3" style={{ borderColor: 'var(--border)' }}>
-          <h3 className="mb-1 flex items-center gap-2 text-base font-bold">
+        <div
+          className="mt-4 rounded-[10px] border-[2px] p-3"
+          style={{ borderColor: 'var(--line)', background: 'var(--muted)' }}
+        >
+          <h3 className="mb-1 flex items-center gap-2 text-base">
             <Icon name="info" size={18} />
             Worth knowing about {countryName}
           </h3>

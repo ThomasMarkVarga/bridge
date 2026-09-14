@@ -30,6 +30,7 @@ import ReturnsCurve from './components/ReturnsCurve.jsx'
 import ShareRow from './components/ShareRow.jsx'
 import Verification from './components/Verification.jsx'
 import Icon from './components/Icon.jsx'
+import Marquee from './components/Marquee.jsx'
 
 export default function App() {
   const [state, setState] = useState(() => {
@@ -166,7 +167,7 @@ export default function App() {
   // A tab title and a bookmark that actually say something.
   useEffect(() => {
     const base = 'Bridge'
-    if (plan && plan.feasible) {
+    if (plan && plan.feasible && plan.leaveSpent > 0) {
       document.title = `${plan.leaveSpent} days become ${plan.totalDaysOff} days off · ${periodLabel} · ${base}`
     } else {
       document.title = `${base} · Work out which days to book`
@@ -213,13 +214,22 @@ export default function App() {
       <div className="mx-auto w-full max-w-5xl px-4 pb-16 pt-4 sm:px-6">
         <header className="mb-4 flex items-start justify-between gap-3">
           <div>
-            <h1 className="text-xl font-extrabold tracking-tight sm:text-2xl">Bridge</h1>
-            <p className="hint">Take 12 days off. Get 28.</p>
+            <h1 className="text-3xl sm:text-5xl">
+              Bridge<span style={{ color: 'var(--coral)' }}>.</span>
+            </h1>
+            <p className="mt-2 text-base font-extrabold sm:text-lg">
+              Take <span className="hl hl-lime tabular">12</span> days off. Get{' '}
+              <span className="hl tabular">28</span>.
+            </p>
           </div>
           <ThemeToggle theme={theme} setTheme={setTheme} />
         </header>
 
-        <main className="grid gap-4">
+        <div className="mb-4">
+          <Marquee />
+        </div>
+
+        <main className="grid gap-5">
           <Controls
             state={state}
             onChange={update}
@@ -231,8 +241,8 @@ export default function App() {
 
           <div id="answer" tabIndex={-1}>
             {loadError ? (
-              <div className="card p-5" style={{ borderColor: 'var(--destructive)' }} role="alert">
-                <h2 className="text-base font-bold">The holiday dates would not load</h2>
+              <div className="card p-5" style={{ background: 'var(--destructive)', color: 'var(--ink-fixed)' }} role="alert">
+                <h2 className="text-xl">The holiday dates would not load</h2>
                 <p className="mt-1 text-sm">{loadError}</p>
                 <button type="button" className="btn btn-primary mt-3" onClick={() => update({ country: state.country })}>
                   <Icon name="reset" size={18} />
@@ -245,7 +255,7 @@ export default function App() {
           </div>
 
           {missingYears.length > 0 && (
-            <p className="card p-3 text-sm" role="status">
+            <p className="card p-3 text-sm font-semibold" role="status">
               There are no holiday dates yet for {missingYears.join(' and ')}. Those days are counted as ordinary
               working days, so the plan will be conservative.
             </p>
@@ -257,11 +267,14 @@ export default function App() {
 
               <RequestDates dates={plan.leaveDates} periodLabel={periodLabel} />
 
-              <section className="card p-4 sm:p-5" aria-labelledby="year-heading">
-                <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
-                  <h2 id="year-heading" className="text-lg font-bold">
-                    {periodLabel} at a glance
-                  </h2>
+              <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 2 }} aria-labelledby="year-heading">
+                <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+                  <div>
+                    <span className="pill pill-blue mb-2">The whole year</span>
+                    <h2 id="year-heading" className="text-2xl">
+                      {periodLabel} at a glance
+                    </h2>
+                  </div>
                   {adjustments > 0 && (
                     <button
                       type="button"
@@ -281,8 +294,8 @@ export default function App() {
 
                 {changed.note && (
                   <p
-                    className="mb-3 rounded-lg border px-3 py-2 text-sm"
-                    style={{ borderColor: 'var(--primary)', color: 'var(--primary)' }}
+                    className="mb-3 rounded-[10px] border-[2px] px-3 py-2 text-sm font-extrabold"
+                    style={{ borderColor: 'var(--line)', background: 'var(--sun)', color: 'var(--ink-fixed)' }}
                     role="status"
                   >
                     {changed.note} The days that moved are outlined below.
@@ -302,10 +315,10 @@ export default function App() {
                   />
 
                   <div
-                    className="border-t pt-3 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0"
+                    className="border-t-[3px] pt-4 lg:border-l-[3px] lg:border-t-0 lg:pl-6 lg:pt-0"
                     style={{ borderColor: 'var(--border)' }}
                   >
-                    <h3 className="mb-2 text-sm font-bold">What the marks mean</h3>
+                    <h3 className="mb-3 text-base">What the marks mean</h3>
                     <Legend className="lg:flex-col lg:items-start lg:gap-3" />
                   </div>
                 </div>
@@ -416,7 +429,7 @@ function useTheme() {
 
 function Footer() {
   return (
-    <footer className="mt-8 border-t pt-4 text-sm" style={{ borderColor: 'var(--border)' }}>
+    <footer className="mt-10 border-t-[3px] pt-5 text-sm" style={{ borderColor: 'var(--border)' }}>
       <p className="hint">
         Bridge is free and open source under the MIT licence. Holiday dates come from the{' '}
         <a

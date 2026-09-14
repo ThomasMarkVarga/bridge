@@ -16,29 +16,48 @@ const HEIGHT = 630
 
 const THEMES = {
   light: {
-    bg: '#f0fdfa',
-    panel: '#ffffff',
-    ink: '#10403c',
-    muted: '#40566b',
-    rule: '#c9e4e0',
-    work: '#eef5f4',
-    weekend: '#dbe7ea',
-    holiday: '#9fd4cc',
-    leave: '#c2410c',
-    accentInk: '#0d9488'
+    bg: '#faf5ec',
+    panel: '#fffefb',
+    ink: '#16202b',
+    muted: '#4a5a68',
+    rule: '#16202b',
+    work: '#f3eee2',
+    weekend: '#e6e0d4',
+    holiday: '#12806f',
+    band: '#ffe2d8',
+    leave: '#ff6b4a',
+    tag: '#ffc845'
   },
   dark: {
-    bg: '#071a1c',
-    panel: '#0e2629',
-    ink: '#e2f4f1',
-    muted: '#a3c2c2',
-    rule: '#1f434a',
-    work: '#102a2e',
-    weekend: '#1a353b',
-    holiday: '#2b6660',
-    leave: '#fb923c',
-    accentInk: '#5eead4'
+    bg: '#121920',
+    panel: '#1b242e',
+    ink: '#f3efe4',
+    muted: '#a8b6c2',
+    rule: '#f3efe4',
+    work: '#222c37',
+    weekend: '#2d3a46',
+    holiday: '#2fc7ab',
+    band: '#5c2f24',
+    leave: '#ff6b4a',
+    tag: '#ffc845'
   }
+}
+
+/** Deep ink that never flips: the accent fills are the same in both themes. */
+const INK_FIXED = '#16202b'
+
+/** A hard offset shadow, drawn as a solid rectangle behind the shape. */
+function hardRect(ctx, x, y, w, h, radius, fill, stroke, offset = 6) {
+  ctx.fillStyle = stroke
+  roundRect(ctx, x + offset, y + offset, w, h, radius)
+  ctx.fill()
+  ctx.fillStyle = fill
+  roundRect(ctx, x, y, w, h, radius)
+  ctx.fill()
+  ctx.lineWidth = 3
+  ctx.strokeStyle = stroke
+  roundRect(ctx, x, y, w, h, radius)
+  ctx.stroke()
 }
 
 /**
@@ -68,52 +87,58 @@ export function drawShareCard({ plan, calendar, countryLabel, periodLabel, theme
   ctx.fillStyle = t.bg
   ctx.fillRect(0, 0, WIDTH, HEIGHT)
 
-  const font = (size, weight = 400) =>
-    `${weight} ${size}px Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif`
+  const display = (size) => `400 ${size}px 'Archivo Black', 'Public Sans', system-ui, sans-serif`
+  const body = (size, weight = 500) =>
+    `${weight} ${size}px 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif`
 
   const PAD = 64
 
+  // The outlined panel the whole card sits in.
+  hardRect(ctx, 28, 28, WIDTH - 66, HEIGHT - 66, 14, t.panel, t.rule, 6)
+
+  ctx.textBaseline = 'alphabetic'
+
+  // A sticker, exactly like the ones on the page.
+  ctx.font = body(20, 800)
+  const stickerText = 'NO SIGN-UP · NOTHING LEAVES YOUR DEVICE'
+  const stickerW = ctx.measureText(stickerText).width + 36
+  hardRect(ctx, PAD, 62, stickerW, 40, 8, t.tag, INK_FIXED, 3)
+  ctx.fillStyle = INK_FIXED
+  ctx.fillText(stickerText, PAD + 18, 89)
+
   // The number, as large as it will go. This is the whole point of the card.
   ctx.fillStyle = t.ink
-  ctx.font = font(132, 800)
-  ctx.textBaseline = 'alphabetic'
+  ctx.font = display(104)
   const headline = `${plan.totalDaysOff} days off`
-  ctx.fillText(headline, PAD, 176)
+  ctx.fillText(headline, PAD, 196)
 
-  ctx.font = font(40, 500)
+  ctx.font = body(34, 600)
   ctx.fillStyle = t.muted
   const breaks = plan.breaks.length === 1 ? '1 break' : `${plan.breaks.length} breaks`
-  ctx.fillText(`from ${plan.leaveSpent} days of leave, in ${breaks}`, PAD, 232)
+  ctx.fillText(`from ${plan.leaveSpent} days of leave, in ${breaks}`, PAD, 246)
 
-  ctx.font = font(30, 600)
-  ctx.fillStyle = t.accentInk
-  ctx.fillText(`${countryLabel} · ${periodLabel}`, PAD, 288)
+  ctx.font = body(26, 800)
+  ctx.fillStyle = t.ink
+  ctx.fillText(`${countryLabel} · ${periodLabel}`, PAD, 292)
 
   // The year as a shape: 7 rows of days, one column per week.
-  drawYearStrip(ctx, { calendar, plan, theme: t, x: PAD, y: 330, width: WIDTH - PAD * 2, height: 150 })
+  drawYearStrip(ctx, { calendar, plan, theme: t, x: PAD, y: 328, width: WIDTH - PAD * 2, height: 150 })
 
   // The longest break, named, because that is the thing people react to.
   const longest = plan.breaks.reduce((a, b) => (b.length > (a?.length || 0) ? b : a), null)
   if (longest) {
-    ctx.font = font(26, 500)
+    ctx.font = body(24, 600)
     ctx.fillStyle = t.muted
     const label = `Longest stretch: ${formatSpan(longest.start, longest.end)} · ${longest.length} days for ${longest.cost} booked`
-    ctx.fillText(label, PAD, HEIGHT - 84)
+    ctx.fillText(label, PAD, HEIGHT - 96)
   }
 
-  ctx.strokeStyle = t.rule
-  ctx.lineWidth = 1
-  ctx.beginPath()
-  ctx.moveTo(PAD, HEIGHT - 60)
-  ctx.lineTo(WIDTH - PAD, HEIGHT - 60)
-  ctx.stroke()
-
-  ctx.font = font(24, 700)
+  ctx.font = display(26)
   ctx.fillStyle = t.ink
-  ctx.fillText('Bridge', PAD, HEIGHT - 26)
-  ctx.font = font(22, 400)
+  ctx.fillText('Bridge', PAD, HEIGHT - 56)
+  ctx.font = body(21, 600)
   ctx.fillStyle = t.muted
-  ctx.fillText('Work out which days to book.', PAD + 92, HEIGHT - 26)
+  ctx.fillText('Work out which days to book.', PAD + 130, HEIGHT - 56)
 
   return c
 }
@@ -152,19 +177,20 @@ function drawYearStrip(ctx, { calendar, plan, theme, x, y, width, height }) {
 
     let fill = theme.work
     if (day.isFree) fill = day.holidayName ? theme.holiday : theme.weekend
-    if (inBreak.has(i)) fill = theme.leave
+    if (inBreak.has(i)) fill = theme.band
+    if (leave.has(day.date)) fill = theme.leave
 
     ctx.fillStyle = fill
-    roundRect(ctx, cx, cy, cell, cell, Math.min(2, cell / 4))
+    roundRect(ctx, cx, cy, cell, cell, Math.min(3, cell / 4))
     ctx.fill()
 
-    // A booked day gets a darker core, so the days you pay for are visible even
-    // when the image is small.
+    // Every day you actually book is outlined, so the pattern of bookings reads
+    // even when the picture is shrunk to a thumbnail.
     if (leave.has(day.date)) {
-      ctx.fillStyle = theme.bg
-      const inset = cell * 0.32
-      roundRect(ctx, cx + inset, cy + inset, cell - inset * 2, cell - inset * 2, 1)
-      ctx.fill()
+      ctx.strokeStyle = INK_FIXED
+      ctx.lineWidth = 1.5
+      roundRect(ctx, cx, cy, cell, cell, Math.min(3, cell / 4))
+      ctx.stroke()
     }
   }
 }

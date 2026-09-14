@@ -19,7 +19,13 @@
 
 | Role | Hex | CSS Variable |
 |------|-----|--------------|
-| Primary | `#0F766E` | `--color-primary` |
+| Ink (outlines, text) | `#16202B` | `--ink` |
+| Paper (ground) | `#FAF5EC` | `--paper` |
+| Surface (cards) | `#FFFEFB` | `--surface` |
+| Coral (days you book) | `#FF6B4A` | `--coral` |
+| Sea (public holidays) | `#12806F` | `--sea` |
+| Sky (days you fix, focus) | `#3F63D8` | `--sky` |
+| Sun (every action) | `#FFC845` | `--sun` |
 | On Primary | `#FFFFFF` | `--color-on-primary` |
 | Secondary | `#115E59` | `--color-secondary` |
 | On Secondary | `#0F172A` | `--color-on-secondary` |

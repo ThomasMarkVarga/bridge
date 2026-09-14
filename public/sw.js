@@ -14,7 +14,10 @@
  * one, takes over as soon as it is ready, and deletes every older cache.
  */
 
-const CACHE = 'bridge-v1'
+// Stamped with the build id at build time (see vite.config.js). A new build gets a
+// new cache, the new worker installs alongside the old one, takes over, and deletes
+// every older cache. In development the placeholder is left as it is.
+const CACHE = 'bridge-__BUILD_ID__'
 
 /** Cached up front so a cold start with no network still renders. */
 const SHELL = [
@@ -81,7 +84,16 @@ self.addEventListener('fetch', (event) => {
           }
           return response
         })
-        .catch(() => hit)
+        .catch(
+          () =>
+            // Offline and never seen before. Say so properly rather than resolving
+            // to nothing, which would surface as an opaque network error.
+            new Response('This file is not available offline yet. Reload once while connected.', {
+              status: 504,
+              statusText: 'Offline',
+              headers: { 'Content-Type': 'text/plain; charset=utf-8' }
+            })
+        )
     })
   )
 })

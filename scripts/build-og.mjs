@@ -10,8 +10,9 @@
  *
  * Usage: npm run og
  */
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
-import { resolve, dirname } from 'node:path'
+import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs'
+import { resolve, dirname, join } from 'node:path'
+import { tmpdir } from 'node:os'
 import { fileURLToPath } from 'node:url'
 import { Resvg } from '@resvg/resvg-js'
 import wawoff from 'wawoff2'
@@ -30,16 +31,16 @@ const HEIGHT = 630
 const COUNTRY = 'RO'
 const BUDGET = 21
 
-const INK = '#10403c'
-const MUTED = '#40566b'
-const TEAL = '#0f766e'
-const LEAVE = '#b03a08'
-const LEAVE_SOFT = '#fde3d3'
-const WEEKEND = '#dbe7ea'
-const HOLIDAY = '#cfe9e4'
-const WORK = '#f4faf9'
-const BG = '#f0fdfa'
-const CARD = '#ffffff'
+const INK = '#16202b'
+const MUTED = '#4a5a68'
+const TAG = '#ffc845'
+const LEAVE = '#ff6b4a'
+const BAND = '#ffe2d8'
+const WEEKEND = '#e6e0d4'
+const HOLIDAY = '#12806f'
+const WORK = '#f3eee2'
+const BG = '#faf5ec'
+const CARD = '#fffefb'
 
 const esc = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -53,20 +54,24 @@ function pickYear(data) {
 function buildSvg({ plan, calendar, countryName, year }) {
   const parts = []
   parts.push(`<rect width="${WIDTH}" height="${HEIGHT}" fill="${BG}"/>`)
-  parts.push(`<rect x="40" y="40" width="${WIDTH - 80}" height="${HEIGHT - 80}" rx="20" fill="${CARD}"/>`)
+  // The hard offset shadow, drawn as a solid rectangle behind the panel.
+  parts.push(`<rect x="46" y="46" width="${WIDTH - 80}" height="${HEIGHT - 80}" rx="14" fill="${INK}"/>`)
+  parts.push(
+    `<rect x="40" y="40" width="${WIDTH - 80}" height="${HEIGHT - 80}" rx="14" fill="${CARD}" stroke="${INK}" stroke-width="3"/>`
+  )
 
   const PAD = 80
 
   parts.push(
-    `<text x="${PAD}" y="168" font-family="Inter" font-size="112" font-weight="800" fill="${INK}">` +
+    `<text x="${PAD}" y="172" font-family="'Archivo Black'" font-size="96" fill="${INK}">` +
       `${plan.totalDaysOff} days off</text>`
   )
   parts.push(
-    `<text x="${PAD}" y="218" font-family="Inter" font-size="34" font-weight="500" fill="${MUTED}">` +
+    `<text x="${PAD}" y="218" font-family="'Public Sans'" font-size="34" font-weight="500" fill="${MUTED}">` +
       `from ${plan.leaveSpent} days of leave, in ${plan.breaks.length} breaks</text>`
   )
   parts.push(
-    `<text x="${PAD}" y="268" font-family="Inter" font-size="26" font-weight="600" fill="${TEAL}">` +
+    `<text x="${PAD}" y="268" font-family="'Archivo Black'" font-size="22" fill="${INK}">` +
       `${esc(countryName)} · ${year}</text>`
   )
 
@@ -91,7 +96,7 @@ function buildSvg({ plan, calendar, countryName, year }) {
 
     let fill = WORK
     if (day.isFree) fill = day.holidayName ? HOLIDAY : WEEKEND
-    if (inBreak.has(i)) fill = leave.has(day.date) ? LEAVE : LEAVE_SOFT
+    if (inBreak.has(i)) fill = leave.has(day.date) ? LEAVE : BAND
 
     parts.push(`<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="2" fill="${fill}"/>`)
     if (inBreak.has(i) && !leave.has(day.date)) {
@@ -110,19 +115,19 @@ function buildSvg({ plan, calendar, countryName, year }) {
     const em = MONTHS[Number(longest.end.slice(5, 7)) - 1]
     const span = sm === em ? `${sd}–${ed} ${em}` : `${sd} ${sm} – ${ed} ${em}`
     parts.push(
-      `<text x="${PAD}" y="${HEIGHT - 122}" font-family="Inter" font-size="24" font-weight="500" fill="${MUTED}">` +
+      `<text x="${PAD}" y="${HEIGHT - 122}" font-family="'Public Sans'" font-size="24" font-weight="500" fill="${MUTED}">` +
         `Longest stretch: ${esc(span)}, ${longest.length} days off for ${longest.cost} booked</text>`
     )
   }
 
   parts.push(
-    `<line x1="${PAD}" y1="${HEIGHT - 100}" x2="${WIDTH - PAD}" y2="${HEIGHT - 100}" stroke="#c9e4e0" stroke-width="1"/>`
+    `<line x1="${PAD}" y1="${HEIGHT - 100}" x2="${WIDTH - PAD}" y2="${HEIGHT - 100}" stroke="${INK}" stroke-width="2"/>`
   )
   parts.push(
-    `<text x="${PAD}" y="${HEIGHT - 64}" font-family="Inter" font-size="24" font-weight="700" fill="${INK}">Bridge</text>`
+    `<text x="${PAD}" y="${HEIGHT - 64}" font-family="'Archivo Black'" font-size="24" fill="${INK}">Bridge</text>`
   )
   parts.push(
-    `<text x="${PAD + 92}" y="${HEIGHT - 64}" font-family="Inter" font-size="22" font-weight="400" fill="${MUTED}">` +
+    `<text x="${PAD + 128}" y="${HEIGHT - 64}" font-family="'Public Sans'" font-size="21" fill="${MUTED}">` +
       `Work out which days to book. Nothing leaves your device.</text>`
   )
 
@@ -140,16 +145,31 @@ async function main() {
 
   const svg = buildSvg({ plan, calendar, countryName: data.countryName, year })
 
-  // Decompress the very woff2 the site serves, so the card and the page share a
-  // typeface and the build depends on nothing installed on this machine.
-  const woff2 = readFileSync(resolve(ROOT, 'public/fonts/inter-latin-wght-normal.woff2'))
-  const ttf = Buffer.from(await wawoff.decompress(woff2))
+  // Decompress the very woff2 files the site serves, so the card and the page
+  // share a typeface and the build needs nothing installed on this machine.
+  //
+  // They are written to disk and passed as paths rather than as buffers: this
+  // version of resvg silently ignores `fontBuffers` and falls back to a default
+  // face, which is how the headline quietly came out in the wrong font once.
+  const scratch = join(tmpdir(), 'bridge-og-fonts')
+  mkdirSync(scratch, { recursive: true })
+  const fontFiles = []
+  for (const [name, file] of [
+    ['PublicSans.ttf', 'public/fonts/public-sans-latin-wght-normal.woff2'],
+    ['ArchivoBlack.ttf', 'public/fonts/archivo-black-latin-400-normal.woff2']
+  ]) {
+    const ttf = Buffer.from(await wawoff.decompress(readFileSync(resolve(ROOT, file))))
+    const out = join(scratch, name)
+    writeFileSync(out, ttf)
+    fontFiles.push(out)
+  }
 
   const resvg = new Resvg(svg, {
     fitTo: { mode: 'width', value: WIDTH },
-    font: { fontBuffers: [ttf], defaultFontFamily: 'Inter', loadSystemFonts: false }
+    font: { fontFiles, defaultFontFamily: 'Public Sans', loadSystemFonts: false }
   })
   const png = resvg.render().asPng()
+  rmSync(scratch, { recursive: true, force: true })
 
   mkdirSync(resolve(ROOT, 'public'), { recursive: true })
   writeFileSync(resolve(ROOT, 'public/og.png'), png)

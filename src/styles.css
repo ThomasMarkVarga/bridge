@@ -3,152 +3,179 @@
 /*
  * Bridge's visual layer.
  *
- * Tokens come from design-system/bridge/MASTER.md: Flat Design, Inter, teal for
- * the interface and orange for the days you book. Nothing here uses a gradient or
- * a heavy shadow, and every transition is short.
+ * Flat, outlined and loud: a sand ground, deep sea-ink outlines, and hard offset
+ * shadows with no blur anywhere.
  *
- * Fonts are served from this origin. Nothing is fetched from a font CDN, because
- * the page must make no network requests at all once it has loaded.
+ * The palette is the seaside rather than the arcade. Coral marks the days you
+ * book, sea green the public holidays you already had, sky blue the days you fix
+ * yourself, and one warm yellow carries every action. Corners are tight and the
+ * outlines are thin, so a calendar of 365 cells reads as structure rather than as
+ * a toy. Type is Archivo Black for anything that shouts and Public Sans for
+ * anything you actually read.
+ *
+ * Both faces are served from this origin. Nothing is fetched from a font CDN,
+ * because the page must make no network requests at all once it has loaded.
  */
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Archivo Black';
   font-style: normal;
+  font-weight: 400;
   font-display: swap;
+  src: url('/fonts/archivo-black-latin-400-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308,
+    U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/archivo-black-latin-ext-400-normal.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
+    U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+    U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
   font-weight: 100 900;
-  src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2-variations');
+  font-display: swap;
+  src: url('/fonts/public-sans-latin-wght-normal.woff2') format('woff2-variations');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308,
     U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* Only fetched when the page actually shows Romanian, Polish or Turkish letters. */
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Public Sans';
   font-style: normal;
-  font-display: swap;
   font-weight: 100 900;
-  src: url('/fonts/inter-latin-ext-wght-normal.woff2') format('woff2-variations');
+  font-display: swap;
+  src: url('/fonts/public-sans-latin-ext-wght-normal.woff2') format('woff2-variations');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308,
     U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
     U+2C60-2C7F, U+A720-A7FF;
 }
 
 @theme {
-  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-
-  --spacing-xs: 4px;
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 24px;
-  --spacing-xl: 32px;
-  --spacing-2xl: 48px;
-
-  --radius-card: 12px;
-  --radius-control: 8px;
+  --font-sans: 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-display: 'Archivo Black', 'Public Sans', system-ui, sans-serif;
 }
 
-/*
- * Light is the default. Dark follows the system unless the person has chosen,
- * in which case data-theme on the root wins.
- */
 :root {
-  /* The design system's teal and orange, each darkened until white text on the
-     button and the day number on its own fill both clear 4.5:1. The published
-     tokens sat at 3.74 and 4.22, which is a real failure at 13px and 16px. */
-  --primary: #0f766e;
-  --on-primary: #ffffff;
-  --secondary: #115e59;
-  --accent: #b03a08;
-  --on-accent: #ffffff;
-  --background: #f0fdfa;
-  --foreground: #10403c;
-  --card: #ffffff;
-  --card-foreground: #10403c;
-  --muted: #e8f1f4;
-  --muted-foreground: #40566b;
-  --border: #c9e4e0;
-  --border-strong: #8fbfb9;
-  --destructive: #b91c1c;
-  --on-destructive: #ffffff;
-  --ring: #0f766e;
+  --paper: #faf5ec;
+  --surface: #fffefb;
+  --ink: #16202b;
+  --ink-2: #4a5a68;
+  --line: #16202b;
+  --shadow-ink: #16202b;
+
+  --coral: #ff6b4a;
+  --sea: #12806f;
+  --sky: #3f63d8;
+  --sun: #ffc845;
+
+  /*
+   * These four are the same colours in both themes, so text sitting on one of
+   * them must not flip to the dark theme's pale ink. These two never change.
+   */
+  --ink-fixed: #16202b;
+  --paper-fixed: #fffefb;
+  --on-sea: var(--paper-fixed);
+  --on-sky: var(--paper-fixed);
+
+  --b: 2px;
+  --b-thick: 3px;
+  --b-thin: 1.5px;
+  --r-sm: 6px;
+  --r: 10px;
+  --r-lg: 14px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Semantic names the components use. */
+  --background: var(--paper);
+  --card: var(--surface);
+  --foreground: var(--ink);
+  --card-foreground: var(--ink);
+  --muted: #f1efe6;
+  --muted-foreground: var(--ink-2);
+  --border: var(--line);
+  --border-strong: var(--line);
+  --primary: var(--sun);
+  --on-primary: var(--ink-fixed);
+  --secondary: var(--coral);
+  --accent: var(--coral);
+  --on-accent: var(--ink-fixed);
+  --destructive: #ff8a7a;
+  --on-destructive: var(--ink-fixed);
+  --ring: var(--sky);
 
   /* The calendar's own language. */
-  --day-work: transparent;
-  --day-weekend: #dbe7ea;
-  --day-holiday: #cfe9e4;
-  --day-leave: #b03a08;
-  --day-leave-soft: #fde3d3;
-  --day-pinned: #7c3aed;
-  --day-blackout: #7a8c9a;
+  --day-weekend: #e6e0d4;
+  --day-holiday: var(--sea);
+  --day-leave: var(--coral);
+  /* The band behind a whole break is a tint. Solid coral is reserved for the days
+     you actually book, otherwise a long break paints over the calendar and the
+     dates stop being readable. */
+  --day-leave-band: #ffe2d8;
+  --day-pinned: var(--sky);
+  --day-blackout: var(--ink);
 
   color-scheme: light;
 }
 
+/*
+ * Dark is not in the reference, which is light only, but following the system
+ * preference is a behaviour requirement rather than a matter of taste. So the
+ * same system is rebuilt on a dark ground: the ink and the paper swap, outlines
+ * and hard shadows go pale, and the four accents stay exactly as loud as they
+ * were. Text on an accent fill stays near-black, because all four are light.
+ */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --primary: #5eead4;
-    --on-primary: #06201f;
-    --secondary: #2dd4bf;
-    --accent: #fb923c;
-    --on-accent: #2a1203;
-    --background: #071a1c;
-    --foreground: #e2f4f1;
-    --card: #0e2629;
-    --card-foreground: #e2f4f1;
-    --muted: #163236;
-    --muted-foreground: #a3c2c2;
-    --border: #1f434a;
-    --border-strong: #35646c;
-    --destructive: #fca5a5;
-    --on-destructive: #2a0707;
-    --ring: #5eead4;
+    --paper: #121920;
+    --surface: #1b242e;
+    --ink: #f3efe4;
+    --ink-2: #a8b6c2;
+    --line: #f3efe4;
+    --shadow-ink: #05080b;
 
-    --day-work: transparent;
-    --day-weekend: #1a353b;
-    --day-holiday: #1d4a47;
-    --day-leave: #fb923c;
-    --day-leave-soft: #4a2410;
-    --day-pinned: #c4b5fd;
-    --day-blackout: #64798a;
+    --muted: #26313c;
+    --day-weekend: #2d3a46;
+    --day-leave-band: #5c2f24;
+    /* Lifted so they still read against a dark ground. */
+    --sea: #2fc7ab;
+    --sky: #8aa6ff;
+    --on-sea: var(--ink-fixed);
+    --on-sky: var(--ink-fixed);
 
     color-scheme: dark;
   }
 }
 
 :root[data-theme='dark'] {
-  --primary: #5eead4;
-  --on-primary: #06201f;
-  --secondary: #2dd4bf;
-  --accent: #fb923c;
-  --on-accent: #2a1203;
-  --background: #071a1c;
-  --foreground: #e2f4f1;
-  --card: #0e2629;
-  --card-foreground: #e2f4f1;
-  --muted: #163236;
-  --muted-foreground: #a3c2c2;
-  --border: #1f434a;
-  --border-strong: #35646c;
-  --destructive: #fca5a5;
-  --on-destructive: #2a0707;
-  --ring: #5eead4;
+  --paper: #121920;
+  --surface: #1b242e;
+  --ink: #f3efe4;
+  --ink-2: #a8b6c2;
+  --line: #f3efe4;
+  --shadow-ink: #05080b;
 
-  --day-work: transparent;
-  --day-weekend: #1a353b;
-  --day-holiday: #1d4a47;
-  --day-leave: #fb923c;
-  --day-leave-soft: #4a2410;
-  --day-pinned: #c4b5fd;
-  --day-blackout: #64798a;
+  --muted: #26313c;
+  --day-weekend: #2d3a46;
+  --day-leave-band: #5c2f24;
+  --sea: #2fc7ab;
+  --sky: #8aa6ff;
+  --on-sea: var(--ink-fixed);
+  --on-sky: var(--ink-fixed);
 
   color-scheme: dark;
 }
 
 @layer base {
-  * {
-    border-color: var(--border);
-  }
-
   html {
     -webkit-text-size-adjust: 100%;
   }
@@ -159,13 +186,22 @@
     font-family: var(--font-sans);
     font-size: 16px;
     line-height: 1.55;
-    font-synthesis-weight: none;
     -webkit-font-smoothing: antialiased;
   }
 
-  /* Flat Design: a focus ring you cannot miss, on everything operable. */
+  h1,
+  h2,
+  h3,
+  .display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.055em;
+    line-height: 1.05;
+  }
+
+  /* A focus ring you could not miss if you tried. */
   :focus-visible {
-    outline: 3px solid var(--ring);
+    outline: var(--b-thick) solid var(--sky);
     outline-offset: 2px;
     border-radius: 4px;
   }
@@ -185,11 +221,10 @@
   }
 
   ::selection {
-    background: var(--primary);
-    color: var(--on-primary);
+    background: var(--coral);
+    color: var(--ink-fixed);
   }
 
-  /* Numbers that line up: dates, counts and ratios must not jiggle as they change. */
   .tabular {
     font-variant-numeric: tabular-nums;
     font-feature-settings: 'tnum' 1;
@@ -197,11 +232,23 @@
 }
 
 @layer components {
+  /* The hard shadow. No blur, ever. */
+  .hard {
+    box-shadow: 5px 5px 0 0 var(--shadow-ink);
+  }
+  .hard-sm {
+    box-shadow: 3px 3px 0 0 var(--shadow-ink);
+  }
+  .hard-lg {
+    box-shadow: 8px 8px 0 0 var(--shadow-ink);
+  }
+
   .card {
     background: var(--card);
     color: var(--card-foreground);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-card);
+    border: var(--b-thick) solid var(--line);
+    border-radius: var(--r-lg);
+    box-shadow: 4px 4px 0 0 var(--shadow-ink);
   }
 
   .btn {
@@ -209,18 +256,37 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    min-height: 44px;
-    padding: 0 16px;
-    border-radius: var(--radius-control);
-    border: 1px solid transparent;
-    font-weight: 600;
-    line-height: 1.2;
-    transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+    min-height: 46px;
+    padding: 0 18px;
+    border: var(--b) solid var(--line);
+    border-radius: var(--r-sm);
+    background: var(--card);
+    color: var(--foreground);
+    font-weight: 800;
+    line-height: 1.15;
+    box-shadow: 3px 3px 0 0 var(--shadow-ink);
+    transition:
+      transform 120ms var(--ease),
+      box-shadow 120ms var(--ease),
+      background-color 160ms var(--ease);
+  }
+
+  /* The press: the control physically moves onto its own shadow. */
+  .btn:hover:not(:disabled) {
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 0 0 var(--shadow-ink);
+  }
+
+  .btn:active:not(:disabled) {
+    transform: translate(3px, 3px);
+    box-shadow: 0 0 0 0 var(--shadow-ink);
   }
 
   .btn:disabled {
     opacity: 0.45;
     cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
   }
 
   .btn-primary {
@@ -229,14 +295,12 @@
   }
 
   .btn-primary:hover:not(:disabled) {
-    background: var(--secondary);
-    color: var(--on-primary);
+    background: var(--coral);
   }
 
   .btn-quiet {
-    background: transparent;
+    background: var(--card);
     color: var(--foreground);
-    border-color: var(--border-strong);
   }
 
   .btn-quiet:hover:not(:disabled) {
@@ -244,37 +308,104 @@
   }
 
   .field {
-    min-height: 44px;
+    min-height: 46px;
     width: 100%;
     padding: 0 12px;
     background: var(--card);
     color: var(--card-foreground);
-    border: 1px solid var(--border-strong);
-    border-radius: var(--radius-control);
-    transition: border-color 160ms ease;
+    border: var(--b) solid var(--line);
+    border-radius: var(--r-sm);
+    box-shadow: 2px 2px 0 0 var(--shadow-ink);
+    font-weight: 600;
+    transition:
+      transform 120ms var(--ease),
+      box-shadow 120ms var(--ease);
   }
 
-  .field:hover {
-    border-color: var(--primary);
+  .field:hover,
+  .field:focus {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0 0 var(--shadow-ink);
   }
 
   .label {
     display: block;
     font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.01em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
     color: var(--muted-foreground);
     margin-bottom: 6px;
   }
 
   .hint {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--muted-foreground);
   }
 
   /*
-   * Blacked-out days carry a stripe, not just a colour. This is the pattern that
-   * keeps the calendar readable for someone who cannot separate the hues.
+   * A tag, not a round badge: one corner is square so it reads as a luggage
+   * label, which is a shape of Bridge's own rather than a borrowed one.
+   */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 11px;
+    border: var(--b) solid var(--line);
+    border-radius: var(--r-sm);
+    border-top-left-radius: 0;
+    background: var(--card);
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 0 0 var(--shadow-ink);
+  }
+
+  .pill-pink {
+    background: var(--coral);
+    color: var(--ink-fixed);
+  }
+  .pill-lime {
+    background: var(--sun);
+    color: var(--ink-fixed);
+  }
+  .pill-sun {
+    background: var(--sea);
+    color: var(--on-sea);
+  }
+  .pill-blue {
+    background: var(--sky);
+    color: var(--on-sky);
+  }
+
+  /* The marker-pen highlight behind a word, as on the reference's headline. */
+  /* A number set in a box, the way a span is set between two piers. */
+  .hl {
+    display: inline-block;
+    padding: 0.02em 0.2em;
+    line-height: 1.12;
+    background: var(--coral);
+    color: var(--ink-fixed);
+    border: var(--b) solid var(--ink-fixed);
+    border-radius: var(--r-sm);
+    box-shadow: 3px 3px 0 0 var(--ink-fixed);
+  }
+
+  .hl-lime {
+    background: var(--sun);
+  }
+
+  .hl-sea {
+    background: var(--sea);
+    color: var(--on-sea);
+  }
+
+  /*
+   * Blacked-out days carry a stripe, not just a colour. This is what keeps the
+   * calendar readable for someone who cannot separate the hues.
    */
   .stripe-blackout {
     background-image: repeating-linear-gradient(
@@ -282,12 +413,137 @@
       var(--day-blackout) 0,
       var(--day-blackout) 2px,
       transparent 2px,
-      transparent 5px
+      transparent 6px
     );
   }
 }
 
-/* Anything that moves, stops moving when the system asks it to. */
+/* ---------------------------------------------------------------- motion ---- */
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pop-number {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.14) rotate(-1.5deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes grow-x {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes grow-y {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes nudge {
+  0%,
+  100% {
+    transform: none;
+  }
+  30% {
+    transform: translateY(-3px) scale(1.06);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes wobble {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+.anim-pop {
+  animation: pop-in 420ms var(--ease) both;
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+
+.anim-number {
+  display: inline-block;
+  animation: pop-number 420ms var(--ease);
+}
+
+/*
+ * Break bars draw outwards from where the break begins.
+ *
+ * Deliberately no fill mode: the bar is the calendar's main signal, so if the
+ * animation never runs the bar is simply there, rather than stuck at zero width
+ * and invisible.
+ */
+.anim-bar {
+  animation: grow-x 320ms var(--ease);
+  animation-delay: calc(var(--i, 0) * 26ms);
+  transform-origin: left center;
+}
+
+.anim-col {
+  animation: grow-y 420ms var(--ease) both;
+  animation-delay: calc(var(--i, 0) * 18ms);
+  transform-origin: bottom center;
+}
+
+/* A day the solver just moved. */
+.anim-nudge {
+  animation: nudge 520ms var(--ease);
+}
+
+.anim-wobble {
+  animation: wobble 2.6s var(--ease) infinite;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track,
+.marquee[data-paused='true'] .marquee-track {
+  animation-play-state: paused;
+}
+
+/*
+ * Everything above stops when the system asks. Motion here is decoration on top
+ * of a page that already works, so switching it off costs nothing.
+ */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -297,9 +553,20 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+
+  .marquee-track {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .btn:hover:not(:disabled),
+  .btn:active:not(:disabled),
+  .field:hover,
+  .field:focus {
+    transform: none;
+  }
 }
 
-/* The skip link, visible only when it has focus. */
 .skip-link {
   position: absolute;
   left: -9999px;
@@ -311,7 +578,8 @@
   left: 8px;
   top: 8px;
   padding: 10px 14px;
-  background: var(--primary);
-  color: var(--on-primary);
-  border-radius: var(--radius-control);
+  background: var(--lime);
+  color: #0b0b0f;
+  border: var(--b) solid #0b0b0f;
+  border-radius: var(--r-sm);
 }

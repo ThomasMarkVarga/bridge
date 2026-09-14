@@ -223,18 +223,22 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
                   <div
                     key={seg.key}
                     aria-hidden="true"
-                    className="pointer-events-none z-0 self-stretch"
+                    className="anim-bar pointer-events-none z-0 self-stretch"
                     style={{
+                      '--i': seg.breakIndex,
                       gridColumn: `${seg.from + 1} / ${seg.to + 2}`,
                       gridRow: 1,
-                      background: 'var(--day-leave-soft)',
-                      border: '1px solid var(--day-leave)',
-                      borderLeftWidth: seg.startsHere ? '1px' : 0,
-                      borderRightWidth: seg.endsHere ? '1px' : 0,
-                      borderTopLeftRadius: seg.startsHere ? 8 : 0,
-                      borderBottomLeftRadius: seg.startsHere ? 8 : 0,
-                      borderTopRightRadius: seg.endsHere ? 8 : 0,
-                      borderBottomRightRadius: seg.endsHere ? 8 : 0
+                      background: 'var(--day-leave-band)',
+                      border: 'var(--b) solid var(--line)',
+                      // An edge where the break carries on into the next row is left
+                      // open and square, so the run reads as continuous.
+                      borderLeftWidth: seg.startsHere ? 'var(--b)' : 0,
+                      borderRightWidth: seg.endsHere ? 'var(--b)' : 0,
+                      borderTopLeftRadius: seg.startsHere ? 12 : 0,
+                      borderBottomLeftRadius: seg.startsHere ? 12 : 0,
+                      borderTopRightRadius: seg.endsHere ? 12 : 0,
+                      borderBottomRightRadius: seg.endsHere ? 12 : 0,
+                      boxShadow: '3px 3px 0 0 var(--shadow-ink)'
                     }}
                   />
                 ))}
@@ -309,10 +313,21 @@ function DayCell({
   // Backgrounds for days that are not inside a break. Days inside one sit on the
   // bar, so they stay transparent and let it show through.
   let background = 'transparent'
-  if (!inBreak) {
-    if (day.blackout) background = 'transparent'
-    else if (day.holidayName) background = 'var(--day-holiday)'
+  let outline = undefined
+  if (inBreak) {
+    // Inside a break the pale band shows through, except on the days you are
+    // actually booking, which get a solid chip so they are the thing you read.
+    if (isLeave) {
+      background = 'var(--day-leave)'
+      outline = 'var(--b-thin) solid var(--line)'
+    } else if (day.holidayName) {
+      background = 'var(--day-holiday)'
+      outline = 'var(--b-thin) solid var(--line)'
+    }
+  } else if (!day.blackout) {
+    if (day.holidayName) background = 'var(--day-holiday)'
     else if (day.weekend) background = 'var(--day-weekend)'
+    if (day.holidayName || day.weekend) outline = 'var(--b-thin) solid var(--line)'
   }
 
   const marker = day.blackout
@@ -340,19 +355,23 @@ function DayCell({
         title={day.holidayName || undefined}
         className={`relative flex min-h-11 w-full flex-col items-center justify-center rounded-lg px-0.5 py-1 transition-colors duration-150 sm:min-h-12 ${
           day.blackout ? 'stripe-blackout' : ''
-        }`}
+        } ${inBreak && (isLeave || day.holidayName) ? 'my-[3px] scale-[0.88]' : ''}`}
         style={{
           background,
-          outline: changed ? '2px solid var(--primary)' : undefined,
-          outlineOffset: changed ? '1px' : undefined,
-          boxShadow: day.pinned ? 'inset 0 0 0 2px var(--day-pinned)' : undefined
+          border: outline,
+          // A day the solver just moved gets a ring it is impossible to miss.
+          outline: changed ? 'var(--b) solid var(--sky)' : undefined,
+          outlineOffset: changed ? '2px' : undefined,
+          boxShadow: day.pinned ? 'inset 0 0 0 var(--b) var(--day-pinned)' : undefined,
+          // Pink and yellow chips are light in both themes, so their number stays
+          // near-black rather than following the theme's ink.
+          color: isLeave || day.holidayName ? 'var(--ink-fixed)' : undefined
         }}
       >
         <span
           className={`tabular text-[13px] leading-none ${
-            isLeave || day.pinned ? 'font-bold' : day.isFree ? 'font-normal opacity-70' : 'font-medium'
-          } ${day.blackout ? 'line-through opacity-60' : ''}`}
-          style={{ color: isLeave ? 'var(--day-leave)' : undefined }}
+            isLeave || day.pinned ? 'font-extrabold' : day.isFree ? 'font-medium opacity-80' : 'font-semibold'
+          } ${day.blackout ? 'line-through opacity-70' : ''} ${changed ? 'anim-nudge' : ''}`}
         >
           {dayNumber}
         </span>
@@ -372,13 +391,13 @@ function Marker({ kind }) {
   if (!kind) return <span className="mt-[3px] block h-[5px] w-[5px]" aria-hidden="true" />
   const common = 'mt-[3px] block h-[5px] w-[5px]'
   if (kind === 'leave') {
-    return <span className={`${common} rounded-full`} style={{ background: 'var(--day-leave)' }} aria-hidden="true" />
+    return <span className={`${common} rounded-full`} style={{ background: 'var(--ink-fixed)' }} aria-hidden="true" />
   }
   if (kind === 'holiday') {
     return (
       <span
         className={`${common} rounded-full border`}
-        style={{ borderColor: 'var(--foreground)', borderWidth: 1.5 }}
+        style={{ borderColor: 'var(--ink-fixed)', borderWidth: 1.5 }}
         aria-hidden="true"
       />
     )

@@ -29,17 +29,17 @@ export default function Legend({ className = '' }) {
 
 function Swatch({ kind }) {
   const base =
-    'relative flex h-7 w-7 shrink-0 flex-col items-center justify-center rounded-md border text-[10px] font-semibold'
+    'relative flex h-8 w-8 shrink-0 flex-col items-center justify-center rounded-lg border-[2px] text-[10px] font-extrabold'
 
   if (kind === 'leave') {
     return (
       <span
         className={base}
-        style={{ background: 'var(--day-leave-soft)', borderColor: 'var(--day-leave)', color: 'var(--day-leave)' }}
+        style={{ background: 'var(--day-leave)', borderColor: 'var(--line)', color: 'var(--ink-fixed)' }}
         aria-hidden="true"
       >
         <span className="leading-none">6</span>
-        <span className="mt-[2px] h-[4px] w-[4px] rounded-full" style={{ background: 'var(--day-leave)' }} />
+        <span className="mt-[2px] h-[4px] w-[4px] rounded-full" style={{ background: 'var(--ink-fixed)' }} />
       </span>
     )
   }
@@ -47,21 +47,21 @@ function Swatch({ kind }) {
     return (
       <span
         className={base}
-        style={{ background: 'var(--day-leave-soft)', borderColor: 'var(--day-leave)' }}
+        style={{ background: 'var(--day-leave)', borderColor: 'var(--line)', color: 'var(--ink-fixed)' }}
         aria-hidden="true"
       >
-        <span className="leading-none opacity-70">7</span>
+        <span className="leading-none opacity-80">7</span>
         <span className="mt-[2px] h-[4px] w-[4px]" />
       </span>
     )
   }
   if (kind === 'holiday') {
     return (
-      <span className={base} style={{ background: 'var(--day-holiday)', borderColor: 'transparent' }} aria-hidden="true">
+      <span className={base} style={{ background: 'var(--day-holiday)', borderColor: 'var(--line)', color: 'var(--ink-fixed)' }} aria-hidden="true">
         <span className="leading-none">1</span>
         <span
           className="mt-[2px] h-[4px] w-[4px] rounded-full border"
-          style={{ borderColor: 'var(--foreground)', borderWidth: 1.5 }}
+          style={{ borderColor: 'var(--ink-fixed)', borderWidth: 1.5 }}
         />
       </span>
     )
@@ -70,7 +70,7 @@ function Swatch({ kind }) {
     return (
       <span
         className={base}
-        style={{ background: 'var(--day-weekend)', borderColor: 'transparent' }}
+        style={{ background: 'var(--day-weekend)', borderColor: 'var(--line)' }}
         aria-hidden="true"
       >
         <span className="font-normal leading-none opacity-70">2</span>
@@ -82,7 +82,7 @@ function Swatch({ kind }) {
     return (
       <span
         className={base}
-        style={{ borderColor: 'transparent', boxShadow: 'inset 0 0 0 2px var(--day-pinned)' }}
+        style={{ borderColor: 'var(--line)', boxShadow: 'inset 0 0 0 3px var(--day-pinned)' }}
         aria-hidden="true"
       >
         <span className="leading-none">3</span>
@@ -94,7 +94,7 @@ function Swatch({ kind }) {
     )
   }
   return (
-    <span className={`${base} stripe-blackout`} style={{ borderColor: 'transparent' }} aria-hidden="true">
+    <span className={`${base} stripe-blackout`} style={{ borderColor: 'var(--line)' }} aria-hidden="true">
       <span className="leading-none line-through opacity-60">4</span>
       <span
         className="mt-[2px] h-[4px] w-[4px]"

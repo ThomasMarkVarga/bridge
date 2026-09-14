@@ -32,8 +32,9 @@ export default function ReturnsCurve({ curve, spent }) {
   const summary = describe(steps)
 
   return (
-    <section className="card p-4 sm:p-5" aria-labelledby="returns-heading">
-      <h2 id="returns-heading" className="text-lg font-bold">
+    <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 3 }} aria-labelledby="returns-heading">
+      <span className="pill pill-sun mb-2">Nobody else shows you this</span>
+      <h2 id="returns-heading" className="text-2xl">
         What each day of leave buys you
       </h2>
       <p className="hint mt-1 mb-4">{summary}</p>
@@ -60,20 +61,21 @@ export default function ReturnsCurve({ curve, spent }) {
               style={{ height: '100%' }}
             >
               <span
-                className="block w-full rounded-t"
+                className="anim-col block w-full rounded-t-md border-[2px]"
                 style={{
-                  height: `${Math.max(3, (s.gain / max) * 100)}%`,
-                  background: used ? 'var(--day-leave)' : 'var(--border-strong)',
-                  opacity: active ? 1 : used ? 0.92 : 0.6,
-                  // A day that is spent gets a solid bar, one that is not gets a
-                  // hollow outline, so the two are not told apart by colour alone.
-                  border: used ? 'none' : '1.5px dashed var(--muted-foreground)'
+                  '--i': s.day,
+                  height: `${Math.max(4, (s.gain / max) * 100)}%`,
+                  // A day that is spent is filled in, one that is not is left
+                  // hollow, so the two are never told apart by colour alone.
+                  background: used ? (active ? 'var(--coral)' : 'var(--sun)') : 'transparent',
+                  borderColor: 'var(--line)',
+                  borderStyle: used ? 'solid' : 'dashed'
                 }}
               />
               {active && (
                 <span
-                  className="tabular pointer-events-none absolute -top-1 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded px-1.5 py-0.5 text-[11px] font-semibold"
-                  style={{ background: 'var(--foreground)', color: 'var(--background)' }}
+                  className="tabular pointer-events-none absolute -top-2 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded-md border-[2px] px-1.5 py-0.5 text-[11px] font-extrabold"
+                  style={{ background: 'var(--sun)', color: 'var(--ink-fixed)', borderColor: 'var(--ink-fixed)' }}
                 >
                   +{s.gain}
                 </span>
@@ -89,7 +91,7 @@ export default function ReturnsCurve({ curve, spent }) {
       </div>
 
       <details className="mt-3">
-        <summary className="text-sm font-semibold">See the numbers</summary>
+        <summary className="text-sm font-extrabold">See the numbers</summary>
         <div className="mt-2 max-h-56 overflow-y-auto">
           <table className="tabular w-full text-left text-sm" id={tableId}>
             <caption className="sr-only">Days off gained for each day of leave spent</caption>

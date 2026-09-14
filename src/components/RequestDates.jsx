@@ -31,10 +31,13 @@ export default function RequestDates({ dates, periodLabel }) {
   const readable = dates.map(formatDayShort).join('\n')
 
   return (
-    <div className="card p-4 sm:p-5">
-      <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
-        <h2 className="text-lg font-bold">Days to request</h2>
-        <p className="hint tabular">
+    <div className="card anim-pop p-4 sm:p-5" style={{ '--i': 1 }}>
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+        <div>
+          <span className="pill pill-lime mb-2">Paste this into your leave request</span>
+          <h2 className="text-2xl">Days to request</h2>
+        </div>
+        <p className="hint tabular font-extrabold">
           {plural(dates.length, 'day', 'days')} in {periodLabel}
         </p>
       </div>
@@ -44,7 +47,7 @@ export default function RequestDates({ dates, periodLabel }) {
         aria-label="Every day to book, in order"
       >
         {dates.map((d) => (
-          <li key={d} className="border-b border-dashed py-1" style={{ borderColor: 'var(--border)' }}>
+          <li key={d} className="border-b-2 border-dashed py-1 font-semibold" style={{ borderColor: 'var(--border)' }}>
             {formatDayShort(d)}
           </li>
         ))}
