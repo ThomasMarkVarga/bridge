@@ -108,7 +108,8 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
           <div className="overflow-hidden rounded-[10px] border-[2px]" style={{ borderColor: 'var(--line)' }}>
             <canvas
               ref={canvasRef}
-              className="block h-auto w-full"
+              className="block h-auto w-full max-w-full"
+              style={{ aspectRatio: '1200 / 630' }}
               role="img"
               aria-label={shareCardAlt({ plan, countryLabel, periodLabel })}
             />

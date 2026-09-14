@@ -96,8 +96,10 @@ export function drawShareCard({ plan, calendar, countryLabel, periodLabel, theme
   const dpr = 2
   c.width = WIDTH * dpr
   c.height = HEIGHT * dpr
-  c.style.width = `${WIDTH}px`
-  c.style.height = `${HEIGHT}px`
+  // Deliberately no inline width or height. Setting them pinned the element to
+  // 1200px, which is wider than a phone, so the whole page zoomed out to fit the
+  // moment the picture appeared. The backing store stays full size; CSS decides
+  // how big it is drawn.
 
   const ctx = c.getContext('2d')
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
