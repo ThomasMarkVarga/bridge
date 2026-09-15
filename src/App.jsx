@@ -31,7 +31,7 @@ import ReturnsCurve from './components/ReturnsCurve.jsx'
 import ShareRow from './components/ShareRow.jsx'
 import Verification from './components/Verification.jsx'
 import Icon from './components/Icon.jsx'
-import Marquee from './components/Marquee.jsx'
+import Claims from './components/Claims.jsx'
 import Showcase from './components/Showcase.jsx'
 
 export default function App() {
@@ -245,8 +245,8 @@ export default function App() {
           <ThemeToggle theme={theme} setTheme={setTheme} />
         </header>
 
-        <div className="mb-4">
-          <Marquee />
+        <div className="mb-5">
+          <Claims />
         </div>
 
         <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_20rem] xl:items-start xl:gap-6">

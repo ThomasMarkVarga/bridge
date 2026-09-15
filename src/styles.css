@@ -592,15 +592,6 @@
   }
 }
 
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
 @keyframes wobble {
   0%,
   100% {
@@ -649,18 +640,6 @@
   animation: wobble 2.6s var(--ease) infinite;
 }
 
-.marquee-track {
-  display: flex;
-  width: max-content;
-  animation: marquee 32s linear infinite;
-}
-
-.marquee:hover .marquee-track,
-.marquee:focus-within .marquee-track,
-.marquee[data-paused='true'] .marquee-track {
-  animation-play-state: paused;
-}
-
 /*
  * Everything above stops when the system asks. Motion here is decoration on top
  * of a page that already works, so switching it off costs nothing.
@@ -673,11 +652,6 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
-  }
-
-  .marquee-track {
-    animation: none !important;
-    transform: none !important;
   }
 
   .btn:hover:not(:disabled),
