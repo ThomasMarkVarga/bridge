@@ -9,7 +9,7 @@
  */
 import { describe, it, expect } from 'vitest'
 import { readFileSync } from 'node:fs'
-import { applyLanguage, pickLanguage } from '../language-html.js'
+import { applyLanguage, isAppShell, pickLanguage } from '../language-html.js'
 
 const html = readFileSync(new URL('../../index.html', import.meta.url), 'utf8')
 const fragment = readFileSync(new URL('../../public/seo.ro.html', import.meta.url), 'utf8')
@@ -97,5 +97,41 @@ describe('rewriting the document into Romanian', () => {
     // Better an English paragraph than a page that claims to be English while
     // the interface around it is not.
     expect(partial).toContain('Frequently asked questions')
+  })
+})
+
+describe('telling the app apart from the generated country pages', () => {
+  /*
+   * The build writes a page per country per year. They are English, and they do
+   * not live where their index does: the index is /countries/, the pages are
+   * /romania/2026/ and /united-states/virginia/2028/. A guard that matched the
+   * index caught one page in 936 and stamped Romanian on the rest.
+   */
+  // The real artefact when there is one, so this is checked against what is
+  // actually served. A clean checkout has no dist/, and a test that needs a
+  // build to have run first is a test that fails for the wrong reason, so it
+  // falls back to a document of the same shape: English, and no swap marker.
+  let generated
+  try {
+    generated = readFileSync(new URL('../../dist/romania/2026/index.html', import.meta.url), 'utf8')
+  } catch {
+    generated = '<!doctype html><html lang="en"><body><h1>Romania Public Holidays 2026</h1></body></html>'
+  }
+
+  it('recognises the app shell', () => {
+    expect(isAppShell(html)).toBe(true)
+  })
+
+  it('does not mistake a generated country page for it', () => {
+    expect(isAppShell(generated)).toBe(false)
+  })
+
+  it('leaves a generated page in the language it was written in', () => {
+    // Guarded by isAppShell in the Worker, so this is the belt to that braces:
+    // even asked directly, the rewrite must not claim an English page is Romanian.
+    expect(generated).toMatch(/<html[^>]*lang="en"/)
+    expect(isAppShell(generated) ? applyLanguage(generated, 'ro', fragment) : generated).toMatch(
+      /<html[^>]*lang="en"/
+    )
   })
 })

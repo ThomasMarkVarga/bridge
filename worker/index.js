@@ -20,7 +20,7 @@
  *
  * Everything else is still a static file. No routing, no rendering, no state.
  */
-import { applyLanguage, pickLanguage, DEFAULT_LANGUAGE } from './language-html.js'
+import { applyLanguage, isAppShell, pickLanguage, DEFAULT_LANGUAGE } from './language-html.js'
 
 export default {
   async fetch(request, env) {
@@ -31,20 +31,28 @@ export default {
     const type = response.headers.get('content-type') || ''
     if (!type.includes('text/html')) return response
 
-    // The country pages under /countries/ are written out at build time and
-    // their text is English. Stamping ro on one of those would tell a screen
-    // reader to read English prose in a Romanian voice, which is worse than
-    // leaving it alone. They stay as generated until there is a Romanian set.
-    if (new URL(request.url).pathname.startsWith('/countries/')) return response
-
     const lang = pickLanguage(request)
     if (lang === DEFAULT_LANGUAGE) return response
+
+    /*
+     * Only the app's own shell is translated. The build also writes a page per
+     * country per year, and their text is English: stamping ro on one of those
+     * would tell a screen reader to read English prose in a Romanian voice.
+     *
+     * They are told apart by looking for the block that gets swapped, rather
+     * than by matching paths. The first version of this matched /countries/,
+     * which is only the index; the pages themselves are at /romania/2026/ and
+     * /united-states/virginia/2028/, so it skipped one page and caught the other
+     * 935. A marker in the document cannot be wrong about what the document is.
+     */
+    const source = await response.text()
+    if (!isAppShell(source)) return new Response(source, response)
 
     let fragment = null
     const asset = await env.ASSETS.fetch(new URL(`/seo.${lang}.html`, request.url))
     if (asset.ok) fragment = await asset.text()
 
-    const html = applyLanguage(await response.text(), lang, fragment)
+    const html = applyLanguage(source, lang, fragment)
 
     const out = new Response(html, response)
     // Two visitors get two different documents from one URL, so an intermediary

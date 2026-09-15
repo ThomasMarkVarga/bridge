@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
-import { applyLanguage, pickLanguage, DEFAULT_LANGUAGE } from './worker/language-html.js'
+import { applyLanguage, isAppShell, pickLanguage, DEFAULT_LANGUAGE } from './worker/language-html.js'
 
 /**
  * Do locally what the Worker does at the edge.
@@ -24,7 +24,6 @@ function languageSwap() {
   const swap = (server) => (req, res, next) => {
     const url = new URL(req.url, 'http://localhost')
     if (url.pathname !== '/' && !url.pathname.endsWith('.html')) return next()
-    if (url.pathname.startsWith('/countries/')) return next()
 
     const lang = pickLanguage({ url: url.href, cf: undefined })
     if (lang === DEFAULT_LANGUAGE) return next()
@@ -48,7 +47,9 @@ function languageSwap() {
       if (chunk) chunks.push(Buffer.from(chunk))
       const type = res.getHeader('content-type') || ''
       let body = Buffer.concat(chunks)
-      if (String(type).includes('text/html')) {
+      // Only the app's shell. The generated country pages are English, and the
+      // marker says which is which more reliably than their paths do.
+      if (String(type).includes('text/html') && isAppShell(body.toString('utf8'))) {
         body = Buffer.from(applyLanguage(body.toString('utf8'), lang, fragment), 'utf8')
         res.setHeader('content-language', lang)
       }

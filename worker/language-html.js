@@ -22,6 +22,23 @@ export const ROMANIAN_SPEAKING = new Set(['RO', 'MD'])
 export const SUPPORTED = new Set(['en', 'ro'])
 export const DEFAULT_LANGUAGE = 'en'
 
+/** The opening tag of the block the translated prose replaces. */
+const CONTAINER_OPEN = '<div id="seo">'
+
+/**
+ * Whether a document is the app's own shell, rather than one of the pages the
+ * build writes per country and per year.
+ *
+ * The shell is the only document carrying the block that gets swapped, so that
+ * is what identifies it. Asking the document beats matching the path: the
+ * generated pages sit at /romania/2026/ and /united-states/virginia/2028/,
+ * and an earlier version of this guarded /countries/, which is only their
+ * index. It skipped one page and stamped the wrong language on the other 935.
+ */
+export function isAppShell(html) {
+  return html.includes(CONTAINER_OPEN)
+}
+
 /**
  * The language for a request.
  *
@@ -42,9 +59,9 @@ export function pickLanguage(request) {
 
 /** The whole of <div id="seo"> ... </div>, matched by counting nested divs. */
 function seoBlock(html) {
-  const open = html.indexOf('<div id="seo">')
+  const open = html.indexOf(CONTAINER_OPEN)
   if (open === -1) return null
-  let i = open + '<div id="seo">'.length
+  let i = open + CONTAINER_OPEN.length
   let depth = 1
   const tag = /<(\/?)div\b/g
   tag.lastIndex = i
@@ -53,7 +70,7 @@ function seoBlock(html) {
     depth += m[1] ? -1 : 1
     if (depth === 0) {
       const close = html.indexOf('>', m.index)
-      return { start: open + '<div id="seo">'.length, end: m.index, blockEnd: close + 1 }
+      return { start: open + CONTAINER_OPEN.length, end: m.index, blockEnd: close + 1 }
     }
   }
   return null
