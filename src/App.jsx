@@ -456,7 +456,15 @@ function useTheme() {
 function Footer() {
   return (
     <footer className="mt-10 border-t-[3px] pt-5 text-sm" style={{ borderColor: 'var(--border)' }}>
+      {/* Leads the footer, the same way it does on the other apps in the family. */}
       <p className="hint">
+        A{' '}
+        <a className="underline" href="https://vibe-coding.fans/" rel="noreferrer noopener" target="_blank">
+          vibe-coding.fans
+        </a>{' '}
+        project.
+      </p>
+      <p className="hint mt-2">
         BridgeDays is free and open source under the MIT licence. Holiday dates come from the{' '}
         <a
           className="underline"
