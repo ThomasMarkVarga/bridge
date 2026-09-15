@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
-    <title>BridgeDays · Work out which days to book</title>
+    <title>Maximize Vacation Days in 2026 and 2027 | BridgeDays</title>
     <meta
       name="description"
-      content="Pick your country and how many days of leave you have. BridgeDays works out which days to book so they join up with weekends and public holidays into the longest possible stretches off. Runs entirely in your browser."
+      content="Find the best days to take off work: BridgeDays picks leave days that join weekends and public holidays into longer breaks. 206 countries. Try it free."
     />
     <link rel="canonical" href="https://bridge-days.vibe-coding.fans/" />
     <meta name="theme-color" content="#f0fdfa" />
@@ -19,7 +19,7 @@
     <meta property="og:title" content="Take 12 days off. Get 28." />
     <meta
       property="og:description"
-      content="Work out which leave days to book so they bridge weekends and public holidays. No account, no server, nothing leaves your device."
+      content="Find the best days to take off work: BridgeDays picks leave days that join weekends and public holidays into longer breaks. 206 countries. Try it free."
     />
     <meta property="og:url" content="https://bridge-days.vibe-coding.fans/" />
     <meta property="og:image" content="https://bridge-days.vibe-coding.fans/og.png" />
@@ -33,7 +33,7 @@
     <meta name="twitter:title" content="Take 12 days off. Get 28." />
     <meta
       name="twitter:description"
-      content="Work out which leave days to book so they bridge weekends and public holidays. Runs entirely in your browser."
+      content="Find the best days to take off work: BridgeDays picks leave days that join weekends and public holidays into longer breaks. 206 countries. Try it free."
     />
     <meta name="twitter:image" content="https://bridge-days.vibe-coding.fans/og.png" />
 
@@ -62,6 +62,16 @@
   "operatingSystem": "Any (web browser)",
   "browserRequirements": "Requires JavaScript",
   "isAccessibleForFree": true,
+  "featureList": [
+    "Works out which leave days to book so they join weekends and public holidays into the longest breaks",
+    "Public holidays for 206 countries, with regional holidays for 33 of them",
+    "Three kinds of plan: several proper breaks, one long trip, or the most days off in total",
+    "Tap any working day to fix it into the plan or rule it out, and the plan is worked out again",
+    "Custom work weeks, leave years that do not start in January, and a birthday off",
+    "Exports an .ics calendar file for Google Calendar, Outlook and Apple Calendar",
+    "A shareable link that carries the whole plan",
+    "No account, no cookies, and it works offline"
+  ],
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -73,6 +83,70 @@
     "name": "vibe-coding.fans",
     "url": "https://vibe-coding.fans/"
   }
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the best days to take off work in 2027?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The working days that sit between a public holiday and a weekend, because each one joins days you already have off. Which days those are depends on your country and region, so choose them, enter your allowance and pick 2027. BridgeDays lists the exact dates to request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many days off can I get from my leave?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on where the holidays fall in your country. As a guide, 21 leave days in Romania in 2026 become 54 days off in six proper breaks, or 74 days off if you only want the highest total, mostly as long weekends. The plan also shows what each extra day of leave adds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it work in the US, UK, Canada and Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All four are among the eleven countries checked by hand, with holidays by state, nation or province: UK bank holidays for England, Scotland, Wales or Northern Ireland, and Canadian holidays for Ontario or any other province, for example. Substitute bank holidays and US observed days are included."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I add my time off to Google Calendar or Outlook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. BridgeDays saves a standard .ics calendar file, which Google Calendar, Outlook and Apple Calendar can all import. Save one event per break, or one event per booked day for HR systems that count days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There is no sign-up, no email and no cookies. The calculation runs in your browser and the plan lives in the page address, so a copied link shares the exact plan and nothing about your leave is sent anywhere. It keeps working offline once loaded."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can it plan around a four-day week or a leave year that starts in April?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. In the options you can set which days you work, move the start of your leave year, rule out days you cannot take, add your birthday if your employer gives it, and get a day back when a holiday falls on a weekend."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate are the holiday dates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They come from the open source date-holidays library and ship with the app, and eleven countries have been checked by hand. Governments do move holidays or add them at short notice, so check anything that matters against an official calendar and your own contract before you book."
+      }
+    }
+  ]
 }
     </script>
   </head>
@@ -88,6 +162,146 @@
         <p>Turn JavaScript on for this page and reload.</p>
       </div>
     </noscript>
+
+    <!--
+      The guide and FAQ are plain HTML on purpose, not part of the React app: search
+      and AI crawlers that do not run JavaScript read them in the raw page, and there
+      is exactly one copy, so nobody ever sees it twice. The FAQPage structured data
+      in the head must match the FAQ below word for word (seo.test.js checks).
+    -->
+    <div class="mx-auto w-full max-w-5xl px-4 pb-16 sm:px-6 xl:max-w-[78rem]">
+      <div class="mt-10 grid gap-5 lg:grid-cols-2 lg:items-start">
+        <section id="how-it-works" class="card p-4 sm:p-5" aria-labelledby="how-heading">
+          <span class="pill pill-lime mb-2">The method</span>
+          <h2 id="how-heading" class="text-2xl">How to maximize your vacation days</h2>
+          <p class="mt-2">
+            Whether you call it annual leave, vacation or PTO, the trick is the same: spend leave on the working days
+            next to time you already have off. BridgeDays does the arithmetic.
+          </p>
+          <ol class="mt-3 grid list-decimal gap-2 pl-5">
+            <li><strong>Pick your country</strong>, and your state, province or region where holidays differ.</li>
+            <li><strong>Enter how many days of leave you have</strong> and choose the year: 2026, 2027 or 2028.</li>
+            <li>
+              <strong>Choose the kind of time off you want</strong>: several proper breaks of at least five days, one
+              long trip, or the most days off in total, even if that means a string of long weekends.
+            </li>
+            <li>
+              <strong>Read the answer.</strong> BridgeDays works out the best possible plan, not a rough guess, and
+              shows the breaks, the exact dates to request and the whole year as a calendar.
+            </li>
+            <li>
+              <strong>Adjust it.</strong> Tap a working day to fix it into the plan or rule it out, and the plan works
+              itself out again. Then copy the link or save the dates to your calendar.
+            </li>
+          </ol>
+        </section>
+
+        <section id="bridge-days" class="card p-4 sm:p-5" aria-labelledby="bridge-heading">
+          <span class="pill pill-pink mb-2">In plain words</span>
+          <h2 id="bridge-heading" class="text-2xl">What is a bridge day?</h2>
+          <p class="mt-2">
+            A bridge day is a working day between a public holiday and a weekend. Book it as leave and the holiday and
+            the weekend join into one longer break. When a holiday falls on a Thursday, taking the Friday off turns one
+            day of leave into four days off.
+          </p>
+          <p class="hint mt-2">
+            In Romania the government also declares extra bridge days by decision, sometimes only weeks ahead. Those
+            cannot be predicted, so they are not included.
+          </p>
+
+          <h3 class="mt-5 text-lg">Example: Romania in 2026</h3>
+          <p class="mt-2">
+            With 21 days of leave in Romania in 2026, BridgeDays turns 21 leave days into 54 days off across 6 breaks.
+            One of them: book Wednesday 2 to Friday 4 December. Those three days join Saint Andrew's Day on Monday 30
+            November, National Day on Tuesday 1 December and the weekends either side into nine days off, from Saturday
+            28 November to Sunday 6 December.
+          </p>
+        </section>
+
+        <section id="coverage" class="card p-4 sm:p-5 lg:col-span-2" aria-labelledby="coverage-heading">
+          <span class="pill pill-blue mb-2">Where it works</span>
+          <h2 id="coverage-heading" class="text-2xl">Which countries does BridgeDays cover?</h2>
+          <p class="mt-2">
+            BridgeDays covers 206 countries, with public holidays for 2026, 2027 and 2028 built in. Eleven have been
+            checked by hand against the official calendar: Romania, the United Kingdom, Germany, France, Spain, Italy,
+            the Netherlands, Poland, the United States, Canada and Australia. The others use the
+            <a class="underline" href="https://github.com/commenthol/date-holidays" rel="noreferrer noopener" target="_blank">date-holidays</a>
+            library as it stands, and say so on screen. Regional holidays are included for 33 countries, among them US
+            states, Canadian provinces, Australian states and the four UK nations.
+          </p>
+          <p class="hint mt-2">
+            Spotted a wrong date?
+            <a class="underline" href="https://github.com/qxZap/bridge/issues/new" rel="noreferrer noopener" target="_blank">Report it on GitHub</a>.
+          </p>
+        </section>
+      </div>
+
+      <section id="faq" class="card mt-5 p-4 sm:p-5" aria-labelledby="faq-heading">
+        <span class="pill pill-sun mb-2">Questions</span>
+        <h2 id="faq-heading" class="text-2xl">Frequently asked questions</h2>
+        <div class="mt-4 grid gap-x-8 gap-y-5 md:grid-cols-2">
+          <div>
+            <h3 class="text-lg">What are the best days to take off work in 2027?</h3>
+            <p class="mt-1">
+              The working days that sit between a public holiday and a weekend, because each one joins days you already
+              have off. Which days those are depends on your country and region, so choose them, enter your allowance
+              and pick 2027. BridgeDays lists the exact dates to request.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg">How many days off can I get from my leave?</h3>
+            <p class="mt-1">
+              It depends on where the holidays fall in your country. As a guide, 21 leave days in Romania in 2026 become
+              54 days off in six proper breaks, or 74 days off if you only want the highest total, mostly as long
+              weekends. The plan also shows what each extra day of leave adds.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg">Does it work in the US, UK, Canada and Australia?</h3>
+            <p class="mt-1">
+              Yes. All four are among the eleven countries checked by hand, with holidays by state, nation or province:
+              UK bank holidays for England, Scotland, Wales or Northern Ireland, and Canadian holidays for Ontario or any
+              other province, for example. Substitute bank holidays and US observed days are included.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg">Can I add my time off to Google Calendar or Outlook?</h3>
+            <p class="mt-1">
+              Yes. BridgeDays saves a standard .ics calendar file, which Google Calendar, Outlook and Apple Calendar can
+              all import. Save one event per break, or one event per booked day for HR systems that count days.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg">Do I need an account?</h3>
+            <p class="mt-1">
+              No. There is no sign-up, no email and no cookies. The calculation runs in your browser and the plan lives
+              in the page address, so a copied link shares the exact plan and nothing about your leave is sent anywhere.
+              It keeps working offline once loaded.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg">Can it plan around a four-day week or a leave year that starts in April?</h3>
+            <p class="mt-1">
+              Yes. In the options you can set which days you work, move the start of your leave year, rule out days you
+              cannot take, add your birthday if your employer gives it, and get a day back when a holiday falls on a
+              weekend.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-lg">How accurate are the holiday dates?</h3>
+            <p class="mt-1">
+              They come from the open source date-holidays library and ship with the app, and eleven countries have been
+              checked by hand. Governments do move holidays or add them at short notice, so check anything that matters
+              against an official calendar and your own contract before you book.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- The app renders its footer here, so it stays at the very bottom of the page. -->
+      <div id="site-footer"></div>
+    </div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

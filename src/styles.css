@@ -662,6 +662,18 @@
   }
 }
 
+/*
+ * The guide in index.html sits after #root and is there before the app mounts.
+ * Holding the empty root open keeps that guide below the fold until the app
+ * arrives, so the page does not jump. Only when scripts run: without them the
+ * root stays empty for good and the guide should come straight up.
+ */
+@media (scripting: enabled) {
+  #root:empty {
+    min-height: 100vh;
+  }
+}
+
 .skip-link {
   position: absolute;
   left: -9999px;

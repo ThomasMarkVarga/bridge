@@ -1,0 +1,41 @@
+# BridgeDays
+
+> Free annual leave planner. Pick a country and how many days of leave you have, and BridgeDays works out which days to book so they join weekends and public holidays into the longest possible breaks. It runs entirely in the browser: no account, no server, and it works offline.
+
+Take 12 days off. Get 28.
+
+- Live app: https://bridge-days.vibe-coding.fans/
+- How it works and FAQ: https://bridge-days.vibe-coding.fans/#faq
+- Source code (MIT licence): https://github.com/qxZap/bridge
+- Part of: https://vibe-coding.fans/
+
+## What it does
+
+- Takes a country (and a state, province or region where holidays differ), a leave allowance and a year (2026, 2027 or 2028).
+- Returns the exact leave days to request, the breaks they make, and the whole year as a calendar.
+- Three plan types: several proper breaks of at least five days (the default), one long trip, or the most days off in total.
+- Tap a working day to fix it into the plan or rule it out, and the plan is worked out again.
+- Options for four-day or other work weeks, leave years that do not start in January, a birthday off, and holidays on weekends given back.
+- Exports a standard .ics calendar file (one event per break, or one per booked day) for Google Calendar, Outlook and Apple Calendar.
+- The plan lives in the URL hash, so a link reproduces it exactly.
+
+## Worked example
+
+Romania, 2026, 21 days of leave: 21 leave days become 54 days off across 6 breaks. Booking 2 to 4 December 2026 joins Saint Andrew's Day (Monday 30 November), National Day (Tuesday 1 December) and two weekends into nine days off, Saturday 28 November to Sunday 6 December.
+
+## Coverage and accuracy
+
+- 206 countries, from the open source date-holidays library, bundled at build time.
+- Eleven checked by hand against official calendars: Romania, the United Kingdom, Germany, France, Spain, Italy, the Netherlands, Poland, the United States, Canada and Australia.
+- Regional holidays for 33 countries, including US states, Canadian provinces, Australian states and the four UK nations.
+- The solver is exactly optimal (dynamic programming), checked in its tests against exhaustive search.
+- Limits: governments can move holidays or announce extra bridge days at short notice, and employer rules (notice periods, blackout seasons) are not known to the app.
+
+## Privacy
+
+No account, no email, no cookies, no analytics. The calculation runs on the device and nothing about the plan is sent anywhere.
+
+## More free tools from vibe-coding.fans
+
+- PasteSafe, which masks API keys and personal data in logs: https://pastesafe.vibe-coding.fans/
+- Overlap, a time zone overlap planner for teams: https://overlap.vibe-coding.fans/

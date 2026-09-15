@@ -6,10 +6,12 @@
  * this application, and no state outside the URL.
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { buildCalendar, selectHolidays } from './solver/calendar.js'
 import { solve } from './solver/solve.js'
 import {
   readState,
+  isPlanHash,
   writeState,
   rangeOf,
   loadRemembered,
@@ -39,12 +41,14 @@ export default function App() {
     const fromUrl = readState()
     // A remembered country only applies to a bare visit, never to a shared link,
     // because a link is somebody else's plan and must arrive intact.
-    if (!window.location.hash) {
+    if (!isPlanHash(window.location.hash)) {
       const remembered = loadRemembered()
       if (remembered) return { ...fromUrl, ...remembered }
     }
     return fromUrl
   })
+  const firstState = useRef(state)
+  const arrivedWithPlan = useRef(isPlanHash(window.location.hash))
 
   const [countryData, setCountryData] = useState(null)
   const [loadError, setLoadError] = useState(null)
@@ -61,7 +65,12 @@ export default function App() {
   }, [state])
 
   useEffect(() => {
-    const onPop = () => setState(readState())
+    const onPop = () => {
+      // An in-page jump (#faq, the skip link) is not a plan. Reading it as one
+      // would quietly reset everything to the defaults.
+      if (window.location.hash && !isPlanHash(window.location.hash)) return
+      setState(readState())
+    }
     window.addEventListener('popstate', onPop)
     window.addEventListener('hashchange', onPop)
     return () => {
@@ -184,15 +193,18 @@ export default function App() {
 
   const periodLabel = useMemo(() => makePeriodLabel(range), [range])
 
-  // A tab title and a bookmark that actually say something.
+  // A tab title and a bookmark that actually say something, once the plan is
+  // somebody's: a shared link, or a change from the defaults. A bare visit keeps
+  // the title from index.html, which is the one search engines show.
+  const staticTitle = useRef(document.title)
   useEffect(() => {
-    const base = 'BridgeDays'
-    if (plan && plan.feasible && plan.leaveSpent > 0) {
-      document.title = `${plan.leaveSpent} days become ${plan.totalDaysOff} days off · ${periodLabel} · ${base}`
+    const personal = arrivedWithPlan.current || state !== firstState.current
+    if (personal && plan && plan.feasible && plan.leaveSpent > 0) {
+      document.title = `${plan.leaveSpent} days become ${plan.totalDaysOff} days off · ${periodLabel} · BridgeDays`
     } else {
-      document.title = `${base} · Work out which days to book`
+      document.title = staticTitle.current
     }
-  }, [plan, periodLabel])
+  }, [plan, periodLabel, state])
 
   const update = useCallback((patch) => setState((prev) => ({ ...prev, ...patch })), [])
 
@@ -231,7 +243,7 @@ export default function App() {
         Skip to the answer
       </a>
 
-      <div className="mx-auto w-full max-w-5xl px-4 pb-16 pt-4 sm:px-6 xl:max-w-[78rem]">
+      <div className="mx-auto w-full max-w-5xl px-4 pt-4 sm:px-6 xl:max-w-[78rem]">
         <header className="mb-4 flex items-start justify-between gap-3">
           <div>
             <h1 className="text-3xl sm:text-5xl">
@@ -453,8 +465,13 @@ function useTheme() {
   return [theme, setTheme]
 }
 
+/**
+ * Rendered into #site-footer in index.html when it is there, so the footer comes
+ * after the static guide and FAQ rather than above them.
+ */
 function Footer() {
-  return (
+  const slot = document.getElementById('site-footer')
+  const footer = (
     <footer className="mt-10 border-t-[3px] pt-5 text-sm" style={{ borderColor: 'var(--border)' }}>
       {/* Leads the footer, the same way it does on the other apps in the family. */}
       <p className="hint">
@@ -463,6 +480,17 @@ function Footer() {
           vibe-coding.fans
         </a>{' '}
         project.
+      </p>
+      <p className="hint mt-2">
+        More free tools from vibe-coding.fans:{' '}
+        <a className="underline" href="https://pastesafe.vibe-coding.fans/" rel="noreferrer noopener" target="_blank">
+          PasteSafe, which masks API keys and personal data in logs
+        </a>
+        , and{' '}
+        <a className="underline" href="https://overlap.vibe-coding.fans/" rel="noreferrer noopener" target="_blank">
+          Overlap, a time zone overlap planner for teams
+        </a>
+        .
       </p>
       <p className="hint mt-2">
         BridgeDays is free and open source under the MIT licence. Holiday dates come from the{' '}
@@ -493,4 +521,5 @@ function Footer() {
       <p className="hint mt-2">Check your own contract before you book anything.</p>
     </footer>
   )
+  return slot ? createPortal(footer, slot) : footer
 }

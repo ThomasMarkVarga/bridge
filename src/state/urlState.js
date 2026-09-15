@@ -164,6 +164,12 @@ export function writeState(state, { replace = false } = {}) {
   else window.history.pushState(null, '', url)
 }
 
+/**
+ * A plan link always has key=value pairs. A bare fragment such as #faq or #answer
+ * is an in-page jump, and must not be read as a plan and reset everything.
+ */
+export const isPlanHash = (hash) => hash.includes('=')
+
 export function readState() {
   return decodeState(window.location.hash)
 }
