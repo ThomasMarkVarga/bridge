@@ -1,7 +1,9 @@
-// Cloudflare Workers static assets. No Worker script: `npm run build` writes dist/ and every request is a static file.
+// Cloudflare Workers static assets. No Worker script: every request is a static file from dist/.
 {
-  "name": "bridge-days",
+  "name": "bridge",
   "compatibility_date": "2026-09-01",
+  // wrangler deploy runs the build first, so the deploy command alone produces dist/.
+  "build": { "command": "npm run build" },
   "assets": {
     "directory": "./dist",
     // The plan lives in the URL hash, so any unknown path is answered by index.html.
