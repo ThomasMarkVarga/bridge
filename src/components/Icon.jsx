@@ -41,6 +41,12 @@ const PATHS = {
   ),
   sliders: <path d="M4 7h10M18 7h2M4 17h4M12 17h8M16 4.5v5M8 14.5v5" />,
   caret: <path d="m6 9.5 6 6 6-6" />,
+  search: (
+    <>
+      <circle cx="11" cy="11" r="6.5" />
+      <path d="m16 16 4.5 4.5" />
+    </>
+  ),
   pin: (
     <>
       <path d="M12 21v-6" />

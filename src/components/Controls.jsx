@@ -8,10 +8,30 @@
  */
 import { useId } from 'react'
 import Icon from './Icon.jsx'
+import Picker from './Picker.jsx'
 import { COUNTRIES, subdivisionsOf } from '../data/loadHolidays.js'
 import { OBJECTIVE_LABELS, OBJECTIVES } from '../solver/objectives.js'
 import { WEEKDAYS_SHORT, MONTHS } from '../format.js'
 import { toMonthDay, partsOf, daysInBirthdayMonth, isMonthDay } from '../solver/birthday.js'
+
+/** Other names people type for a country, so that "uk" finds the United Kingdom. */
+const ALIASES = {
+  AE: 'uae emirates',
+  CD: 'drc',
+  CI: 'ivory coast',
+  CZ: 'czechia czech',
+  GB: 'uk britain england scotland wales',
+  KR: 'korea',
+  NL: 'holland',
+  US: 'usa america'
+}
+
+const COUNTRY_OPTIONS = COUNTRIES.map((c) => ({
+  value: c.code,
+  label: c.name,
+  badge: c.code,
+  keywords: `${c.code} ${ALIASES[c.code] || ''}`
+}))
 
 /**
  * @param {object} props
@@ -35,7 +55,7 @@ export default function Controls({ state, onChange, countryData, years, optionsO
   const needsRegion = regions.length > 0
 
   return (
-    <div className="card anim-pop p-4 sm:p-5">
+    <div className="card anim-pop relative z-10 p-4 sm:p-5">
       {/* On a phone the country gets its own row and the two numbers share one,
           so the answer underneath still lands above the fold. */}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-[1.4fr_0.8fr_0.9fr]">
@@ -43,21 +63,17 @@ export default function Controls({ state, onChange, countryData, years, optionsO
           <label className="label" htmlFor={countryId}>
             Country
           </label>
-          <select
+          <Picker
             id={countryId}
-            className="field"
+            label="Country"
+            searchable
             value={state.country}
-            onChange={(e) => {
-              const next = COUNTRIES.find((c) => c.code === e.target.value)
-              onChange({ country: e.target.value, subdivision: next ? next.defaultSubdivision : null })
+            options={COUNTRY_OPTIONS}
+            onChange={(code) => {
+              const next = COUNTRIES.find((c) => c.code === code)
+              onChange({ country: code, subdivision: next ? next.defaultSubdivision : null })
             }}
-          >
-            {COUNTRIES.map((c) => (
-              <option key={c.code} value={c.code}>
-                {c.name}
-              </option>
-            ))}
-          </select>
+          />
         </div>
 
         <div>
@@ -84,19 +100,15 @@ export default function Controls({ state, onChange, countryData, years, optionsO
           <label className="label" htmlFor={yearId}>
             Year
           </label>
-          <select
+          <Picker
             id={yearId}
-            className="field tabular"
+            label="Year"
+            className="tabular"
             value={state.year}
             disabled={Boolean(state.range)}
-            onChange={(e) => onChange({ year: Number(e.target.value) })}
-          >
-            {years.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
+            options={years.map((y) => ({ value: y, label: String(y) }))}
+            onChange={(year) => onChange({ year })}
+          />
         </div>
       </div>
 
@@ -106,19 +118,17 @@ export default function Controls({ state, onChange, countryData, years, optionsO
             {country.subdivisionLabel || 'Region'}
             {country.requireSubdivision ? '' : ' (optional)'}
           </label>
-          <select
+          <Picker
             id={regionId}
-            className="field"
+            label={country.subdivisionLabel || 'Region'}
+            searchable={regions.length > 12}
             value={state.subdivision || ''}
-            onChange={(e) => onChange({ subdivision: e.target.value || null })}
-          >
-            {!country.requireSubdivision && <option value="">The whole country</option>}
-            {regions.map((s) => (
-              <option key={s.code} value={s.code}>
-                {s.name}
-              </option>
-            ))}
-          </select>
+            options={[
+              ...(country.requireSubdivision ? [] : [{ value: '', label: 'The whole country' }]),
+              ...regions.map((s) => ({ value: s.code, label: s.name }))
+            ]}
+            onChange={(code) => onChange({ subdivision: code || null })}
+          />
           {country.requireSubdivision && (
             <p className="hint mt-1">Holidays genuinely differ here, so this changes the answer.</p>
           )}
@@ -204,18 +214,13 @@ function MoreOptions({ state, onChange, countryData }) {
         <label className="label" htmlFor={objId}>
           What are you after?
         </label>
-        <select
+        <Picker
           id={objId}
-          className="field"
+          label="What are you after?"
           value={state.objective}
-          onChange={(e) => onChange({ objective: e.target.value })}
-        >
-          {OBJECTIVES.map((o) => (
-            <option key={o} value={o}>
-              {OBJECTIVE_LABELS[o].name}
-            </option>
-          ))}
-        </select>
+          options={OBJECTIVES.map((o) => ({ value: o, label: OBJECTIVE_LABELS[o].name }))}
+          onChange={(objective) => onChange({ objective })}
+        />
         <p className="hint mt-1">{OBJECTIVE_LABELS[state.objective]?.hint}</p>
       </div>
 
@@ -361,41 +366,28 @@ function BirthdayPicker({ state, onChange, monthId, dayId }) {
           <label className="sr-only" htmlFor={monthId}>
             Month of your birthday
           </label>
-          <select
+          <Picker
             id={monthId}
-            className="field"
+            label="Month of your birthday"
+            placeholder="Month"
             value={month || ''}
-            onChange={(e) => setMonth(Number(e.target.value))}
-          >
-            <option value="" disabled>
-              Month
-            </option>
-            {MONTHS.map((name, i) => (
-              <option key={name} value={i + 1}>
-                {name}
-              </option>
-            ))}
-          </select>
+            options={MONTHS.map((name, i) => ({ value: i + 1, label: name }))}
+            onChange={setMonth}
+          />
         </div>
         <div>
           <label className="sr-only" htmlFor={dayId}>
             Day of your birthday
           </label>
-          <select
+          <Picker
             id={dayId}
-            className="field tabular"
+            label="Day of your birthday"
+            placeholder="Day"
+            className="tabular"
             value={day || ''}
-            onChange={(e) => setDay(Number(e.target.value))}
-          >
-            <option value="" disabled>
-              Day
-            </option>
-            {Array.from({ length: maxDay }, (_, i) => i + 1).map((d) => (
-              <option key={d} value={d}>
-                {d}
-              </option>
-            ))}
-          </select>
+            options={Array.from({ length: maxDay }, (_, i) => ({ value: i + 1, label: String(i + 1) }))}
+            onChange={setDay}
+          />
         </div>
       </div>
 
