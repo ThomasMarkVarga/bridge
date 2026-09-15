@@ -1,0 +1,15 @@
+// Cloudflare Workers static assets. No Worker script: `npm run build` writes dist/ and every request is a static file.
+{
+  "name": "bridge",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    // The plan lives in the URL hash, so any unknown path is answered by index.html.
+    "not_found_handling": "single-page-application"
+  },
+  // Each deploy attaches the custom domain and creates its DNS record (the vibe-coding.fans zone is on this account).
+  "routes": [{ "pattern": "bridge.vibe-coding.fans", "custom_domain": true }],
+  // Only the custom domain serves the site: no *.workers.dev address, no preview URLs.
+  "workers_dev": false,
+  "preview_urls": false
+}

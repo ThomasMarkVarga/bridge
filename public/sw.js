@@ -25,7 +25,10 @@ const SHELL = [
   '/index.html',
   '/manifest.webmanifest',
   '/favicon.svg',
-  '/fonts/inter-latin-wght-normal.woff2'
+  '/favicon.ico',
+  '/apple-touch-icon.png',
+  '/fonts/public-sans-latin-wght-normal.woff2',
+  '/fonts/archivo-black-latin-400-normal.woff2'
 ]
 
 self.addEventListener('install', (event) => {

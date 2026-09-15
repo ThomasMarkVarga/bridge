@@ -170,12 +170,11 @@ opening a browser.
 
 ## Deploying
 
-`npm run build` produces a static `dist/` that Cloudflare Pages serves with no
-configuration. `public/_redirects` handles the SPA fallback and `public/_headers`
-sets a content security policy restricting everything to this origin, which is what
-makes the zero-request claim enforceable rather than merely true.
-
-Build command `npm run build`, output directory `dist`.
+`npm run build` produces a static `dist/`. `wrangler.jsonc` serves it as static
+assets and answers any unknown path with `index.html`, because the plan lives in the
+hash. `public/_headers` sets a content security policy restricting everything to
+this origin, which is what makes the zero-request claim enforceable rather than
+merely true.
 
 ## Stack
 
