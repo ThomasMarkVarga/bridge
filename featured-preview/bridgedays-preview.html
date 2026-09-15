@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BridgeDays featured preview</title>
+<!--
+  The featured preview for vibe-coding.fans.
+
+  Not a GIF: the wall's existing previews are plain elements animated by CSS, in a
+  box with role="img" and a description, and this follows that. It stays crisp at
+  any size, weighs nothing, needs no request, and can be read by somebody who
+  cannot see it. An animated file is in this folder too, for anywhere that cannot
+  run a stylesheet.
+
+  Everything below the PASTE MARKER is what goes into the page. The CSS sits with
+  the other preview rules. Class names are prefixed bd- so they cannot collide.
+
+  The scene is the real Romanian calendar, not an invention: Saturday 28 November
+  to Sunday 6 December 2026. Saint Andrew's Day and the National Day fall on the
+  Monday and Tuesday, so booking the Wednesday, Thursday and Friday joins two
+  weekends and two public holidays into nine days off for three days of leave.
+-->
+<style>
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    gap: 24px;
+    background: #faf5ec;
+    font-family: 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  .frame {
+    width: 339px;
+    border: 3px solid #16202b;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 4px 4px 0 0 #16202b;
+  }
+  .caption { font: 600 13px/1.4 system-ui; color: #4a5a68; max-width: 339px; }
+
+/* ======================= PASTE MARKER: CSS below ======================= */
+
+.preview-bd, .preview-bd * { box-sizing: border-box; }
+
+.preview-bd {
+  --bd-ink: #16202b;
+  --bd-paper: #fffefb;
+  --bd-sand: #e6e0d4;
+  --bd-coral: #ff6b4a;
+  --bd-band: #ffe2d8;
+  --bd-sea: #12806f;
+  --bd-sun: #ffc845;
+  --bd-loop: 7s;
+  --bd-ease: cubic-bezier(.2, .8, .2, 1);
+
+  /* Stated outright, so the box is 184 tall on any page whatever its reset. */
+  box-sizing: border-box;
+  position: relative;
+  display: grid;
+  align-content: center;
+  gap: .75rem;
+  height: 184px;
+  padding: 1rem .9rem;
+  background: var(--bd-paper);
+  background-image:
+    linear-gradient(to right, rgba(22, 32, 43, .05) 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, rgba(22, 32, 43, .05) 0 1px, transparent 1px 100%);
+  background-size: 18px 18px;
+  color: var(--bd-ink);
+  font: 700 11px/1 'Public Sans', system-ui, sans-serif;
+}
+
+/* The nine days, and the span that ends up covering all of them. */
+.bd-strip { position: relative; display: grid; grid-template-columns: repeat(9, 1fr); gap: 3px; }
+
+.bd-span {
+  position: absolute;
+  inset: -5px -4px;
+  border: 2px solid var(--bd-ink);
+  border-radius: 9px;
+  background: var(--bd-band);
+  box-shadow: 2px 2px 0 0 var(--bd-ink);
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: bd-span var(--bd-loop) var(--bd-ease) infinite;
+}
+
+.bd-day {
+  position: relative;
+  display: grid;
+  place-items: center;
+  gap: 2px;
+  height: 2.5rem;
+  border: 1.5px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  font-variant-numeric: tabular-nums;
+}
+.bd-day span { font-size: 12px; }
+.bd-day i { width: 4px; height: 4px; border-radius: 999px; }
+
+/* Days off you already had. */
+.bd-day.is-weekend { background: var(--bd-sand); border-color: var(--bd-ink); }
+.bd-day.is-holiday { background: var(--bd-sea); border-color: var(--bd-ink); color: var(--bd-paper); }
+.bd-day.is-holiday i { border: 1.5px solid currentColor; }
+
+/* The three you pay for, which arrive one at a time. */
+.bd-day.is-booked {
+  background: var(--bd-coral);
+  border-color: var(--bd-ink);
+  opacity: 0;
+}
+.bd-day.is-booked i { background: var(--bd-ink); }
+
+/* Three keyframe sets rather than one set and three delays.
+   A delay shifts the whole timeline, so the days would also leave one at a time,
+   and the loop would end on a lone day sitting under a span that had already
+   closed. Staggering only the arrivals keeps the exit together and the loop
+   seam clean. Which day is which is stated on the element, because .bd-span is
+   a sibling and anything that counts positions lands on the wrong days. */
+.bd-day.bd-1 { animation: bd-book-1 var(--bd-loop) var(--bd-ease) infinite; }
+.bd-day.bd-2 { animation: bd-book-2 var(--bd-loop) var(--bd-ease) infinite; }
+.bd-day.bd-3 { animation: bd-book-3 var(--bd-loop) var(--bd-ease) infinite; }
+
+/* A pier under each day you pay for, holding the span up. */
+.bd-day.is-booked::after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  width: 2px;
+  height: 6px;
+  background: var(--bd-ink);
+}
+
+.bd-foot { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin-top: .35rem; }
+.bd-dates { font-size: 10.5px; font-weight: 700; color: #4a5a68; letter-spacing: .01em; }
+
+/* The count swaps from what you spend to what you get. */
+.bd-tally { position: relative; display: grid; }
+.bd-tally b {
+  grid-area: 1 / 1;
+  padding: 3px 8px;
+  border: 2px solid var(--bd-ink);
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  box-shadow: 2px 2px 0 0 var(--bd-ink);
+}
+.bd-cost { background: var(--bd-paper); animation: bd-cost var(--bd-loop) steps(1, end) infinite; }
+.bd-gain { background: var(--bd-sun); opacity: 0; animation: bd-gain var(--bd-loop) var(--bd-ease) infinite; }
+
+@keyframes bd-book-1 {
+  0%, 6%    { opacity: 0; transform: translateY(5px) scale(.86); }
+  12%, 90%  { opacity: 1; transform: none; }
+  95%, 100% { opacity: 0; transform: translateY(5px) scale(.86); }
+}
+@keyframes bd-book-2 {
+  0%, 9%    { opacity: 0; transform: translateY(5px) scale(.86); }
+  15%, 90%  { opacity: 1; transform: none; }
+  95%, 100% { opacity: 0; transform: translateY(5px) scale(.86); }
+}
+@keyframes bd-book-3 {
+  0%, 12%   { opacity: 0; transform: translateY(5px) scale(.86); }
+  18%, 90%  { opacity: 1; transform: none; }
+  95%, 100% { opacity: 0; transform: translateY(5px) scale(.86); }
+}
+/* It closes by growing, but it leaves by fading. Shrinking it back would uncover
+   the right hand days while they were still on screen, which says the opposite
+   of what the span is there to say. */
+@keyframes bd-span {
+  0%, 22%   { transform: scaleX(0); opacity: 1; }
+  40%, 90%  { transform: scaleX(1); opacity: 1; }
+  95%, 100% { transform: scaleX(1); opacity: 0; }
+}
+@keyframes bd-cost {
+  0%, 44%   { opacity: 1; }
+  45%, 90%  { opacity: 0; }
+  95%, 100% { opacity: 1; }
+}
+@keyframes bd-gain {
+  0%, 44%   { opacity: 0; transform: scale(.9); }
+  51%, 90%  { opacity: 1; transform: none; }
+  95%, 100% { opacity: 0; transform: scale(.9); }
+}
+
+/* Nobody is made to watch it. The finished state is shown instead. */
+@media (prefers-reduced-motion: reduce) {
+  .preview-bd * { animation: none !important; }
+  .preview-bd .bd-span { transform: scaleX(1); }
+  .preview-bd .bd-day.is-booked { opacity: 1; }
+  .preview-bd .bd-cost { opacity: 0; }
+  .preview-bd .bd-gain { opacity: 1; }
+}
+
+/* ======================= PASTE MARKER: CSS above ======================= */
+</style>
+</head>
+<body>
+
+<div class="frame">
+<!-- ===================== PASTE MARKER: markup below ===================== -->
+<div class="preview preview-bd" role="img"
+     aria-label="Animated preview: a week either side of the Romanian national holiday. Three working days are booked one at a time, a span closes over the whole run, and the count changes from 3 days booked to 9 days off.">
+  <div class="bd-strip">
+    <div class="bd-span"></div>
+    <div class="bd-day is-weekend"><span>28</span><i></i></div>
+    <div class="bd-day is-weekend"><span>29</span><i></i></div>
+    <div class="bd-day is-holiday"><span>30</span><i></i></div>
+    <div class="bd-day is-holiday"><span>1</span><i></i></div>
+    <div class="bd-day is-booked bd-1"><span>2</span><i></i></div>
+    <div class="bd-day is-booked bd-2"><span>3</span><i></i></div>
+    <div class="bd-day is-booked bd-3"><span>4</span><i></i></div>
+    <div class="bd-day is-weekend"><span>5</span><i></i></div>
+    <div class="bd-day is-weekend"><span>6</span><i></i></div>
+  </div>
+  <div class="bd-foot">
+    <span class="bd-dates">28 Nov to 6 Dec</span>
+    <span class="bd-tally">
+      <b class="bd-cost">3 days booked</b>
+      <b class="bd-gain">9 days off</b>
+    </span>
+  </div>
+</div>
+<!-- ===================== PASTE MARKER: markup above ===================== -->
+</div>
+
+<p class="caption">Preview harness. Only the markup and CSS between the paste markers go on the wall.</p>
+
+</body>
+</html>
