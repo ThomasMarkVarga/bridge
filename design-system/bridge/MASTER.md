@@ -94,7 +94,7 @@ normal text, so both were darkened until they cleared it. Measured values now:
 
 ### Spacing Variables
 
-*Density: 6/10 — Standard*
+*Density: 6/10 (Standard)*
 
 | Token | Value | Usage |
 |-------|-------|-------|
@@ -229,7 +229,7 @@ normal text, so both were darkened until they cleared it. Measured values now:
 
 ## Motion
 
-**Scroll Reveal** (Subtle) — Trigger: scroll (viewport enter) | Duration: 300-400ms | Easing: `power1.out`
+**Scroll Reveal** (Subtle). Trigger: scroll (viewport enter) | Duration: 300-400ms | Easing: `power1.out`
 
 ```js
 gsap.from(el, { opacity: 0, y: 12, duration: 0.35, ease: 'power1.out', scrollTrigger: { trigger: el, start: 'top 90%', toggleActions: 'play none none reverse' } });
@@ -250,12 +250,12 @@ gsap.from(el, { opacity: 0, y: 12, duration: 0.35, ease: 'power1.out', scrollTri
 
 ### Additional Forbidden Patterns
 
-- ❌ **Emojis as icons** — Use SVG icons (Heroicons, Lucide, Simple Icons)
-- ❌ **Missing cursor:pointer** — All clickable elements must have cursor:pointer
-- ❌ **Layout-shifting hovers** — Avoid scale transforms that shift layout
-- ❌ **Low contrast text** — Maintain 4.5:1 minimum contrast ratio
-- ❌ **Instant state changes** — Always use transitions (150-300ms)
-- ❌ **Invisible focus states** — Focus states must be visible for a11y
+- ❌ **Emojis as icons**. Use SVG icons (Heroicons, Lucide, Simple Icons)
+- ❌ **Missing cursor:pointer**. All clickable elements must have cursor:pointer
+- ❌ **Layout-shifting hovers**. Avoid scale transforms that shift layout
+- ❌ **Low contrast text**. Maintain 4.5:1 minimum contrast ratio
+- ❌ **Instant state changes**. Always use transitions (150-300ms)
+- ❌ **Invisible focus states**. Focus states must be visible for a11y
 
 ---
 

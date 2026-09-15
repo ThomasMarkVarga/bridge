@@ -130,7 +130,7 @@ export function breaksToIcs(breaks, { name = 'Time off' } = {}) {
   const events = breaks.map((b) => ({
     start: b.start,
     end: b.end,
-    summary: `Time off — ${b.length} ${b.length === 1 ? 'day' : 'days'}`,
+    summary: `Time off, ${b.length} ${b.length === 1 ? 'day' : 'days'}`,
     description: describeBreak(b)
   }))
   return calendar(events, { name })

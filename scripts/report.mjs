@@ -49,7 +49,7 @@ const pretty = (iso) => {
 }
 
 const label = `${data.countryName}${sub ? ` (${(data.subdivisions.find((s) => s.code === sub) || {}).name || sub})` : ''}`
-console.log(`\n  ${label} ${year} — ${budget} days of leave`)
+console.log(`\n  ${label} ${year}, ${budget} days of leave`)
 console.log(`  ${'-'.repeat(68)}`)
 
 console.log(`  Plan: ${OBJ[plan.objective] || plan.objective}`)
