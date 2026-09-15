@@ -35,9 +35,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThomasMarkVarga/bridge.git"
+    "url": "git+https://github.com/qxZap/bridge.git"
   },
-  "homepage": "https://github.com/ThomasMarkVarga/bridge",
+  "homepage": "https://github.com/qxZap/bridge",
   "keywords": [
     "annual-leave",
     "holidays",

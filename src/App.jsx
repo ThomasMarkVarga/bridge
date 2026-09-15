@@ -477,13 +477,13 @@ function Footer() {
         project and ship with the app.
       </p>
       <p className="hint mt-2">
-        <a className="underline" href="https://github.com/ThomasMarkVarga/bridge" rel="noreferrer noopener" target="_blank">
+        <a className="underline" href="https://github.com/qxZap/bridge" rel="noreferrer noopener" target="_blank">
           Read the source
         </a>{' '}
         ·{' '}
         <a
           className="underline"
-          href="https://github.com/ThomasMarkVarga/bridge/issues/new"
+          href="https://github.com/qxZap/bridge/issues/new"
           rel="noreferrer noopener"
           target="_blank"
         >
