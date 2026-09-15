@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react'
 import Icon from './Icon.jsx'
 import { DATA_SOURCE, DATA_GENERATED_AT } from '../data/loadHolidays.js'
 
-const REPO = 'https://github.com/ThomasMarkVarga/bridge'
+const REPO = 'https://github.com/qxZap/bridge'
 /*
  * Where the dates actually come from. Held here rather than read from the data
  * file with a fallback: the index file has no url on it, so the fallback was
