@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bridge.vibe-coding.fans/sitemap.xml
+Sitemap: https://bridge-days.vibe-coding.fans/sitemap.xml
