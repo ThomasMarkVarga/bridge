@@ -1,5 +1,5 @@
 /**
- * Our other apps, shown by Showcase.jsx as a rotating unit.
+ * Our other apps, shown by Showcase.jsx.
  *
  * Plain links. No ad network, no third-party script, no tracking beyond the
  * utm_source already written into each URL. The logos are files in this site's
@@ -18,7 +18,6 @@ export const MAKERS = [
     id: 'scrapeland',
     title: 'scrape.land',
     headline: 'The web, turned into data.',
-    line: 'Send any URL, get the exact fields you need as clean structured data. Start free with 1,000 requests.',
     cta: 'Start free',
     url: 'https://scrape.land/?utm_source=bridgedays',
     logo: '/makers/scrapeland.svg',
@@ -38,7 +37,6 @@ export const MAKERS = [
     id: 'penholder',
     title: 'Penholder',
     headline: 'Everything is a priority. Put them in order.',
-    line: 'Anyone can add, one person holds the pen. Five dollars a month per team.',
     cta: 'Try Penholder',
     url: 'https://penholder.app/?utm_source=bridgedays',
     logo: '/makers/penholder.svg',
@@ -58,7 +56,6 @@ export const MAKERS = [
     id: 'censory',
     title: 'Censory',
     headline: 'Redact personal data from PDFs and scans.',
-    line: 'Finds names, ID numbers, faces and signatures, then deletes them from the file itself. You approve every redaction.',
     cta: 'Try Censory',
     url: 'https://censory.app/?utm_source=bridgedays',
     logo: '/makers/censory.svg',
@@ -73,8 +70,27 @@ export const MAKERS = [
       'cta-ink': '#111a26',
       panel: '#f4efe3'
     }
+  },
+  {
+    id: 'vetrosoft',
+    title: 'Vetrosoft',
+    headline: 'The website your business is missing.',
+    cta: 'Get a website',
+    url: 'https://vetrosoft.com/?utm_source=bridgedays',
+    logo: '/makers/vetrosoft.svg',
+    motif: 'site',
+    theme: {
+      bg: 'linear-gradient(160deg, #1c1917, #0c0a09 60%)',
+      fg: '#faf6f1',
+      muted: '#d6cfc4',
+      accent: '#2b8cff',
+      'accent-2': '#63f0ff',
+      'cta-bg': 'linear-gradient(135deg, #63f0ff, #2b8cff 50%, #7d6cff)',
+      'cta-ink': '#0c0a09',
+      panel: 'linear-gradient(160deg, #1f3b5c, #2a2350)'
+    }
   }
 ]
 
-/** How long each ad stays up. The progress animation runs for exactly this long. */
-export const INTERVAL_MS = 7000
+/** Time between moves. The timer animation runs for exactly this long. */
+export const INTERVAL_MS = 6000

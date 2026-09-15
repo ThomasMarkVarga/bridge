@@ -474,28 +474,27 @@ function Footer() {
   const footer = (
     <footer className="mt-10 border-t-[3px] pt-5 text-sm" style={{ borderColor: 'var(--border)' }}>
       {/* Leads the footer, the same way it does on the other apps in the family. */}
-      <p className="hint">
-        A{' '}
-        <a className="underline" href="https://vibe-coding.fans/" rel="noreferrer noopener" target="_blank">
-          vibe-coding.fans
-        </a>{' '}
-        project.
-      </p>
-      <p className="hint mt-2">
+      <a className="vcf-home" href="https://vibe-coding.fans/">
+        <svg viewBox="0 0 66 66" width="30" height="30" aria-hidden="true">
+          <rect x="6" y="6" width="58" height="58" rx="16" fill="#0B0B0F" />
+          <rect x="2" y="2" width="54" height="54" rx="14" fill="#FF4FA3" stroke="#0B0B0F" strokeWidth="4" />
+          <path
+            d="M26 18 13 29l13 11M33 18h7.5a5.5 5.5 0 0 1 0 11H36m4.5 0a5.5 5.5 0 0 1 0 11H33"
+            fill="none"
+            stroke="#0B0B0F"
+            strokeWidth="6.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span>
+          More free apps on <b>vibe-coding.fans</b>
+        </span>
+      </a>
+      <p className="hint mt-3">
         <a className="underline" href="/countries/">
           Public holidays by country
         </a>
-      </p>
-      <p className="hint mt-2">
-        More free tools from vibe-coding.fans:{' '}
-        <a className="underline" href="https://pastesafe.vibe-coding.fans/" rel="noreferrer noopener" target="_blank">
-          PasteSafe, which masks API keys and personal data in logs
-        </a>
-        , and{' '}
-        <a className="underline" href="https://overlap.vibe-coding.fans/" rel="noreferrer noopener" target="_blank">
-          Overlap, a time zone overlap planner for teams
-        </a>
-        .
       </p>
       <p className="hint mt-2">
         BridgeDays is free and open source under the MIT licence. Holiday dates come from the{' '}

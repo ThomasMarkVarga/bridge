@@ -290,8 +290,8 @@ const top = (appLink) => `<a class="pg-skip" href="#main">Skip to content</a>
 </header>`
 
 const foot = `<footer class="pg-foot">
+  <a class="vcf-home" href="https://vibe-coding.fans/"><svg viewBox="0 0 66 66" width="30" height="30" aria-hidden="true"><rect x="6" y="6" width="58" height="58" rx="16" fill="#0B0B0F"/><rect x="2" y="2" width="54" height="54" rx="14" fill="#FF4FA3" stroke="#0B0B0F" stroke-width="4"/><path d="M26 18 13 29l13 11M33 18h7.5a5.5 5.5 0 0 1 0 11H36m4.5 0a5.5 5.5 0 0 1 0 11H33" fill="none" stroke="#0B0B0F" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>More free apps on <b>vibe-coding.fans</b></span></a>
   <p>Holiday dates from <a href="https://github.com/commenthol/date-holidays">date-holidays</a> (MIT), built into the page. BridgeDays runs in your browser: no account, no tracking.</p>
-  <p>A <a href="https://vibe-coding.fans/">vibe-coding.fans</a> project. More free tools: <a href="https://pastesafe.vibe-coding.fans/">PasteSafe, which masks API keys and personal data in logs</a>, and <a href="https://overlap.vibe-coding.fans/">Overlap, a time zone overlap planner for teams</a>.</p>
 </footer>`
 
 const breadcrumb = (items) => ({
