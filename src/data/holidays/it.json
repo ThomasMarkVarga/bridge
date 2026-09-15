@@ -1,6 +1,7 @@
 {
  "country": "IT",
- "countryName": "Italy",
+ "countryName": "Italia",
+ "verified": true,
  "subdivisionLabel": null,
  "requireSubdivision": false,
  "defaultSubdivision": null,
@@ -281,5 +282,5 @@
   "version": "3.36.1",
   "url": "https://github.com/commenthol/date-holidays"
  },
- "generatedAt": "2026-09-14T21:53:18.122Z"
+ "generatedAt": "2026-09-15T05:52:52.709Z"
 }

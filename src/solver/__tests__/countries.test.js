@@ -269,15 +269,61 @@ describe('when the calendar is kind or unkind', () => {
 })
 
 describe('the shipped data set', () => {
-  it('lists every country in the index with its regions', () => {
-    expect(index.countries.length).toBe(11)
+  it('offers every country the library can answer for', () => {
+    expect(index.countries.length).toBeGreaterThan(190)
     const codes = index.countries.map((c) => c.code)
-    expect(codes).toEqual(['RO', 'GB', 'DE', 'FR', 'ES', 'IT', 'NL', 'PL', 'US', 'CA', 'AU'])
+    // The eleven checked by hand are all still there, alongside the rest.
+    for (const c of ['RO', 'GB', 'DE', 'FR', 'ES', 'IT', 'NL', 'PL', 'US', 'CA', 'AU']) {
+      expect(codes, c).toContain(c)
+    }
+    expect(new Set(codes).size).toBe(codes.length)
     for (const c of index.countries) {
-      if (c.requireSubdivision) {
-        expect(c.subdivisions.length).toBeGreaterThan(0)
-        expect(c.defaultSubdivision).toBeTruthy()
-      }
+      expect(c.code).toMatch(/^[A-Z]{2}$/)
+      expect(typeof c.name).toBe('string')
+      expect(c.name.length).toBeGreaterThan(0)
+    }
+  })
+
+  it('keeps the index small enough for every visitor to download it', () => {
+    // This is the one file everybody fetches, so it carries names and nothing
+    // else. Regions belong in the country's own file, which is fetched only when
+    // that country is picked. Shipping every subdivision on earth up front would
+    // be several times this.
+    for (const c of index.countries) {
+      expect(Object.keys(c).every((k) => !Array.isArray(c[k])), c.code).toBe(true)
+      expect(c.subdivisions).toBeUndefined()
+    }
+    const bytes = new TextEncoder().encode(JSON.stringify(index)).length
+    expect(bytes).toBeLessThan(40_000)
+  })
+
+  it('says which countries have been checked by hand and which have not', () => {
+    const verified = index.countries.filter((c) => c.verified).map((c) => c.code)
+    expect(verified.sort()).toEqual(['AU', 'CA', 'DE', 'ES', 'FR', 'GB', 'IT', 'NL', 'PL', 'RO', 'US'])
+
+    // A country nobody has checked says so, where somebody will read it.
+    expect(ro.verified).toBe(true)
+    expect(ro.notes.join(' ')).not.toMatch(/have not been checked/i)
+
+    const unchecked = index.countries.find((c) => !c.verified)
+    expect(unchecked).toBeTruthy()
+  })
+
+  it('points a country that needs a region at one it actually has', () => {
+    for (const data of [gb, de, us]) {
+      if (!data.requireSubdivision) continue
+      expect(data.subdivisions.length).toBeGreaterThan(0)
+      expect(data.subdivisions.map((s) => s.code)).toContain(data.defaultSubdivision)
+    }
+    // And the index agrees with the file about whether there are regions at all.
+    for (const [code, data] of [
+      ['GB', gb],
+      ['DE', de],
+      ['US', us],
+      ['RO', ro]
+    ]) {
+      const entry = index.countries.find((c) => c.code === code)
+      expect(Boolean(entry.hasSubdivisions), code).toBe(data.subdivisions.length > 0)
     }
   })
 

@@ -1,0 +1,320 @@
+{
+ "country": "TR",
+ "countryName": "Turkey",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Yılbaşı",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-22",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-23",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-23",
+    "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "nameEn": "National Sovereignty and Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Emek ve Dayanışma Günü",
+    "nameEn": "Labour and Solidarity Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-19",
+    "name": "Atatürk'ü Anma Gençlik ve Spor Bayramı",
+    "nameEn": "Commemoration of Atatürk, Youth and Sports Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-28",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-29",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-30",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-31",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-15",
+    "name": "Demokrasi ve Millî Birlik Günü",
+    "nameEn": "Democracy and National Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-30",
+    "name": "Zafer Bayramı",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-29",
+    "name": "Cumhuriyet Bayramı",
+    "nameEn": "Republic Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Yılbaşı",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-10",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-11",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-12",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-23",
+    "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "nameEn": "National Sovereignty and Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Emek ve Dayanışma Günü",
+    "nameEn": "Labour and Solidarity Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-18",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-19",
+    "name": "Atatürk'ü Anma Gençlik ve Spor Bayramı",
+    "nameEn": "Commemoration of Atatürk, Youth and Sports Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-19",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-20",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-15",
+    "name": "Demokrasi ve Millî Birlik Günü",
+    "nameEn": "Democracy and National Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-30",
+    "name": "Zafer Bayramı",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-29",
+    "name": "Cumhuriyet Bayramı",
+    "nameEn": "Republic Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Yılbaşı",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-27",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-28",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Ramazan Bayramı",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-23",
+    "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "nameEn": "National Sovereignty and Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Emek ve Dayanışma Günü",
+    "nameEn": "Labour and Solidarity Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-06",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-08",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Kurban Bayramı",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-19",
+    "name": "Atatürk'ü Anma Gençlik ve Spor Bayramı",
+    "nameEn": "Commemoration of Atatürk, Youth and Sports Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-15",
+    "name": "Demokrasi ve Millî Birlik Günü",
+    "nameEn": "Democracy and National Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-30",
+    "name": "Zafer Bayramı",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-29",
+    "name": "Cumhuriyet Bayramı",
+    "nameEn": "Republic Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.353Z"
+}

@@ -1,0 +1,502 @@
+{
+ "country": "SI",
+ "countryName": "Slovenia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "novo leto",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-02",
+    "name": "novo leto",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-08",
+    "name": "Prešernov dan, slovenski kulturni praznik",
+    "nameEn": "Prešeren Day, the Slovenian Cultural Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "velikonočna nedelja",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "velikonočni ponedeljek",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-27",
+    "name": "dan upora proti okupatorju",
+    "nameEn": "Day of Uprising Against Occupation",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "praznik dela",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-02",
+    "name": "praznik dela",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "binkošti",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-25",
+    "name": "dan državnosti",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Marijino vnebovzetje",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-31",
+    "name": "dan reformacije",
+    "nameEn": "Reformation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "dan spomina na mrtve",
+    "nameEn": "Day of Remembrance for the Dead",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "božič",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "dan samostojnosti in enotnosti",
+    "nameEn": "Independence and Unity Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "novo leto",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-02",
+    "name": "novo leto",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Prešernov dan, slovenski kulturni praznik",
+    "nameEn": "Prešeren Day, the Slovenian Cultural Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "velikonočna nedelja",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "velikonočni ponedeljek",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-27",
+    "name": "dan upora proti okupatorju",
+    "nameEn": "Day of Uprising Against Occupation",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "praznik dela",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "praznik dela",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "binkošti",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-25",
+    "name": "dan državnosti",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Marijino vnebovzetje",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-31",
+    "name": "dan reformacije",
+    "nameEn": "Reformation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "dan spomina na mrtve",
+    "nameEn": "Day of Remembrance for the Dead",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "božič",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "dan samostojnosti in enotnosti",
+    "nameEn": "Independence and Unity Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "novo leto",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-02",
+    "name": "novo leto",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-08",
+    "name": "Prešernov dan, slovenski kulturni praznik",
+    "nameEn": "Prešeren Day, the Slovenian Cultural Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "velikonočna nedelja",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "velikonočni ponedeljek",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-27",
+    "name": "dan upora proti okupatorju",
+    "nameEn": "Day of Uprising Against Occupation",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "praznik dela",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-02",
+    "name": "praznik dela",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "binkošti",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-25",
+    "name": "dan državnosti",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Marijino vnebovzetje",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-31",
+    "name": "dan reformacije",
+    "nameEn": "Reformation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "dan spomina na mrtve",
+    "nameEn": "Day of Remembrance for the Dead",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "božič",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "dan samostojnosti in enotnosti",
+    "nameEn": "Independence and Unity Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-15",
+    "name": "Pust",
+    "nameEn": "Carnival",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Mednarodni dan žena",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-23",
+    "name": "Jurjevanje",
+    "nameEn": "St. George's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-08",
+    "name": "dan Primoža Trubarja",
+    "nameEn": "Primož Trubar Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-17",
+    "name": "združitev prekmurskih Slovencev z matičnim narodom",
+    "nameEn": "Unification of Prekmurje Slovenes with the Mother Nation",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-15",
+    "name": "priključitev Primorske k matični domovini",
+    "nameEn": "Return of Primorska to the Motherland",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-23",
+    "name": "dan slovenskega športa",
+    "nameEn": "Slovenian Sports Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-25",
+    "name": "dan suverenosti",
+    "nameEn": "Sovereignty Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Martinovanje",
+    "nameEn": "St. Martin's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-23",
+    "name": "dan Rudolfa Maistra",
+    "nameEn": "Rudolf Maister Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-06",
+    "name": "Miklavž",
+    "nameEn": "Saint Nicholas Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-07",
+    "name": "Pust",
+    "nameEn": "Carnival",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Mednarodni dan žena",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-23",
+    "name": "Jurjevanje",
+    "nameEn": "St. George's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-08",
+    "name": "dan Primoža Trubarja",
+    "nameEn": "Primož Trubar Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-17",
+    "name": "združitev prekmurskih Slovencev z matičnim narodom",
+    "nameEn": "Unification of Prekmurje Slovenes with the Mother Nation",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-15",
+    "name": "priključitev Primorske k matični domovini",
+    "nameEn": "Return of Primorska to the Motherland",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-23",
+    "name": "dan slovenskega športa",
+    "nameEn": "Slovenian Sports Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-25",
+    "name": "dan suverenosti",
+    "nameEn": "Sovereignty Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Martinovanje",
+    "nameEn": "St. Martin's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-23",
+    "name": "dan Rudolfa Maistra",
+    "nameEn": "Rudolf Maister Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-06",
+    "name": "Miklavž",
+    "nameEn": "Saint Nicholas Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-27",
+    "name": "Pust",
+    "nameEn": "Carnival",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Mednarodni dan žena",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-23",
+    "name": "Jurjevanje",
+    "nameEn": "St. George's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-08",
+    "name": "dan Primoža Trubarja",
+    "nameEn": "Primož Trubar Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-17",
+    "name": "združitev prekmurskih Slovencev z matičnim narodom",
+    "nameEn": "Unification of Prekmurje Slovenes with the Mother Nation",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-15",
+    "name": "priključitev Primorske k matični domovini",
+    "nameEn": "Return of Primorska to the Motherland",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-23",
+    "name": "dan slovenskega športa",
+    "nameEn": "Slovenian Sports Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-25",
+    "name": "dan suverenosti",
+    "nameEn": "Sovereignty Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Martinovanje",
+    "nameEn": "St. Martin's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-23",
+    "name": "dan Rudolfa Maistra",
+    "nameEn": "Rudolf Maister Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-06",
+    "name": "Miklavž",
+    "nameEn": "Saint Nicholas Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.182Z"
+}

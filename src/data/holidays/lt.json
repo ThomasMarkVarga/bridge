@@ -1,0 +1,322 @@
+{
+ "country": "LT",
+ "countryName": "Lithuania",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Naujieji metai",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Lietuvos valstybės atkūrimo diena",
+    "nameEn": "Day of Restoration of the State of Lithuania",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-11",
+    "name": "Lietuvos nepriklausomybės atkūrimo diena",
+    "nameEn": "Day of Restoration of Independence of Lithuania",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Velykos",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Velykų pirmadienis",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Tarptautinė darbo diena",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-24",
+    "name": "Joninės, Rasos",
+    "nameEn": "St. John's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-06",
+    "name": "Valstybės diena",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Žolinė",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Visų šventųjų diena",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Vėlinės",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Šv. Kūčios",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Šv. Kalėdos",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "2. Kalėdų diena",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Naujieji metai",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-16",
+    "name": "Lietuvos valstybės atkūrimo diena",
+    "nameEn": "Day of Restoration of the State of Lithuania",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-11",
+    "name": "Lietuvos nepriklausomybės atkūrimo diena",
+    "nameEn": "Day of Restoration of Independence of Lithuania",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Velykos",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Velykų pirmadienis",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Tarptautinė darbo diena",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-24",
+    "name": "Joninės, Rasos",
+    "nameEn": "St. John's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-06",
+    "name": "Valstybės diena",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Žolinė",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Visų šventųjų diena",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Vėlinės",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Šv. Kūčios",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Šv. Kalėdos",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "2. Kalėdų diena",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Naujieji metai",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-16",
+    "name": "Lietuvos valstybės atkūrimo diena",
+    "nameEn": "Day of Restoration of the State of Lithuania",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-11",
+    "name": "Lietuvos nepriklausomybės atkūrimo diena",
+    "nameEn": "Day of Restoration of Independence of Lithuania",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Velykos",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Velykų pirmadienis",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Tarptautinė darbo diena",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-24",
+    "name": "Joninės, Rasos",
+    "nameEn": "St. John's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-06",
+    "name": "Valstybės diena",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Žolinė",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Visų šventųjų diena",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Vėlinės",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Šv. Kūčios",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Šv. Kalėdos",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "2. Kalėdų diena",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-05-03",
+    "name": "Motinos diena",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-07",
+    "name": "Tėvo diena",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-05-02",
+    "name": "Motinos diena",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-06",
+    "name": "Tėvo diena",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-05-07",
+    "name": "Motinos diena",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Tėvo diena",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.859Z"
+}

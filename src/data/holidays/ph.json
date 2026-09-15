@@ -1,0 +1,500 @@
+{
+ "country": "PH",
+ "countryName": "Philippines",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-09",
+    "name": "Day of Valor",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-12",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-31",
+    "name": "National Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-30",
+    "name": "Bonifacio Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-30",
+    "name": "Rizal Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-09",
+    "name": "Day of Valor",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-12",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-30",
+    "name": "National Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-30",
+    "name": "Bonifacio Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-30",
+    "name": "Rizal Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-09",
+    "name": "Day of Valor",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-12",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-28",
+    "name": "National Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-30",
+    "name": "Bonifacio Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-30",
+    "name": "Rizal Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-23",
+    "name": "First Philippine Republic Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-02",
+    "name": "Constitution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Chinese New Year",
+    "type": "optional"
+   },
+   {
+    "date": "2026-02-25",
+    "name": "EDSA Revolution Anniversary",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-03",
+    "name": "Lantern Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "Easter Saturday",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-27",
+    "name": "Lapu-Lapu Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-16",
+    "name": "Islamic New Year",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-19",
+    "name": "José Rizal's birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-27",
+    "name": "Iglesia ni Cristo Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-21",
+    "name": "Ninoy Aquino Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-08-25",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-25",
+    "name": "Mid-Autumn Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "All Saints' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "All Souls' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Feast of the Immaculate Conception of the Blessed Virgin Mary",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "New Year's Eve",
+    "type": "optional"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-23",
+    "name": "First Philippine Republic Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-02",
+    "name": "Constitution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-06",
+    "name": "Chinese New Year",
+    "type": "optional"
+   },
+   {
+    "date": "2027-02-20",
+    "name": "Lantern Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-25",
+    "name": "EDSA Revolution Anniversary",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-27",
+    "name": "Easter Saturday",
+    "type": "optional"
+   },
+   {
+    "date": "2027-04-27",
+    "name": "Lapu-Lapu Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-06",
+    "name": "Islamic New Year",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-19",
+    "name": "José Rizal's birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-27",
+    "name": "Iglesia ni Cristo Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-14",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-21",
+    "name": "Ninoy Aquino Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-09-15",
+    "name": "Mid-Autumn Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "All Saints' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "All Souls' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Feast of the Immaculate Conception of the Blessed Virgin Mary",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Eve",
+    "type": "optional"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-23",
+    "name": "First Philippine Republic Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Chinese New Year",
+    "type": "optional"
+   },
+   {
+    "date": "2028-02-02",
+    "name": "Constitution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-09",
+    "name": "Lantern Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-25",
+    "name": "EDSA Revolution Anniversary",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Easter Saturday",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-27",
+    "name": "Lapu-Lapu Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Islamic New Year",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-19",
+    "name": "José Rizal's birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-27",
+    "name": "Iglesia ni Cristo Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-03",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-21",
+    "name": "Ninoy Aquino Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-10-03",
+    "name": "Mid-Autumn Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "All Saints' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "All Souls' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Feast of the Immaculate Conception of the Blessed Virgin Mary",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "New Year's Eve",
+    "type": "optional"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.875Z"
+}

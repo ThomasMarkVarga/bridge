@@ -178,9 +178,9 @@ export default function App() {
 
   const countryLabel = useMemo(() => {
     if (!info) return state.country
-    const sub = subdivisionName(state.country, state.subdivision)
+    const sub = subdivisionName(countryData, state.subdivision)
     return sub ? `${info.name} (${sub})` : info.name
-  }, [info, state.country, state.subdivision])
+  }, [info, countryData, state.country, state.subdivision])
 
   const periodLabel = useMemo(() => makePeriodLabel(range), [range])
 

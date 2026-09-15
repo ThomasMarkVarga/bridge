@@ -1,0 +1,291 @@
+{
+ "country": "CV",
+ "countryName": "Cape Verde",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "S",
+   "name": "Sotavento Islands"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-13",
+    "name": "Dia da Democracia",
+    "nameEn": "Democracy Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-20",
+    "name": "Dia dos Heróis Nacionais",
+    "nameEn": "Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Quarta-feira de Cinzas",
+    "nameEn": "Ash Wednesday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Dia das Crianças",
+    "nameEn": "Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-05",
+    "name": "Dia da Independência",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Dia da Padroeira Nacional",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-12",
+    "name": "Dia Nacional",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Todos os santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-13",
+    "name": "Dia da Democracia",
+    "nameEn": "Democracy Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-20",
+    "name": "Dia dos Heróis Nacionais",
+    "nameEn": "Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-10",
+    "name": "Quarta-feira de Cinzas",
+    "nameEn": "Ash Wednesday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-01",
+    "name": "Dia das Crianças",
+    "nameEn": "Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-05",
+    "name": "Dia da Independência",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Dia da Padroeira Nacional",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-12",
+    "name": "Dia Nacional",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Todos os santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-13",
+    "name": "Dia da Democracia",
+    "nameEn": "Democracy Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-20",
+    "name": "Dia dos Heróis Nacionais",
+    "nameEn": "Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Quarta-feira de Cinzas",
+    "nameEn": "Ash Wednesday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-01",
+    "name": "Dia das Crianças",
+    "nameEn": "Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-05",
+    "name": "Dia da Independência",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Dia da Padroeira Nacional",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-12",
+    "name": "Dia Nacional",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Todos os santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.826Z"
+}

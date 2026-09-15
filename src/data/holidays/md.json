@@ -1,0 +1,349 @@
+{
+ "country": "MD",
+ "countryName": "Moldova",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "CA",
+   "name": "Cahul"
+  },
+  {
+   "code": "CU",
+   "name": "Chișinău"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Anul nou",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-07",
+    "name": "Craciun pe Rit Vechi",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-08",
+    "name": "Craciun pe Rit Vechi",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Ziua Internationala a Femeii",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "Paștele",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "A doua zi de Paști",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-20",
+    "name": "Paştele Blăjinilor",
+    "nameEn": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Ziua muncii",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-09",
+    "name": "Ziua Victoriei",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-27",
+    "name": "Ziua Independentei",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-31",
+    "name": "Limba noastră",
+    "nameEn": "National Language Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-14",
+    "name": "Ziua capitalului",
+    "nameEn": "Capital's Day",
+    "type": "public",
+    "regions": [
+     "CU"
+    ]
+   },
+   {
+    "date": "2026-11-21",
+    "name": "Ziua Cahul",
+    "nameEn": "Cahul Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Craciun pe stil Nou",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Anul nou",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-07",
+    "name": "Craciun pe Rit Vechi",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-08",
+    "name": "Craciun pe Rit Vechi",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Ziua Internationala a Femeii",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Ziua muncii",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Paștele",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "A doua zi de Paști",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Ziua Victoriei",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-10",
+    "name": "Paştele Blăjinilor",
+    "nameEn": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-27",
+    "name": "Ziua Independentei",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-31",
+    "name": "Limba noastră",
+    "nameEn": "National Language Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-14",
+    "name": "Ziua capitalului",
+    "nameEn": "Capital's Day",
+    "type": "public",
+    "regions": [
+     "CU"
+    ]
+   },
+   {
+    "date": "2027-11-21",
+    "name": "Ziua Cahul",
+    "nameEn": "Cahul Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Craciun pe stil Nou",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Anul nou",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-07",
+    "name": "Craciun pe Rit Vechi",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-08",
+    "name": "Craciun pe Rit Vechi",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Ziua Internationala a Femeii",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Paștele",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "A doua zi de Paști",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-24",
+    "name": "Paştele Blăjinilor",
+    "nameEn": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Ziua muncii",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Ziua Victoriei",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-27",
+    "name": "Ziua Independentei",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-31",
+    "name": "Limba noastră",
+    "nameEn": "National Language Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-14",
+    "name": "Ziua capitalului",
+    "nameEn": "Capital's Day",
+    "type": "public",
+    "regions": [
+     "CU"
+    ]
+   },
+   {
+    "date": "2028-11-21",
+    "name": "Ziua Cahul",
+    "nameEn": "Cahul Day",
+    "type": "public",
+    "regions": [
+     "CA"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Craciun pe stil Nou",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-10-03",
+    "name": "Ziua vinului",
+    "nameEn": "Wine Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-04",
+    "name": "Ziua vinului",
+    "nameEn": "Wine Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-10-02",
+    "name": "Ziua vinului",
+    "nameEn": "Wine Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-03",
+    "name": "Ziua vinului",
+    "nameEn": "Wine Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-10-07",
+    "name": "Ziua vinului",
+    "nameEn": "Wine Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-08",
+    "name": "Ziua vinului",
+    "nameEn": "Wine Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.895Z"
+}

@@ -1,0 +1,500 @@
+{
+ "country": "LK",
+ "countryName": "Sri Lanka",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as Tamil Thai Pongal Day, Id-Ul-Fitr (Ramazan Festival Day), Labour Day and Vesak Full Moon Poya Day. Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "නව වසර",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-03",
+    "name": "දුරුතු පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Duruthu Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-15",
+    "name": "දෙමළ තෛ පොංගල් දිනය",
+    "nameEn": "Tamil Thai Pongal Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-01",
+    "name": "නවම් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Navam Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-04",
+    "name": "ජාතික දිනය",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-15",
+    "name": "මහා ශිවරාත්‍රී දිනය",
+    "nameEn": "Mahasivarathri Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-02",
+    "name": "මැදින් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Madin Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "ඊදුල් ෆිතර් (රාමසාන් උත්සව දිනය)",
+    "nameEn": "Id-Ul-Fitr (Ramazan Festival Day)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-01",
+    "name": "බක් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Bak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "මහ සිකුරාදා",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "සිංහල හා දෙමළ අලුත් අවුරුදු පූර්ව දිනය",
+    "nameEn": "Day before Sinhala and Tamil New Year",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-14",
+    "name": "සිංහල හා දෙමළ අලුත් අවුරුද්ද",
+    "nameEn": "Sinhala and Tamil New Year",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "කම්කරු දිනය සහ වෙසක් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Labour Day and Vesak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-02",
+    "name": "වෙසක් පෝය දිනට පසු දිනය",
+    "nameEn": "Day following Vesak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-28",
+    "name": "ඊදුල් අල්හා (හජ්ජි උත්සව දිනය)",
+    "nameEn": "Id-Ul-Alha (Hadji Festival Day)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-30",
+    "name": "අධි පොසොන් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Adhi Poson Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-29",
+    "name": "පොසොන් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Poson Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-29",
+    "name": "ඇසළ පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Esala Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-26",
+    "name": "මිලාද්-උන්-නබි (නබි නායකතුමාගේ උපන් දිනය)",
+    "nameEn": "Milad-Un-Nabi (Holy Prophet's Birthday)",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-27",
+    "name": "නිකිණි පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Nikini Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-26",
+    "name": "බිනර පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Binara Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-25",
+    "name": "වප් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Vap Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-08",
+    "name": "දීපවාලි උත්සව දිනය",
+    "nameEn": "Deepavali Festival Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-24",
+    "name": "ඉල් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Il Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-23",
+    "name": "උඳුවප් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Unduvap Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "නත්තල් දිනය",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "නව වසර",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-03",
+    "name": "දුරුතු පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Duruthu Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-15",
+    "name": "දෙමළ තෛ පොංගල් දිනය",
+    "nameEn": "Tamil Thai Pongal Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-01",
+    "name": "නවම් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Navam Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-04",
+    "name": "ජාතික දිනය",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-15",
+    "name": "මහා ශිවරාත්‍රී දිනය",
+    "nameEn": "Mahasivarathri Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-02",
+    "name": "මැදින් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Madin Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-21",
+    "name": "ඊදුල් ෆිතර් (රාමසාන් උත්සව දිනය)",
+    "nameEn": "Id-Ul-Fitr (Ramazan Festival Day)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "මහ සිකුරාදා",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-01",
+    "name": "බක් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Bak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-13",
+    "name": "සිංහල හා දෙමළ අලුත් අවුරුදු පූර්ව දිනය",
+    "nameEn": "Day before Sinhala and Tamil New Year",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-14",
+    "name": "සිංහල හා දෙමළ අලුත් අවුරුද්ද",
+    "nameEn": "Sinhala and Tamil New Year",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "කම්කරු දිනය සහ වෙසක් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Labour Day and Vesak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "වෙසක් පෝය දිනට පසු දිනය",
+    "nameEn": "Day following Vesak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-28",
+    "name": "ඊදුල් අල්හා (හජ්ජි උත්සව දිනය)",
+    "nameEn": "Id-Ul-Alha (Hadji Festival Day)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-30",
+    "name": "අධි පොසොන් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Adhi Poson Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-29",
+    "name": "පොසොන් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Poson Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-29",
+    "name": "ඇසළ පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Esala Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-26",
+    "name": "මිලාද්-උන්-නබි (නබි නායකතුමාගේ උපන් දිනය)",
+    "nameEn": "Milad-Un-Nabi (Holy Prophet's Birthday)",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-27",
+    "name": "නිකිණි පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Nikini Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-26",
+    "name": "බිනර පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Binara Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-25",
+    "name": "වප් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Vap Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-08",
+    "name": "දීපවාලි උත්සව දිනය",
+    "nameEn": "Deepavali Festival Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-24",
+    "name": "ඉල් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Il Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-23",
+    "name": "උඳුවප් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Unduvap Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "නත්තල් දිනය",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "නව වසර",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-03",
+    "name": "දුරුතු පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Duruthu Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-15",
+    "name": "දෙමළ තෛ පොංගල් දිනය",
+    "nameEn": "Tamil Thai Pongal Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-01",
+    "name": "නවම් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Navam Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-04",
+    "name": "ජාතික දිනය",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-15",
+    "name": "මහා ශිවරාත්‍රී දිනය",
+    "nameEn": "Mahasivarathri Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-02",
+    "name": "මැදින් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Madin Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-21",
+    "name": "ඊදුල් ෆිතර් (රාමසාන් උත්සව දිනය)",
+    "nameEn": "Id-Ul-Fitr (Ramazan Festival Day)",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-01",
+    "name": "බක් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Bak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "සිංහල හා දෙමළ අලුත් අවුරුදු පූර්ව දිනය",
+    "nameEn": "Day before Sinhala and Tamil New Year",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "මහ සිකුරාදා",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "සිංහල හා දෙමළ අලුත් අවුරුද්ද",
+    "nameEn": "Sinhala and Tamil New Year",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "කම්කරු දිනය සහ වෙසක් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Labour Day and Vesak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-02",
+    "name": "වෙසක් පෝය දිනට පසු දිනය",
+    "nameEn": "Day following Vesak Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-28",
+    "name": "ඊදුල් අල්හා (හජ්ජි උත්සව දිනය)",
+    "nameEn": "Id-Ul-Alha (Hadji Festival Day)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-30",
+    "name": "අධි පොසොන් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Adhi Poson Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-29",
+    "name": "පොසොන් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Poson Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-29",
+    "name": "ඇසළ පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Esala Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-26",
+    "name": "මිලාද්-උන්-නබි (නබි නායකතුමාගේ උපන් දිනය)",
+    "nameEn": "Milad-Un-Nabi (Holy Prophet's Birthday)",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-27",
+    "name": "නිකිණි පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Nikini Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-26",
+    "name": "බිනර පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Binara Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-25",
+    "name": "වප් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Vap Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-08",
+    "name": "දීපවාලි උත්සව දිනය",
+    "nameEn": "Deepavali Festival Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-24",
+    "name": "ඉල් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Il Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-23",
+    "name": "උඳුවප් පුර පසළොස්වක පෝය දිනය",
+    "nameEn": "Unduvap Full Moon Poya Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "නත්තල් දිනය",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.845Z"
+}

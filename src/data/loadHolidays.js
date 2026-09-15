@@ -8,7 +8,14 @@
  */
 import index from './holidays/index.json'
 
-/** Every country BridgeDays has checked data for. */
+/**
+ * Every country in the list, in the order the picker shows them.
+ *
+ * The index carries only what the picker needs: a code, a name, and whether that
+ * country has regions at all. The regions themselves live in each country's own
+ * file, because a list of every subdivision on earth is a lot to make somebody
+ * download in order to look at one country.
+ */
 export const COUNTRIES = index.countries
 export const DATA_YEARS = index.years
 export const DATA_SOURCE = index.source
@@ -51,12 +58,19 @@ export function countryInfo(code) {
   return COUNTRIES.find((c) => c.code === String(code || '').toUpperCase()) || null
 }
 
-/** Human name for a subdivision code. */
-export function subdivisionName(code, sub) {
-  const c = countryInfo(code)
-  if (!c || !sub) return null
-  const hit = c.subdivisions.find((s) => s.code === sub)
+/**
+ * Human name for a subdivision, read from the country's own loaded file.
+ * Falls back to the code, so a region always has something to show.
+ */
+export function subdivisionName(data, sub) {
+  if (!sub) return null
+  const hit = data?.subdivisions?.find((s) => s.code === sub)
   return hit ? hit.name : sub
+}
+
+/** The regions a loaded country offers, or an empty list. */
+export function subdivisionsOf(data) {
+  return data?.subdivisions || []
 }
 
 /**

@@ -1,0 +1,387 @@
+{
+ "country": "SO",
+ "countryName": "Somalia",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "AW",
+   "name": "Awdal"
+  },
+  {
+   "code": "SA",
+   "name": "Sanaag"
+  },
+  {
+   "code": "SO",
+   "name": "Sool"
+  },
+  {
+   "code": "TO",
+   "name": "Togdheer"
+  },
+  {
+   "code": "WO",
+   "name": "Woqooyi Galbeed"
+  }
+ ],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha), Day of Ashura. Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "عيد رأس السنة",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2026-01-16",
+    "name": "الإسراء والمعراج",
+    "nameEn": "Laylat al-Mi'raj",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2026-03-20",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "يوم العمال",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-18",
+    "name": "Restoration of Somaliland Sovereignty",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2026-05-19",
+    "name": "Restoration of Somaliland Sovereignty",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2026-05-27",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-16",
+    "name": "رأس السنة الهجرية",
+    "nameEn": "Islamic New Year",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2026-06-25",
+    "name": "عاشوراء",
+    "nameEn": "Day of Ashura",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2026-06-26",
+    "name": "استقلال الصومال البريطاني",
+    "nameEn": "Independence of British Somaliland",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-01",
+    "name": "عيد الاستقلال",
+    "nameEn": "Independence Day",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2026-08-25",
+    "name": "المولد النبويّ",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "عيد رأس السنة",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2027-01-05",
+    "name": "الإسراء والمعراج",
+    "nameEn": "Laylat al-Mi'raj",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2027-03-09",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "يوم العمال",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-18",
+    "name": "Restoration of Somaliland Sovereignty",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2027-05-19",
+    "name": "Restoration of Somaliland Sovereignty",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2027-06-06",
+    "name": "رأس السنة الهجرية",
+    "nameEn": "Islamic New Year",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2027-06-15",
+    "name": "عاشوراء",
+    "nameEn": "Day of Ashura",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2027-06-26",
+    "name": "استقلال الصومال البريطاني",
+    "nameEn": "Independence of British Somaliland",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-01",
+    "name": "عيد الاستقلال",
+    "nameEn": "Independence Day",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2027-08-14",
+    "name": "المولد النبويّ",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "الإسراء والمعراج",
+    "nameEn": "Laylat al-Mi'raj",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "عيد رأس السنة",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2028-02-26",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "يوم العمال",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-18",
+    "name": "Restoration of Somaliland Sovereignty",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2028-05-19",
+    "name": "Restoration of Somaliland Sovereignty",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2028-05-25",
+    "name": "رأس السنة الهجرية",
+    "nameEn": "Islamic New Year",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   },
+   {
+    "date": "2028-06-03",
+    "name": "عاشوراء",
+    "nameEn": "Day of Ashura",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2028-06-26",
+    "name": "استقلال الصومال البريطاني",
+    "nameEn": "Independence of British Somaliland",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-01",
+    "name": "عيد الاستقلال",
+    "nameEn": "Independence Day",
+    "type": "public",
+    "regions": [
+     "*"
+    ]
+   },
+   {
+    "date": "2028-08-03",
+    "name": "المولد النبويّ",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-14",
+    "name": "الإسراء والمعراج",
+    "nameEn": "Laylat al-Mi'raj",
+    "type": "public",
+    "regions": [
+     "AW",
+     "SA",
+     "SO",
+     "TO",
+     "WO"
+    ]
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.245Z"
+}

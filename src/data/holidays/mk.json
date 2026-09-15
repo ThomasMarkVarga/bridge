@@ -1,0 +1,578 @@
+{
+ "country": "MK",
+ "countryName": "Macedonia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Нова Година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-07",
+    "name": "Прв ден Божик",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Рамазан Бајрам",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "Прв ден Велигден",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "Втор ден Велигден",
+    "nameEn": "Orthodox Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Ден на трудот",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Св. Кирил и Методиј",
+    "nameEn": "Saints Cyril and Methodius Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Св. Кирил и Методиј (заменет ден)",
+    "nameEn": "Saints Cyril and Methodius Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2026-08-02",
+    "name": "Ден на Републиката",
+    "nameEn": "Day of the Republic",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Ден на Републиката (заменет ден)",
+    "nameEn": "Day of the Republic (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2026-09-08",
+    "name": "Ден на независноста",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-11",
+    "name": "Ден на востанието",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Ден на востанието (заменет ден)",
+    "nameEn": "Revolution Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2026-10-23",
+    "name": "Ден на македонската револуционерна борба",
+    "nameEn": "Day of the Macedonian Revolutionary Struggle",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Св. Климент Охридски",
+    "nameEn": "Saint Clement of Ohrid Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Нова Година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-07",
+    "name": "Прв ден Божик",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Рамазан Бајрам",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Ден на трудот",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Прв ден Велигден",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "Втор ден Велигден",
+    "nameEn": "Orthodox Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-24",
+    "name": "Св. Кирил и Методиј",
+    "nameEn": "Saints Cyril and Methodius Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Ден на Републиката",
+    "nameEn": "Day of the Republic",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-08",
+    "name": "Ден на независноста",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Ден на востанието",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-23",
+    "name": "Ден на македонската револуционерна борба",
+    "nameEn": "Day of the Macedonian Revolutionary Struggle",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Св. Климент Охридски",
+    "nameEn": "Saint Clement of Ohrid Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Нова Година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-07",
+    "name": "Прв ден Божик",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Рамазан Бајрам",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Прв ден Велигден",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Втор ден Велигден",
+    "nameEn": "Orthodox Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Ден на трудот",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-24",
+    "name": "Св. Кирил и Методиј",
+    "nameEn": "Saints Cyril and Methodius Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-02",
+    "name": "Ден на Републиката",
+    "nameEn": "Day of the Republic",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-08",
+    "name": "Ден на независноста",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-11",
+    "name": "Ден на востанието",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-23",
+    "name": "Ден на македонската револуционерна борба",
+    "nameEn": "Day of the Macedonian Revolutionary Struggle",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Св. Климент Охридски",
+    "nameEn": "Saint Clement of Ohrid Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-06",
+    "name": "Бадник",
+    "nameEn": "Orthodox Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Богојавление",
+    "nameEn": "Epiphany",
+    "type": "optional"
+   },
+   {
+    "date": "2026-01-27",
+    "name": "Свети Сава",
+    "nameEn": "St. Sava",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "вториот ден на Велигден",
+    "nameEn": "Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-08",
+    "name": "Меѓународен ден на Ромите",
+    "nameEn": "International Roma Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-10",
+    "name": "Велики Петок",
+    "nameEn": "Orthodox Good Friday",
+    "type": "optional"
+   },
+   {
+    "date": "2026-05-23",
+    "name": "Национален ден на Властите",
+    "nameEn": "National Day of Authorities",
+    "type": "optional"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Курбан Бајрам",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2026-05-29",
+    "name": "петок пред Духовден",
+    "nameEn": "Friday before Pentecost",
+    "type": "optional"
+   },
+   {
+    "date": "2026-05-31",
+    "name": "Духовден",
+    "nameEn": "Pentecost",
+    "type": "optional"
+   },
+   {
+    "date": "2026-08-28",
+    "name": "Успение на Пресвета Богородица",
+    "nameEn": "Assumption",
+    "type": "optional"
+   },
+   {
+    "date": "2026-09-21",
+    "name": "Јом Кипур",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2026-09-28",
+    "name": "Меѓународен ден на Бошњаците",
+    "nameEn": "International Day of Bosniaks",
+    "type": "optional"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Празникот на сите светци",
+    "nameEn": "All Saints' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-11-22",
+    "name": "Ден на Албанската азбука",
+    "nameEn": "Day of the Albanian Alphabet",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-21",
+    "name": "Ден на настава на турски јазик",
+    "nameEn": "Turkish Language Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Католички Божиќ",
+    "nameEn": "Christmas Day",
+    "type": "optional"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-06",
+    "name": "Бадник",
+    "nameEn": "Orthodox Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2027-01-19",
+    "name": "Богојавление",
+    "nameEn": "Epiphany",
+    "type": "optional"
+   },
+   {
+    "date": "2027-01-27",
+    "name": "Свети Сава",
+    "nameEn": "St. Sava",
+    "type": "optional"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "вториот ден на Велигден",
+    "nameEn": "Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2027-04-08",
+    "name": "Меѓународен ден на Ромите",
+    "nameEn": "International Roma Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-04-30",
+    "name": "Велики Петок",
+    "nameEn": "Orthodox Good Friday",
+    "type": "optional"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Курбан Бајрам",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2027-05-23",
+    "name": "Национален ден на Властите",
+    "nameEn": "National Day of Authorities",
+    "type": "optional"
+   },
+   {
+    "date": "2027-06-18",
+    "name": "петок пред Духовден",
+    "nameEn": "Friday before Pentecost",
+    "type": "optional"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "Духовден",
+    "nameEn": "Pentecost",
+    "type": "optional"
+   },
+   {
+    "date": "2027-08-28",
+    "name": "Успение на Пресвета Богородица",
+    "nameEn": "Assumption",
+    "type": "optional"
+   },
+   {
+    "date": "2027-09-28",
+    "name": "Меѓународен ден на Бошњаците",
+    "nameEn": "International Day of Bosniaks",
+    "type": "optional"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Јом Кипур",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Празникот на сите светци",
+    "nameEn": "All Saints' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-11-22",
+    "name": "Ден на Албанската азбука",
+    "nameEn": "Day of the Albanian Alphabet",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-21",
+    "name": "Ден на настава на турски јазик",
+    "nameEn": "Turkish Language Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Католички Божиќ",
+    "nameEn": "Christmas Day",
+    "type": "optional"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-06",
+    "name": "Бадник",
+    "nameEn": "Orthodox Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2028-01-19",
+    "name": "Богојавление",
+    "nameEn": "Epiphany",
+    "type": "optional"
+   },
+   {
+    "date": "2028-01-27",
+    "name": "Свети Сава",
+    "nameEn": "St. Sava",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-08",
+    "name": "Меѓународен ден на Ромите",
+    "nameEn": "International Roma Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Велики Петок",
+    "nameEn": "Orthodox Good Friday",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "вториот ден на Велигден",
+    "nameEn": "Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Курбан Бајрам",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2028-05-23",
+    "name": "Национален ден на Властите",
+    "nameEn": "National Day of Authorities",
+    "type": "optional"
+   },
+   {
+    "date": "2028-06-02",
+    "name": "петок пред Духовден",
+    "nameEn": "Friday before Pentecost",
+    "type": "optional"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Духовден",
+    "nameEn": "Pentecost",
+    "type": "optional"
+   },
+   {
+    "date": "2028-08-28",
+    "name": "Успение на Пресвета Богородица",
+    "nameEn": "Assumption",
+    "type": "optional"
+   },
+   {
+    "date": "2028-09-28",
+    "name": "Меѓународен ден на Бошњаците",
+    "nameEn": "International Day of Bosniaks",
+    "type": "optional"
+   },
+   {
+    "date": "2028-09-30",
+    "name": "Јом Кипур",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Празникот на сите светци",
+    "nameEn": "All Saints' Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-11-22",
+    "name": "Ден на Албанската азбука",
+    "nameEn": "Day of the Albanian Alphabet",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-21",
+    "name": "Ден на настава на турски јазик",
+    "nameEn": "Turkish Language Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Католички Божиќ",
+    "nameEn": "Christmas Day",
+    "type": "optional"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.928Z"
+}

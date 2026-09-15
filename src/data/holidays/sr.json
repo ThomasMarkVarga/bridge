@@ -1,0 +1,341 @@
+{
+ "country": "SR",
+ "countryName": "Suriname",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as Chinese New Year, End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Chinees Nieuwjaar",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-25",
+    "name": "Dag van Bevrijding en Vernieuwing",
+    "nameEn": "Day of Liberation and Innovation",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-03",
+    "name": "Holifeest",
+    "nameEn": "Holi Phagwa",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Suikerfeest (Eid al-Fitr)",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Goede Vrijdag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Tweede paasdag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Dag van de Arbeid",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Offerfeest (Eid Al-Adha)",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-01",
+    "name": "Dag der Vrijheden (Keti koti)",
+    "nameEn": "Emancipation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-09",
+    "name": "Dag der Inheemsen",
+    "nameEn": "Indigenous People's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-10",
+    "name": "Dag van de Marrons",
+    "nameEn": "Day of the Maroons",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-08",
+    "name": "Divali",
+    "nameEn": "Deepavali",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-25",
+    "name": "Onafhankelijkheidsdag",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-06",
+    "name": "Chinees Nieuwjaar",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-25",
+    "name": "Dag van Bevrijding en Vernieuwing",
+    "nameEn": "Day of Liberation and Innovation",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Suikerfeest (Eid al-Fitr)",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-22",
+    "name": "Holifeest",
+    "nameEn": "Holi Phagwa",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Goede Vrijdag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Tweede paasdag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Dag van de Arbeid",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Offerfeest (Eid Al-Adha)",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-01",
+    "name": "Dag der Vrijheden (Keti koti)",
+    "nameEn": "Emancipation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-09",
+    "name": "Dag der Inheemsen",
+    "nameEn": "Indigenous People's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-10",
+    "name": "Dag van de Marrons",
+    "nameEn": "Day of the Maroons",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-28",
+    "name": "Divali",
+    "nameEn": "Deepavali",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-25",
+    "name": "Onafhankelijkheidsdag",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Chinees Nieuwjaar",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-25",
+    "name": "Dag van Bevrijding en Vernieuwing",
+    "nameEn": "Day of Liberation and Innovation",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Suikerfeest (Eid al-Fitr)",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-11",
+    "name": "Holifeest",
+    "nameEn": "Holi Phagwa",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Goede Vrijdag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Tweede paasdag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Dag van de Arbeid",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Offerfeest (Eid Al-Adha)",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-01",
+    "name": "Dag der Vrijheden (Keti koti)",
+    "nameEn": "Emancipation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-09",
+    "name": "Dag der Inheemsen",
+    "nameEn": "Indigenous People's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-10",
+    "name": "Dag van de Marrons",
+    "nameEn": "Day of the Maroons",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-17",
+    "name": "Divali",
+    "nameEn": "Deepavali",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-25",
+    "name": "Onafhankelijkheidsdag",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.265Z"
+}

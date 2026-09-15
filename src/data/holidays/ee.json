@@ -1,0 +1,466 @@
+{
+ "country": "EE",
+ "countryName": "Estonia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "uusaasta",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-24",
+    "name": "iseseisvuspäev",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "suur reede",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "lihavõtted",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "kevadpüha",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "nelipühade 1. püha",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-23",
+    "name": "võidupüha",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-24",
+    "name": "jaanipäev",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-20",
+    "name": "taasiseseisvumispäev",
+    "nameEn": "Day of Restoration of Independence",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "jõululaupäev",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "esimene jõulupüha",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "teine jõulupüha",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "uusaasta",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-24",
+    "name": "iseseisvuspäev",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "suur reede",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "lihavõtted",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "kevadpüha",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "nelipühade 1. püha",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-23",
+    "name": "võidupüha",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-24",
+    "name": "jaanipäev",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-20",
+    "name": "taasiseseisvumispäev",
+    "nameEn": "Day of Restoration of Independence",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "jõululaupäev",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "esimene jõulupüha",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "teine jõulupüha",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "uusaasta",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-24",
+    "name": "iseseisvuspäev",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "suur reede",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "lihavõtted",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "kevadpüha",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "nelipühade 1. püha",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-23",
+    "name": "võidupüha",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-24",
+    "name": "jaanipäev",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-20",
+    "name": "taasiseseisvumispäev",
+    "nameEn": "Day of Restoration of Independence",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "jõululaupäev",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "esimene jõulupüha",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "teine jõulupüha",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-06",
+    "name": "kolmekuningapäev",
+    "nameEn": "Epiphany",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-02",
+    "name": "Tartu rahulepingu aastapäev",
+    "nameEn": "Anniversary of the Tartu Peace Treaty",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-14",
+    "name": "emakeelepäev",
+    "nameEn": "Native Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "emadepäev",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Eesti lipu päev",
+    "nameEn": "National Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-14",
+    "name": "leinapäev",
+    "nameEn": "Day of Mourning and Commemoration",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-23",
+    "name": "kommunismi ja natsismi ohvrite mälestuspäev",
+    "nameEn": "European Day of Remembrance for Victims of Stalinism and Nazism",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-13",
+    "name": "vanavanemate päev",
+    "nameEn": "Grandparents Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-22",
+    "name": "vastupanuvõitluse päev",
+    "nameEn": "Resistance Fighting Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "hingedepäev",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-08",
+    "name": "isadepäev",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-16",
+    "name": "taassünni päev",
+    "nameEn": "Day of Declaration of Sovereignty",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-06",
+    "name": "kolmekuningapäev",
+    "nameEn": "Epiphany",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-02",
+    "name": "Tartu rahulepingu aastapäev",
+    "nameEn": "Anniversary of the Tartu Peace Treaty",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-14",
+    "name": "emakeelepäev",
+    "nameEn": "Native Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "emadepäev",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-04",
+    "name": "Eesti lipu päev",
+    "nameEn": "National Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-14",
+    "name": "leinapäev",
+    "nameEn": "Day of Mourning and Commemoration",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-23",
+    "name": "kommunismi ja natsismi ohvrite mälestuspäev",
+    "nameEn": "European Day of Remembrance for Victims of Stalinism and Nazism",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-12",
+    "name": "vanavanemate päev",
+    "nameEn": "Grandparents Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-22",
+    "name": "vastupanuvõitluse päev",
+    "nameEn": "Resistance Fighting Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "hingedepäev",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-14",
+    "name": "isadepäev",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-16",
+    "name": "taassünni päev",
+    "nameEn": "Day of Declaration of Sovereignty",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-06",
+    "name": "kolmekuningapäev",
+    "nameEn": "Epiphany",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-02",
+    "name": "Tartu rahulepingu aastapäev",
+    "nameEn": "Anniversary of the Tartu Peace Treaty",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-14",
+    "name": "emakeelepäev",
+    "nameEn": "Native Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "emadepäev",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Eesti lipu päev",
+    "nameEn": "National Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-14",
+    "name": "leinapäev",
+    "nameEn": "Day of Mourning and Commemoration",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-23",
+    "name": "kommunismi ja natsismi ohvrite mälestuspäev",
+    "nameEn": "European Day of Remembrance for Victims of Stalinism and Nazism",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-10",
+    "name": "vanavanemate päev",
+    "nameEn": "Grandparents Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-22",
+    "name": "vastupanuvõitluse päev",
+    "nameEn": "Resistance Fighting Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "hingedepäev",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-12",
+    "name": "isadepäev",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-16",
+    "name": "taassünni päev",
+    "nameEn": "Day of Declaration of Sovereignty",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.055Z"
+}

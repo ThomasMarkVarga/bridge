@@ -110,9 +110,20 @@ it is a substitute day, which regions observe it, the library version and a
 timestamp. Only public and bank holidays ship in the main layer; observances go in a
 separate one that is off by default.
 
-Countries: Romania, United Kingdom, Germany, France, Spain, Italy, Netherlands,
-Poland, United States, Canada, Australia. Subdivisions are supported where holidays
-genuinely differ. Each country's file is loaded on demand and is under 4KB gzipped.
+**206 countries**, every one the library can answer for. A country is dropped only
+if it yields no days off at all, because an empty calendar looks like an answer
+and is not one.
+
+Eleven of them have been checked by hand against the official calendar: Romania,
+the United Kingdom, Germany, France, Spain, Italy, the Netherlands, Poland, the
+United States, Canada and Australia. Those carry notes about where the library and
+the government disagree. The other 195 ship as the library has them, and say so on
+screen, because a date nobody has checked should not look like one somebody has.
+
+Subdivisions are included wherever the library has them, 33 countries' worth. Each
+country's file is loaded on demand: the median is 1KB gzipped and the largest, the
+United States, is 4.3KB. The list everybody downloads carries names only and is
+2.4KB gzipped; the regions live in each country's own file.
 
 ### Known problems with the data
 
@@ -125,7 +136,12 @@ genuinely differ. Each country's file is loaded on demand and is under 4KB gzipp
 - **German Christmas Eve and New Year's Eve** are marked as bank holidays but are not
   statutory public holidays in any Bundesland. Some employers give them, some give a
   half day, some give neither.
-- **Holidays on lunar or non-Gregorian calendars** are approximations in any dataset.
+- **Holidays on lunar or non-Gregorian calendars** are approximations in any
+  dataset. 71 countries have at least one, from Eid across the Muslim world to
+  Lunar New Year in Hong Kong and Taiwan, Passover in Israel and Buddha's birthday
+  in Russia's Buddhist republics. Those countries say so on screen. The build
+  detects them by name rather than by a hand-kept list, so a new one is caught
+  when the data changes.
 - Regional and sector holidays vary, and some employers do not observe all of them.
 
 Report a wrong date as an issue rather than assuming the plan is right.

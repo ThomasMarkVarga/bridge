@@ -1,0 +1,287 @@
+{
+ "country": "SH",
+ "countryName": "St. Helena",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "AC",
+   "name": "Ascension Island"
+  },
+  {
+   "code": "HL",
+   "name": "Saint Helena"
+  },
+  {
+   "code": "TA",
+   "name": "Tristan da Cunha"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-20",
+    "name": "Queen's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "AC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2026-05-21",
+    "name": "Saint Helena Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-14",
+    "name": "Anniversary Day",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2026-08-31",
+    "name": "August Bank Holiday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "HL"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-28",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-19",
+    "name": "Queen's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "AC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-21",
+    "name": "Saint Helena Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-14",
+    "name": "Anniversary Day",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2027-08-30",
+    "name": "August Bank Holiday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "HL"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-27",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-12-28",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-03",
+    "name": "New Year's Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Queen's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-21",
+    "name": "Saint Helena Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "AC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-14",
+    "name": "Anniversary Day",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2028-08-28",
+    "name": "August Bank Holiday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "HL"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.171Z"
+}

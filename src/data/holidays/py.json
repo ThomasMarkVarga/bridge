@@ -1,0 +1,292 @@
+{
+ "country": "PY",
+ "countryName": "Paraguay",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-01",
+    "name": "Dia de los héroes",
+    "nameEn": "Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-12",
+    "name": "Día de la Paz del Chaco",
+    "nameEn": "Chaco Armistice",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-30",
+    "name": "Reconocimiento al histórico triunfo de la Selección Paraguaya de Fútbol frente a Alemania",
+    "nameEn": "Recognition of the historic victory of the Paraguayan national football team over Germany",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-29",
+    "name": "Victoria de Boquerón",
+    "nameEn": "Boqueron Battle Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Virgen de Caacupé",
+    "nameEn": "Virgin of Caacupe",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-01",
+    "name": "Dia de los héroes",
+    "nameEn": "Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-14",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-12",
+    "name": "Día de la Paz del Chaco",
+    "nameEn": "Chaco Armistice",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-29",
+    "name": "Victoria de Boquerón",
+    "nameEn": "Boqueron Battle Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Virgen de Caacupé",
+    "nameEn": "Virgin of Caacupe",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Dia de los héroes",
+    "nameEn": "Heroes' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-12",
+    "name": "Día de la Paz del Chaco",
+    "nameEn": "Chaco Armistice",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-29",
+    "name": "Victoria de Boquerón",
+    "nameEn": "Boqueron Battle Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Virgen de Caacupé",
+    "nameEn": "Virgin of Caacupe",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-30",
+    "name": "Día del Maestro",
+    "nameEn": "Teacher's Day",
+    "type": "optional"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-04-30",
+    "name": "Día del Maestro",
+    "nameEn": "Teacher's Day",
+    "type": "optional"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-30",
+    "name": "Día del Maestro",
+    "nameEn": "Teacher's Day",
+    "type": "optional"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.949Z"
+}

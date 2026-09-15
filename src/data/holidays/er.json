@@ -1,0 +1,323 @@
+{
+ "country": "ER",
+ "countryName": "Eritrea",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha), Birthday of Muhammad (Mawlid). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "ሓዲሽ ዓመት",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-07",
+    "name": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-19",
+    "name": "ጥምቀት",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-10",
+    "name": "ፈንቅል",
+    "nameEn": "Fenkil Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "መዓልቲ ኣነስቲ",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-10",
+    "name": "ዓርቢ ስቅለት",
+    "nameEn": "Orthodox Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "ፋሲካ",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "የላብ አደሮች ቀን",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "መዓልቲ ናጽነት",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-20",
+    "name": "መዓልቲ ስውኣት",
+    "nameEn": "Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-25",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-01",
+    "name": "ባሕቲ መስከረም",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-11",
+    "name": "ግዕዝ አዲስ ዓመት",
+    "nameEn": "Geez New Year",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-27",
+    "name": "Meskel",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "ልደት",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "ሓዲሽ ዓመት",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-07",
+    "name": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-19",
+    "name": "ጥምቀት",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-10",
+    "name": "ፈንቅል",
+    "nameEn": "Fenkil Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "መዓልቲ ኣነስቲ",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-30",
+    "name": "ዓርቢ ስቅለት",
+    "nameEn": "Orthodox Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "የላብ አደሮች ቀን",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "ፋሲካ",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-24",
+    "name": "መዓልቲ ናጽነት",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "መዓልቲ ስውኣት",
+    "nameEn": "Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-14",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-01",
+    "name": "ባሕቲ መስከረም",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-11",
+    "name": "ግዕዝ አዲስ ዓመት",
+    "nameEn": "Geez New Year",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-27",
+    "name": "Meskel",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "ልደት",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "ሓዲሽ ዓመት",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-07",
+    "name": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-19",
+    "name": "ጥምቀት",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-10",
+    "name": "ፈንቅል",
+    "nameEn": "Fenkil Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "መዓልቲ ኣነስቲ",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "ዓርቢ ስቅለት",
+    "nameEn": "Orthodox Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "ፋሲካ",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "የላብ አደሮች ቀን",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-24",
+    "name": "መዓልቲ ናጽነት",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-20",
+    "name": "መዓልቲ ስውኣት",
+    "nameEn": "Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-03",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-01",
+    "name": "ባሕቲ መስከረም",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-12",
+    "name": "ግዕዝ አዲስ ዓመት",
+    "nameEn": "Geez New Year",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-28",
+    "name": "Meskel",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "ልደት",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.070Z"
+}

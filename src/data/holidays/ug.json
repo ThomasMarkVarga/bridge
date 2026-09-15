@@ -1,0 +1,275 @@
+{
+ "country": "UG",
+ "countryName": "Uganda",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-26",
+    "name": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Archbishop Janan Luwum Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-03",
+    "name": "Martyr's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-09",
+    "name": "National Heroes Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-09",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-26",
+    "name": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-16",
+    "name": "Archbishop Janan Luwum Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-03",
+    "name": "Martyr's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-09",
+    "name": "National Heroes Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-09",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-16",
+    "name": "Archbishop Janan Luwum Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-03",
+    "name": "Martyr's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-09",
+    "name": "National Heroes Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-18",
+    "name": "Ash Wednesday",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-10",
+    "name": "Ash Wednesday",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-03-01",
+    "name": "Ash Wednesday",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.657Z"
+}

@@ -1,0 +1,294 @@
+{
+ "country": "ZA",
+ "countryName": "South Africa",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "Human Rights Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Family Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-27",
+    "name": "Freedom Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Workers' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-16",
+    "name": "Youth Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-09",
+    "name": "National Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-10",
+    "name": "Public Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-24",
+    "name": "Heritage Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-16",
+    "name": "Day of Reconciliation",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Day of Goodwill",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-21",
+    "name": "Human Rights Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-22",
+    "name": "Public Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Family Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-27",
+    "name": "Freedom Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Workers' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-16",
+    "name": "Youth Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-09",
+    "name": "National Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-24",
+    "name": "Heritage Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-16",
+    "name": "Day of Reconciliation",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Day of Goodwill",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-27",
+    "name": "Public Holiday",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-21",
+    "name": "Human Rights Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Family Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-27",
+    "name": "Freedom Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Workers' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-16",
+    "name": "Youth Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-09",
+    "name": "National Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-24",
+    "name": "Heritage Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-25",
+    "name": "Public Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-16",
+    "name": "Day of Reconciliation",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Day of Goodwill",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-18",
+    "name": "Nelson Mandela Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-18",
+    "name": "Nelson Mandela Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-18",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-18",
+    "name": "Nelson Mandela Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:55.275Z"
+}

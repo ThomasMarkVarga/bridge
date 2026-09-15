@@ -1,0 +1,1411 @@
+{
+ "country": "MY",
+ "countryName": "Malaysia",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "10",
+   "name": "Selangor"
+  },
+  {
+   "code": "11",
+   "name": "Terengganu"
+  },
+  {
+   "code": "12",
+   "name": "Sabah"
+  },
+  {
+   "code": "13",
+   "name": "Sarawak"
+  },
+  {
+   "code": "14",
+   "name": "Kuala Lumpur"
+  },
+  {
+   "code": "15",
+   "name": "Labuan"
+  },
+  {
+   "code": "16",
+   "name": "Putrajaya"
+  },
+  {
+   "code": "01",
+   "name": "Johor"
+  },
+  {
+   "code": "02",
+   "name": "Kedah"
+  },
+  {
+   "code": "03",
+   "name": "Kelantan"
+  },
+  {
+   "code": "04",
+   "name": "Malacca"
+  },
+  {
+   "code": "05",
+   "name": "Negeri Sembilan"
+  },
+  {
+   "code": "06",
+   "name": "Pahang"
+  },
+  {
+   "code": "07",
+   "name": "Penang"
+  },
+  {
+   "code": "08",
+   "name": "Perak"
+  },
+  {
+   "code": "09",
+   "name": "Perlis"
+  }
+ ],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as Chinese New Year, End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Hari Tahun Baru",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "04",
+     "05",
+     "06",
+     "07",
+     "08",
+     "10",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2026-01-14",
+    "name": "Hari Keputeraan Yang di-Pertuan Besar Negeri Sembilan",
+    "nameEn": "Yang di-Pertuan Besar of Negeri Sembilan's Birthday",
+    "type": "public",
+    "regions": [
+     "05"
+    ]
+   },
+   {
+    "date": "2026-01-16",
+    "name": "Israk dan Mikraj",
+    "nameEn": "Laylat al-Mi'raj",
+    "type": "public",
+    "regions": [
+     "02",
+     "05",
+     "09",
+     "11"
+    ]
+   },
+   {
+    "date": "2026-02-01",
+    "name": "Hari Thaipusam",
+    "nameEn": "Thaipusam",
+    "type": "public",
+    "regions": [
+     "01",
+     "02",
+     "05",
+     "07",
+     "08",
+     "10",
+     "14",
+     "16"
+    ]
+   },
+   {
+    "date": "2026-02-01",
+    "name": "Hari Wilayah Persekutuan",
+    "nameEn": "Federal Territory Day",
+    "type": "public",
+    "regions": [
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Tahun Baru Cina",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Awal Ramadan",
+    "nameEn": "First day of Ramadan",
+    "type": "public",
+    "regions": [
+     "01",
+     "02",
+     "04"
+    ]
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Tahun Baru Cina",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-04",
+    "name": "Hari Ulang Tahun Pertabalan Sultan Terengganu",
+    "nameEn": "Anniversary of Installation of the Sultan of Terengganu",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2026-03-07",
+    "name": "Hari Nuzul Al-Quran",
+    "nameEn": "Day of Nuzul Al-Quran",
+    "type": "public",
+    "regions": [
+     "*",
+     "03",
+     "06",
+     "07",
+     "08",
+     "09",
+     "10",
+     "11",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2026-03-21",
+    "name": "Hari Raya Aidil Fitri",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-22",
+    "name": "Hari Raya Aidil Fitri",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-23",
+    "name": "Hari Keputeraan Sultan Johor",
+    "nameEn": "Sultan of Johor's Birthday",
+    "type": "public",
+    "regions": [
+     "01"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Jumat Agung",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "12",
+     "13"
+    ]
+   },
+   {
+    "date": "2026-04-15",
+    "name": "Hari Perisytiharan Bandar Melaka sebagai Bandaraya Bersejarah",
+    "nameEn": "Declaration of Malacca City as Historical City",
+    "type": "public",
+    "regions": [
+     "04"
+    ]
+   },
+   {
+    "date": "2026-04-26",
+    "name": "Hari Keputeraan Sultan Terengganu",
+    "nameEn": "Sultan of Terengganu's Birthday",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Hari Pekerja",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-22",
+    "name": "Hari Hol Pahang",
+    "nameEn": "Hari Hol of Pahang",
+    "type": "public",
+    "regions": [
+     "06"
+    ]
+   },
+   {
+    "date": "2026-05-26",
+    "name": "Hari Arafah",
+    "nameEn": "Arafat Day",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Hari Raya Haji",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-28",
+    "name": "Hari Raya Haji",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "regions": [
+     "02",
+     "03",
+     "09",
+     "11"
+    ]
+   },
+   {
+    "date": "2026-05-30",
+    "name": "Pesta Kaamatan",
+    "nameEn": "Tadau Kaamatan",
+    "type": "public",
+    "regions": [
+     "12",
+     "15"
+    ]
+   },
+   {
+    "date": "2026-05-31",
+    "name": "Pesta Kaamatan",
+    "nameEn": "Tadau Kaamatan",
+    "type": "public",
+    "regions": [
+     "12",
+     "15"
+    ]
+   },
+   {
+    "date": "2026-05-31",
+    "name": "Vesak Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "nameEn": "Yang di-Pertuan Agong's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Perayaan Hari Gawai Dayak",
+    "nameEn": "Gawai Dayak",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2026-06-02",
+    "name": "Perayaan Hari Gawai Dayak",
+    "nameEn": "Gawai Dayak",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2026-06-17",
+    "name": "Awal Muharram",
+    "nameEn": "Islamic New Year",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Hari Keputeraan Sultan Kedah",
+    "nameEn": "Sultan of Kedah's Birthday",
+    "type": "public",
+    "regions": [
+     "02"
+    ]
+   },
+   {
+    "date": "2026-07-07",
+    "name": "Declaration of George Town as World Heritage Site",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2026-07-11",
+    "name": "Hari Jadi Yang di-Pertua Negeri Pulau Pinang",
+    "nameEn": "Penang State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2026-07-17",
+    "name": "Raja of Perlis's Birthday",
+    "type": "public",
+    "regions": [
+     "09"
+    ]
+   },
+   {
+    "date": "2026-07-20",
+    "name": "Hari Hol Almarhum Sultan Iskandar",
+    "nameEn": "Hari Hol of Sultan Iskandar of Johor",
+    "type": "public",
+    "regions": [
+     "01"
+    ]
+   },
+   {
+    "date": "2026-07-22",
+    "name": "Hari Kemerdekaan Sarawak",
+    "nameEn": "Sarawak Independence Day",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2026-07-30",
+    "name": "Hari Keputeraan Sultan Pahang",
+    "nameEn": "Sultan of Pahang's Birthday",
+    "type": "public",
+    "regions": [
+     "06"
+    ]
+   },
+   {
+    "date": "2026-08-24",
+    "name": "Hari Jadi Yang di-Pertua Negeri Melaka",
+    "nameEn": "Melaka State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "04"
+    ]
+   },
+   {
+    "date": "2026-08-25",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-31",
+    "name": "Hari Kebangsaan",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-16",
+    "name": "Hari Malaysia",
+    "nameEn": "Malaysia Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-03",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sabah",
+    "nameEn": "Sabah State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "12"
+    ]
+   },
+   {
+    "date": "2026-10-10",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sarawak",
+    "nameEn": "Sarawak State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2026-11-06",
+    "name": "Hari Keputeraan Sultan Perak",
+    "nameEn": "Sultan of Perak's Birthday",
+    "type": "public",
+    "regions": [
+     "08"
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "name": "Deepavali",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-09",
+    "name": "Deepavali",
+    "type": "public",
+    "regions": [
+     "*",
+     "01",
+     "02",
+     "03",
+     "04",
+     "05",
+     "06",
+     "07",
+     "08",
+     "09",
+     "10",
+     "11",
+     "12",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "nameEn": "Sultan of Kelantan's Birthday",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2026-11-12",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "nameEn": "Sultan of Kelantan's Birthday",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2026-12-11",
+    "name": "Sultan of Selangor's Birthday",
+    "type": "public",
+    "regions": [
+     "10"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Hari Sebelum Krismas",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "12"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Hari Krismas",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Hari Tahun Baru",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "04",
+     "05",
+     "06",
+     "07",
+     "08",
+     "10",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2027-01-05",
+    "name": "Israk dan Mikraj",
+    "nameEn": "Laylat al-Mi'raj",
+    "type": "public",
+    "regions": [
+     "02",
+     "05",
+     "09",
+     "11"
+    ]
+   },
+   {
+    "date": "2027-01-14",
+    "name": "Hari Keputeraan Yang di-Pertuan Besar Negeri Sembilan",
+    "nameEn": "Yang di-Pertuan Besar of Negeri Sembilan's Birthday",
+    "type": "public",
+    "regions": [
+     "05"
+    ]
+   },
+   {
+    "date": "2027-02-01",
+    "name": "Hari Wilayah Persekutuan",
+    "nameEn": "Federal Territory Day",
+    "type": "public",
+    "regions": [
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2027-02-06",
+    "name": "Tahun Baru Cina",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-07",
+    "name": "Tahun Baru Cina",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Awal Ramadan",
+    "nameEn": "First day of Ramadan",
+    "type": "public",
+    "regions": [
+     "01",
+     "02",
+     "04"
+    ]
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Tahun Baru Cina (substitute day)",
+    "nameEn": "Chinese New Year (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-02-24",
+    "name": "Hari Nuzul Al-Quran",
+    "nameEn": "Day of Nuzul Al-Quran",
+    "type": "public",
+    "regions": [
+     "*",
+     "03",
+     "06",
+     "07",
+     "08",
+     "09",
+     "10",
+     "11",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2027-03-04",
+    "name": "Hari Ulang Tahun Pertabalan Sultan Terengganu",
+    "nameEn": "Anniversary of Installation of the Sultan of Terengganu",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Hari Raya Aidil Fitri",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-10",
+    "name": "Hari Raya Aidil Fitri",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-23",
+    "name": "Hari Keputeraan Sultan Johor",
+    "nameEn": "Sultan of Johor's Birthday",
+    "type": "public",
+    "regions": [
+     "01"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Jumat Agung",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "12",
+     "13"
+    ]
+   },
+   {
+    "date": "2027-04-15",
+    "name": "Hari Perisytiharan Bandar Melaka sebagai Bandaraya Bersejarah",
+    "nameEn": "Declaration of Malacca City as Historical City",
+    "type": "public",
+    "regions": [
+     "04"
+    ]
+   },
+   {
+    "date": "2027-04-26",
+    "name": "Hari Keputeraan Sultan Terengganu",
+    "nameEn": "Sultan of Terengganu's Birthday",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Hari Pekerja",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-15",
+    "name": "Hari Arafah",
+    "nameEn": "Arafat Day",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Hari Raya Haji",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Hari Raya Haji",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "regions": [
+     "02",
+     "03",
+     "09",
+     "11"
+    ]
+   },
+   {
+    "date": "2027-05-22",
+    "name": "Hari Hol Pahang",
+    "nameEn": "Hari Hol of Pahang",
+    "type": "public",
+    "regions": [
+     "06"
+    ]
+   },
+   {
+    "date": "2027-05-30",
+    "name": "Pesta Kaamatan",
+    "nameEn": "Tadau Kaamatan",
+    "type": "public",
+    "regions": [
+     "12",
+     "15"
+    ]
+   },
+   {
+    "date": "2027-05-31",
+    "name": "Pesta Kaamatan",
+    "nameEn": "Tadau Kaamatan",
+    "type": "public",
+    "regions": [
+     "12",
+     "15"
+    ]
+   },
+   {
+    "date": "2027-06-01",
+    "name": "Perayaan Hari Gawai Dayak",
+    "nameEn": "Gawai Dayak",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2027-06-02",
+    "name": "Perayaan Hari Gawai Dayak",
+    "nameEn": "Gawai Dayak",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2027-06-06",
+    "name": "Awal Muharram",
+    "nameEn": "Islamic New Year",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-07",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "nameEn": "Yang di-Pertuan Agong's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "Hari Keputeraan Sultan Kedah",
+    "nameEn": "Sultan of Kedah's Birthday",
+    "type": "public",
+    "regions": [
+     "02"
+    ]
+   },
+   {
+    "date": "2027-07-07",
+    "name": "Declaration of George Town as World Heritage Site",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2027-07-10",
+    "name": "Hari Hol Almarhum Sultan Iskandar",
+    "nameEn": "Hari Hol of Sultan Iskandar of Johor",
+    "type": "public",
+    "regions": [
+     "01"
+    ]
+   },
+   {
+    "date": "2027-07-10",
+    "name": "Hari Jadi Yang di-Pertua Negeri Pulau Pinang",
+    "nameEn": "Penang State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2027-07-17",
+    "name": "Raja of Perlis's Birthday",
+    "type": "public",
+    "regions": [
+     "09"
+    ]
+   },
+   {
+    "date": "2027-07-22",
+    "name": "Hari Kemerdekaan Sarawak",
+    "nameEn": "Sarawak Independence Day",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2027-07-30",
+    "name": "Hari Keputeraan Sultan Pahang",
+    "nameEn": "Sultan of Pahang's Birthday",
+    "type": "public",
+    "regions": [
+     "06"
+    ]
+   },
+   {
+    "date": "2027-08-14",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-24",
+    "name": "Hari Jadi Yang di-Pertua Negeri Melaka",
+    "nameEn": "Melaka State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "04"
+    ]
+   },
+   {
+    "date": "2027-08-31",
+    "name": "Hari Kebangsaan",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-16",
+    "name": "Hari Malaysia",
+    "nameEn": "Malaysia Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-02",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sabah",
+    "nameEn": "Sabah State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "12"
+    ]
+   },
+   {
+    "date": "2027-10-09",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sarawak",
+    "nameEn": "Sarawak State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2027-10-28",
+    "name": "Deepavali",
+    "type": "public",
+    "regions": [
+     "*",
+     "01",
+     "02",
+     "03",
+     "04",
+     "05",
+     "06",
+     "07",
+     "08",
+     "09",
+     "10",
+     "11",
+     "12",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2027-11-05",
+    "name": "Hari Keputeraan Sultan Perak",
+    "nameEn": "Sultan of Perak's Birthday",
+    "type": "public",
+    "regions": [
+     "08"
+    ]
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "nameEn": "Sultan of Kelantan's Birthday",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2027-11-12",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "nameEn": "Sultan of Kelantan's Birthday",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2027-12-11",
+    "name": "Sultan of Selangor's Birthday",
+    "type": "public",
+    "regions": [
+     "10"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Hari Sebelum Krismas",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "12"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Hari Krismas",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Israk dan Mikraj",
+    "nameEn": "Laylat al-Mi'raj",
+    "type": "public",
+    "regions": [
+     "02",
+     "05",
+     "09",
+     "11"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Hari Tahun Baru",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "04",
+     "05",
+     "06",
+     "07",
+     "08",
+     "10",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2028-01-14",
+    "name": "Hari Keputeraan Yang di-Pertuan Besar Negeri Sembilan",
+    "nameEn": "Yang di-Pertuan Besar of Negeri Sembilan's Birthday",
+    "type": "public",
+    "regions": [
+     "05"
+    ]
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Tahun Baru Cina",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-27",
+    "name": "Tahun Baru Cina",
+    "nameEn": "Chinese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-28",
+    "name": "Awal Ramadan",
+    "nameEn": "First day of Ramadan",
+    "type": "public",
+    "regions": [
+     "01",
+     "02",
+     "04"
+    ]
+   },
+   {
+    "date": "2028-02-01",
+    "name": "Hari Wilayah Persekutuan",
+    "nameEn": "Federal Territory Day",
+    "type": "public",
+    "regions": [
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2028-02-13",
+    "name": "Hari Nuzul Al-Quran",
+    "nameEn": "Day of Nuzul Al-Quran",
+    "type": "public",
+    "regions": [
+     "*",
+     "03",
+     "06",
+     "07",
+     "08",
+     "09",
+     "10",
+     "11",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Hari Raya Aidil Fitri",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-27",
+    "name": "Hari Raya Aidil Fitri",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-04",
+    "name": "Hari Ulang Tahun Pertabalan Sultan Terengganu",
+    "nameEn": "Anniversary of Installation of the Sultan of Terengganu",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2028-03-23",
+    "name": "Hari Keputeraan Sultan Johor",
+    "nameEn": "Sultan of Johor's Birthday",
+    "type": "public",
+    "regions": [
+     "01"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Jumat Agung",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "12",
+     "13"
+    ]
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Hari Perisytiharan Bandar Melaka sebagai Bandaraya Bersejarah",
+    "nameEn": "Declaration of Malacca City as Historical City",
+    "type": "public",
+    "regions": [
+     "04"
+    ]
+   },
+   {
+    "date": "2028-04-26",
+    "name": "Hari Keputeraan Sultan Terengganu",
+    "nameEn": "Sultan of Terengganu's Birthday",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Hari Pekerja",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-04",
+    "name": "Hari Arafah",
+    "nameEn": "Arafat Day",
+    "type": "public",
+    "regions": [
+     "11"
+    ]
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Hari Raya Haji",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-06",
+    "name": "Hari Raya Haji",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "regions": [
+     "02",
+     "03",
+     "09",
+     "11"
+    ]
+   },
+   {
+    "date": "2028-05-22",
+    "name": "Hari Hol Pahang",
+    "nameEn": "Hari Hol of Pahang",
+    "type": "public",
+    "regions": [
+     "06"
+    ]
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Awal Muharram",
+    "nameEn": "Islamic New Year",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-30",
+    "name": "Pesta Kaamatan",
+    "nameEn": "Tadau Kaamatan",
+    "type": "public",
+    "regions": [
+     "12",
+     "15"
+    ]
+   },
+   {
+    "date": "2028-05-31",
+    "name": "Pesta Kaamatan",
+    "nameEn": "Tadau Kaamatan",
+    "type": "public",
+    "regions": [
+     "12",
+     "15"
+    ]
+   },
+   {
+    "date": "2028-06-01",
+    "name": "Perayaan Hari Gawai Dayak",
+    "nameEn": "Gawai Dayak",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2028-06-02",
+    "name": "Perayaan Hari Gawai Dayak",
+    "nameEn": "Gawai Dayak",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "nameEn": "Yang di-Pertuan Agong's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-18",
+    "name": "Hari Keputeraan Sultan Kedah",
+    "nameEn": "Sultan of Kedah's Birthday",
+    "type": "public",
+    "regions": [
+     "02"
+    ]
+   },
+   {
+    "date": "2028-06-29",
+    "name": "Hari Hol Almarhum Sultan Iskandar",
+    "nameEn": "Hari Hol of Sultan Iskandar of Johor",
+    "type": "public",
+    "regions": [
+     "01"
+    ]
+   },
+   {
+    "date": "2028-07-07",
+    "name": "Declaration of George Town as World Heritage Site",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2028-07-08",
+    "name": "Hari Jadi Yang di-Pertua Negeri Pulau Pinang",
+    "nameEn": "Penang State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2028-07-17",
+    "name": "Raja of Perlis's Birthday",
+    "type": "public",
+    "regions": [
+     "09"
+    ]
+   },
+   {
+    "date": "2028-07-22",
+    "name": "Hari Kemerdekaan Sarawak",
+    "nameEn": "Sarawak Independence Day",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2028-07-30",
+    "name": "Hari Keputeraan Sultan Pahang",
+    "nameEn": "Sultan of Pahang's Birthday",
+    "type": "public",
+    "regions": [
+     "06"
+    ]
+   },
+   {
+    "date": "2028-08-03",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-24",
+    "name": "Hari Jadi Yang di-Pertua Negeri Melaka",
+    "nameEn": "Melaka State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "04"
+    ]
+   },
+   {
+    "date": "2028-08-31",
+    "name": "Hari Kebangsaan",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-16",
+    "name": "Hari Malaysia",
+    "nameEn": "Malaysia Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-07",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sabah",
+    "nameEn": "Sabah State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "12"
+    ]
+   },
+   {
+    "date": "2028-10-14",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sarawak",
+    "nameEn": "Sarawak State Governor's Birthday",
+    "type": "public",
+    "regions": [
+     "13"
+    ]
+   },
+   {
+    "date": "2028-11-03",
+    "name": "Hari Keputeraan Sultan Perak",
+    "nameEn": "Sultan of Perak's Birthday",
+    "type": "public",
+    "regions": [
+     "08"
+    ]
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "nameEn": "Sultan of Kelantan's Birthday",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2028-11-12",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "nameEn": "Sultan of Kelantan's Birthday",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2028-11-15",
+    "name": "Deepavali",
+    "type": "public",
+    "regions": [
+     "*",
+     "01",
+     "02",
+     "03",
+     "04",
+     "05",
+     "06",
+     "07",
+     "08",
+     "09",
+     "10",
+     "11",
+     "12",
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   {
+    "date": "2028-12-11",
+    "name": "Sultan of Selangor's Birthday",
+    "type": "public",
+    "regions": [
+     "10"
+    ]
+   },
+   {
+    "date": "2028-12-14",
+    "name": "Israk dan Mikraj",
+    "nameEn": "Laylat al-Mi'raj",
+    "type": "public",
+    "regions": [
+     "02",
+     "05",
+     "09",
+     "11"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Hari Sebelum Krismas",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "12"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Hari Krismas",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.635Z"
+}

@@ -1,0 +1,3881 @@
+{
+ "country": "CH",
+ "countryName": "Switzerland",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "ZH",
+   "name": "Kanton Zürich"
+  },
+  {
+   "code": "BE",
+   "name": "Kanton Bern"
+  },
+  {
+   "code": "LU",
+   "name": "Kanton Luzern"
+  },
+  {
+   "code": "UR",
+   "name": "Kanton Uri"
+  },
+  {
+   "code": "SZ",
+   "name": "Kanton Schwyz"
+  },
+  {
+   "code": "OW",
+   "name": "Kanton Obwalden"
+  },
+  {
+   "code": "NW",
+   "name": "Kanton Nidwalden"
+  },
+  {
+   "code": "GL",
+   "name": "Kanton Glarus"
+  },
+  {
+   "code": "ZG",
+   "name": "Kanton Zug"
+  },
+  {
+   "code": "FR",
+   "name": "Canton de Fribourg"
+  },
+  {
+   "code": "SO",
+   "name": "Kanton Solothurn"
+  },
+  {
+   "code": "BS",
+   "name": "Kanton Basel-Stadt"
+  },
+  {
+   "code": "BL",
+   "name": "Kanton Basel-Landschaft"
+  },
+  {
+   "code": "SH",
+   "name": "Kanton Schaffhausen"
+  },
+  {
+   "code": "AR",
+   "name": "Kanton Appenzell Ausserrhoden"
+  },
+  {
+   "code": "AI",
+   "name": "Kanton Appenzell Innerrhoden"
+  },
+  {
+   "code": "SG",
+   "name": "Kanton St. Gallen"
+  },
+  {
+   "code": "GR",
+   "name": "Kanton Graubünden"
+  },
+  {
+   "code": "AG",
+   "name": "Kanton Aargau"
+  },
+  {
+   "code": "TG",
+   "name": "Kanton Thurgau"
+  },
+  {
+   "code": "TI",
+   "name": "Canton Ticino"
+  },
+  {
+   "code": "VD",
+   "name": "Canton de Vaud"
+  },
+  {
+   "code": "VS",
+   "name": "Canton du Valais"
+  },
+  {
+   "code": "NE",
+   "name": "Canton de Neuchâtel"
+  },
+  {
+   "code": "GE",
+   "name": "Canton de Genève"
+  },
+  {
+   "code": "JU",
+   "name": "Canton du Jura"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Capodanno",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-01-01",
+    "name": "Nouvel An",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-01-02",
+    "name": "2 Janvier",
+    "type": "public",
+    "regions": [
+     "JU",
+     "VD"
+    ]
+   },
+   {
+    "date": "2026-01-02",
+    "name": "2 Janvier",
+    "type": "bank",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Berchtoldstag",
+    "type": "public",
+    "regions": [
+     "AG",
+     "BE",
+     "TG"
+    ]
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Berchtoldstag",
+    "type": "bank",
+    "regions": [
+     "NW",
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Saint-Berthold",
+    "type": "bank",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Dreikönigstag",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "SZ",
+     "UR"
+    ]
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Epifania",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-03-01",
+    "name": "Instauration de la République",
+    "type": "public",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2026-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "public",
+    "regions": [
+     "NW",
+     "SO",
+     "SZ",
+     "UR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-03-19",
+    "name": "San Giuseppe",
+    "nameEn": "Saint Joseph",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Vendredi saint",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Domenica di Pasqua",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pâques",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "GE",
+     "JU",
+     "NE",
+     "VD"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Lunedì dell’Angelo",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-04-09",
+    "name": "Näfelser Fahrt",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Festa del lavoro",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Fête du travail",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "JU",
+     "NE",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "AG",
+     "BL",
+     "BS",
+     "SH",
+     "SO",
+     "TG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Ascension",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Ascensione",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Auffahrt",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pentecoste",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pentecôte",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "GE",
+     "JU",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Lunedì di Pentecoste",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Corpus Domini",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2026-06-04",
+    "name": "la Fête-Dieu",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "NE",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-06-23",
+    "name": "Plébiscite jurassien",
+    "nameEn": "Jura Plebiscite",
+    "type": "public",
+    "regions": [
+     "JU"
+    ]
+   },
+   {
+    "date": "2026-06-29",
+    "name": "Santi Pietro e Paolo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-08-01",
+    "name": "Bundesfeiertag",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-08-01",
+    "name": "Fête nationale",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-08-01",
+    "name": "Giorno festivo federale",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Assomption",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Assunzione",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2026-09-10",
+    "name": "Jeûne Genevois",
+    "type": "public",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2026-09-20",
+    "name": "Digiuno federale",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-09-20",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-09-20",
+    "name": "Jeûne fédéral",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-09-21",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "VD"
+    ]
+   },
+   {
+    "date": "2026-09-21",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "bank",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-09-22",
+    "name": "Mauritiustag",
+    "type": "public",
+    "regions": [
+     "AI"
+    ]
+   },
+   {
+    "date": "2026-09-25",
+    "name": "Bruderklausenfest",
+    "nameEn": "Saint Nicholas of Flüe",
+    "type": "public",
+    "regions": [
+     "OW"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "GL",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Ognissanti",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Toussaint",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Immacolata Concezione",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Immaculée Conception",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "AG",
+     "LU",
+     "NW",
+     "OW",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Veille de Noël",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Natale di Gesù",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Noël",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Weihnachtstag",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "bank",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Santo Stefano",
+    "nameEn": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Restauration de la République",
+    "nameEn": "Restoration of the Republic",
+    "type": "public",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Capodanno",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-01-01",
+    "name": "Nouvel An",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-01-02",
+    "name": "2 Janvier",
+    "type": "public",
+    "regions": [
+     "JU",
+     "VD"
+    ]
+   },
+   {
+    "date": "2027-01-02",
+    "name": "2 Janvier",
+    "type": "bank",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Berchtoldstag",
+    "type": "public",
+    "regions": [
+     "AG",
+     "BE",
+     "TG"
+    ]
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Berchtoldstag",
+    "type": "bank",
+    "regions": [
+     "NW",
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Saint-Berthold",
+    "type": "bank",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Dreikönigstag",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "SZ",
+     "UR"
+    ]
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Epifania",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-03-01",
+    "name": "Instauration de la République",
+    "type": "public",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2027-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "public",
+    "regions": [
+     "NW",
+     "SO",
+     "SZ",
+     "UR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-03-19",
+    "name": "San Giuseppe",
+    "nameEn": "Saint Joseph",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Vendredi saint",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Domenica di Pasqua",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pâques",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "GE",
+     "JU",
+     "NE",
+     "VD"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Lunedì dell’Angelo",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-04-08",
+    "name": "Näfelser Fahrt",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Festa del lavoro",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Fête du travail",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "JU",
+     "NE",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "AG",
+     "BL",
+     "BS",
+     "SH",
+     "SO",
+     "TG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Ascension",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Ascensione",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Auffahrt",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pentecoste",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pentecôte",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "GE",
+     "JU",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Lunedì di Pentecoste",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Corpus Domini",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2027-05-27",
+    "name": "la Fête-Dieu",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "NE",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-06-23",
+    "name": "Plébiscite jurassien",
+    "nameEn": "Jura Plebiscite",
+    "type": "public",
+    "regions": [
+     "JU"
+    ]
+   },
+   {
+    "date": "2027-06-29",
+    "name": "Santi Pietro e Paolo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-08-01",
+    "name": "Bundesfeiertag",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-08-01",
+    "name": "Fête nationale",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-08-01",
+    "name": "Giorno festivo federale",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Assomption",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Assunzione",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2027-09-09",
+    "name": "Jeûne Genevois",
+    "type": "public",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2027-09-19",
+    "name": "Digiuno federale",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-09-19",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-09-19",
+    "name": "Jeûne fédéral",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-09-20",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "VD"
+    ]
+   },
+   {
+    "date": "2027-09-20",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "bank",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-09-22",
+    "name": "Mauritiustag",
+    "type": "public",
+    "regions": [
+     "AI"
+    ]
+   },
+   {
+    "date": "2027-09-25",
+    "name": "Bruderklausenfest",
+    "nameEn": "Saint Nicholas of Flüe",
+    "type": "public",
+    "regions": [
+     "OW"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "GL",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Ognissanti",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Toussaint",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Immacolata Concezione",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Immaculée Conception",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "AG",
+     "LU",
+     "NW",
+     "OW",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Veille de Noël",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Natale di Gesù",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Noël",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Weihnachtstag",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "bank",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Santo Stefano",
+    "nameEn": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Restauration de la République",
+    "nameEn": "Restoration of the Republic",
+    "type": "public",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Capodanno",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-01-01",
+    "name": "Nouvel An",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-01-02",
+    "name": "2 Janvier",
+    "type": "public",
+    "regions": [
+     "JU",
+     "VD"
+    ]
+   },
+   {
+    "date": "2028-01-02",
+    "name": "2 Janvier",
+    "type": "bank",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Berchtoldstag",
+    "type": "public",
+    "regions": [
+     "AG",
+     "BE",
+     "TG"
+    ]
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Berchtoldstag",
+    "type": "bank",
+    "regions": [
+     "NW",
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Saint-Berthold",
+    "type": "bank",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Dreikönigstag",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "SZ",
+     "UR"
+    ]
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Epifania",
+    "nameEn": "Epiphany",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Instauration de la République",
+    "type": "public",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2028-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "public",
+    "regions": [
+     "NW",
+     "SO",
+     "SZ",
+     "UR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-03-19",
+    "name": "San Giuseppe",
+    "nameEn": "Saint Joseph",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-04-06",
+    "name": "Näfelser Fahrt",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Vendredi saint",
+    "nameEn": "Good Friday",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Domenica di Pasqua",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pâques",
+    "nameEn": "Easter Sunday",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "GE",
+     "JU",
+     "NE",
+     "VD"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Lunedì dell’Angelo",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Festa del lavoro",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Fête du travail",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "JU",
+     "NE",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "AG",
+     "BL",
+     "BS",
+     "SH",
+     "SO",
+     "TG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Ascension",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Ascensione",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Auffahrt",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pentecoste",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pentecôte",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "GE",
+     "JU",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Lunedì di Pentecoste",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Corpus Domini",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2028-06-15",
+    "name": "la Fête-Dieu",
+    "nameEn": "Corpus Christi",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "NE",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-06-23",
+    "name": "Plébiscite jurassien",
+    "nameEn": "Jura Plebiscite",
+    "type": "public",
+    "regions": [
+     "JU"
+    ]
+   },
+   {
+    "date": "2028-06-29",
+    "name": "Santi Pietro e Paolo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-08-01",
+    "name": "Bundesfeiertag",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-08-01",
+    "name": "Fête nationale",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-08-01",
+    "name": "Giorno festivo federale",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Assomption",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Assunzione",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2028-09-07",
+    "name": "Jeûne Genevois",
+    "type": "public",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2028-09-17",
+    "name": "Digiuno federale",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-09-17",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-09-17",
+    "name": "Jeûne fédéral",
+    "nameEn": "Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-09-18",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "public",
+    "regions": [
+     "VD"
+    ]
+   },
+   {
+    "date": "2028-09-18",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "bank",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-09-22",
+    "name": "Mauritiustag",
+    "type": "public",
+    "regions": [
+     "AI"
+    ]
+   },
+   {
+    "date": "2028-09-25",
+    "name": "Bruderklausenfest",
+    "nameEn": "Saint Nicholas of Flüe",
+    "type": "public",
+    "regions": [
+     "OW"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "AG",
+     "AI",
+     "GL",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SO",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Ognissanti",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Toussaint",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "JU",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Immacolata Concezione",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Immaculée Conception",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "public",
+    "regions": [
+     "AG",
+     "LU",
+     "NW",
+     "OW",
+     "SZ",
+     "UR",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Veille de Noël",
+    "nameEn": "Christmas Eve",
+    "type": "public",
+    "regions": [
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Natale di Gesù",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Noël",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Weihnachtstag",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "bank",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Santo Stefano",
+    "nameEn": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AG",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "SG",
+     "SH",
+     "SZ",
+     "TG",
+     "UR",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Restauration de la République",
+    "nameEn": "Restoration of the Republic",
+    "type": "public",
+    "regions": [
+     "GE"
+    ]
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "public",
+    "regions": [
+     "GL"
+    ]
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-02",
+    "name": "2 Janvier",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Berchtoldstag",
+    "type": "optional",
+    "regions": [
+     "GL",
+     "LU",
+     "OW",
+     "SH",
+     "SO",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Saint-Berthold",
+    "type": "optional",
+    "regions": [
+     "FR"
+    ]
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Dreikönigstag",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2026-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "observance",
+    "regions": [
+     "GR",
+     "LU"
+    ]
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Giovedì santo",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jeudi saint",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "optional",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Festa della mamma",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Fête des Mères",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "optional",
+    "regions": [
+     "FR"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "optional",
+    "regions": [
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "observance",
+    "regions": [
+     "BL",
+     "GR"
+    ]
+   },
+   {
+    "date": "2026-06-07",
+    "name": "Fête des pères",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-06-07",
+    "name": "Vätertag",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2026-09-14",
+    "name": "Knabenschiessen",
+    "type": "optional",
+    "regions": [
+     "ZH"
+    ]
+   },
+   {
+    "date": "2026-09-21",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "optional",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "optional",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "optional",
+    "regions": [
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "observance",
+    "regions": [
+     "AI"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-02",
+    "name": "2 Janvier",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Berchtoldstag",
+    "type": "optional",
+    "regions": [
+     "GL",
+     "LU",
+     "OW",
+     "SH",
+     "SO",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Saint-Berthold",
+    "type": "optional",
+    "regions": [
+     "FR"
+    ]
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Dreikönigstag",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2027-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "observance",
+    "regions": [
+     "GR",
+     "LU"
+    ]
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Giovedì santo",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jeudi saint",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "optional",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Festa della mamma",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Fête des Mères",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "optional",
+    "regions": [
+     "FR"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "optional",
+    "regions": [
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "observance",
+    "regions": [
+     "BL",
+     "GR"
+    ]
+   },
+   {
+    "date": "2027-06-06",
+    "name": "Fête des pères",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-06-06",
+    "name": "Vätertag",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2027-09-13",
+    "name": "Knabenschiessen",
+    "type": "optional",
+    "regions": [
+     "ZH"
+    ]
+   },
+   {
+    "date": "2027-09-20",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "optional",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "optional",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "optional",
+    "regions": [
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-02",
+    "name": "2 Janvier",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Berchtoldstag",
+    "type": "optional",
+    "regions": [
+     "GL",
+     "LU",
+     "OW",
+     "SH",
+     "SO",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Saint-Berthold",
+    "type": "optional",
+    "regions": [
+     "FR"
+    ]
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Dreikönigstag",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2028-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "observance",
+    "regions": [
+     "GR",
+     "LU"
+    ]
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Giovedì santo",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Gründonnerstag",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jeudi saint",
+    "nameEn": "Maundy Thursday",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "optional",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "optional",
+    "regions": [
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Festa della mamma",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "TI"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Fête des Mères",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Fête des pères",
+    "type": "observance",
+    "regions": [
+     "FR",
+     "GE",
+     "JU",
+     "NE",
+     "VD",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Vätertag",
+    "type": "observance",
+    "regions": [
+     "*",
+     "AG",
+     "AI",
+     "AR",
+     "BE",
+     "BL",
+     "BS",
+     "GL",
+     "GR",
+     "LU",
+     "NW",
+     "OW",
+     "SG",
+     "SH",
+     "SO",
+     "SZ",
+     "TG",
+     "UR",
+     "ZG",
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "optional",
+    "regions": [
+     "FR"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "optional",
+    "regions": [
+     "LU",
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "observance",
+    "regions": [
+     "BL",
+     "GR"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2028-09-11",
+    "name": "Knabenschiessen",
+    "type": "optional",
+    "regions": [
+     "ZH"
+    ]
+   },
+   {
+    "date": "2028-09-18",
+    "name": "Lundi du Jeûne Fédéral",
+    "nameEn": "Monday after Federal Day of Thanksgiving, Repentance and Prayer",
+    "type": "optional",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "observance",
+    "regions": [
+     "GR"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "optional",
+    "regions": [
+     "FR",
+     "VS"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Saint-Etienne",
+    "nameEn": "Boxing Day",
+    "type": "observance",
+    "regions": [
+     "NE"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "optional",
+    "regions": [
+     "NW",
+     "OW",
+     "SO",
+     "ZG"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "observance",
+    "regions": [
+     "AI"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.626Z"
+}

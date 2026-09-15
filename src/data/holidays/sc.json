@@ -1,0 +1,241 @@
+{
+ "country": "SC",
+ "countryName": "Seychelles",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-02",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-18",
+    "name": "National Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-29",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-02",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-27",
+    "name": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-18",
+    "name": "National Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-29",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-02",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-18",
+    "name": "National Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-29",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.084Z"
+}

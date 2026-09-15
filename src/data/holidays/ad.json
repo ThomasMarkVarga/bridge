@@ -1,0 +1,418 @@
+{
+ "country": "AD",
+ "countryName": "Andorra",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "03",
+   "name": "Encamp"
+  },
+  {
+   "code": "07",
+   "name": "Andorra la Vella"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Any nou",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Carnaval",
+    "nameEn": "Shrove Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-14",
+    "name": "Dia de la Constitució",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "bank"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Lunes de Pascua",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Lunes de Pentecostés",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-20",
+    "name": "Festa del poble d'Encamp",
+    "nameEn": "Encamp Town Festival",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Festa del poble d'Encamp",
+    "nameEn": "Encamp Town Festival",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2026-06-22",
+    "name": "Festa del poble d'Encamp",
+    "nameEn": "Encamp Town Festival",
+    "type": "public",
+    "regions": [
+     "03"
+    ]
+   },
+   {
+    "date": "2026-08-01",
+    "name": "Andorra La Vella Festival",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2026-08-02",
+    "name": "Andorra La Vella Festival",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Andorra La Vella Festival",
+    "type": "public",
+    "regions": [
+     "07"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-08",
+    "name": "Mare de Déu de Meritxell",
+    "nameEn": "Our Lady of Meritxell",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Nadal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "San Esteban",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Any nou",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Carnaval",
+    "nameEn": "Shrove Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-14",
+    "name": "Dia de la Constitució",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "bank"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Lunes de Pascua",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Lunes de Pentecostés",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-08",
+    "name": "Mare de Déu de Meritxell",
+    "nameEn": "Our Lady of Meritxell",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Nadal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "San Esteban",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Any nou",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-28",
+    "name": "Carnaval",
+    "nameEn": "Shrove Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-14",
+    "name": "Dia de la Constitució",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "bank"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Lunes de Pascua",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Lunes de Pentecostés",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-08",
+    "name": "Mare de Déu de Meritxell",
+    "nameEn": "Our Lady of Meritxell",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Nadal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "San Esteban",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pentecostés",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pentecostés",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pentecostés",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:50.795Z"
+}

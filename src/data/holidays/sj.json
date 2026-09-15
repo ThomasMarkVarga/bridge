@@ -1,0 +1,697 @@
+{
+ "country": "SJ",
+ "countryName": "Svalbard & Jan Mayen",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Første nyttårsdag",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Skjærtorsdag",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Langfredag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Første påskedag",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Andre påskedag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Arbeidernes dag",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Kristi himmelfartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-17",
+    "name": "Grunnlovsdagen",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Første pinsedag",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Andre pinsedag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Julaften",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Første juledag",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Andre juledag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Nyttårsaften",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Første nyttårsdag",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Skjærtorsdag",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Langfredag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Første påskedag",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Andre påskedag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Arbeidernes dag",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Kristi himmelfartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Første pinsedag",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Andre pinsedag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Grunnlovsdagen",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Julaften",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Første juledag",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Andre juledag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Nyttårsaften",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Første nyttårsdag",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Skjærtorsdag",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Langfredag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Første påskedag",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Andre påskedag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Arbeidernes dag",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-17",
+    "name": "Grunnlovsdagen",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Kristi himmelfartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Første pinsedag",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Andre pinsedag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Julaften",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Første juledag",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Andre juledag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Nyttårsaften",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-21",
+    "name": "H.K.H. prinsesse Ingrid Alexandra",
+    "nameEn": "Birthday of Princess Ingrid Alexandra",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-06",
+    "name": "Samefolkets dag",
+    "nameEn": "Day of the Sami people",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-08",
+    "name": "Morsdag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-14",
+    "name": "Valentinsdag",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-15",
+    "name": "Fastelavn",
+    "nameEn": "Carnival",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Askeonsdag",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-21",
+    "name": "H.M. kong Harald V",
+    "nameEn": "Birthday of King Harald V",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Kvinnedagen",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-29",
+    "name": "Palmesøndag",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-01",
+    "name": "Aprilsnarr",
+    "nameEn": "April Fools' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-08",
+    "name": "Frigjøringsdagen",
+    "nameEn": "Liberation Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-07",
+    "name": "Unionsoppløsningen",
+    "nameEn": "Union Dissolution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-23",
+    "name": "Sankthansaften",
+    "nameEn": "Midsummar Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-04",
+    "name": "H.M. dronning Sonja",
+    "nameEn": "Birthday of Queen Sonja",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-20",
+    "name": "H.K.H. kronprins Haakon Magnus",
+    "nameEn": "Birthday of Crown Prince Haakon Magnus",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-29",
+    "name": "Olsok",
+    "type": "optional"
+   },
+   {
+    "date": "2026-08-19",
+    "name": "H.K.H. kronprinsesse Mette-Marit",
+    "nameEn": "Birthday of Crown Princess Mette-Marit",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Allehelgensaften",
+    "nameEn": "All Saints' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-08",
+    "name": "Farsdag",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-29",
+    "name": "Første søndag i advent",
+    "nameEn": "First Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-06",
+    "name": "Andre søndag i advent",
+    "nameEn": "Second Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-13",
+    "name": "Tredje søndag i advent",
+    "nameEn": "Third Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-20",
+    "name": "Fjerde søndag i advent",
+    "nameEn": "Fourth Sunday of Advent",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-21",
+    "name": "H.K.H. prinsesse Ingrid Alexandra",
+    "nameEn": "Birthday of Princess Ingrid Alexandra",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-06",
+    "name": "Samefolkets dag",
+    "nameEn": "Day of the Sami people",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-07",
+    "name": "Fastelavn",
+    "nameEn": "Carnival",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-10",
+    "name": "Askeonsdag",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Morsdag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Valentinsdag",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-21",
+    "name": "H.M. kong Harald V",
+    "nameEn": "Birthday of King Harald V",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Kvinnedagen",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-21",
+    "name": "Palmesøndag",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-01",
+    "name": "Aprilsnarr",
+    "nameEn": "April Fools' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-08",
+    "name": "Frigjøringsdagen",
+    "nameEn": "Liberation Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-07",
+    "name": "Unionsoppløsningen",
+    "nameEn": "Union Dissolution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-23",
+    "name": "Sankthansaften",
+    "nameEn": "Midsummar Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-04",
+    "name": "H.M. dronning Sonja",
+    "nameEn": "Birthday of Queen Sonja",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-20",
+    "name": "H.K.H. kronprins Haakon Magnus",
+    "nameEn": "Birthday of Crown Prince Haakon Magnus",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-29",
+    "name": "Olsok",
+    "type": "optional"
+   },
+   {
+    "date": "2027-08-19",
+    "name": "H.K.H. kronprinsesse Mette-Marit",
+    "nameEn": "Birthday of Crown Princess Mette-Marit",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-07",
+    "name": "Allehelgensaften",
+    "nameEn": "All Saints' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-14",
+    "name": "Farsdag",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-28",
+    "name": "Første søndag i advent",
+    "nameEn": "First Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-05",
+    "name": "Andre søndag i advent",
+    "nameEn": "Second Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-12",
+    "name": "Tredje søndag i advent",
+    "nameEn": "Third Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-19",
+    "name": "Fjerde søndag i advent",
+    "nameEn": "Fourth Sunday of Advent",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-21",
+    "name": "H.K.H. prinsesse Ingrid Alexandra",
+    "nameEn": "Birthday of Princess Ingrid Alexandra",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-06",
+    "name": "Samefolkets dag",
+    "nameEn": "Day of the Sami people",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-13",
+    "name": "Morsdag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-14",
+    "name": "Valentinsdag",
+    "nameEn": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-21",
+    "name": "H.M. kong Harald V",
+    "nameEn": "Birthday of King Harald V",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-27",
+    "name": "Fastelavn",
+    "nameEn": "Carnival",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Askeonsdag",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Kvinnedagen",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-01",
+    "name": "Aprilsnarr",
+    "nameEn": "April Fools' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-09",
+    "name": "Palmesøndag",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-08",
+    "name": "Frigjøringsdagen",
+    "nameEn": "Liberation Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-07",
+    "name": "Unionsoppløsningen",
+    "nameEn": "Union Dissolution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-23",
+    "name": "Sankthansaften",
+    "nameEn": "Midsummar Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-04",
+    "name": "H.M. dronning Sonja",
+    "nameEn": "Birthday of Queen Sonja",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-20",
+    "name": "H.K.H. kronprins Haakon Magnus",
+    "nameEn": "Birthday of Crown Prince Haakon Magnus",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-29",
+    "name": "Olsok",
+    "type": "optional"
+   },
+   {
+    "date": "2028-08-19",
+    "name": "H.K.H. kronprinsesse Mette-Marit",
+    "nameEn": "Birthday of Crown Princess Mette-Marit",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-05",
+    "name": "Allehelgensaften",
+    "nameEn": "All Saints' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-12",
+    "name": "Farsdag",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-03",
+    "name": "Første søndag i advent",
+    "nameEn": "First Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-10",
+    "name": "Andre søndag i advent",
+    "nameEn": "Second Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-17",
+    "name": "Tredje søndag i advent",
+    "nameEn": "Third Sunday of Advent",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Fjerde søndag i advent",
+    "nameEn": "Fourth Sunday of Advent",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.195Z"
+}

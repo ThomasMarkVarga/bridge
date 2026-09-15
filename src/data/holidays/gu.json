@@ -1,0 +1,453 @@
+{
+ "country": "GU",
+ "countryName": "Guam",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-02",
+    "name": "Guam History and Chamorro Heritage Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-03",
+    "name": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2026-07-04",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-21",
+    "name": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-07",
+    "name": "Labor Day",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-26",
+    "name": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Our Lady of Camarin Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-01",
+    "name": "Guam History and Chamorro Heritage Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-31",
+    "name": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-18",
+    "name": "Juneteenth (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-04",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-05",
+    "name": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-07-21",
+    "name": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-06",
+    "name": "Labor Day",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-25",
+    "name": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Our Lady of Camarin Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-06",
+    "name": "Guam History and Chamorro Heritage Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-29",
+    "name": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-04",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-21",
+    "name": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-04",
+    "name": "Labor Day",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-10",
+    "name": "Veterans Day (substitute day)",
+    "type": "bank",
+    "substitute": true
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-23",
+    "name": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Our Lady of Camarin Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-15",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-22",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-15",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-21",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-18",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-26",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-18",
+    "name": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-07",
+    "name": "Election Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "New Year's Eve",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.320Z"
+}

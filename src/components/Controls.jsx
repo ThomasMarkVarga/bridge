@@ -8,7 +8,7 @@
  */
 import { useId } from 'react'
 import Icon from './Icon.jsx'
-import { COUNTRIES } from '../data/loadHolidays.js'
+import { COUNTRIES, subdivisionsOf } from '../data/loadHolidays.js'
 import { OBJECTIVE_LABELS, OBJECTIVES } from '../solver/objectives.js'
 import { WEEKDAYS_SHORT, MONTHS } from '../format.js'
 import { toMonthDay, partsOf, daysInBirthdayMonth, isMonthDay } from '../solver/birthday.js'
@@ -29,7 +29,10 @@ export default function Controls({ state, onChange, countryData, years, optionsO
   const regionId = useId()
 
   const country = COUNTRIES.find((c) => c.code === state.country)
-  const needsRegion = country && country.subdivisions.length > 0
+  // Regions come from the country's own file, so they only exist once it has
+  // loaded. Until then the picker simply does not offer a region to choose.
+  const regions = subdivisionsOf(countryData)
+  const needsRegion = regions.length > 0
 
   return (
     <div className="card anim-pop p-4 sm:p-5">
@@ -110,7 +113,7 @@ export default function Controls({ state, onChange, countryData, years, optionsO
             onChange={(e) => onChange({ subdivision: e.target.value || null })}
           >
             {!country.requireSubdivision && <option value="">The whole country</option>}
-            {country.subdivisions.map((s) => (
+            {regions.map((s) => (
               <option key={s.code} value={s.code}>
                 {s.name}
               </option>

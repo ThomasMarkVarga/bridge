@@ -1,0 +1,541 @@
+{
+ "country": "HR",
+ "countryName": "Croatia",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "17",
+   "name": "Split-Dalmatia"
+  },
+  {
+   "code": "19",
+   "name": "Dubrovnik-Neretva"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Nova godina",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Bogojavljenje, Sveta tri kralja",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Uskrs",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Uskršnji ponedjeljak",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Praznik rada",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-30",
+    "name": "Dan državnosti",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Tijelovo",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-22",
+    "name": "Dan antifašističke borbe",
+    "nameEn": "Anti-Fascist Struggle Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-05",
+    "name": "Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja",
+    "nameEn": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Velika Gospa",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Svi sveti",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-18",
+    "name": "Dan sjećanja na žrtve Domovinskog rata i Dan sjećanja na žrtvu Vukovara i Škabrnje",
+    "nameEn": "Remembrance Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Božić",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Svetog Stjepana",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Nova godina",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Bogojavljenje, Sveta tri kralja",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Uskrs",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Uskršnji ponedjeljak",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Praznik rada",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Tijelovo",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-30",
+    "name": "Dan državnosti",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-22",
+    "name": "Dan antifašističke borbe",
+    "nameEn": "Anti-Fascist Struggle Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-05",
+    "name": "Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja",
+    "nameEn": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Velika Gospa",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Svi sveti",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-18",
+    "name": "Dan sjećanja na žrtve Domovinskog rata i Dan sjećanja na žrtvu Vukovara i Škabrnje",
+    "nameEn": "Remembrance Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Božić",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Svetog Stjepana",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Nova godina",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Bogojavljenje, Sveta tri kralja",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Uskrs",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Uskršnji ponedjeljak",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Praznik rada",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-30",
+    "name": "Dan državnosti",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Tijelovo",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-22",
+    "name": "Dan antifašističke borbe",
+    "nameEn": "Anti-Fascist Struggle Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-05",
+    "name": "Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja",
+    "nameEn": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Velika Gospa",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Svi sveti",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-18",
+    "name": "Dan sjećanja na žrtve Domovinskog rata i Dan sjećanja na žrtvu Vukovara i Škabrnje",
+    "nameEn": "Remembrance Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Božić",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Svetog Stjepana",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-07",
+    "name": "Pravoslavni Božić",
+    "nameEn": "Orthodox Christmas",
+    "type": "optional"
+   },
+   {
+    "date": "2026-02-03",
+    "name": "Sveti Vlaho",
+    "nameEn": "Saint Blaise",
+    "type": "optional",
+    "regions": [
+     "19"
+    ]
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Pokladni utorak",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Ramazanski bajram",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "Pravoslavni Uskrs",
+    "nameEn": "Orthodox Easter",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "Orthodox Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2026-05-07",
+    "name": "Sveti Duje",
+    "nameEn": "Saint Domnius",
+    "type": "optional",
+    "regions": [
+     "17"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Majčin dan",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Kurban-bajram",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2026-06-25",
+    "name": "Dan neovisnosti",
+    "nameEn": "Independence Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-12",
+    "name": "Jom Kipur",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2026-09-21",
+    "name": "Jom Kipur",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-07",
+    "name": "Pravoslavni Božić",
+    "nameEn": "Orthodox Christmas",
+    "type": "optional"
+   },
+   {
+    "date": "2027-02-03",
+    "name": "Sveti Vlaho",
+    "nameEn": "Saint Blaise",
+    "type": "optional",
+    "regions": [
+     "19"
+    ]
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Pokladni utorak",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Ramazanski bajram",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "optional"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Pravoslavni Uskrs",
+    "nameEn": "Orthodox Easter",
+    "type": "optional"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "Orthodox Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2027-05-07",
+    "name": "Sveti Duje",
+    "nameEn": "Saint Domnius",
+    "type": "optional",
+    "regions": [
+     "17"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Majčin dan",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Kurban-bajram",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2027-06-25",
+    "name": "Dan neovisnosti",
+    "nameEn": "Independence Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-02",
+    "name": "Jom Kipur",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Jom Kipur",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-07",
+    "name": "Pravoslavni Božić",
+    "nameEn": "Orthodox Christmas",
+    "type": "optional"
+   },
+   {
+    "date": "2028-02-03",
+    "name": "Sveti Vlaho",
+    "nameEn": "Saint Blaise",
+    "type": "optional",
+    "regions": [
+     "19"
+    ]
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Ramazanski bajram",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "optional"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Pokladni utorak",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pravoslavni Uskrs",
+    "nameEn": "Orthodox Easter",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Orthodox Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Kurban-bajram",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Sveti Duje",
+    "nameEn": "Saint Domnius",
+    "type": "optional",
+    "regions": [
+     "17"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Majčin dan",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-25",
+    "name": "Dan neovisnosti",
+    "nameEn": "Independence Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-21",
+    "name": "Jom Kipur",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2028-09-30",
+    "name": "Jom Kipur",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.535Z"
+}

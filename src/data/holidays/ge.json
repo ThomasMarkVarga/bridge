@@ -1,0 +1,337 @@
+{
+ "country": "GE",
+ "countryName": "Georgia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "ახალი წელი",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-02",
+    "name": "ბედობა",
+    "nameEn": "Bedoba",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-07",
+    "name": "შობა",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-19",
+    "name": "ნათლისღება",
+    "nameEn": "Orthodox Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-03",
+    "name": "დედის დღე",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "ქალთა საერთაშორისო დღე",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-09",
+    "name": "ეროვნული ერთიანობის დღე",
+    "nameEn": "National Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-10",
+    "name": "წითელი პარასკევი",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-11",
+    "name": "დიდი შაბათი",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "აღდგომა",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "აღდგომის ორშაბათი",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-09",
+    "name": "ფაშიზმზე გამარჯვების დღე",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-12",
+    "name": "წმინდა ანდრია პირველწოდებულის ხსენების დღე",
+    "nameEn": "Saint Andrew the First-Called Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-26",
+    "name": "დამოუკიდებლობის დღე",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-28",
+    "name": "მარიამობა",
+    "nameEn": "Saint Mary's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-14",
+    "name": "სვეტიცხოვლობა",
+    "nameEn": "Svetitskhovloba",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-23",
+    "name": "გიორგობა",
+    "nameEn": "Saint George's Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "ახალი წელი",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-02",
+    "name": "ბედობა",
+    "nameEn": "Bedoba",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-07",
+    "name": "შობა",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-19",
+    "name": "ნათლისღება",
+    "nameEn": "Orthodox Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-03",
+    "name": "დედის დღე",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "ქალთა საერთაშორისო დღე",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-09",
+    "name": "ეროვნული ერთიანობის დღე",
+    "nameEn": "National Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-30",
+    "name": "წითელი პარასკევი",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "დიდი შაბათი",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "აღდგომა",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "აღდგომის ორშაბათი",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "ფაშიზმზე გამარჯვების დღე",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-12",
+    "name": "წმინდა ანდრია პირველწოდებულის ხსენების დღე",
+    "nameEn": "Saint Andrew the First-Called Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-26",
+    "name": "დამოუკიდებლობის დღე",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-28",
+    "name": "მარიამობა",
+    "nameEn": "Saint Mary's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-14",
+    "name": "სვეტიცხოვლობა",
+    "nameEn": "Svetitskhovloba",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-23",
+    "name": "გიორგობა",
+    "nameEn": "Saint George's Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "ახალი წელი",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-02",
+    "name": "ბედობა",
+    "nameEn": "Bedoba",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-07",
+    "name": "შობა",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-19",
+    "name": "ნათლისღება",
+    "nameEn": "Orthodox Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-03",
+    "name": "დედის დღე",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "ქალთა საერთაშორისო დღე",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-09",
+    "name": "ეროვნული ერთიანობის დღე",
+    "nameEn": "National Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "წითელი პარასკევი",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "დიდი შაბათი",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "აღდგომა",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "აღდგომის ორშაბათი",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "ფაშიზმზე გამარჯვების დღე",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-12",
+    "name": "წმინდა ანდრია პირველწოდებულის ხსენების დღე",
+    "nameEn": "Saint Andrew the First-Called Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-26",
+    "name": "დამოუკიდებლობის დღე",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-28",
+    "name": "მარიამობა",
+    "nameEn": "Saint Mary's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-14",
+    "name": "სვეტიცხოვლობა",
+    "nameEn": "Svetitskhovloba",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-23",
+    "name": "გიორგობა",
+    "nameEn": "Saint George's Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.247Z"
+}

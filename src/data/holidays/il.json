@@ -1,0 +1,899 @@
+{
+ "country": "IL",
+ "countryName": "Israel",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as Passover (Pesach), Mimouna, Seventh day of Passover, Shavuot (Feast of Weeks). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-04-02",
+    "name": "פסח",
+    "nameEn": "Passover (Pesach)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-08",
+    "name": "מימונה, שביעי של פסח",
+    "nameEn": "Mimouna, Seventh day of Passover",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-22",
+    "name": "יום העצמאות",
+    "nameEn": "Independence Day (Yom HaAtzmaut)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-22",
+    "name": "שבועות",
+    "nameEn": "Shavuot (Feast of Weeks)",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-12",
+    "name": "ראש השנה",
+    "nameEn": "Rosh Hashanah (Yom Teruah)",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-13",
+    "name": "ראש השנה יום 2",
+    "nameEn": "Rosh Hashanah (Day 2)",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-21",
+    "name": "יום כיפור",
+    "nameEn": "Day of Atonement (Yom Kippur)",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-26",
+    "name": "סוכות",
+    "nameEn": "Feast of Tabernacles (Sukkot)",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-03",
+    "name": "שמחת תורה/שמיני עצרת",
+    "nameEn": "Simchat Torah/ Shmini Atzeret",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-04-22",
+    "name": "פסח",
+    "nameEn": "Passover (Pesach)",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-28",
+    "name": "מימונה, שביעי של פסח",
+    "nameEn": "Mimouna, Seventh day of Passover",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-12",
+    "name": "יום העצמאות",
+    "nameEn": "Independence Day (Yom HaAtzmaut)",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-11",
+    "name": "שבועות",
+    "nameEn": "Shavuot (Feast of Weeks)",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-02",
+    "name": "ראש השנה",
+    "nameEn": "Rosh Hashanah (Yom Teruah)",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-03",
+    "name": "ראש השנה יום 2",
+    "nameEn": "Rosh Hashanah (Day 2)",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "יום כיפור",
+    "nameEn": "Day of Atonement (Yom Kippur)",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-16",
+    "name": "סוכות",
+    "nameEn": "Feast of Tabernacles (Sukkot)",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-23",
+    "name": "שמחת תורה/שמיני עצרת",
+    "nameEn": "Simchat Torah/ Shmini Atzeret",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-11",
+    "name": "פסח",
+    "nameEn": "Passover (Pesach)",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "מימונה, שביעי של פסח",
+    "nameEn": "Mimouna, Seventh day of Passover",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-02",
+    "name": "יום העצמאות",
+    "nameEn": "Independence Day (Yom HaAtzmaut)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-31",
+    "name": "שבועות",
+    "nameEn": "Shavuot (Feast of Weeks)",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-21",
+    "name": "ראש השנה",
+    "nameEn": "Rosh Hashanah (Yom Teruah)",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-22",
+    "name": "ראש השנה יום 2",
+    "nameEn": "Rosh Hashanah (Day 2)",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-30",
+    "name": "יום כיפור",
+    "nameEn": "Day of Atonement (Yom Kippur)",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-05",
+    "name": "סוכות",
+    "nameEn": "Feast of Tabernacles (Sukkot)",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-12",
+    "name": "שמחת תורה/שמיני עצרת",
+    "nameEn": "Simchat Torah/ Shmini Atzeret",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-02",
+    "name": "ט\"ו בשבט",
+    "nameEn": "Tu Bishvat (Arbor Day)",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-02",
+    "name": "תענית אסתר",
+    "nameEn": "Fast of Esther",
+    "type": "school"
+   },
+   {
+    "date": "2026-03-03",
+    "name": "פורים",
+    "nameEn": "Purim",
+    "type": "school"
+   },
+   {
+    "date": "2026-03-04",
+    "name": "פורים",
+    "nameEn": "Purim",
+    "type": "school"
+   },
+   {
+    "date": "2026-03-28",
+    "name": "יום העלייה",
+    "nameEn": "Aliyah Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2026-04-07",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2026-04-14",
+    "name": "יום הזיכרון לשואה ולגבורה",
+    "nameEn": "Holocaust Remembrance Day (Yom HaShoah)",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-21",
+    "name": "יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה",
+    "nameEn": "Fallen Soldiers and Victims of Terrorism Remembrance Day (Yom HaZikaron)",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-27",
+    "name": "יום הרצל",
+    "nameEn": "Herzl Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-05",
+    "name": "ל\"ג בעומר",
+    "nameEn": "Lag BaOmer",
+    "type": "school"
+   },
+   {
+    "date": "2026-05-09",
+    "name": "יום הניצחון על גרמניה הנאצית",
+    "nameEn": "Victory in Europe Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-15",
+    "name": "יום ירושלים",
+    "nameEn": "Jerusalem Day (Yom Yerushalayim)",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-02",
+    "name": "שבעה עשר בתמוז",
+    "nameEn": "Seventeenth of Tamuz, fast",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-14",
+    "name": "יום ז'בוטינסקי",
+    "nameEn": "Jabotinsky Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-23",
+    "name": "תשעה באב",
+    "nameEn": "Tisha B'Av, fast",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-29",
+    "name": "ט\"ו באב",
+    "nameEn": "Tu B'Av (Fifteenth of Av)",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-14",
+    "name": "צום גדליה",
+    "nameEn": "Fast of Gedaliah (Tzom Gedalya)",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-27",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2026-09-28",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2026-09-29",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2026-09-30",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2026-10-01",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2026-10-02",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2026-10-22",
+    "name": "יום רבין",
+    "nameEn": "Rabin Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-09",
+    "name": "סיגד",
+    "nameEn": "Sigd",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-16",
+    "name": "יום בן-גוריון",
+    "nameEn": "Ben-Gurion Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-05",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-06",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-07",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-09",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-10",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-11",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-12",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-20",
+    "name": "צום עשרה בטבת",
+    "nameEn": "Tenth of Tevet",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-23",
+    "name": "ט\"ו בשבט",
+    "nameEn": "Tu Bishvat (Arbor Day)",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-22",
+    "name": "תענית אסתר",
+    "nameEn": "Fast of Esther",
+    "type": "school"
+   },
+   {
+    "date": "2027-03-23",
+    "name": "פורים",
+    "nameEn": "Purim",
+    "type": "school"
+   },
+   {
+    "date": "2027-03-24",
+    "name": "פורים",
+    "nameEn": "Purim",
+    "type": "school"
+   },
+   {
+    "date": "2027-04-17",
+    "name": "יום העלייה",
+    "nameEn": "Aliyah Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-23",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2027-04-24",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2027-04-25",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2027-04-26",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2027-04-27",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2027-05-04",
+    "name": "יום הזיכרון לשואה ולגבורה",
+    "nameEn": "Holocaust Remembrance Day (Yom HaShoah)",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "יום הניצחון על גרמניה הנאצית",
+    "nameEn": "Victory in Europe Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-11",
+    "name": "יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה",
+    "nameEn": "Fallen Soldiers and Victims of Terrorism Remembrance Day (Yom HaZikaron)",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "יום הרצל",
+    "nameEn": "Herzl Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-25",
+    "name": "ל\"ג בעומר",
+    "nameEn": "Lag BaOmer",
+    "type": "school"
+   },
+   {
+    "date": "2027-06-04",
+    "name": "יום ירושלים",
+    "nameEn": "Jerusalem Day (Yom Yerushalayim)",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-22",
+    "name": "שבעה עשר בתמוז",
+    "nameEn": "Seventeenth of Tamuz, fast",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-03",
+    "name": "יום ז'בוטינסקי",
+    "nameEn": "Jabotinsky Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-12",
+    "name": "תשעה באב",
+    "nameEn": "Tisha B'Av, fast",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-18",
+    "name": "ט\"ו באב",
+    "nameEn": "Tu B'Av (Fifteenth of Av)",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-04",
+    "name": "צום גדליה",
+    "nameEn": "Fast of Gedaliah (Tzom Gedalya)",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-17",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2027-10-18",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2027-10-19",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2027-10-20",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2027-10-21",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2027-10-22",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "יום רבין",
+    "nameEn": "Rabin Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-29",
+    "name": "סיגד",
+    "nameEn": "Sigd",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-06",
+    "name": "יום בן-גוריון",
+    "nameEn": "Ben-Gurion Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2027-12-27",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2027-12-28",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2027-12-29",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2027-12-30",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-01-01",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-09",
+    "name": "צום עשרה בטבת",
+    "nameEn": "Tenth of Tevet",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-12",
+    "name": "ט\"ו בשבט",
+    "nameEn": "Tu Bishvat (Arbor Day)",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-09",
+    "name": "תענית אסתר",
+    "nameEn": "Fast of Esther",
+    "type": "school"
+   },
+   {
+    "date": "2028-03-12",
+    "name": "פורים",
+    "nameEn": "Purim",
+    "type": "school"
+   },
+   {
+    "date": "2028-03-13",
+    "name": "פורים",
+    "nameEn": "Purim",
+    "type": "school"
+   },
+   {
+    "date": "2028-04-06",
+    "name": "יום העלייה",
+    "nameEn": "Aliyah Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-12",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "חול המועד פסח",
+    "nameEn": "Passover (intermediate days)",
+    "type": "school"
+   },
+   {
+    "date": "2028-04-24",
+    "name": "יום הזיכרון לשואה ולגבורה",
+    "nameEn": "Holocaust Remembrance Day (Yom HaShoah)",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה",
+    "nameEn": "Fallen Soldiers and Victims of Terrorism Remembrance Day (Yom HaZikaron)",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "יום הרצל",
+    "nameEn": "Herzl Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "יום הניצחון על גרמניה הנאצית",
+    "nameEn": "Victory in Europe Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "ל\"ג בעומר",
+    "nameEn": "Lag BaOmer",
+    "type": "school"
+   },
+   {
+    "date": "2028-05-24",
+    "name": "יום ירושלים",
+    "nameEn": "Jerusalem Day (Yom Yerushalayim)",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-11",
+    "name": "שבעה עשר בתמוז",
+    "nameEn": "Seventeenth of Tamuz, fast",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-23",
+    "name": "יום ז'בוטינסקי",
+    "nameEn": "Jabotinsky Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-01",
+    "name": "תשעה באב",
+    "nameEn": "Tisha B'Av, fast",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-07",
+    "name": "ט\"ו באב",
+    "nameEn": "Tu B'Av (Fifteenth of Av)",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-24",
+    "name": "צום גדליה",
+    "nameEn": "Fast of Gedaliah (Tzom Gedalya)",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-06",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2028-10-07",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2028-10-08",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2028-10-09",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2028-10-10",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2028-10-11",
+    "name": "חול המועד סוכות",
+    "nameEn": "The week of Sukkot",
+    "type": "school"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "יום רבין",
+    "nameEn": "Rabin Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-18",
+    "name": "סיגד",
+    "nameEn": "Sigd",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-24",
+    "name": "יום בן-גוריון",
+    "nameEn": "Ben-Gurion Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-13",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-14",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-15",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-16",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-17",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-18",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-19",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-20",
+    "name": "חנוכה",
+    "nameEn": "Hanukkah",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-28",
+    "name": "צום עשרה בטבת",
+    "nameEn": "Tenth of Tevet",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.621Z"
+}

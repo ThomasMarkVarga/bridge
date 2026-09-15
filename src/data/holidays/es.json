@@ -1,6 +1,7 @@
 {
  "country": "ES",
  "countryName": "Spain",
+ "verified": true,
  "subdivisionLabel": "Region",
  "requireSubdivision": true,
  "defaultSubdivision": "MD",
@@ -83,7 +84,8 @@
   }
  ],
  "notes": [
-  "Spanish towns add two local holidays of their own each year. Those are not in this data."
+  "Spanish towns add two local holidays of their own each year. Those are not in this data.",
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one."
  ],
  "years": {
   "2026": [
@@ -1369,5 +1371,5 @@
   "version": "3.36.1",
   "url": "https://github.com/commenthol/date-holidays"
  },
- "generatedAt": "2026-09-14T21:53:18.117Z"
+ "generatedAt": "2026-09-15T05:52:52.177Z"
 }

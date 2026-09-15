@@ -1,0 +1,417 @@
+{
+ "country": "CL",
+ "countryName": "Chile",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "AP",
+   "name": "Arica y Parinacota"
+  },
+  {
+   "code": "BI",
+   "name": "Biobío"
+  },
+  {
+   "code": "NU",
+   "name": "Ñuble"
+  },
+  {
+   "code": "TA",
+   "name": "Tarapacá"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-21",
+    "name": "Día de las Glorias Navales",
+    "nameEn": "Navy Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-07",
+    "name": "Asalto y Toma del Morro de Arica",
+    "nameEn": "Battle of Arica",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Día de los Pueblos Indígenas",
+    "nameEn": "Indigenous People's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-29",
+    "name": "San Pedro y San Pablo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-16",
+    "name": "Virgen del Carmen",
+    "nameEn": "Our Lady of Mount Carmel",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-18",
+    "name": "Fiestas Patrias",
+    "nameEn": "National holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-19",
+    "name": "Día de las Glorias del Ejército",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Encuentro de Dos Mundos",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Día Nacional de las Iglesias Evangélicas y Protestantes",
+    "nameEn": "Reformation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-21",
+    "name": "Día de las Glorias Navales",
+    "nameEn": "Navy Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-07",
+    "name": "Asalto y Toma del Morro de Arica",
+    "nameEn": "Battle of Arica",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2027-06-21",
+    "name": "Día de los Pueblos Indígenas",
+    "nameEn": "Indigenous People's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-28",
+    "name": "San Pedro y San Pablo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-16",
+    "name": "Virgen del Carmen",
+    "nameEn": "Our Lady of Mount Carmel",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-17",
+    "name": "Feriado Adicional Fiestas Patrias",
+    "nameEn": "National holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-18",
+    "name": "Fiestas Patrias",
+    "nameEn": "National holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-19",
+    "name": "Día de las Glorias del Ejército",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Encuentro de Dos Mundos",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Día Nacional de las Iglesias Evangélicas y Protestantes",
+    "nameEn": "Reformation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-21",
+    "name": "Día de las Glorias Navales",
+    "nameEn": "Navy Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-07",
+    "name": "Asalto y Toma del Morro de Arica",
+    "nameEn": "Battle of Arica",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2028-06-20",
+    "name": "Día de los Pueblos Indígenas",
+    "nameEn": "Indigenous People's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-26",
+    "name": "San Pedro y San Pablo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-16",
+    "name": "Virgen del Carmen",
+    "nameEn": "Our Lady of Mount Carmel",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-18",
+    "name": "Fiestas Patrias",
+    "nameEn": "National holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-19",
+    "name": "Día de las Glorias del Ejército",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Encuentro de Dos Mundos",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-27",
+    "name": "Día Nacional de las Iglesias Evangélicas y Protestantes",
+    "nameEn": "Reformation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-08-10",
+    "name": "San Lorenzo de Tarapacá",
+    "nameEn": "Saint Lawrence",
+    "type": "observance",
+    "regions": [
+     "TA"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-08-10",
+    "name": "San Lorenzo de Tarapacá",
+    "nameEn": "Saint Lawrence",
+    "type": "observance",
+    "regions": [
+     "TA"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-08-10",
+    "name": "San Lorenzo de Tarapacá",
+    "nameEn": "Saint Lawrence",
+    "type": "observance",
+    "regions": [
+     "TA"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.719Z"
+}

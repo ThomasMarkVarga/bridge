@@ -1,0 +1,334 @@
+{
+ "country": "PT",
+ "countryName": "Portugal",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-25",
+    "name": "Dia da Liberdade",
+    "nameEn": "Liberty Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Corpo de Deus",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-10",
+    "name": "Dia de Portugal",
+    "nameEn": "Portugal Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Assunção de Maria",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-05",
+    "name": "Implantação da República",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Todos os santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-01",
+    "name": "Restauração da Independência",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Imaculada Conceição",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-25",
+    "name": "Dia da Liberdade",
+    "nameEn": "Liberty Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Corpo de Deus",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-10",
+    "name": "Dia de Portugal",
+    "nameEn": "Portugal Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Assunção de Maria",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-05",
+    "name": "Implantação da República",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Todos os santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-01",
+    "name": "Restauração da Independência",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Imaculada Conceição",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-25",
+    "name": "Dia da Liberdade",
+    "nameEn": "Liberty Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-10",
+    "name": "Dia de Portugal",
+    "nameEn": "Portugal Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Corpo de Deus",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Assunção de Maria",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-05",
+    "name": "Implantação da República",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Todos os santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-01",
+    "name": "Restauração da Independência",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Imaculada Conceição",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-17",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-03",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Noite de Natal",
+    "nameEn": "Christmas Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Véspera de Ano Novo",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-09",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Noite de Natal",
+    "nameEn": "Christmas Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Véspera de Ano Novo",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-29",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Noite de Natal",
+    "nameEn": "Christmas Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Véspera de Ano Novo",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.942Z"
+}

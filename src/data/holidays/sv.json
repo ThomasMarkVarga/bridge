@@ -1,0 +1,363 @@
+{
+ "country": "SV",
+ "countryName": "El Salvador",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "SS",
+   "name": "San Salvador"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "Sabado Santo",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Fiestas Agostinas",
+    "type": "public",
+    "regions": [
+     "SS"
+    ]
+   },
+   {
+    "date": "2026-08-05",
+    "name": "Fiestas Agostinas",
+    "type": "public",
+    "regions": [
+     "SS"
+    ]
+   },
+   {
+    "date": "2026-08-06",
+    "name": "Celebración del Divino Salvador del Mundo",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-27",
+    "name": "Sabado Santo",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-03",
+    "name": "Fiestas Agostinas",
+    "type": "public",
+    "regions": [
+     "SS"
+    ]
+   },
+   {
+    "date": "2027-08-05",
+    "name": "Fiestas Agostinas",
+    "type": "public",
+    "regions": [
+     "SS"
+    ]
+   },
+   {
+    "date": "2027-08-06",
+    "name": "Celebración del Divino Salvador del Mundo",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Sabado Santo",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-03",
+    "name": "Fiestas Agostinas",
+    "type": "public",
+    "regions": [
+     "SS"
+    ]
+   },
+   {
+    "date": "2028-08-05",
+    "name": "Fiestas Agostinas",
+    "type": "public",
+    "regions": [
+     "SS"
+    ]
+   },
+   {
+    "date": "2028-08-06",
+    "name": "Celebración del Divino Salvador del Mundo",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-01-16",
+    "name": "Firma de los Acuerdos de Paz",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Día de la Mujer",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-07",
+    "name": "Día del Soldado",
+    "nameEn": "Soldier's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-06-17",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-22",
+    "name": "Día del Maestro",
+    "type": "optional"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-01-16",
+    "name": "Firma de los Acuerdos de Paz",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Día de la Mujer",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-07",
+    "name": "Día del Soldado",
+    "nameEn": "Soldier's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-06-17",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-22",
+    "name": "Día del Maestro",
+    "type": "optional"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-01-16",
+    "name": "Firma de los Acuerdos de Paz",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Día de la Mujer",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Día del Soldado",
+    "nameEn": "Soldier's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-06-17",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-22",
+    "name": "Día del Maestro",
+    "type": "optional"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.291Z"
+}

@@ -1,0 +1,358 @@
+{
+ "country": "AX",
+ "countryName": "Åland Islands",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "nyårsdagen",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "trettondedag jul",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "långfredagen",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "annandag påsk",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "första maj",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Kristi himmelsfärdsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-19",
+    "name": "midsommarafton",
+    "nameEn": "Midsummer Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2026-06-20",
+    "name": "midsommardagen",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-06",
+    "name": "självständighetsdagen",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "julafton",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "juldagen",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "annandag jul",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "nyårsafton",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "nyårsdagen",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "trettondedag jul",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "långfredagen",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "annandag påsk",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "första maj",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Kristi himmelsfärdsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-25",
+    "name": "midsommarafton",
+    "nameEn": "Midsummer Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2027-06-26",
+    "name": "midsommardagen",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-06",
+    "name": "självständighetsdagen",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "julafton",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "juldagen",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "annandag jul",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "nyårsafton",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "nyårsdagen",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "trettondedag jul",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "långfredagen",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "annandag påsk",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "första maj",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Kristi himmelsfärdsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-23",
+    "name": "midsommarafton",
+    "nameEn": "Midsummer Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2028-06-24",
+    "name": "midsommardagen",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-06",
+    "name": "självständighetsdagen",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "julafton",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "juldagen",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "annandag jul",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "nyårsafton",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-03-30",
+    "name": "Ålands demilitariseringsdag",
+    "nameEn": "Demilitarization Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "påskdagen",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-26",
+    "name": "Ålands flaggas dag",
+    "nameEn": "Åland Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "pingstdagen",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-09",
+    "name": "Ålands självstyrelsedag",
+    "nameEn": "Autonomy Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "påskdagen",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-30",
+    "name": "Ålands demilitariseringsdag",
+    "nameEn": "Demilitarization Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-25",
+    "name": "Ålands flaggas dag",
+    "nameEn": "Åland Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "pingstdagen",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-09",
+    "name": "Ålands självstyrelsedag",
+    "nameEn": "Autonomy Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-03-30",
+    "name": "Ålands demilitariseringsdag",
+    "nameEn": "Demilitarization Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "påskdagen",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-30",
+    "name": "Ålands flaggas dag",
+    "nameEn": "Åland Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "pingstdagen",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-09",
+    "name": "Ålands självstyrelsedag",
+    "nameEn": "Autonomy Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:50.992Z"
+}

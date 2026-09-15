@@ -1,6 +1,7 @@
 {
  "country": "AU",
  "countryName": "Australia",
+ "verified": true,
  "subdivisionLabel": "State",
  "requireSubdivision": true,
  "defaultSubdivision": "NSW",
@@ -2876,5 +2877,5 @@
   "version": "3.36.1",
   "url": "https://github.com/commenthol/date-holidays"
  },
- "generatedAt": "2026-09-14T21:53:18.611Z"
+ "generatedAt": "2026-09-15T05:52:50.978Z"
 }

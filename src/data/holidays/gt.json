@@ -1,0 +1,453 @@
+{
+ "country": "GT",
+ "countryName": "Guatemala",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "1",
+   "name": "Guatemala"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "Sabado Santo",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-29",
+    "name": "Día de las Fuerzas Armadas",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-01",
+    "name": "Día del Empleado Bancario",
+    "nameEn": "Bank Employee Day",
+    "type": "bank"
+   },
+   {
+    "date": "2026-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Día de la Raza",
+    "nameEn": "Day of Race",
+    "type": "bank"
+   },
+   {
+    "date": "2026-10-20",
+    "name": "Día de la Revolución",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-27",
+    "name": "Sabado Santo",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-01",
+    "name": "Día del Empleado Bancario",
+    "nameEn": "Bank Employee Day",
+    "type": "bank"
+   },
+   {
+    "date": "2027-07-02",
+    "name": "Día de las Fuerzas Armadas",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-12",
+    "name": "Día de la Raza",
+    "nameEn": "Day of Race",
+    "type": "bank"
+   },
+   {
+    "date": "2027-10-20",
+    "name": "Día de la Revolución",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Sabado Santo",
+    "nameEn": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-30",
+    "name": "Día de las Fuerzas Armadas",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-30",
+    "name": "Día del Empleado Bancario",
+    "nameEn": "Bank Employee Day",
+    "type": "bank"
+   },
+   {
+    "date": "2028-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-12",
+    "name": "Día de la Raza",
+    "nameEn": "Day of Race",
+    "type": "bank"
+   },
+   {
+    "date": "2028-10-20",
+    "name": "Día de la Revolución",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-11",
+    "name": "Día de la Monja Blanca",
+    "nameEn": "White Nun Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-20",
+    "name": "Día de la Marimba",
+    "nameEn": "Marimba Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Día de la Mujer",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-05-30",
+    "name": "Día Nacional del Popol Vuh",
+    "nameEn": "Popol Vuh Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-17",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2026-06-25",
+    "name": "Día del Maestro",
+    "nameEn": "Teacher's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-11",
+    "name": "Día de la Monja Blanca",
+    "nameEn": "White Nun Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-20",
+    "name": "Día de la Marimba",
+    "nameEn": "Marimba Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Día de la Mujer",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-05-30",
+    "name": "Día Nacional del Popol Vuh",
+    "nameEn": "Popol Vuh Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-17",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2027-06-25",
+    "name": "Día del Maestro",
+    "nameEn": "Teacher's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-11",
+    "name": "Día de la Monja Blanca",
+    "nameEn": "White Nun Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-20",
+    "name": "Día de la Marimba",
+    "nameEn": "Marimba Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Día de la Mujer",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-05-30",
+    "name": "Día Nacional del Popol Vuh",
+    "nameEn": "Popol Vuh Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-17",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "optional"
+   },
+   {
+    "date": "2028-06-25",
+    "name": "Día del Maestro",
+    "nameEn": "Teacher's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.312Z"
+}

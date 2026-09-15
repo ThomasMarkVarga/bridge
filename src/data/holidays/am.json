@@ -1,0 +1,448 @@
+{
+ "country": "AM",
+ "countryName": "Armenia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Ամանոր",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Ամանոր",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-03",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-04",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-05",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Սուրբ Ծնունդ",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-28",
+    "name": "Բանակի օր",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Կանանց տոն",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-24",
+    "name": "Ցեղասպանության զոհերի հիշատակի օր",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Աշխատանքի օր",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-09",
+    "name": "Հաղթանակի եւ Խաղաղության տոն",
+    "nameEn": "Victory and Peace Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-28",
+    "name": "Հանրապետության օր",
+    "nameEn": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-05",
+    "name": "Սահմանադրության օր",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-21",
+    "name": "Անկախության օր",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Նոր տարվա գիշեր",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Ամանոր",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Ամանոր",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-03",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-04",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-05",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Սուրբ Ծնունդ",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-28",
+    "name": "Բանակի օր",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Կանանց տոն",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-24",
+    "name": "Ցեղասպանության զոհերի հիշատակի օր",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Աշխատանքի օր",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Հաղթանակի եւ Խաղաղության տոն",
+    "nameEn": "Victory and Peace Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-28",
+    "name": "Հանրապետության օր",
+    "nameEn": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-05",
+    "name": "Սահմանադրության օր",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-21",
+    "name": "Անկախության օր",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Նոր տարվա գիշեր",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Ամանոր",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Ամանոր",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-03",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-04",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-05",
+    "name": "Նախածննդյան տոներ",
+    "nameEn": "Pre-Christmas holidays",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Սուրբ Ծնունդ",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-28",
+    "name": "Բանակի օր",
+    "nameEn": "Army Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Կանանց տոն",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-24",
+    "name": "Ցեղասպանության զոհերի հիշատակի օր",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Աշխատանքի օր",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Հաղթանակի եւ Խաղաղության տոն",
+    "nameEn": "Victory and Peace Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-28",
+    "name": "Հանրապետության օր",
+    "nameEn": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-05",
+    "name": "Սահմանադրության օր",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-21",
+    "name": "Անկախության օր",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Նոր տարվա գիշեր",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-12",
+    "name": "Սուրբ Վարդանանց տոն՝ բարի գործի եւ ազգային տուրքի օր",
+    "nameEn": "St. Vartan the good work and the duty days",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-21",
+    "name": "Մայրենի լեզվի օր",
+    "nameEn": "Mother Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-07",
+    "name": "Մայրության, գեղեցկության եւ սիրո տոն",
+    "nameEn": "Motherhood and Beauty Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-08",
+    "name": "Երկրապահի օր",
+    "nameEn": "Yerkrapah Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Երեխաների իրավունքների պաշտպանության օր",
+    "nameEn": "The day of protection of children rights",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-01",
+    "name": "Գիտելիքի, գրի եւ դպրության օր",
+    "nameEn": "Knowledge, Literacy and Education Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-10",
+    "name": "Թարգմանչաց տոն",
+    "nameEn": "Translator's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-07",
+    "name": "Երկրաշարժի զոհերի հիշատակի օր",
+    "nameEn": "Earthquake Remembrance Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-04",
+    "name": "Սուրբ Վարդանանց տոն՝ բարի գործի եւ ազգային տուրքի օր",
+    "nameEn": "St. Vartan the good work and the duty days",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-21",
+    "name": "Մայրենի լեզվի օր",
+    "nameEn": "Mother Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-07",
+    "name": "Մայրության, գեղեցկության եւ սիրո տոն",
+    "nameEn": "Motherhood and Beauty Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-08",
+    "name": "Երկրապահի օր",
+    "nameEn": "Yerkrapah Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-01",
+    "name": "Երեխաների իրավունքների պաշտպանության օր",
+    "nameEn": "The day of protection of children rights",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-01",
+    "name": "Գիտելիքի, գրի եւ դպրության օր",
+    "nameEn": "Knowledge, Literacy and Education Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-09",
+    "name": "Թարգմանչաց տոն",
+    "nameEn": "Translator's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-07",
+    "name": "Երկրաշարժի զոհերի հիշատակի օր",
+    "nameEn": "Earthquake Remembrance Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-21",
+    "name": "Մայրենի լեզվի օր",
+    "nameEn": "Mother Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-24",
+    "name": "Սուրբ Վարդանանց տոն՝ բարի գործի եւ ազգային տուրքի օր",
+    "nameEn": "St. Vartan the good work and the duty days",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-07",
+    "name": "Մայրության, գեղեցկության եւ սիրո տոն",
+    "nameEn": "Motherhood and Beauty Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-08",
+    "name": "Երկրապահի օր",
+    "nameEn": "Yerkrapah Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-01",
+    "name": "Երեխաների իրավունքների պաշտպանության օր",
+    "nameEn": "The day of protection of children rights",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-01",
+    "name": "Գիտելիքի, գրի եւ դպրության օր",
+    "nameEn": "Knowledge, Literacy and Education Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-14",
+    "name": "Թարգմանչաց տոն",
+    "nameEn": "Translator's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-07",
+    "name": "Երկրաշարժի զոհերի հիշատակի օր",
+    "nameEn": "Earthquake Remembrance Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:50.842Z"
+}

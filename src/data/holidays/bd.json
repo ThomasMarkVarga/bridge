@@ -1,0 +1,422 @@
+{
+ "country": "BD",
+ "countryName": "People's Republic of Bangladesh",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Buddha's Birthday, Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-02-21",
+    "name": "শহীদ দিবস",
+    "nameEn": "Language Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-17",
+    "name": "মুজিব জয়ন",
+    "nameEn": "Mujib's Birthday & Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-22",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-26",
+    "name": "স্বাধীনতা দিবস",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-14",
+    "name": "পহেলা বৈশাখ",
+    "nameEn": "Bengali New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "মে দিবস",
+    "nameEn": "May Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-19",
+    "name": "বুদ্ধ পূর্ণিমা",
+    "nameEn": "Buddha's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-28",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-29",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-25",
+    "name": "আশুরা",
+    "nameEn": "Day of Ashura",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "জাতীয় শোক দিবস",
+    "nameEn": "National Mourning Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-24",
+    "name": "জন্মাষ্টমী",
+    "nameEn": "Krishna Janmashtami",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-25",
+    "name": "ঈদে মিলাদুন্নবী",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-08",
+    "name": "দুর্গা পূজা",
+    "nameEn": "Durga Puja",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-16",
+    "name": "বিজয় দিবস",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "বড়দিন",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-21",
+    "name": "শহীদ দিবস",
+    "nameEn": "Language Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-10",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-11",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-17",
+    "name": "মুজিব জয়ন",
+    "nameEn": "Mujib's Birthday & Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "স্বাধীনতা দিবস",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-14",
+    "name": "পহেলা বৈশাখ",
+    "nameEn": "Bengali New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "মে দিবস",
+    "nameEn": "May Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-18",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-19",
+    "name": "বুদ্ধ পূর্ণিমা",
+    "nameEn": "Buddha's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-15",
+    "name": "আশুরা",
+    "nameEn": "Day of Ashura",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-14",
+    "name": "ঈদে মিলাদুন্নবী",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "জাতীয় শোক দিবস",
+    "nameEn": "National Mourning Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-24",
+    "name": "জন্মাষ্টমী",
+    "nameEn": "Krishna Janmashtami",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-08",
+    "name": "দুর্গা পূজা",
+    "nameEn": "Durga Puja",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-16",
+    "name": "বিজয় দিবস",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "বড়দিন",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-21",
+    "name": "শহীদ দিবস",
+    "nameEn": "Language Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-27",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-28",
+    "name": "ঈদুল ফিতর",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-17",
+    "name": "মুজিব জয়ন",
+    "nameEn": "Mujib's Birthday & Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-26",
+    "name": "স্বাধীনতা দিবস",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "পহেলা বৈশাখ",
+    "nameEn": "Bengali New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "মে দিবস",
+    "nameEn": "May Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-06",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "ঈদুল আযহা",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-19",
+    "name": "বুদ্ধ পূর্ণিমা",
+    "nameEn": "Buddha's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-03",
+    "name": "আশুরা",
+    "nameEn": "Day of Ashura",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-03",
+    "name": "ঈদে মিলাদুন্নবী",
+    "nameEn": "Birthday of Muhammad (Mawlid)",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "জাতীয় শোক দিবস",
+    "nameEn": "National Mourning Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-24",
+    "name": "জন্মাষ্টমী",
+    "nameEn": "Krishna Janmashtami",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-08",
+    "name": "দুর্গা পূজা",
+    "nameEn": "Durga Puja",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-16",
+    "name": "বিজয় দিবস",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "বড়দিন",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-03-25",
+    "name": "Genocide Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-21",
+    "name": "Armed Forces Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-14",
+    "name": "Martyred Intellectuals Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-25",
+    "name": "Genocide Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-21",
+    "name": "Armed Forces Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-14",
+    "name": "Martyred Intellectuals Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-03-25",
+    "name": "Genocide Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-21",
+    "name": "Armed Forces Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-14",
+    "name": "Martyred Intellectuals Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.046Z"
+}

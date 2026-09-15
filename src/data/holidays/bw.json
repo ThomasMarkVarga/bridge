@@ -1,0 +1,264 @@
+{
+ "country": "BW",
+ "countryName": "Botswana",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-02",
+    "name": "New Year's Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-01",
+    "name": "Sir Seretse Khama Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-20",
+    "name": "President’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-21",
+    "name": "President’s Day Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-30",
+    "name": "Botswana Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Family Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-02",
+    "name": "New Year's Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-27",
+    "name": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-01",
+    "name": "Sir Seretse Khama Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-19",
+    "name": "President’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-20",
+    "name": "President’s Day Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-30",
+    "name": "Botswana Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Family Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-02",
+    "name": "New Year's Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Easter Saturday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-01",
+    "name": "Sir Seretse Khama Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-17",
+    "name": "President’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-18",
+    "name": "President’s Day Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-30",
+    "name": "Botswana Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-02",
+    "name": "Public Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Family Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Mother's Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Mother's Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Mother's Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.390Z"
+}

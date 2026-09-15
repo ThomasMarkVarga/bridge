@@ -1,0 +1,472 @@
+{
+ "country": "LI",
+ "countryName": "Liechtenstein",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Berchtoldstag",
+    "nameEn": "Berchtold Day",
+    "type": "bank"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Heilige Drei Könige",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Faschingsdienstag",
+    "nameEn": "Shrove Tuesday",
+    "type": "bank"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Auffahrt",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-15",
+    "name": "Feiertagsbrücke",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-05",
+    "name": "Feiertagsbrücke",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-08",
+    "name": "Mariä Geburt",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Weihnachten",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Berchtoldstag",
+    "nameEn": "Berchtold Day",
+    "type": "bank"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Heilige Drei Könige",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Faschingsdienstag",
+    "nameEn": "Shrove Tuesday",
+    "type": "bank"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Auffahrt",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-07",
+    "name": "Feiertagsbrücke",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-28",
+    "name": "Feiertagsbrücke",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-08",
+    "name": "Mariä Geburt",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Weihnachten",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Berchtoldstag",
+    "nameEn": "Berchtold Day",
+    "type": "bank"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Heilige Drei Könige",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Faschingsdienstag",
+    "nameEn": "Shrove Tuesday",
+    "type": "bank"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Karfreitag",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Auffahrt",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-26",
+    "name": "Feiertagsbrücke",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Fronleichnam",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-16",
+    "name": "Feiertagsbrücke",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-08",
+    "name": "Mariä Geburt",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Mariä Empfängnis",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Heiliger Abend",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Weihnachten",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Stephanstag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Silvester",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-02",
+    "name": "Lichtmess",
+    "nameEn": "Candlemas",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Staatsfeiertag",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-02",
+    "name": "Lichtmess",
+    "nameEn": "Candlemas",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Staatsfeiertag",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-02",
+    "name": "Lichtmess",
+    "nameEn": "Candlemas",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-19",
+    "name": "Josefstag",
+    "nameEn": "Saint Joseph",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Staatsfeiertag",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.838Z"
+}

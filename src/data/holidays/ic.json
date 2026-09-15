@@ -1,0 +1,534 @@
+{
+ "country": "IC",
+ "countryName": "Canary Islands",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "EH",
+   "name": "El Hierro"
+  },
+  {
+   "code": "FU",
+   "name": "Fuerteventura"
+  },
+  {
+   "code": "GC",
+   "name": "Gran Canaria"
+  },
+  {
+   "code": "LG",
+   "name": "La Gomera"
+  },
+  {
+   "code": "LP",
+   "name": "La Palma"
+  },
+  {
+   "code": "LA",
+   "name": "Lanzarote"
+  },
+  {
+   "code": "TE",
+   "name": "Tenerife"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-30",
+    "name": "Día de Canarias",
+    "nameEn": "Canary Islands Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-05",
+    "name": "Nuestra Señora de las Nieves",
+    "type": "public",
+    "regions": [
+     "LP"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-07",
+    "name": "La Bajada de la Virgen del Socorro",
+    "type": "public",
+    "regions": [
+     "TE"
+    ]
+   },
+   {
+    "date": "2026-09-08",
+    "name": "Nuestra Señora del Pino",
+    "type": "public",
+    "regions": [
+     "GC"
+    ]
+   },
+   {
+    "date": "2026-09-15",
+    "name": "Nuestra Señora de los Dolores",
+    "type": "public",
+    "regions": [
+     "LA"
+    ]
+   },
+   {
+    "date": "2026-09-18",
+    "name": "Nuestra Señora de la Peña",
+    "type": "public",
+    "regions": [
+     "FU"
+    ]
+   },
+   {
+    "date": "2026-09-24",
+    "name": "Nuestra Señora de los Reyes",
+    "type": "public",
+    "regions": [
+     "EH"
+    ]
+   },
+   {
+    "date": "2026-10-05",
+    "name": "Nuestra Señora de Guadalupe",
+    "type": "public",
+    "regions": [
+     "LG"
+    ]
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Fiesta Nacional de España",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Todos los Santos (día sustituto)",
+    "nameEn": "All Saints' Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2026-12-06",
+    "name": "Día de la Constitución Española",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-30",
+    "name": "Día de Canarias",
+    "nameEn": "Canary Islands Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-31",
+    "name": "Día de Canarias (día sustituto)",
+    "nameEn": "Canary Islands Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-08-05",
+    "name": "Nuestra Señora de las Nieves",
+    "type": "public",
+    "regions": [
+     "LP"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-16",
+    "name": "Asunción (día sustituto)",
+    "nameEn": "Assumption (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-09-07",
+    "name": "La Bajada de la Virgen del Socorro",
+    "type": "public",
+    "regions": [
+     "TE"
+    ]
+   },
+   {
+    "date": "2027-09-08",
+    "name": "Nuestra Señora del Pino",
+    "type": "public",
+    "regions": [
+     "GC"
+    ]
+   },
+   {
+    "date": "2027-09-15",
+    "name": "Nuestra Señora de los Dolores",
+    "type": "public",
+    "regions": [
+     "LA"
+    ]
+   },
+   {
+    "date": "2027-09-18",
+    "name": "Nuestra Señora de la Peña",
+    "type": "public",
+    "regions": [
+     "FU"
+    ]
+   },
+   {
+    "date": "2027-09-24",
+    "name": "Nuestra Señora de los Reyes",
+    "type": "public",
+    "regions": [
+     "EH"
+    ]
+   },
+   {
+    "date": "2027-10-05",
+    "name": "Nuestra Señora de Guadalupe",
+    "type": "public",
+    "regions": [
+     "LG"
+    ]
+   },
+   {
+    "date": "2027-10-12",
+    "name": "Fiesta Nacional de España",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-06",
+    "name": "Día de la Constitución Española",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-30",
+    "name": "Día de Canarias",
+    "nameEn": "Canary Islands Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-05",
+    "name": "Nuestra Señora de las Nieves",
+    "type": "public",
+    "regions": [
+     "LP"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-07",
+    "name": "La Bajada de la Virgen del Socorro",
+    "type": "public",
+    "regions": [
+     "TE"
+    ]
+   },
+   {
+    "date": "2028-09-08",
+    "name": "Nuestra Señora del Pino",
+    "type": "public",
+    "regions": [
+     "GC"
+    ]
+   },
+   {
+    "date": "2028-09-15",
+    "name": "Nuestra Señora de los Dolores",
+    "type": "public",
+    "regions": [
+     "LA"
+    ]
+   },
+   {
+    "date": "2028-09-18",
+    "name": "Nuestra Señora de la Peña",
+    "type": "public",
+    "regions": [
+     "FU"
+    ]
+   },
+   {
+    "date": "2028-09-24",
+    "name": "Nuestra Señora de los Reyes",
+    "type": "public",
+    "regions": [
+     "EH"
+    ]
+   },
+   {
+    "date": "2028-10-05",
+    "name": "Nuestra Señora de Guadalupe",
+    "type": "public",
+    "regions": [
+     "LG"
+    ]
+   },
+   {
+    "date": "2028-10-12",
+    "name": "Fiesta Nacional de España",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-06",
+    "name": "Día de la Constitución Española",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-03-19",
+    "name": "San José",
+    "nameEn": "Saint Joseph",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-03",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pentecostés",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-19",
+    "name": "San José",
+    "nameEn": "Saint Joseph",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pentecostés",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-03-19",
+    "name": "San José",
+    "nameEn": "Saint Joseph",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pentecostés",
+    "nameEn": "Pentecost",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.588Z"
+}

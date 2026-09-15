@@ -1,542 +1,915 @@
 {
  "countries": [
   {
-   "code": "RO",
-   "name": "Romania",
-   "subdivisionLabel": null,
-   "requireSubdivision": false,
-   "defaultSubdivision": null,
-   "subdivisions": []
+   "code": "AD",
+   "name": "Andorra",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
   },
   {
-   "code": "GB",
-   "name": "United Kingdom",
-   "subdivisionLabel": "Nation",
-   "requireSubdivision": true,
-   "defaultSubdivision": "ENG",
-   "subdivisions": [
-    {
-     "code": "ENG",
-     "name": "England"
-    },
-    {
-     "code": "NIR",
-     "name": "Northern Ireland"
-    },
-    {
-     "code": "SCT",
-     "name": "Scotland"
-    },
-    {
-     "code": "WLS",
-     "name": "Wales"
-    }
-   ]
+   "code": "AE",
+   "name": "United Arab Emirates"
   },
   {
-   "code": "DE",
-   "name": "Germany",
-   "subdivisionLabel": "Bundesland",
-   "requireSubdivision": true,
-   "defaultSubdivision": "BY",
-   "subdivisions": [
-    {
-     "code": "BB",
-     "name": "Brandenburg"
-    },
-    {
-     "code": "BE",
-     "name": "Berlin"
-    },
-    {
-     "code": "BW",
-     "name": "Baden-Württemberg"
-    },
-    {
-     "code": "BY",
-     "name": "Bayern"
-    },
-    {
-     "code": "HB",
-     "name": "Hansestadt Bremen"
-    },
-    {
-     "code": "HE",
-     "name": "Hessen"
-    },
-    {
-     "code": "HH",
-     "name": "Hansestadt Hamburg"
-    },
-    {
-     "code": "MV",
-     "name": "Mecklenburg-Vorpommern"
-    },
-    {
-     "code": "NI",
-     "name": "Niedersachsen"
-    },
-    {
-     "code": "NW",
-     "name": "Nordrhein-Westfalen"
-    },
-    {
-     "code": "RP",
-     "name": "Rheinland-Pfalz"
-    },
-    {
-     "code": "SH",
-     "name": "Schleswig-Holstein"
-    },
-    {
-     "code": "SL",
-     "name": "Saarland"
-    },
-    {
-     "code": "SN",
-     "name": "Sachsen"
-    },
-    {
-     "code": "ST",
-     "name": "Sachsen-Anhalt"
-    },
-    {
-     "code": "TH",
-     "name": "Thüringen"
-    }
-   ]
+   "code": "AG",
+   "name": "Antigua & Barbuda",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
   },
   {
-   "code": "FR",
-   "name": "France",
-   "subdivisionLabel": null,
-   "requireSubdivision": false,
-   "defaultSubdivision": null,
-   "subdivisions": []
+   "code": "AI",
+   "name": "Anguilla"
   },
   {
-   "code": "ES",
-   "name": "Spain",
-   "subdivisionLabel": "Region",
-   "requireSubdivision": true,
-   "defaultSubdivision": "MD",
-   "subdivisions": [
-    {
-     "code": "AN",
-     "name": "Andalucía"
-    },
-    {
-     "code": "AR",
-     "name": "Aragón"
-    },
-    {
-     "code": "AS",
-     "name": "Asturias"
-    },
-    {
-     "code": "CB",
-     "name": "Cantabria"
-    },
-    {
-     "code": "CE",
-     "name": "Ciudad de Ceuta"
-    },
-    {
-     "code": "CL",
-     "name": "Castilla y León"
-    },
-    {
-     "code": "CM",
-     "name": "Castile-La Mancha"
-    },
-    {
-     "code": "CN",
-     "name": "Islas Canarias"
-    },
-    {
-     "code": "CT",
-     "name": "Cataluña"
-    },
-    {
-     "code": "EX",
-     "name": "Extremadura"
-    },
-    {
-     "code": "GA",
-     "name": "Galicia"
-    },
-    {
-     "code": "IB",
-     "name": "Illes Balears"
-    },
-    {
-     "code": "MC",
-     "name": "Murcia Region"
-    },
-    {
-     "code": "MD",
-     "name": "Comunidad de Madrid"
-    },
-    {
-     "code": "ML",
-     "name": "Ciudad de Melilla"
-    },
-    {
-     "code": "NC",
-     "name": "Comunidad Foral de Navarra"
-    },
-    {
-     "code": "PV",
-     "name": "País Vasco"
-    },
-    {
-     "code": "RI",
-     "name": "La Rioja"
-    },
-    {
-     "code": "VC",
-     "name": "Comunitat Valenciana"
-    }
-   ]
+   "code": "AL",
+   "name": "Albania"
   },
   {
-   "code": "IT",
-   "name": "Italy",
-   "subdivisionLabel": null,
-   "requireSubdivision": false,
-   "defaultSubdivision": null,
-   "subdivisions": []
+   "code": "AM",
+   "name": "Armenia"
   },
   {
-   "code": "NL",
-   "name": "Netherlands",
-   "subdivisionLabel": null,
-   "requireSubdivision": false,
-   "defaultSubdivision": null,
-   "subdivisions": []
+   "code": "AO",
+   "name": "Angola"
   },
   {
-   "code": "PL",
-   "name": "Poland",
-   "subdivisionLabel": null,
-   "requireSubdivision": false,
-   "defaultSubdivision": null,
-   "subdivisions": []
+   "code": "AR",
+   "name": "Argentina"
   },
   {
-   "code": "US",
-   "name": "United States",
-   "subdivisionLabel": "State",
-   "requireSubdivision": false,
-   "defaultSubdivision": null,
-   "subdivisions": [
-    {
-     "code": "AL",
-     "name": "Alabama"
-    },
-    {
-     "code": "AK",
-     "name": "Alaska"
-    },
-    {
-     "code": "AZ",
-     "name": "Arizona"
-    },
-    {
-     "code": "AR",
-     "name": "Arkansas"
-    },
-    {
-     "code": "CA",
-     "name": "California"
-    },
-    {
-     "code": "CO",
-     "name": "Colorado"
-    },
-    {
-     "code": "CT",
-     "name": "Connecticut"
-    },
-    {
-     "code": "DE",
-     "name": "Delaware"
-    },
-    {
-     "code": "DC",
-     "name": "District of Columbia"
-    },
-    {
-     "code": "FL",
-     "name": "Florida"
-    },
-    {
-     "code": "GA",
-     "name": "Georgia"
-    },
-    {
-     "code": "HI",
-     "name": "Hawaii"
-    },
-    {
-     "code": "ID",
-     "name": "Idaho"
-    },
-    {
-     "code": "IL",
-     "name": "Illinois"
-    },
-    {
-     "code": "IN",
-     "name": "Indiana"
-    },
-    {
-     "code": "IA",
-     "name": "Iowa"
-    },
-    {
-     "code": "KS",
-     "name": "Kansas"
-    },
-    {
-     "code": "KY",
-     "name": "Kentucky"
-    },
-    {
-     "code": "LA",
-     "name": "Louisiana"
-    },
-    {
-     "code": "ME",
-     "name": "Maine"
-    },
-    {
-     "code": "MD",
-     "name": "Maryland"
-    },
-    {
-     "code": "MA",
-     "name": "Massachusetts"
-    },
-    {
-     "code": "MI",
-     "name": "Michigan"
-    },
-    {
-     "code": "MN",
-     "name": "Minnesota"
-    },
-    {
-     "code": "MS",
-     "name": "Mississippi"
-    },
-    {
-     "code": "MO",
-     "name": "Missouri"
-    },
-    {
-     "code": "MT",
-     "name": "Montana"
-    },
-    {
-     "code": "NE",
-     "name": "Nebraska"
-    },
-    {
-     "code": "NV",
-     "name": "Nevada"
-    },
-    {
-     "code": "NH",
-     "name": "New Hampshire"
-    },
-    {
-     "code": "NJ",
-     "name": "New Jersey"
-    },
-    {
-     "code": "NM",
-     "name": "New Mexico"
-    },
-    {
-     "code": "NY",
-     "name": "New York"
-    },
-    {
-     "code": "NC",
-     "name": "North Carolina"
-    },
-    {
-     "code": "ND",
-     "name": "North Dakota"
-    },
-    {
-     "code": "OH",
-     "name": "Ohio"
-    },
-    {
-     "code": "OK",
-     "name": "Oklahoma"
-    },
-    {
-     "code": "OR",
-     "name": "Oregon"
-    },
-    {
-     "code": "PA",
-     "name": "Pennsylvania"
-    },
-    {
-     "code": "RI",
-     "name": "Rhode Island"
-    },
-    {
-     "code": "SC",
-     "name": "South Carolina"
-    },
-    {
-     "code": "SD",
-     "name": "South Dakota"
-    },
-    {
-     "code": "TN",
-     "name": "Tennessee"
-    },
-    {
-     "code": "TX",
-     "name": "Texas"
-    },
-    {
-     "code": "UT",
-     "name": "Utah"
-    },
-    {
-     "code": "VT",
-     "name": "Vermont"
-    },
-    {
-     "code": "VA",
-     "name": "Virginia"
-    },
-    {
-     "code": "WA",
-     "name": "Washington"
-    },
-    {
-     "code": "WV",
-     "name": "West Virginia"
-    },
-    {
-     "code": "WI",
-     "name": "Wisconsin"
-    },
-    {
-     "code": "WY",
-     "name": "Wyoming"
-    }
-   ]
+   "code": "AS",
+   "name": "American Samoa"
   },
   {
-   "code": "CA",
-   "name": "Canada",
-   "subdivisionLabel": "Province",
-   "requireSubdivision": true,
-   "defaultSubdivision": "ON",
-   "subdivisions": [
-    {
-     "code": "AB",
-     "name": "Alberta"
-    },
-    {
-     "code": "BC",
-     "name": "British Columbia"
-    },
-    {
-     "code": "MB",
-     "name": "Manitoba"
-    },
-    {
-     "code": "NB",
-     "name": "New Brunswick"
-    },
-    {
-     "code": "NL",
-     "name": "Newfoundland and Labrador"
-    },
-    {
-     "code": "NS",
-     "name": "Nova Scotia"
-    },
-    {
-     "code": "NT",
-     "name": "Northwest Territories"
-    },
-    {
-     "code": "NU",
-     "name": "Nunavut"
-    },
-    {
-     "code": "ON",
-     "name": "Ontario"
-    },
-    {
-     "code": "PE",
-     "name": "Prince Edward Island"
-    },
-    {
-     "code": "QC",
-     "name": "Quebec"
-    },
-    {
-     "code": "SK",
-     "name": "Saskatchewan"
-    },
-    {
-     "code": "YT",
-     "name": "Yukon"
-    }
-   ]
+   "code": "AT",
+   "name": "Austria",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
   },
   {
    "code": "AU",
    "name": "Australia",
-   "subdivisionLabel": "State",
+   "verified": true,
+   "hasSubdivisions": true,
    "requireSubdivision": true,
    "defaultSubdivision": "NSW",
-   "subdivisions": [
-    {
-     "code": "ACT",
-     "name": "Australian Capital Territory"
-    },
-    {
-     "code": "NSW",
-     "name": "New South Wales"
-    },
-    {
-     "code": "NT",
-     "name": "Northern Territory"
-    },
-    {
-     "code": "QLD",
-     "name": "Queensland"
-    },
-    {
-     "code": "SA",
-     "name": "South Australia"
-    },
-    {
-     "code": "TAS",
-     "name": "Tasmania"
-    },
-    {
-     "code": "VIC",
-     "name": "Victoria"
-    },
-    {
-     "code": "WA",
-     "name": "Western Australia"
-    }
-   ]
+   "subdivisionLabel": "State"
+  },
+  {
+   "code": "AW",
+   "name": "Aruba"
+  },
+  {
+   "code": "AX",
+   "name": "Åland Islands"
+  },
+  {
+   "code": "AZ",
+   "name": "Azerbaijan"
+  },
+  {
+   "code": "BA",
+   "name": "Bosnia and Herzegovina",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "BB",
+   "name": "Barbados"
+  },
+  {
+   "code": "BD",
+   "name": "People's Republic of Bangladesh"
+  },
+  {
+   "code": "BE",
+   "name": "Belgium",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "BF",
+   "name": "Burkina Faso"
+  },
+  {
+   "code": "BG",
+   "name": "Bulgaria"
+  },
+  {
+   "code": "BH",
+   "name": "Bahrain"
+  },
+  {
+   "code": "BI",
+   "name": "Burundi"
+  },
+  {
+   "code": "BJ",
+   "name": "Benin"
+  },
+  {
+   "code": "BL",
+   "name": "St. Barths"
+  },
+  {
+   "code": "BM",
+   "name": "Bermuda"
+  },
+  {
+   "code": "BN",
+   "name": "Brunei"
+  },
+  {
+   "code": "BO",
+   "name": "Bolivia",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "BQ",
+   "name": "Caribbean Netherlands",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "BR",
+   "name": "Brazil",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "BS",
+   "name": "Bahamas"
+  },
+  {
+   "code": "BW",
+   "name": "Botswana"
+  },
+  {
+   "code": "BY",
+   "name": "Belarus"
+  },
+  {
+   "code": "BZ",
+   "name": "Belize"
+  },
+  {
+   "code": "CA",
+   "name": "Canada",
+   "verified": true,
+   "hasSubdivisions": true,
+   "requireSubdivision": true,
+   "defaultSubdivision": "ON",
+   "subdivisionLabel": "Province"
+  },
+  {
+   "code": "CC",
+   "name": "Cocos (Keeling) Islands"
+  },
+  {
+   "code": "CD",
+   "name": "Democratic Republic of the Congo"
+  },
+  {
+   "code": "CF",
+   "name": "Central African Republic"
+  },
+  {
+   "code": "CG",
+   "name": "Republic of the Congo"
+  },
+  {
+   "code": "CH",
+   "name": "Switzerland",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "CI",
+   "name": "Republic of Côte d'Ivoire"
+  },
+  {
+   "code": "CK",
+   "name": "Cook Islands",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "CL",
+   "name": "Chile",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "CM",
+   "name": "Cameroon"
+  },
+  {
+   "code": "CN",
+   "name": "China"
+  },
+  {
+   "code": "CO",
+   "name": "Colombia"
+  },
+  {
+   "code": "CR",
+   "name": "Costa Rica"
+  },
+  {
+   "code": "CU",
+   "name": "Cuba"
+  },
+  {
+   "code": "CV",
+   "name": "Cape Verde",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "CW",
+   "name": "Curaçao"
+  },
+  {
+   "code": "CX",
+   "name": "Christmas Island"
+  },
+  {
+   "code": "CY",
+   "name": "Cyprus"
+  },
+  {
+   "code": "CZ",
+   "name": "Czech Republic"
+  },
+  {
+   "code": "DE",
+   "name": "Germany",
+   "verified": true,
+   "hasSubdivisions": true,
+   "requireSubdivision": true,
+   "defaultSubdivision": "BY",
+   "subdivisionLabel": "Bundesland"
+  },
+  {
+   "code": "DJ",
+   "name": "Djibouti"
+  },
+  {
+   "code": "DK",
+   "name": "Denmark"
+  },
+  {
+   "code": "DM",
+   "name": "Dominica"
+  },
+  {
+   "code": "DO",
+   "name": "Dominican Republic"
+  },
+  {
+   "code": "DZ",
+   "name": "Algeria"
+  },
+  {
+   "code": "EC",
+   "name": "Ecuador",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "EE",
+   "name": "Estonia"
+  },
+  {
+   "code": "EG",
+   "name": "Egypt"
+  },
+  {
+   "code": "EH",
+   "name": "Western Sahara"
+  },
+  {
+   "code": "ER",
+   "name": "Eritrea"
+  },
+  {
+   "code": "ES",
+   "name": "Spain",
+   "verified": true,
+   "hasSubdivisions": true,
+   "requireSubdivision": true,
+   "defaultSubdivision": "MD",
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "ET",
+   "name": "Ethiopia"
+  },
+  {
+   "code": "FI",
+   "name": "Finland"
+  },
+  {
+   "code": "FJ",
+   "name": "Fiji"
+  },
+  {
+   "code": "FO",
+   "name": "Faroe Islands"
+  },
+  {
+   "code": "FR",
+   "name": "France",
+   "verified": true
+  },
+  {
+   "code": "GA",
+   "name": "Gabon"
+  },
+  {
+   "code": "GB",
+   "name": "United Kingdom",
+   "verified": true,
+   "hasSubdivisions": true,
+   "requireSubdivision": true,
+   "defaultSubdivision": "ENG",
+   "subdivisionLabel": "Nation"
+  },
+  {
+   "code": "GD",
+   "name": "Grenada"
+  },
+  {
+   "code": "GE",
+   "name": "Georgia"
+  },
+  {
+   "code": "GF",
+   "name": "French Guiana"
+  },
+  {
+   "code": "GG",
+   "name": "Guernsey"
+  },
+  {
+   "code": "GH",
+   "name": "Ghana"
+  },
+  {
+   "code": "GI",
+   "name": "Gibraltar"
+  },
+  {
+   "code": "GL",
+   "name": "Greenland"
+  },
+  {
+   "code": "GM",
+   "name": "The Gambia"
+  },
+  {
+   "code": "GN",
+   "name": "Guinea"
+  },
+  {
+   "code": "GP",
+   "name": "Guadeloupe"
+  },
+  {
+   "code": "GQ",
+   "name": "Republic of Equatorial Guinea"
+  },
+  {
+   "code": "GR",
+   "name": "Greece"
+  },
+  {
+   "code": "GT",
+   "name": "Guatemala",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "GU",
+   "name": "Guam"
+  },
+  {
+   "code": "GW",
+   "name": "Guinea-Bissau"
+  },
+  {
+   "code": "GY",
+   "name": "Guyana"
+  },
+  {
+   "code": "HK",
+   "name": "Hong Kong"
+  },
+  {
+   "code": "HN",
+   "name": "Honduras"
+  },
+  {
+   "code": "HR",
+   "name": "Croatia",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "HT",
+   "name": "Haiti"
+  },
+  {
+   "code": "HU",
+   "name": "Hungary"
+  },
+  {
+   "code": "IC",
+   "name": "Canary Islands",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "ID",
+   "name": "Indonesia"
+  },
+  {
+   "code": "IE",
+   "name": "Ireland"
+  },
+  {
+   "code": "IL",
+   "name": "Israel"
+  },
+  {
+   "code": "IM",
+   "name": "Isle of Man"
+  },
+  {
+   "code": "IN",
+   "name": "India",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "IR",
+   "name": "Iran"
+  },
+  {
+   "code": "IS",
+   "name": "Iceland"
+  },
+  {
+   "code": "IT",
+   "name": "Italia",
+   "verified": true
+  },
+  {
+   "code": "JE",
+   "name": "Jersey"
+  },
+  {
+   "code": "JM",
+   "name": "Jamaica"
+  },
+  {
+   "code": "JP",
+   "name": "Japan"
+  },
+  {
+   "code": "KE",
+   "name": "Kenya"
+  },
+  {
+   "code": "KM",
+   "name": "Comoros"
+  },
+  {
+   "code": "KN",
+   "name": "St. Kitts & Nevis"
+  },
+  {
+   "code": "KR",
+   "name": "South Korea"
+  },
+  {
+   "code": "KY",
+   "name": "Cayman Islands"
+  },
+  {
+   "code": "KZ",
+   "name": "Kazakhstan"
+  },
+  {
+   "code": "LC",
+   "name": "St. Lucia"
+  },
+  {
+   "code": "LI",
+   "name": "Liechtenstein"
+  },
+  {
+   "code": "LK",
+   "name": "Sri Lanka"
+  },
+  {
+   "code": "LR",
+   "name": "Liberia"
+  },
+  {
+   "code": "LS",
+   "name": "Lesotho"
+  },
+  {
+   "code": "LT",
+   "name": "Lithuania"
+  },
+  {
+   "code": "LU",
+   "name": "Luxembourg"
+  },
+  {
+   "code": "LV",
+   "name": "Latvia"
+  },
+  {
+   "code": "LY",
+   "name": "Libya"
+  },
+  {
+   "code": "MA",
+   "name": "Kingdom of Morocco"
+  },
+  {
+   "code": "MC",
+   "name": "Monaco"
+  },
+  {
+   "code": "MD",
+   "name": "Moldova",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "ME",
+   "name": "Montenegro"
+  },
+  {
+   "code": "MF",
+   "name": "St. Martin"
+  },
+  {
+   "code": "MG",
+   "name": "Madagascar"
+  },
+  {
+   "code": "MK",
+   "name": "Macedonia"
+  },
+  {
+   "code": "ML",
+   "name": "Republic of Mali"
+  },
+  {
+   "code": "MQ",
+   "name": "Martinique"
+  },
+  {
+   "code": "MR",
+   "name": "Mauritania"
+  },
+  {
+   "code": "MS",
+   "name": "Montserrat"
+  },
+  {
+   "code": "MT",
+   "name": "Malta"
+  },
+  {
+   "code": "MU",
+   "name": "Mauritius"
+  },
+  {
+   "code": "MW",
+   "name": "Malawi"
+  },
+  {
+   "code": "MX",
+   "name": "Mexico"
+  },
+  {
+   "code": "MY",
+   "name": "Malaysia",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "MZ",
+   "name": "Mozambique"
+  },
+  {
+   "code": "NA",
+   "name": "Namibia"
+  },
+  {
+   "code": "NC",
+   "name": "New Caledonia"
+  },
+  {
+   "code": "NE",
+   "name": "Republic of the Niger"
+  },
+  {
+   "code": "NF",
+   "name": "Norfolk Island"
+  },
+  {
+   "code": "NG",
+   "name": "Nigeria"
+  },
+  {
+   "code": "NI",
+   "name": "Nicaragua"
+  },
+  {
+   "code": "NL",
+   "name": "Netherlands",
+   "verified": true
+  },
+  {
+   "code": "NO",
+   "name": "Norway"
+  },
+  {
+   "code": "NZ",
+   "name": "New Zealand",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "PA",
+   "name": "Panama"
+  },
+  {
+   "code": "PE",
+   "name": "Peru",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "PF",
+   "name": "French Polynesia"
+  },
+  {
+   "code": "PH",
+   "name": "Philippines"
+  },
+  {
+   "code": "PK",
+   "name": "Pakistan",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "PL",
+   "name": "Poland",
+   "verified": true
+  },
+  {
+   "code": "PM",
+   "name": "St. Pierre & Miquelon"
+  },
+  {
+   "code": "PR",
+   "name": "Puerto Rico"
+  },
+  {
+   "code": "PT",
+   "name": "Portugal"
+  },
+  {
+   "code": "PY",
+   "name": "Paraguay"
+  },
+  {
+   "code": "RE",
+   "name": "Réunion"
+  },
+  {
+   "code": "RO",
+   "name": "Romania",
+   "verified": true
+  },
+  {
+   "code": "RS",
+   "name": "Serbia"
+  },
+  {
+   "code": "RU",
+   "name": "Russia",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "RW",
+   "name": "Rwanda"
+  },
+  {
+   "code": "SA",
+   "name": "Saudi Arabia"
+  },
+  {
+   "code": "SC",
+   "name": "Seychelles"
+  },
+  {
+   "code": "SD",
+   "name": "Sudan"
+  },
+  {
+   "code": "SE",
+   "name": "Sweden"
+  },
+  {
+   "code": "SG",
+   "name": "Singapore"
+  },
+  {
+   "code": "SH",
+   "name": "St. Helena",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "SI",
+   "name": "Slovenia"
+  },
+  {
+   "code": "SJ",
+   "name": "Svalbard & Jan Mayen"
+  },
+  {
+   "code": "SK",
+   "name": "Slovakia"
+  },
+  {
+   "code": "SL",
+   "name": "Sierra Leone"
+  },
+  {
+   "code": "SM",
+   "name": "San Marino"
+  },
+  {
+   "code": "SN",
+   "name": "Senegal"
+  },
+  {
+   "code": "SO",
+   "name": "Somalia",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "SR",
+   "name": "Suriname"
+  },
+  {
+   "code": "SS",
+   "name": "South Sudan"
+  },
+  {
+   "code": "ST",
+   "name": "São Tomé & Príncipe"
+  },
+  {
+   "code": "SV",
+   "name": "El Salvador",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "SX",
+   "name": "Sint Maarten"
+  },
+  {
+   "code": "SZ",
+   "name": "Swaziland"
+  },
+  {
+   "code": "TC",
+   "name": "Turks & Caicos Islands"
+  },
+  {
+   "code": "TD",
+   "name": "Chad"
+  },
+  {
+   "code": "TG",
+   "name": "Togolese Republic"
+  },
+  {
+   "code": "TH",
+   "name": "Thailand"
+  },
+  {
+   "code": "TN",
+   "name": "Tunisia"
+  },
+  {
+   "code": "TO",
+   "name": "Tonga"
+  },
+  {
+   "code": "TR",
+   "name": "Turkey"
+  },
+  {
+   "code": "TT",
+   "name": "Trinidad & Tobago"
+  },
+  {
+   "code": "TW",
+   "name": "Taiwan"
+  },
+  {
+   "code": "TZ",
+   "name": "Tanzania"
+  },
+  {
+   "code": "UA",
+   "name": "Ukraine"
+  },
+  {
+   "code": "UG",
+   "name": "Uganda"
+  },
+  {
+   "code": "US",
+   "name": "United States of America",
+   "verified": true,
+   "hasSubdivisions": true,
+   "subdivisionLabel": "State"
+  },
+  {
+   "code": "UY",
+   "name": "Uruguay"
+  },
+  {
+   "code": "VA",
+   "name": "Vatican City"
+  },
+  {
+   "code": "VC",
+   "name": "St. Vincent & Grenadines"
+  },
+  {
+   "code": "VE",
+   "name": "Venezuela",
+   "hasSubdivisions": true,
+   "subdivisionLabel": "Region"
+  },
+  {
+   "code": "VG",
+   "name": "British Virgin Islands"
+  },
+  {
+   "code": "VI",
+   "name": "U.S. Virgin Islands"
+  },
+  {
+   "code": "VN",
+   "name": "Vietnam"
+  },
+  {
+   "code": "VU",
+   "name": "Vanuatu"
+  },
+  {
+   "code": "WF",
+   "name": "Wallis and Futuna"
+  },
+  {
+   "code": "XK",
+   "name": "Kosovo"
+  },
+  {
+   "code": "YT",
+   "name": "Mayotte"
+  },
+  {
+   "code": "ZA",
+   "name": "South Africa"
+  },
+  {
+   "code": "ZM",
+   "name": "Zambia"
+  },
+  {
+   "code": "ZW",
+   "name": "Zimbabwe"
   }
  ],
  "years": [
@@ -544,7 +917,7 @@
   2027,
   2028
  ],
- "generatedAt": "2026-09-14T21:53:18.612Z",
+ "generatedAt": "2026-09-15T05:52:55.290Z",
  "source": {
   "library": "date-holidays",
   "version": "3.36.1",

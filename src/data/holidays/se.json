@@ -1,0 +1,571 @@
+{
+ "country": "SE",
+ "countryName": "Sweden",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "nyårsdagen",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "trettondedag jul",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "långfredagen",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "påskdagen",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "annandag påsk",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "första maj",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Kristi himmelsfärdsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "pingstdagen",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-06",
+    "name": "nationaldagen",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-19",
+    "name": "midsommarafton",
+    "nameEn": "Midsummer Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2026-06-20",
+    "name": "midsommardagen",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-31",
+    "name": "alla helgons dag",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "julafton",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "juldagen",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "annandag jul",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "nyårsafton",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "nyårsdagen",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "trettondedag jul",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "långfredagen",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "påskdagen",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "annandag påsk",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "första maj",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Kristi himmelsfärdsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "pingstdagen",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-06",
+    "name": "nationaldagen",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-25",
+    "name": "midsommarafton",
+    "nameEn": "Midsummer Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2027-06-26",
+    "name": "midsommardagen",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-06",
+    "name": "alla helgons dag",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "julafton",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "juldagen",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "annandag jul",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "nyårsafton",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "nyårsdagen",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "trettondedag jul",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "långfredagen",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "påskdagen",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "annandag påsk",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "första maj",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Kristi himmelsfärdsdag",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "pingstdagen",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-06",
+    "name": "nationaldagen",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-23",
+    "name": "midsommarafton",
+    "nameEn": "Midsummer Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2028-06-24",
+    "name": "midsommardagen",
+    "nameEn": "Midsummer Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-04",
+    "name": "alla helgons dag",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "julafton",
+    "nameEn": "Christmas Eve",
+    "type": "bank"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "juldagen",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "annandag jul",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "nyårsafton",
+    "nameEn": "New Year's Eve",
+    "type": "bank"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-05",
+    "name": "trettondagsafton",
+    "nameEn": "Twelfth Night",
+    "type": "optional"
+   },
+   {
+    "date": "2026-01-13",
+    "name": "tjugondag Knut",
+    "nameEn": "Saint Knut's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-01",
+    "name": "Vasaloppet",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "skärtorsdagen",
+    "nameEn": "Maundy Thursday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-04",
+    "name": "påskafton",
+    "nameEn": "Easter Saturday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-30",
+    "name": "valborgsmässoafton",
+    "nameEn": "Walpurgis Night",
+    "type": "optional"
+   },
+   {
+    "date": "2026-05-23",
+    "name": "pingstafton",
+    "nameEn": "Whitsun Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "annandag pingst",
+    "nameEn": "Whit Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-31",
+    "name": "Mors dag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-30",
+    "name": "allhelgonaafton",
+    "nameEn": "Halloween",
+    "type": "optional"
+   },
+   {
+    "date": "2026-11-06",
+    "name": "Gustav-Adolf-dagen",
+    "nameEn": "Gustavus Adolphus Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Mårtensgås",
+    "nameEn": "Saint Martin's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-10",
+    "name": "Nobeldagen",
+    "nameEn": "Nobel Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-13",
+    "name": "Luciadagen",
+    "nameEn": "Saint Lucy's Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-05",
+    "name": "trettondagsafton",
+    "nameEn": "Twelfth Night",
+    "type": "optional"
+   },
+   {
+    "date": "2027-01-13",
+    "name": "tjugondag Knut",
+    "nameEn": "Saint Knut's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-07",
+    "name": "Vasaloppet",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "skärtorsdagen",
+    "nameEn": "Maundy Thursday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-27",
+    "name": "påskafton",
+    "nameEn": "Easter Saturday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-30",
+    "name": "valborgsmässoafton",
+    "nameEn": "Walpurgis Night",
+    "type": "optional"
+   },
+   {
+    "date": "2027-05-15",
+    "name": "pingstafton",
+    "nameEn": "Whitsun Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "annandag pingst",
+    "nameEn": "Whit Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-30",
+    "name": "Mors dag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-05",
+    "name": "allhelgonaafton",
+    "nameEn": "Halloween",
+    "type": "optional"
+   },
+   {
+    "date": "2027-11-06",
+    "name": "Gustav-Adolf-dagen",
+    "nameEn": "Gustavus Adolphus Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Mårtensgås",
+    "nameEn": "Saint Martin's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-10",
+    "name": "Nobeldagen",
+    "nameEn": "Nobel Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-13",
+    "name": "Luciadagen",
+    "nameEn": "Saint Lucy's Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-05",
+    "name": "trettondagsafton",
+    "nameEn": "Twelfth Night",
+    "type": "optional"
+   },
+   {
+    "date": "2028-01-13",
+    "name": "tjugondag Knut",
+    "nameEn": "Saint Knut's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-05",
+    "name": "Vasaloppet",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "skärtorsdagen",
+    "nameEn": "Maundy Thursday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "påskafton",
+    "nameEn": "Easter Saturday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-30",
+    "name": "valborgsmässoafton",
+    "nameEn": "Walpurgis Night",
+    "type": "optional"
+   },
+   {
+    "date": "2028-05-28",
+    "name": "Mors dag",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-03",
+    "name": "pingstafton",
+    "nameEn": "Whitsun Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "annandag pingst",
+    "nameEn": "Whit Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-03",
+    "name": "allhelgonaafton",
+    "nameEn": "Halloween",
+    "type": "optional"
+   },
+   {
+    "date": "2028-11-06",
+    "name": "Gustav-Adolf-dagen",
+    "nameEn": "Gustavus Adolphus Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Mårtensgås",
+    "nameEn": "Saint Martin's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-10",
+    "name": "Nobeldagen",
+    "nameEn": "Nobel Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-13",
+    "name": "Luciadagen",
+    "nameEn": "Saint Lucy's Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.103Z"
+}

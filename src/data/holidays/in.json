@@ -1,0 +1,1360 @@
+{
+ "country": "IN",
+ "countryName": "India",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "AN",
+   "name": "Andaman and Nicobar Islands"
+  },
+  {
+   "code": "AP",
+   "name": "Andhra Pradesh"
+  },
+  {
+   "code": "AR",
+   "name": "Arunachal Pradesh"
+  },
+  {
+   "code": "AS",
+   "name": "Assam"
+  },
+  {
+   "code": "BR",
+   "name": "Bihar"
+  },
+  {
+   "code": "CH",
+   "name": "Chandigarh"
+  },
+  {
+   "code": "CT",
+   "name": "Chhattisgarh"
+  },
+  {
+   "code": "DD",
+   "name": "Daman and Diu"
+  },
+  {
+   "code": "DL",
+   "name": "Delhi"
+  },
+  {
+   "code": "DN",
+   "name": "Dadra and Nagar Haveli"
+  },
+  {
+   "code": "GA",
+   "name": "Goa"
+  },
+  {
+   "code": "GJ",
+   "name": "Gujarat"
+  },
+  {
+   "code": "HP",
+   "name": "Himachal Pradesh"
+  },
+  {
+   "code": "HR",
+   "name": "Haryana"
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir"
+  },
+  {
+   "code": "KA",
+   "name": "Karnataka"
+  },
+  {
+   "code": "KL",
+   "name": "Kerala"
+  },
+  {
+   "code": "LD",
+   "name": "Lakshadweep"
+  },
+  {
+   "code": "MH",
+   "name": "Maharashtra"
+  },
+  {
+   "code": "ML",
+   "name": "Meghalaya"
+  },
+  {
+   "code": "MN",
+   "name": "Manipur"
+  },
+  {
+   "code": "MP",
+   "name": "Madhya Pradesh"
+  },
+  {
+   "code": "MZ",
+   "name": "Mizoram"
+  },
+  {
+   "code": "NL",
+   "name": "Nagaland"
+  },
+  {
+   "code": "OR",
+   "name": "Odisha"
+  },
+  {
+   "code": "PB",
+   "name": "Punjab"
+  },
+  {
+   "code": "PY",
+   "name": "Puducherry"
+  },
+  {
+   "code": "RJ",
+   "name": "Rajasthan"
+  },
+  {
+   "code": "SK",
+   "name": "Sikkim"
+  },
+  {
+   "code": "TG",
+   "name": "Telangana"
+  },
+  {
+   "code": "TN",
+   "name": "Tamil Nadu"
+  },
+  {
+   "code": "TR",
+   "name": "Tripura"
+  },
+  {
+   "code": "UP",
+   "name": "Uttar Pradesh"
+  },
+  {
+   "code": "UT",
+   "name": "Uttarakhand"
+  },
+  {
+   "code": "WB",
+   "name": "West Bengal"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2026-01-05",
+    "name": "Guru Gobind Singh Jayanti",
+    "type": "public",
+    "regions": [
+     "CH",
+     "HR"
+    ]
+   },
+   {
+    "date": "2026-01-12",
+    "name": "Swami Vivekananda Jayanti",
+    "type": "public",
+    "regions": [
+     "WB"
+    ]
+   },
+   {
+    "date": "2026-01-23",
+    "name": "Netaji Subhas Chandra Bose Jayanti",
+    "type": "public",
+    "regions": [
+     "AS",
+     "WB"
+    ]
+   },
+   {
+    "date": "2026-01-25",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "HP"
+    ]
+   },
+   {
+    "date": "2026-01-26",
+    "name": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-20",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2026-03-22",
+    "name": "Bihar Day",
+    "type": "public",
+    "regions": [
+     "BR"
+    ]
+   },
+   {
+    "date": "2026-03-23",
+    "name": "Shaheed Diwas",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2026-04-01",
+    "name": "Odisha Day",
+    "type": "public",
+    "regions": [
+     "OR"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-14",
+    "name": "Ambedkar Jayanti",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-15",
+    "name": "Bengali New Year",
+    "type": "public",
+    "regions": [
+     "WB"
+    ]
+   },
+   {
+    "date": "2026-04-15",
+    "name": "Himachal Day",
+    "type": "public",
+    "regions": [
+     "HP",
+     "TR"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Vaisakhi",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2026-04-30",
+    "name": "Basava Jayanti",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Gujarat Day",
+    "type": "public",
+    "regions": [
+     "GJ"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "AS",
+     "BR",
+     "KL",
+     "TN",
+     "WB"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Maharashtra Day",
+    "type": "public",
+    "regions": [
+     "MH"
+    ]
+   },
+   {
+    "date": "2026-05-08",
+    "name": "Rabindra Jayanti",
+    "type": "public",
+    "regions": [
+     "RJ",
+     "WB"
+    ]
+   },
+   {
+    "date": "2026-05-09",
+    "name": "Maharana Pratap Jayanti",
+    "type": "public",
+    "regions": [
+     "HP",
+     "RJ"
+    ]
+   },
+   {
+    "date": "2026-05-16",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "SK"
+    ]
+   },
+   {
+    "date": "2026-06-02",
+    "name": "Telangana Formation Day",
+    "type": "public",
+    "regions": [
+     "TG"
+    ]
+   },
+   {
+    "date": "2026-06-15",
+    "name": "YMA Day",
+    "type": "public",
+    "regions": [
+     "ML"
+    ]
+   },
+   {
+    "date": "2026-06-30",
+    "name": "Remna Ni",
+    "type": "public",
+    "regions": [
+     "MZ"
+    ]
+   },
+   {
+    "date": "2026-07-06",
+    "name": "MHIP Day",
+    "type": "public",
+    "regions": [
+     "MZ"
+    ]
+   },
+   {
+    "date": "2026-07-13",
+    "name": "Bhanu Jayanti / Martyrs' Day",
+    "type": "public",
+    "regions": [
+     "JK",
+     "ML"
+    ]
+   },
+   {
+    "date": "2026-07-31",
+    "name": "Martyrdom Day of Shaheed Udham Singh",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   },
+   {
+    "date": "2026-08-13",
+    "name": "Patriots' Day",
+    "type": "public",
+    "regions": [
+     "MN"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-16",
+    "name": "De Jure Transfer Day",
+    "type": "public",
+    "regions": [
+     "PY"
+    ]
+   },
+   {
+    "date": "2026-09-17",
+    "name": "Hyderabad-Karnataka Liberation Day",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2026-09-22",
+    "name": "Maharaja Agrasen Jayanti",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   },
+   {
+    "date": "2026-10-02",
+    "name": "Gandhi Jayanti",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-07",
+    "name": "Maharishi Valmiki Jayanti",
+    "type": "public",
+    "regions": [
+     "HP"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Sardar Vallabhbhai Patel Jayanti",
+    "type": "public",
+    "regions": [
+     "GJ"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Formation Day",
+    "type": "public",
+    "regions": [
+     "AP",
+     "CT",
+     "HR"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Karnataka Formation Day",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Kerala Formation Day",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "name": "Kanakadasa Jayanti",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2026-11-23",
+    "name": "Seng Kut Snem",
+    "type": "public",
+    "regions": [
+     "ML"
+    ]
+   },
+   {
+    "date": "2026-12-01",
+    "name": "Indigenous Faith Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2026-12-03",
+    "name": "Feast of St. Francis Xavier",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2026-12-18",
+    "name": "Guru Ghasidas Jayanti",
+    "type": "public",
+    "regions": [
+     "CT"
+    ]
+   },
+   {
+    "date": "2026-12-19",
+    "name": "Goa Liberation Day",
+    "type": "public",
+    "regions": [
+     "DD",
+     "GA"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Shaheed Udham Singh Jayanti",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2027-01-05",
+    "name": "Guru Gobind Singh Jayanti",
+    "type": "public",
+    "regions": [
+     "CH",
+     "HR"
+    ]
+   },
+   {
+    "date": "2027-01-12",
+    "name": "Swami Vivekananda Jayanti",
+    "type": "public",
+    "regions": [
+     "WB"
+    ]
+   },
+   {
+    "date": "2027-01-23",
+    "name": "Netaji Subhas Chandra Bose Jayanti",
+    "type": "public",
+    "regions": [
+     "AS",
+     "WB"
+    ]
+   },
+   {
+    "date": "2027-01-25",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "HP"
+    ]
+   },
+   {
+    "date": "2027-01-26",
+    "name": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-20",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2027-03-22",
+    "name": "Bihar Day",
+    "type": "public",
+    "regions": [
+     "BR"
+    ]
+   },
+   {
+    "date": "2027-03-23",
+    "name": "Shaheed Diwas",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-01",
+    "name": "Odisha Day",
+    "type": "public",
+    "regions": [
+     "OR"
+    ]
+   },
+   {
+    "date": "2027-04-14",
+    "name": "Ambedkar Jayanti",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-15",
+    "name": "Bengali New Year",
+    "type": "public",
+    "regions": [
+     "WB"
+    ]
+   },
+   {
+    "date": "2027-04-15",
+    "name": "Himachal Day",
+    "type": "public",
+    "regions": [
+     "HP",
+     "TR"
+    ]
+   },
+   {
+    "date": "2027-04-21",
+    "name": "Vaisakhi",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2027-04-30",
+    "name": "Basava Jayanti",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Gujarat Day",
+    "type": "public",
+    "regions": [
+     "GJ"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "AS",
+     "BR",
+     "KL",
+     "TN",
+     "WB"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Maharashtra Day",
+    "type": "public",
+    "regions": [
+     "MH"
+    ]
+   },
+   {
+    "date": "2027-05-08",
+    "name": "Rabindra Jayanti",
+    "type": "public",
+    "regions": [
+     "RJ",
+     "WB"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Maharana Pratap Jayanti",
+    "type": "public",
+    "regions": [
+     "HP",
+     "RJ"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "SK"
+    ]
+   },
+   {
+    "date": "2027-06-02",
+    "name": "Telangana Formation Day",
+    "type": "public",
+    "regions": [
+     "TG"
+    ]
+   },
+   {
+    "date": "2027-06-15",
+    "name": "YMA Day",
+    "type": "public",
+    "regions": [
+     "ML"
+    ]
+   },
+   {
+    "date": "2027-06-30",
+    "name": "Remna Ni",
+    "type": "public",
+    "regions": [
+     "MZ"
+    ]
+   },
+   {
+    "date": "2027-07-06",
+    "name": "MHIP Day",
+    "type": "public",
+    "regions": [
+     "MZ"
+    ]
+   },
+   {
+    "date": "2027-07-13",
+    "name": "Bhanu Jayanti / Martyrs' Day",
+    "type": "public",
+    "regions": [
+     "JK",
+     "ML"
+    ]
+   },
+   {
+    "date": "2027-07-31",
+    "name": "Martyrdom Day of Shaheed Udham Singh",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   },
+   {
+    "date": "2027-08-13",
+    "name": "Patriots' Day",
+    "type": "public",
+    "regions": [
+     "MN"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-16",
+    "name": "De Jure Transfer Day",
+    "type": "public",
+    "regions": [
+     "PY"
+    ]
+   },
+   {
+    "date": "2027-09-17",
+    "name": "Hyderabad-Karnataka Liberation Day",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2027-09-22",
+    "name": "Maharaja Agrasen Jayanti",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   },
+   {
+    "date": "2027-10-02",
+    "name": "Gandhi Jayanti",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-07",
+    "name": "Maharishi Valmiki Jayanti",
+    "type": "public",
+    "regions": [
+     "HP"
+    ]
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Sardar Vallabhbhai Patel Jayanti",
+    "type": "public",
+    "regions": [
+     "GJ"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Formation Day",
+    "type": "public",
+    "regions": [
+     "AP",
+     "CT",
+     "HR"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Karnataka Formation Day",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Kerala Formation Day",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2027-11-08",
+    "name": "Kanakadasa Jayanti",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2027-11-23",
+    "name": "Seng Kut Snem",
+    "type": "public",
+    "regions": [
+     "ML"
+    ]
+   },
+   {
+    "date": "2027-12-01",
+    "name": "Indigenous Faith Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2027-12-03",
+    "name": "Feast of St. Francis Xavier",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2027-12-18",
+    "name": "Guru Ghasidas Jayanti",
+    "type": "public",
+    "regions": [
+     "CT"
+    ]
+   },
+   {
+    "date": "2027-12-19",
+    "name": "Goa Liberation Day",
+    "type": "public",
+    "regions": [
+     "DD",
+     "GA"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Shaheed Udham Singh Jayanti",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2028-01-05",
+    "name": "Guru Gobind Singh Jayanti",
+    "type": "public",
+    "regions": [
+     "CH",
+     "HR"
+    ]
+   },
+   {
+    "date": "2028-01-12",
+    "name": "Swami Vivekananda Jayanti",
+    "type": "public",
+    "regions": [
+     "WB"
+    ]
+   },
+   {
+    "date": "2028-01-23",
+    "name": "Netaji Subhas Chandra Bose Jayanti",
+    "type": "public",
+    "regions": [
+     "AS",
+     "WB"
+    ]
+   },
+   {
+    "date": "2028-01-25",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "HP"
+    ]
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-20",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "AR"
+    ]
+   },
+   {
+    "date": "2028-03-22",
+    "name": "Bihar Day",
+    "type": "public",
+    "regions": [
+     "BR"
+    ]
+   },
+   {
+    "date": "2028-03-23",
+    "name": "Shaheed Diwas",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2028-04-01",
+    "name": "Odisha Day",
+    "type": "public",
+    "regions": [
+     "OR"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Ambedkar Jayanti",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Bengali New Year",
+    "type": "public",
+    "regions": [
+     "WB"
+    ]
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Himachal Day",
+    "type": "public",
+    "regions": [
+     "HP",
+     "TR"
+    ]
+   },
+   {
+    "date": "2028-04-21",
+    "name": "Vaisakhi",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2028-04-30",
+    "name": "Basava Jayanti",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Gujarat Day",
+    "type": "public",
+    "regions": [
+     "GJ"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Labour Day",
+    "type": "public",
+    "regions": [
+     "AS",
+     "BR",
+     "KL",
+     "TN",
+     "WB"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Maharashtra Day",
+    "type": "public",
+    "regions": [
+     "MH"
+    ]
+   },
+   {
+    "date": "2028-05-08",
+    "name": "Rabindra Jayanti",
+    "type": "public",
+    "regions": [
+     "RJ",
+     "WB"
+    ]
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Maharana Pratap Jayanti",
+    "type": "public",
+    "regions": [
+     "HP",
+     "RJ"
+    ]
+   },
+   {
+    "date": "2028-05-16",
+    "name": "State Day",
+    "type": "public",
+    "regions": [
+     "SK"
+    ]
+   },
+   {
+    "date": "2028-06-02",
+    "name": "Telangana Formation Day",
+    "type": "public",
+    "regions": [
+     "TG"
+    ]
+   },
+   {
+    "date": "2028-06-15",
+    "name": "YMA Day",
+    "type": "public",
+    "regions": [
+     "ML"
+    ]
+   },
+   {
+    "date": "2028-06-30",
+    "name": "Remna Ni",
+    "type": "public",
+    "regions": [
+     "MZ"
+    ]
+   },
+   {
+    "date": "2028-07-06",
+    "name": "MHIP Day",
+    "type": "public",
+    "regions": [
+     "MZ"
+    ]
+   },
+   {
+    "date": "2028-07-13",
+    "name": "Bhanu Jayanti / Martyrs' Day",
+    "type": "public",
+    "regions": [
+     "JK",
+     "ML"
+    ]
+   },
+   {
+    "date": "2028-07-31",
+    "name": "Martyrdom Day of Shaheed Udham Singh",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   },
+   {
+    "date": "2028-08-13",
+    "name": "Patriots' Day",
+    "type": "public",
+    "regions": [
+     "MN"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-16",
+    "name": "De Jure Transfer Day",
+    "type": "public",
+    "regions": [
+     "PY"
+    ]
+   },
+   {
+    "date": "2028-09-17",
+    "name": "Hyderabad-Karnataka Liberation Day",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2028-09-22",
+    "name": "Maharaja Agrasen Jayanti",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   },
+   {
+    "date": "2028-10-02",
+    "name": "Gandhi Jayanti",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-07",
+    "name": "Maharishi Valmiki Jayanti",
+    "type": "public",
+    "regions": [
+     "HP"
+    ]
+   },
+   {
+    "date": "2028-10-31",
+    "name": "Sardar Vallabhbhai Patel Jayanti",
+    "type": "public",
+    "regions": [
+     "GJ"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Formation Day",
+    "type": "public",
+    "regions": [
+     "AP",
+     "CT",
+     "HR"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Karnataka Formation Day",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Kerala Formation Day",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2028-11-08",
+    "name": "Kanakadasa Jayanti",
+    "type": "public",
+    "regions": [
+     "KA"
+    ]
+   },
+   {
+    "date": "2028-11-23",
+    "name": "Seng Kut Snem",
+    "type": "public",
+    "regions": [
+     "ML"
+    ]
+   },
+   {
+    "date": "2028-12-01",
+    "name": "Indigenous Faith Day",
+    "type": "public",
+    "regions": [
+     "NL"
+    ]
+   },
+   {
+    "date": "2028-12-03",
+    "name": "Feast of St. Francis Xavier",
+    "type": "public",
+    "regions": [
+     "GA"
+    ]
+   },
+   {
+    "date": "2028-12-18",
+    "name": "Guru Ghasidas Jayanti",
+    "type": "public",
+    "regions": [
+     "CT"
+    ]
+   },
+   {
+    "date": "2028-12-19",
+    "name": "Goa Liberation Day",
+    "type": "public",
+    "regions": [
+     "DD",
+     "GA"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Shaheed Udham Singh Jayanti",
+    "type": "public",
+    "regions": [
+     "HR"
+    ]
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-31",
+    "name": "Me-Dam-Me-Phi",
+    "type": "observance",
+    "regions": [
+     "AS"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Babu Jagjivan Ram Jayanti",
+    "type": "observance",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2026-12-01",
+    "name": "Indigenous Faith Day",
+    "type": "observance",
+    "regions": [
+     "AR"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-31",
+    "name": "Me-Dam-Me-Phi",
+    "type": "observance",
+    "regions": [
+     "AS"
+    ]
+   },
+   {
+    "date": "2027-04-05",
+    "name": "Babu Jagjivan Ram Jayanti",
+    "type": "observance",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2027-12-01",
+    "name": "Indigenous Faith Day",
+    "type": "observance",
+    "regions": [
+     "AR"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-31",
+    "name": "Me-Dam-Me-Phi",
+    "type": "observance",
+    "regions": [
+     "AS"
+    ]
+   },
+   {
+    "date": "2028-04-05",
+    "name": "Babu Jagjivan Ram Jayanti",
+    "type": "observance",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2028-12-01",
+    "name": "Indigenous Faith Day",
+    "type": "observance",
+    "regions": [
+     "AR"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.684Z"
+}

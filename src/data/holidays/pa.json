@@ -1,0 +1,311 @@
+{
+ "country": "PA",
+ "countryName": "Panama",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-09",
+    "name": "Día de los Mártires Caídos en la Gesta Patriótica",
+    "nameEn": "Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-03",
+    "name": "Día de la Separación (de Colombia)",
+    "nameEn": "Separation Day (from Columbia)",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-05",
+    "name": "Día de Colón",
+    "nameEn": "Colón Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-10",
+    "name": "Primer Grito de Independencia",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-28",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-20",
+    "name": "Día de Duelo Nacional",
+    "nameEn": "National Mourning Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-21",
+    "name": "Día de Duelo Nacional (día sustituto)",
+    "nameEn": "National Mourning Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-09",
+    "name": "Día de los Mártires Caídos en la Gesta Patriótica",
+    "nameEn": "Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-03",
+    "name": "Día de la Separación (de Colombia)",
+    "nameEn": "Separation Day (from Columbia)",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-05",
+    "name": "Día de Colón",
+    "nameEn": "Colón Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-10",
+    "name": "Primer Grito de Independencia",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-28",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-29",
+    "name": "Día de la Independencia (día sustituto)",
+    "nameEn": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-20",
+    "name": "Día de Duelo Nacional",
+    "nameEn": "National Mourning Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-09",
+    "name": "Día de los Mártires Caídos en la Gesta Patriótica",
+    "nameEn": "Martyrs' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-10",
+    "name": "Día de los Mártires Caídos en la Gesta Patriótica (día sustituto)",
+    "nameEn": "Martyrs' Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-03",
+    "name": "Día de la Separación (de Colombia)",
+    "nameEn": "Separation Day (from Columbia)",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-05",
+    "name": "Día de Colón",
+    "nameEn": "Colón Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-06",
+    "name": "Día de Colón (día sustituto)",
+    "nameEn": "Colón Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2028-11-10",
+    "name": "Primer Grito de Independencia",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-28",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-20",
+    "name": "Día de Duelo Nacional",
+    "nameEn": "National Mourning Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-16",
+    "name": "Carnaval",
+    "nameEn": "Shrove Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-04",
+    "name": "Día de la Bandera",
+    "nameEn": "Flag Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-08",
+    "name": "Carnaval",
+    "nameEn": "Shrove Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-04",
+    "name": "Día de la Bandera",
+    "nameEn": "Flag Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-28",
+    "name": "Carnaval",
+    "nameEn": "Shrove Monday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-04",
+    "name": "Día de la Bandera",
+    "nameEn": "Flag Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.811Z"
+}

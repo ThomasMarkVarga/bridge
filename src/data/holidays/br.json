@@ -1,0 +1,1820 @@
+{
+ "country": "BR",
+ "countryName": "Brazil",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "AC",
+   "name": "Acre"
+  },
+  {
+   "code": "AL",
+   "name": "Alagoas"
+  },
+  {
+   "code": "AM",
+   "name": "Amazonas"
+  },
+  {
+   "code": "AP",
+   "name": "Amapá"
+  },
+  {
+   "code": "BA",
+   "name": "Bahia"
+  },
+  {
+   "code": "CE",
+   "name": "Ceará"
+  },
+  {
+   "code": "DF",
+   "name": "Distrito Federal"
+  },
+  {
+   "code": "ES",
+   "name": "Espírito Santo"
+  },
+  {
+   "code": "GO",
+   "name": "Goiás"
+  },
+  {
+   "code": "MA",
+   "name": "Maranhão"
+  },
+  {
+   "code": "MG",
+   "name": "Minas Gerais"
+  },
+  {
+   "code": "MS",
+   "name": "Mato Grosso do Sul"
+  },
+  {
+   "code": "MT",
+   "name": "Mato Grosso"
+  },
+  {
+   "code": "PA",
+   "name": "Pará"
+  },
+  {
+   "code": "PB",
+   "name": "Paraíba"
+  },
+  {
+   "code": "PE",
+   "name": "Pernambuco"
+  },
+  {
+   "code": "PI",
+   "name": "Piauí"
+  },
+  {
+   "code": "PR",
+   "name": "Paraná"
+  },
+  {
+   "code": "RJ",
+   "name": "Rio de Janeiro"
+  },
+  {
+   "code": "RN",
+   "name": "Rio Grande do Norte"
+  },
+  {
+   "code": "RO",
+   "name": "Rondônia"
+  },
+  {
+   "code": "RR",
+   "name": "Roraima"
+  },
+  {
+   "code": "RS",
+   "name": "Rio Grande do Sul"
+  },
+  {
+   "code": "SC",
+   "name": "Santa Catarina"
+  },
+  {
+   "code": "SE",
+   "name": "Sergipe"
+  },
+  {
+   "code": "SP",
+   "name": "São Paulo"
+  },
+  {
+   "code": "TO",
+   "name": "Tocantins"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-04",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "RO"
+    ]
+   },
+   {
+    "date": "2026-01-12",
+    "name": "Dia do evangélico",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "bank"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "bank",
+    "regions": [
+     "*",
+     "AC",
+     "AL",
+     "AM",
+     "AP",
+     "BA",
+     "CE",
+     "DF",
+     "ES",
+     "GO",
+     "MA",
+     "MG",
+     "MS",
+     "MT",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "SP",
+     "TO"
+    ]
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Carnaval",
+    "type": "public",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2026-03-01",
+    "name": "Revolução Pernambucana de 1817",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Alusivo ao Dia Internacional da Mulher",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2026-03-18",
+    "name": "Autonomia do Estado",
+    "type": "public",
+    "regions": [
+     "TO"
+    ]
+   },
+   {
+    "date": "2026-03-19",
+    "name": "Dia de São José",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2026-03-25",
+    "name": "Data magna do estado",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "Dia de Nossa Senhora da Penha",
+    "type": "public",
+    "regions": [
+     "ES"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Data magna do estado",
+    "type": "public",
+    "regions": [
+     "MG"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Dia de Tiradentes",
+    "nameEn": "Tiradentes' Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "AL",
+     "AM",
+     "AP",
+     "BA",
+     "CE",
+     "ES",
+     "GO",
+     "MA",
+     "MS",
+     "MT",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RJ",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "SP",
+     "TO"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Fundação de Brasília",
+    "type": "public",
+    "regions": [
+     "DF"
+    ]
+   },
+   {
+    "date": "2026-04-23",
+    "name": "Dia de São Jorge",
+    "type": "public",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Corpo de Deus",
+    "nameEn": "Corpus Christi",
+    "type": "bank"
+   },
+   {
+    "date": "2026-06-15",
+    "name": "Aniversário do estado",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2026-06-18",
+    "name": "Dia do evangélico",
+    "type": "public",
+    "regions": [
+     "RO"
+    ]
+   },
+   {
+    "date": "2026-06-24",
+    "name": "São João",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2026-06-29",
+    "name": "São Pedro",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2026-07-02",
+    "name": "Independência da Bahia",
+    "type": "public",
+    "regions": [
+     "BA"
+    ]
+   },
+   {
+    "date": "2026-07-08",
+    "name": "Emancipação política de Sergipe",
+    "type": "public",
+    "regions": [
+     "SE"
+    ]
+   },
+   {
+    "date": "2026-07-09",
+    "name": "Revolução Constitucionalista",
+    "type": "public",
+    "regions": [
+     "SP"
+    ]
+   },
+   {
+    "date": "2026-07-26",
+    "name": "Fundação da Cidade de Goiás",
+    "type": "public",
+    "regions": [
+     "GO"
+    ]
+   },
+   {
+    "date": "2026-07-26",
+    "name": "Homenagem à memória do ex-presidente João Pessoa",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2026-07-28",
+    "name": "Adesão do Maranhão à independência do Brasil",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2026-08-05",
+    "name": "Nossa Senhora das Neves",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Adesão do Grão-Pará à independência do Brasil",
+    "type": "public",
+    "regions": [
+     "PA"
+    ]
+   },
+   {
+    "date": "2026-08-16",
+    "name": "Dia de Santa Catarina",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2026-09-05",
+    "name": "Dia da Amazônia",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2026-09-05",
+    "name": "Elevação do Amazonas à categoria de província",
+    "type": "public",
+    "regions": [
+     "AM"
+    ]
+   },
+   {
+    "date": "2026-09-07",
+    "name": "Dia da Independência",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-08",
+    "name": "Nossa Senhora da Natividade",
+    "type": "public",
+    "regions": [
+     "TO"
+    ]
+   },
+   {
+    "date": "2026-09-13",
+    "name": "Criação do Território Federal",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2026-09-16",
+    "name": "Emancipação política",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2026-09-20",
+    "name": "Proclamação da República Rio-Grandense",
+    "type": "public",
+    "regions": [
+     "RS"
+    ]
+   },
+   {
+    "date": "2026-10-03",
+    "name": "Mártires de Cunhaú e Uruaçu",
+    "type": "public",
+    "regions": [
+     "RN"
+    ]
+   },
+   {
+    "date": "2026-10-04",
+    "name": "Dia de Eleição",
+    "nameEn": "Election Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-05",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "RR",
+     "TO"
+    ]
+   },
+   {
+    "date": "2026-10-11",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "MS"
+    ]
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Nossa Senhora Aparecida",
+    "nameEn": "Our Lady of Aparecida",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-19",
+    "name": "Dia do Piauí",
+    "type": "public",
+    "regions": [
+     "PI"
+    ]
+   },
+   {
+    "date": "2026-10-24",
+    "name": "Lançamento da pedra fundamental de Goiânia",
+    "type": "public",
+    "regions": [
+     "GO"
+    ]
+   },
+   {
+    "date": "2026-10-25",
+    "name": "Dia de Eleição",
+    "nameEn": "Election Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Dia de Finados",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-15",
+    "name": "Proclamação da República",
+    "nameEn": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-20",
+    "name": "Dia da Consciência Negra",
+    "nameEn": "Black Awareness Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "AP",
+     "BA",
+     "CE",
+     "DF",
+     "ES",
+     "GO",
+     "MA",
+     "MG",
+     "MS",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "TO"
+    ]
+   },
+   {
+    "date": "2026-11-20",
+    "name": "Morte de Zumbi dos Palmares",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2026-11-29",
+    "name": "Dia de Santa Catarina de Alexandria",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2026-11-30",
+    "name": "Dia do Evangélico",
+    "type": "public",
+    "regions": [
+     "DF"
+    ]
+   },
+   {
+    "date": "2026-12-19",
+    "name": "Emancipação política do estado do Paraná",
+    "type": "public",
+    "regions": [
+     "PR"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-04",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "RO"
+    ]
+   },
+   {
+    "date": "2027-01-12",
+    "name": "Dia do evangélico",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "bank"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "bank",
+    "regions": [
+     "*",
+     "AC",
+     "AL",
+     "AM",
+     "AP",
+     "BA",
+     "CE",
+     "DF",
+     "ES",
+     "GO",
+     "MA",
+     "MG",
+     "MS",
+     "MT",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "SP",
+     "TO"
+    ]
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Carnaval",
+    "type": "public",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2027-03-07",
+    "name": "Revolução Pernambucana de 1817",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Alusivo ao Dia Internacional da Mulher",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2027-03-18",
+    "name": "Autonomia do Estado",
+    "type": "public",
+    "regions": [
+     "TO"
+    ]
+   },
+   {
+    "date": "2027-03-19",
+    "name": "Dia de São José",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Data magna do estado",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-05",
+    "name": "Dia de Nossa Senhora da Penha",
+    "type": "public",
+    "regions": [
+     "ES"
+    ]
+   },
+   {
+    "date": "2027-04-21",
+    "name": "Data magna do estado",
+    "type": "public",
+    "regions": [
+     "MG"
+    ]
+   },
+   {
+    "date": "2027-04-21",
+    "name": "Dia de Tiradentes",
+    "nameEn": "Tiradentes' Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "AL",
+     "AM",
+     "AP",
+     "BA",
+     "CE",
+     "ES",
+     "GO",
+     "MA",
+     "MS",
+     "MT",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RJ",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "SP",
+     "TO"
+    ]
+   },
+   {
+    "date": "2027-04-21",
+    "name": "Fundação de Brasília",
+    "type": "public",
+    "regions": [
+     "DF"
+    ]
+   },
+   {
+    "date": "2027-04-23",
+    "name": "Dia de São Jorge",
+    "type": "public",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Corpo de Deus",
+    "nameEn": "Corpus Christi",
+    "type": "bank"
+   },
+   {
+    "date": "2027-06-15",
+    "name": "Aniversário do estado",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2027-06-18",
+    "name": "Dia do evangélico",
+    "type": "public",
+    "regions": [
+     "RO"
+    ]
+   },
+   {
+    "date": "2027-06-24",
+    "name": "São João",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2027-06-29",
+    "name": "São Pedro",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2027-07-02",
+    "name": "Independência da Bahia",
+    "type": "public",
+    "regions": [
+     "BA"
+    ]
+   },
+   {
+    "date": "2027-07-08",
+    "name": "Emancipação política de Sergipe",
+    "type": "public",
+    "regions": [
+     "SE"
+    ]
+   },
+   {
+    "date": "2027-07-09",
+    "name": "Revolução Constitucionalista",
+    "type": "public",
+    "regions": [
+     "SP"
+    ]
+   },
+   {
+    "date": "2027-07-26",
+    "name": "Fundação da Cidade de Goiás",
+    "type": "public",
+    "regions": [
+     "GO"
+    ]
+   },
+   {
+    "date": "2027-07-26",
+    "name": "Homenagem à memória do ex-presidente João Pessoa",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2027-07-28",
+    "name": "Adesão do Maranhão à independência do Brasil",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2027-08-05",
+    "name": "Nossa Senhora das Neves",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Adesão do Grão-Pará à independência do Brasil",
+    "type": "public",
+    "regions": [
+     "PA"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Dia de Santa Catarina",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2027-09-05",
+    "name": "Dia da Amazônia",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2027-09-05",
+    "name": "Elevação do Amazonas à categoria de província",
+    "type": "public",
+    "regions": [
+     "AM"
+    ]
+   },
+   {
+    "date": "2027-09-07",
+    "name": "Dia da Independência",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-08",
+    "name": "Nossa Senhora da Natividade",
+    "type": "public",
+    "regions": [
+     "TO"
+    ]
+   },
+   {
+    "date": "2027-09-13",
+    "name": "Criação do Território Federal",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2027-09-16",
+    "name": "Emancipação política",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2027-09-20",
+    "name": "Proclamação da República Rio-Grandense",
+    "type": "public",
+    "regions": [
+     "RS"
+    ]
+   },
+   {
+    "date": "2027-10-03",
+    "name": "Mártires de Cunhaú e Uruaçu",
+    "type": "public",
+    "regions": [
+     "RN"
+    ]
+   },
+   {
+    "date": "2027-10-05",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "RR",
+     "TO"
+    ]
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "MS"
+    ]
+   },
+   {
+    "date": "2027-10-12",
+    "name": "Nossa Senhora Aparecida",
+    "nameEn": "Our Lady of Aparecida",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-19",
+    "name": "Dia do Piauí",
+    "type": "public",
+    "regions": [
+     "PI"
+    ]
+   },
+   {
+    "date": "2027-10-24",
+    "name": "Lançamento da pedra fundamental de Goiânia",
+    "type": "public",
+    "regions": [
+     "GO"
+    ]
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Dia de Finados",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-15",
+    "name": "Proclamação da República",
+    "nameEn": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-20",
+    "name": "Dia da Consciência Negra",
+    "nameEn": "Black Awareness Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "AP",
+     "BA",
+     "CE",
+     "DF",
+     "ES",
+     "GO",
+     "MA",
+     "MG",
+     "MS",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "TO"
+    ]
+   },
+   {
+    "date": "2027-11-20",
+    "name": "Morte de Zumbi dos Palmares",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2027-11-28",
+    "name": "Dia de Santa Catarina de Alexandria",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2027-11-30",
+    "name": "Dia do Evangélico",
+    "type": "public",
+    "regions": [
+     "DF"
+    ]
+   },
+   {
+    "date": "2027-12-19",
+    "name": "Emancipação política do estado do Paraná",
+    "type": "public",
+    "regions": [
+     "PR"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Ano Novo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-04",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "RO"
+    ]
+   },
+   {
+    "date": "2028-01-12",
+    "name": "Dia do evangélico",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2028-02-28",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "bank"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "bank",
+    "regions": [
+     "*",
+     "AC",
+     "AL",
+     "AM",
+     "AP",
+     "BA",
+     "CE",
+     "DF",
+     "ES",
+     "GO",
+     "MA",
+     "MG",
+     "MS",
+     "MT",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "SP",
+     "TO"
+    ]
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Carnaval",
+    "type": "public",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2028-03-05",
+    "name": "Revolução Pernambucana de 1817",
+    "type": "public",
+    "regions": [
+     "PE"
+    ]
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Alusivo ao Dia Internacional da Mulher",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2028-03-18",
+    "name": "Autonomia do Estado",
+    "type": "public",
+    "regions": [
+     "TO"
+    ]
+   },
+   {
+    "date": "2028-03-19",
+    "name": "Dia de São José",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2028-03-25",
+    "name": "Data magna do estado",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Sexta-Feira Santa",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-21",
+    "name": "Data magna do estado",
+    "type": "public",
+    "regions": [
+     "MG"
+    ]
+   },
+   {
+    "date": "2028-04-21",
+    "name": "Dia de Tiradentes",
+    "nameEn": "Tiradentes' Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "AL",
+     "AM",
+     "AP",
+     "BA",
+     "CE",
+     "ES",
+     "GO",
+     "MA",
+     "MS",
+     "MT",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RJ",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "SP",
+     "TO"
+    ]
+   },
+   {
+    "date": "2028-04-21",
+    "name": "Fundação de Brasília",
+    "type": "public",
+    "regions": [
+     "DF"
+    ]
+   },
+   {
+    "date": "2028-04-23",
+    "name": "Dia de São Jorge",
+    "type": "public",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2028-04-24",
+    "name": "Dia de Nossa Senhora da Penha",
+    "type": "public",
+    "regions": [
+     "ES"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Dia do trabalhador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Aniversário do estado",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Corpo de Deus",
+    "nameEn": "Corpus Christi",
+    "type": "bank"
+   },
+   {
+    "date": "2028-06-18",
+    "name": "Dia do evangélico",
+    "type": "public",
+    "regions": [
+     "RO"
+    ]
+   },
+   {
+    "date": "2028-06-24",
+    "name": "São João",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2028-06-29",
+    "name": "São Pedro",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2028-07-02",
+    "name": "Independência da Bahia",
+    "type": "public",
+    "regions": [
+     "BA"
+    ]
+   },
+   {
+    "date": "2028-07-08",
+    "name": "Emancipação política de Sergipe",
+    "type": "public",
+    "regions": [
+     "SE"
+    ]
+   },
+   {
+    "date": "2028-07-09",
+    "name": "Revolução Constitucionalista",
+    "type": "public",
+    "regions": [
+     "SP"
+    ]
+   },
+   {
+    "date": "2028-07-26",
+    "name": "Fundação da Cidade de Goiás",
+    "type": "public",
+    "regions": [
+     "GO"
+    ]
+   },
+   {
+    "date": "2028-07-26",
+    "name": "Homenagem à memória do ex-presidente João Pessoa",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2028-07-28",
+    "name": "Adesão do Maranhão à independência do Brasil",
+    "type": "public",
+    "regions": [
+     "MA"
+    ]
+   },
+   {
+    "date": "2028-08-05",
+    "name": "Nossa Senhora das Neves",
+    "type": "public",
+    "regions": [
+     "PB"
+    ]
+   },
+   {
+    "date": "2028-08-13",
+    "name": "Dia de Santa Catarina",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Adesão do Grão-Pará à independência do Brasil",
+    "type": "public",
+    "regions": [
+     "PA"
+    ]
+   },
+   {
+    "date": "2028-09-05",
+    "name": "Dia da Amazônia",
+    "type": "public",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2028-09-05",
+    "name": "Elevação do Amazonas à categoria de província",
+    "type": "public",
+    "regions": [
+     "AM"
+    ]
+   },
+   {
+    "date": "2028-09-07",
+    "name": "Dia da Independência",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-08",
+    "name": "Nossa Senhora da Natividade",
+    "type": "public",
+    "regions": [
+     "TO"
+    ]
+   },
+   {
+    "date": "2028-09-13",
+    "name": "Criação do Território Federal",
+    "type": "public",
+    "regions": [
+     "AP"
+    ]
+   },
+   {
+    "date": "2028-09-16",
+    "name": "Emancipação política",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2028-09-20",
+    "name": "Proclamação da República Rio-Grandense",
+    "type": "public",
+    "regions": [
+     "RS"
+    ]
+   },
+   {
+    "date": "2028-10-01",
+    "name": "Dia de Eleição",
+    "nameEn": "Election Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-03",
+    "name": "Mártires de Cunhaú e Uruaçu",
+    "type": "public",
+    "regions": [
+     "RN"
+    ]
+   },
+   {
+    "date": "2028-10-05",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "RR",
+     "TO"
+    ]
+   },
+   {
+    "date": "2028-10-11",
+    "name": "Criação do estado",
+    "type": "public",
+    "regions": [
+     "MS"
+    ]
+   },
+   {
+    "date": "2028-10-12",
+    "name": "Nossa Senhora Aparecida",
+    "nameEn": "Our Lady of Aparecida",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-19",
+    "name": "Dia do Piauí",
+    "type": "public",
+    "regions": [
+     "PI"
+    ]
+   },
+   {
+    "date": "2028-10-24",
+    "name": "Lançamento da pedra fundamental de Goiânia",
+    "type": "public",
+    "regions": [
+     "GO"
+    ]
+   },
+   {
+    "date": "2028-10-29",
+    "name": "Dia de Eleição",
+    "nameEn": "Election Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Dia de Finados",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-15",
+    "name": "Proclamação da República",
+    "nameEn": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-20",
+    "name": "Dia da Consciência Negra",
+    "nameEn": "Black Awareness Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "AC",
+     "AP",
+     "BA",
+     "CE",
+     "DF",
+     "ES",
+     "GO",
+     "MA",
+     "MG",
+     "MS",
+     "PA",
+     "PB",
+     "PE",
+     "PI",
+     "PR",
+     "RN",
+     "RO",
+     "RR",
+     "RS",
+     "SC",
+     "SE",
+     "TO"
+    ]
+   },
+   {
+    "date": "2028-11-20",
+    "name": "Morte de Zumbi dos Palmares",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2028-11-26",
+    "name": "Dia de Santa Catarina de Alexandria",
+    "type": "public",
+    "regions": [
+     "SC"
+    ]
+   },
+   {
+    "date": "2028-11-30",
+    "name": "Dia do Evangélico",
+    "type": "public",
+    "regions": [
+     "DF"
+    ]
+   },
+   {
+    "date": "2028-12-19",
+    "name": "Emancipação política do estado do Paraná",
+    "type": "public",
+    "regions": [
+     "PR"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Natal",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-14",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2026-02-15",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-12",
+    "name": "Dia dos Namorados",
+    "nameEn": "Lovers' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-09",
+    "name": "Dia dos Pais",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-20",
+    "name": "Dia do Comércio",
+    "type": "observance",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2026-11-17",
+    "name": "Assinatura do Tratado de Petrópolis",
+    "type": "optional",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Noite de Natal",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Véspera de Ano Novo",
+    "nameEn": "New Year's Eve",
+    "type": "optional"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-06",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2027-02-07",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2027-02-10",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-12",
+    "name": "Dia dos Namorados",
+    "nameEn": "Lovers' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-08",
+    "name": "Dia dos Pais",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-19",
+    "name": "Dia do Comércio",
+    "type": "observance",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2027-11-17",
+    "name": "Assinatura do Tratado de Petrópolis",
+    "type": "optional",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Noite de Natal",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Véspera de Ano Novo",
+    "nameEn": "New Year's Eve",
+    "type": "optional"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-26",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2028-02-27",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Páscoa",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-12",
+    "name": "Dia dos Namorados",
+    "nameEn": "Lovers' Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-13",
+    "name": "Dia dos Pais",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-17",
+    "name": "Dia do Comércio",
+    "type": "observance",
+    "regions": [
+     "RJ"
+    ]
+   },
+   {
+    "date": "2028-11-17",
+    "name": "Assinatura do Tratado de Petrópolis",
+    "type": "optional",
+    "regions": [
+     "AC"
+    ]
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Noite de Natal",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Véspera de Ano Novo",
+    "nameEn": "New Year's Eve",
+    "type": "optional"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.376Z"
+}

@@ -1,0 +1,232 @@
+{
+ "country": "BY",
+ "countryName": "Belarus",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Новы год",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-07",
+    "name": "Каляды праваслаўныя",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Мiжнародны жаночы дзень",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Радунiца",
+    "nameEn": "Commemoration Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Дзень працы",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-09",
+    "name": "Дзень Перамогi",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-03",
+    "name": "Дзень Незалежнасцi",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-07",
+    "name": "Дзень Кастрычніцкай рэвалюцыі",
+    "nameEn": "October Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Каляды каталiцкiя",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Новы год",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-07",
+    "name": "Каляды праваслаўныя",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Мiжнародны жаночы дзень",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Дзень працы",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Дзень Перамогi",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-11",
+    "name": "Радунiца",
+    "nameEn": "Commemoration Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-03",
+    "name": "Дзень Незалежнасцi",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-07",
+    "name": "Дзень Кастрычніцкай рэвалюцыі",
+    "nameEn": "October Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Каляды каталiцкiя",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Новы год",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-07",
+    "name": "Каляды праваслаўныя",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Мiжнародны жаночы дзень",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-25",
+    "name": "Радунiца",
+    "nameEn": "Commemoration Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Дзень працы",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Дзень Перамогi",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-03",
+    "name": "Дзень Незалежнасцi",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-07",
+    "name": "Дзень Кастрычніцкай рэвалюцыі",
+    "nameEn": "October Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Каляды каталiцкiя",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Вялiкдзень каталiцкi",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "Вялiкдзень праваслаўны",
+    "nameEn": "Orthodox Easter",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Вялiкдзень каталiцкi",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Вялiкдзень праваслаўны",
+    "nameEn": "Orthodox Easter",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Вялiкдзень каталiцкi",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Вялiкдзень праваслаўны",
+    "nameEn": "Orthodox Easter",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.395Z"
+}

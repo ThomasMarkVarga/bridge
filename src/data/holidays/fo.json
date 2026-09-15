@@ -1,0 +1,340 @@
+{
+ "country": "FO",
+ "countryName": "Faroe Islands",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Nýggjársdagur",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Skírhósdagur",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Langafríggjadagur",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Páskadagur",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Annar páskadagur",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-24",
+    "name": "Flaggdagur",
+    "nameEn": "Flag Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Dýri biðidagur",
+    "nameEn": "Great Prayer Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Kristi Himmalsferðardagur",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Hvítusunnudagur",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Annar hvítusunnudagur",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-05",
+    "name": "Grundlógardagur",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Jólaaftan",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Fyrsti jóladagur",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Fyrsti gerandisdagur eftir jóladag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Nýggjársaftan",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Nýggjársdagur",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Skírhósdagur",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Langafríggjadagur",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Páskadagur",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Annar páskadagur",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-23",
+    "name": "Dýri biðidagur",
+    "nameEn": "Great Prayer Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-24",
+    "name": "Flaggdagur",
+    "nameEn": "Flag Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Kristi Himmalsferðardagur",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Hvítusunnudagur",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Annar hvítusunnudagur",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-05",
+    "name": "Grundlógardagur",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Jólaaftan",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Fyrsti jóladagur",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Fyrsti gerandisdagur eftir jóladag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Nýggjársaftan",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Nýggjársdagur",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Skírhósdagur",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Langafríggjadagur",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Páskadagur",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Annar páskadagur",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-24",
+    "name": "Flaggdagur",
+    "nameEn": "Flag Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-12",
+    "name": "Dýri biðidagur",
+    "nameEn": "Great Prayer Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Kristi Himmalsferðardagur",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Hvítusunnudagur",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Annar hvítusunnudagur",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Grundlógardagur",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Jólaaftan",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Fyrsti jóladagur",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Fyrsti gerandisdagur eftir jóladag",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Nýggjársaftan",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-07-28",
+    "name": "Sankt Olavsaften",
+    "nameEn": "St.Olav's Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-29",
+    "name": "Ólavsøka",
+    "nameEn": "St.Olav's Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-07-28",
+    "name": "Sankt Olavsaften",
+    "nameEn": "St.Olav's Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-29",
+    "name": "Ólavsøka",
+    "nameEn": "St.Olav's Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-07-28",
+    "name": "Sankt Olavsaften",
+    "nameEn": "St.Olav's Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-29",
+    "name": "Ólavsøka",
+    "nameEn": "St.Olav's Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.201Z"
+}

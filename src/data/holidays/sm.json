@@ -1,0 +1,391 @@
+{
+ "country": "SM",
+ "countryName": "San Marino",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Capodanno",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Epifania",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-05",
+    "name": "Festa di Sant’Agata",
+    "nameEn": "Feast of Saint Agatha",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-25",
+    "name": "Anniversario dell'Arengo",
+    "nameEn": "Anniversary of the Arengo",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-01",
+    "name": "Cerimonia di investitura dei Capitani Reggenti",
+    "nameEn": "Inauguration Ceremony",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Domenica di Pasqua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Lunedì dell’Angelo",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Festa del lavoro",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Corpus Domini",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-28",
+    "name": "Anniversario della caduta del Fascismo e Festa della Libertà",
+    "nameEn": "Liberation from Fascism",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Assunzione di Maria",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-03",
+    "name": "Festa di San Marino e di Fondazione della Repubblica",
+    "nameEn": "The Feast of San Marino and the Republic",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-01",
+    "name": "Cerimonia di investitura dei Capitani Reggenti",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Tutti i Santi",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Commemorazione dei defunti",
+    "nameEn": "Commemoration of the deceased",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "Immacolata Concezione",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Natale di Gesù",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Santo Stefano",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Capodanno",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Epifania",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-05",
+    "name": "Festa di Sant’Agata",
+    "nameEn": "Feast of Saint Agatha",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Anniversario dell'Arengo",
+    "nameEn": "Anniversary of the Arengo",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Domenica di Pasqua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Lunedì dell’Angelo",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-01",
+    "name": "Cerimonia di investitura dei Capitani Reggenti",
+    "nameEn": "Inauguration Ceremony",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Festa del lavoro",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Corpus Domini",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-28",
+    "name": "Anniversario della caduta del Fascismo e Festa della Libertà",
+    "nameEn": "Liberation from Fascism",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Assunzione di Maria",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-03",
+    "name": "Festa di San Marino e di Fondazione della Repubblica",
+    "nameEn": "The Feast of San Marino and the Republic",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-01",
+    "name": "Cerimonia di investitura dei Capitani Reggenti",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Tutti i Santi",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Commemorazione dei defunti",
+    "nameEn": "Commemoration of the deceased",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "Immacolata Concezione",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Natale di Gesù",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Santo Stefano",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Capodanno",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Epifania",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-05",
+    "name": "Festa di Sant’Agata",
+    "nameEn": "Feast of Saint Agatha",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-25",
+    "name": "Anniversario dell'Arengo",
+    "nameEn": "Anniversary of the Arengo",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-01",
+    "name": "Cerimonia di investitura dei Capitani Reggenti",
+    "nameEn": "Inauguration Ceremony",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Domenica di Pasqua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Lunedì dell’Angelo",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Festa del lavoro",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Corpus Domini",
+    "nameEn": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-28",
+    "name": "Anniversario della caduta del Fascismo e Festa della Libertà",
+    "nameEn": "Liberation from Fascism",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Assunzione di Maria",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-03",
+    "name": "Festa di San Marino e di Fondazione della Repubblica",
+    "nameEn": "The Feast of San Marino and the Republic",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-01",
+    "name": "Cerimonia di investitura dei Capitani Reggenti",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Tutti i Santi",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Commemorazione dei defunti",
+    "nameEn": "Commemoration of the deceased",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "Immacolata Concezione",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Natale di Gesù",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Santo Stefano",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-05-10",
+    "name": "Festa della mamma",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Ultimo dell’anno",
+    "nameEn": "New Year's Eve",
+    "type": "optional"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-05-09",
+    "name": "Festa della mamma",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Ultimo dell’anno",
+    "nameEn": "New Year's Eve",
+    "type": "optional"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-05-14",
+    "name": "Festa della mamma",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Ultimo dell’anno",
+    "nameEn": "New Year's Eve",
+    "type": "optional"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.219Z"
+}

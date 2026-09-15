@@ -1,0 +1,409 @@
+{
+ "country": "CO",
+ "countryName": "Colombia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-12",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-23",
+    "name": "San José",
+    "nameEn": "Saint Joseph",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-18",
+    "name": "La Asunción",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-08",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-15",
+    "name": "Sagrado Corazón de Jesús",
+    "nameEn": "Sacred Heart",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-29",
+    "name": "San Pedro y San Pablo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-13",
+    "name": "La virgen de Chiquinquirá",
+    "nameEn": "Virgin of Chiquinquirá",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-20",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-07",
+    "name": "Batalla de Boyacá",
+    "nameEn": "Battle of Boyacá",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-17",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Día de la Raza",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-16",
+    "name": "Independencia de Cartagena",
+    "nameEn": "Independence of Cartagena",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-11",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-22",
+    "name": "San José",
+    "nameEn": "Saint Joseph",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-10",
+    "name": "La Asunción",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-31",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-07",
+    "name": "Sagrado Corazón de Jesús",
+    "nameEn": "Sacred Heart",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-05",
+    "name": "San Pedro y San Pablo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-12",
+    "name": "La virgen de Chiquinquirá",
+    "nameEn": "Virgin of Chiquinquirá",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-20",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-07",
+    "name": "Batalla de Boyacá",
+    "nameEn": "Battle of Boyacá",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-16",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-18",
+    "name": "Día de la Raza",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-15",
+    "name": "Independencia de Cartagena",
+    "nameEn": "Independence of Cartagena",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-10",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-20",
+    "name": "San José",
+    "nameEn": "Saint Joseph",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-29",
+    "name": "La Asunción",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-19",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-26",
+    "name": "Sagrado Corazón de Jesús",
+    "nameEn": "Sacred Heart",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-03",
+    "name": "San Pedro y San Pablo",
+    "nameEn": "Saints Peter and Paul",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-10",
+    "name": "La virgen de Chiquinquirá",
+    "nameEn": "Virgin of Chiquinquirá",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-20",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Batalla de Boyacá",
+    "nameEn": "Battle of Boyacá",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-21",
+    "name": "Asunción",
+    "nameEn": "Assumption",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-16",
+    "name": "Día de la Raza",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-06",
+    "name": "Todos los Santos",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-13",
+    "name": "Independencia de Cartagena",
+    "nameEn": "Independence of Cartagena",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-03-29",
+    "name": "Domingo de Ramos",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-21",
+    "name": "Domingo de Ramos",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-09",
+    "name": "Domingo de Ramos",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.807Z"
+}

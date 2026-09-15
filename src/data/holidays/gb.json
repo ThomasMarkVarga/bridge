@@ -1,6 +1,7 @@
 {
  "country": "GB",
  "countryName": "United Kingdom",
+ "verified": true,
  "subdivisionLabel": "Nation",
  "requireSubdivision": true,
  "defaultSubdivision": "ENG",
@@ -434,5 +435,5 @@
   "version": "3.36.1",
   "url": "https://github.com/commenthol/date-holidays"
  },
- "generatedAt": "2026-09-14T21:53:17.851Z"
+ "generatedAt": "2026-09-15T05:52:52.235Z"
 }

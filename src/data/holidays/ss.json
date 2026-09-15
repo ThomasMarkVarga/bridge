@@ -1,0 +1,215 @@
+{
+ "country": "SS",
+ "countryName": "South Sudan",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-09",
+    "name": "Peace Agreement Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-16",
+    "name": "SPLA Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-29",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-09",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-30",
+    "name": "Martyrs Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-28",
+    "name": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-09",
+    "name": "Peace Agreement Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-10",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "SPLA Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-18",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-09",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-30",
+    "name": "Martyrs Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-28",
+    "name": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-09",
+    "name": "Peace Agreement Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-27",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-16",
+    "name": "SPLA Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-09",
+    "name": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-30",
+    "name": "Martyrs Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-28",
+    "name": "Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "New Year's Eve",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-07-06",
+    "name": "Mother's Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-07-05",
+    "name": "Mother's Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-07-03",
+    "name": "Mother's Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.272Z"
+}

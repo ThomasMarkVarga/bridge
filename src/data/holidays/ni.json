@@ -1,0 +1,322 @@
+{
+ "country": "NI",
+ "countryName": "Nicaragua",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Día del niño",
+    "nameEn": "Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-19",
+    "name": "Triunfo de la Revolución Popular",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-14",
+    "name": "Batalla de San Jacinto",
+    "nameEn": "Battle of San Jacinto",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Día de la resistencia indígena",
+    "nameEn": "Indigenous Resistance Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-01",
+    "name": "Día del niño",
+    "nameEn": "Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-19",
+    "name": "Triunfo de la Revolución Popular",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-14",
+    "name": "Batalla de San Jacinto",
+    "nameEn": "Battle of San Jacinto",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-12",
+    "name": "Día de la resistencia indígena",
+    "nameEn": "Indigenous Resistance Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-01",
+    "name": "Día del niño",
+    "nameEn": "Children's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-19",
+    "name": "Triunfo de la Revolución Popular",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-14",
+    "name": "Batalla de San Jacinto",
+    "nameEn": "Battle of San Jacinto",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-12",
+    "name": "Día de la resistencia indígena",
+    "nameEn": "Indigenous Resistance Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-18",
+    "name": "Natalicio de Rubén Darío",
+    "nameEn": "Birthday of Rubén Darío",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-30",
+    "name": "Día de la madre nicaragüense",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-23",
+    "name": "Día del padre nicaragüense",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-18",
+    "name": "Natalicio de Rubén Darío",
+    "nameEn": "Birthday of Rubén Darío",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-30",
+    "name": "Día de la madre nicaragüense",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-23",
+    "name": "Día del padre nicaragüense",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-18",
+    "name": "Natalicio de Rubén Darío",
+    "nameEn": "Birthday of Rubén Darío",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-30",
+    "name": "Día de la madre nicaragüense",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-23",
+    "name": "Día del padre nicaragüense",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.677Z"
+}

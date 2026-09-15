@@ -1,0 +1,212 @@
+{
+ "country": "SA",
+ "countryName": "Saudi Arabia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-02-22",
+    "name": "يوم التأسيس",
+    "nameEn": "Founding Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-19",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-22",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-26",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-28",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-29",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-23",
+    "name": "اليوم الوطني",
+    "nameEn": "National Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-22",
+    "name": "يوم التأسيس",
+    "nameEn": "Founding Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-10",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-11",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-12",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-15",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-18",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-23",
+    "name": "اليوم الوطني",
+    "nameEn": "National Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-22",
+    "name": "يوم التأسيس",
+    "nameEn": "Founding Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-27",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-28",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "عيد الفطر",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-04",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-06",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "عيد الأضحى",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-23",
+    "name": "اليوم الوطني",
+    "nameEn": "National Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.079Z"
+}

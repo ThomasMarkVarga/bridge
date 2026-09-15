@@ -1,0 +1,250 @@
+{
+ "country": "MX",
+ "countryName": "Mexico",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-02",
+    "name": "Día de la Constitución",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-16",
+    "name": "Natalicio de Benito Juárez",
+    "nameEn": "Benito Juárez's birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "bank"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "bank"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-16",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "bank"
+   },
+   {
+    "date": "2026-11-16",
+    "name": "Día de la Revolución",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-12",
+    "name": "Día de la Virgen de Guadalupe",
+    "nameEn": "Day of the Virgin of Guadalupe",
+    "type": "bank"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-01",
+    "name": "Día de la Constitución",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-15",
+    "name": "Natalicio de Benito Juárez",
+    "nameEn": "Benito Juárez's birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "bank"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "bank"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-16",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "bank"
+   },
+   {
+    "date": "2027-11-15",
+    "name": "Día de la Revolución",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-12",
+    "name": "Día de la Virgen de Guadalupe",
+    "nameEn": "Day of the Virgin of Guadalupe",
+    "type": "bank"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-07",
+    "name": "Día de la Constitución",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-20",
+    "name": "Natalicio de Benito Juárez",
+    "nameEn": "Benito Juárez's birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "bank"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "bank"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-16",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "bank"
+   },
+   {
+    "date": "2028-11-20",
+    "name": "Día de la Revolución",
+    "nameEn": "Revolution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-12",
+    "name": "Día de la Virgen de Guadalupe",
+    "nameEn": "Day of the Virgin of Guadalupe",
+    "type": "bank"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.976Z"
+}

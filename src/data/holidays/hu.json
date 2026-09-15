@@ -1,0 +1,484 @@
+{
+ "country": "HU",
+ "countryName": "Hungary",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Újév",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-15",
+    "name": "1848-as forradalom",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Nagypéntek",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Húsvétvasárnap",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Húsvéthétfő",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "A munka ünnepe",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pünkösdvasárnap",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Pünkösdhétfő",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-20",
+    "name": "Szent István ünnepe",
+    "nameEn": "Saint Stephen's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-23",
+    "name": "1956-os forradalom",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Mindenszentek",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Karácsony",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Karácsony másnapja",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Újév",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-15",
+    "name": "1848-as forradalom",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Nagypéntek",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Húsvétvasárnap",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Húsvéthétfő",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "A munka ünnepe",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pünkösdvasárnap",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Pünkösdhétfő",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-20",
+    "name": "Szent István ünnepe",
+    "nameEn": "Saint Stephen's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-23",
+    "name": "1956-os forradalom",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Mindenszentek",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Karácsony",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Karácsony másnapja",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Újév",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-15",
+    "name": "1848-as forradalom",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Nagypéntek",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Húsvétvasárnap",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Húsvéthétfő",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "A munka ünnepe",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pünkösdvasárnap",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Pünkösdhétfő",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-20",
+    "name": "Szent István ünnepe",
+    "nameEn": "Saint Stephen's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-23",
+    "name": "1956-os forradalom",
+    "nameEn": "National Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Mindenszentek",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Karácsony",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Karácsony másnapja",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-01",
+    "name": "A köztársaság emléknapja",
+    "nameEn": "Memorial Day of the Republic",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-25",
+    "name": "A kommunista diktatúrák áldozatainak emléknapja",
+    "nameEn": "Memorial Day for the Victims of the Communist Dictatorships",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Nemzetközi nőnap",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-16",
+    "name": "A holokauszt áldozatainak emléknapja",
+    "nameEn": "Memorial Day for the Victims of the Holocaust",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-03",
+    "name": "Anyák napja",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-21",
+    "name": "Honvédelmi nap",
+    "nameEn": "National Defense Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "A nemzeti összetartozás napja",
+    "nameEn": "Day of National Unity",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-19",
+    "name": "A független Magyarország napja",
+    "nameEn": "Day of the Independent Hungary",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-06",
+    "name": "Az aradi vértanúk emléknapja",
+    "nameEn": "Memorial Day for the Martyrs of Arad",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-06",
+    "name": "Mikulás",
+    "nameEn": "Saint Nicholas",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Szenteste",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Szilveszter",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-01",
+    "name": "A köztársaság emléknapja",
+    "nameEn": "Memorial Day of the Republic",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-25",
+    "name": "A kommunista diktatúrák áldozatainak emléknapja",
+    "nameEn": "Memorial Day for the Victims of the Communist Dictatorships",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Nemzetközi nőnap",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-16",
+    "name": "A holokauszt áldozatainak emléknapja",
+    "nameEn": "Memorial Day for the Victims of the Holocaust",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Anyák napja",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-21",
+    "name": "Honvédelmi nap",
+    "nameEn": "National Defense Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-04",
+    "name": "A nemzeti összetartozás napja",
+    "nameEn": "Day of National Unity",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-19",
+    "name": "A független Magyarország napja",
+    "nameEn": "Day of the Independent Hungary",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-06",
+    "name": "Az aradi vértanúk emléknapja",
+    "nameEn": "Memorial Day for the Martyrs of Arad",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-06",
+    "name": "Mikulás",
+    "nameEn": "Saint Nicholas",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Szenteste",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Szilveszter",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-01",
+    "name": "A köztársaság emléknapja",
+    "nameEn": "Memorial Day of the Republic",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-25",
+    "name": "A kommunista diktatúrák áldozatainak emléknapja",
+    "nameEn": "Memorial Day for the Victims of the Communist Dictatorships",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Nemzetközi nőnap",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "A holokauszt áldozatainak emléknapja",
+    "nameEn": "Memorial Day for the Victims of the Holocaust",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Anyák napja",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-21",
+    "name": "Honvédelmi nap",
+    "nameEn": "National Defense Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "A nemzeti összetartozás napja",
+    "nameEn": "Day of National Unity",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-19",
+    "name": "A független Magyarország napja",
+    "nameEn": "Day of the Independent Hungary",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-06",
+    "name": "Az aradi vértanúk emléknapja",
+    "nameEn": "Memorial Day for the Martyrs of Arad",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-06",
+    "name": "Mikulás",
+    "nameEn": "Saint Nicholas",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Szenteste",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Szilveszter",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.549Z"
+}

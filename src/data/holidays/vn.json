@@ -1,0 +1,593 @@
+{
+ "country": "VN",
+ "countryName": "Vietnam",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as New Year's Day, Vietnamese New Year Holidays, Vietnamese New Year. Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Tết Dương lịch",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-19",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-20",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-26",
+    "name": "Giỗ tổ Hùng Vương",
+    "nameEn": "Hung Kings Commemorations",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-30",
+    "name": "Ngày Giải phóng miền Nam",
+    "nameEn": "Day of liberating the South for national reunification",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Quốc tế Lao động",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-02",
+    "name": "Quốc khánh",
+    "nameEn": "National Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Tết Dương lịch",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-05",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-06",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-06",
+    "name": "Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-07",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-16",
+    "name": "Giỗ tổ Hùng Vương",
+    "nameEn": "Hung Kings Commemorations",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-30",
+    "name": "Ngày Giải phóng miền Nam",
+    "nameEn": "Day of liberating the South for national reunification",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Quốc tế Lao động",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-02",
+    "name": "Quốc khánh",
+    "nameEn": "National Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Tết Dương lịch",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-25",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-26",
+    "name": "Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-27",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-28",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-29",
+    "name": "Giao thừa Tết Nguyên Đán",
+    "nameEn": "Vietnamese New Year Holidays",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-04",
+    "name": "Giỗ tổ Hùng Vương",
+    "nameEn": "Hung Kings Commemorations",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-30",
+    "name": "Ngày Giải phóng miền Nam",
+    "nameEn": "Day of liberating the South for national reunification",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Quốc tế Lao động",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-02",
+    "name": "Quốc khánh",
+    "nameEn": "National Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-03",
+    "name": "Ngày thành lập Đảng",
+    "nameEn": "Communist Party of Viet Nam Foundation Anniversary",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-10",
+    "name": "Ông Táo chầu trời",
+    "nameEn": "Kitchen guardians",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-21",
+    "name": "Chiến thắng Ngọc Hồi - Đống Đa",
+    "nameEn": "Victory of Ngọc Hồi-Đống Đa",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-03",
+    "name": "Tết Nguyên Tiêu",
+    "nameEn": "Lantern Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Quốc tế Phụ nữ",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Ngày Sách Việt Nam",
+    "nameEn": "Vietnam Book Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-07",
+    "name": "Ngày Chiến thắng Điện Biện Phủ",
+    "nameEn": "Dien Bien Phu Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-19",
+    "name": "Ngày sinh Chủ tịch Hồ Chí Minh",
+    "nameEn": "President Ho Chi Minh's Birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-31",
+    "name": "Lễ Phật đản",
+    "nameEn": "Buddha's Birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-01",
+    "name": "Ngày quốc tế Thiếu nhi",
+    "nameEn": "International Children's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-19",
+    "name": "Tết Đoan ngọ",
+    "nameEn": "Mid-year Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-28",
+    "name": "Ngày Gia đình Việt Nam",
+    "nameEn": "Vietnamese Family Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-27",
+    "name": "Ngày Thương Binh Liệt Sĩ",
+    "nameEn": "Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-19",
+    "name": "Ngày cách mạng Tháng Tám",
+    "nameEn": "August Revolution Commemoration Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-08-27",
+    "name": "Rằm Tháng Bảy, Vu Lan",
+    "nameEn": "Ghost Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-25",
+    "name": "Tết Trung thu",
+    "nameEn": "Mid-Autumn Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-10",
+    "name": "Ngày giải phóng Thủ Đô",
+    "nameEn": "Capital Liberation Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-20",
+    "name": "Ngày Phụ nữ Việt Nam",
+    "nameEn": "Vietnamese Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-20",
+    "name": "Ngày Nhà giáo Việt Nam",
+    "nameEn": "Vietnamese Teacher's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-22",
+    "name": "Ngày hội Quốc phòng Toàn dân",
+    "nameEn": "National Defence Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-30",
+    "name": "Ông Táo chầu trời",
+    "nameEn": "Kitchen guardians",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-03",
+    "name": "Ngày thành lập Đảng",
+    "nameEn": "Communist Party of Viet Nam Foundation Anniversary",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-10",
+    "name": "Chiến thắng Ngọc Hồi - Đống Đa",
+    "nameEn": "Victory of Ngọc Hồi-Đống Đa",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-20",
+    "name": "Tết Nguyên Tiêu",
+    "nameEn": "Lantern Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Quốc tế Phụ nữ",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-21",
+    "name": "Ngày Sách Việt Nam",
+    "nameEn": "Vietnam Book Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-07",
+    "name": "Ngày Chiến thắng Điện Biện Phủ",
+    "nameEn": "Dien Bien Phu Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-19",
+    "name": "Ngày sinh Chủ tịch Hồ Chí Minh",
+    "nameEn": "President Ho Chi Minh's Birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-20",
+    "name": "Lễ Phật đản",
+    "nameEn": "Buddha's Birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-01",
+    "name": "Ngày quốc tế Thiếu nhi",
+    "nameEn": "International Children's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-09",
+    "name": "Tết Đoan ngọ",
+    "nameEn": "Mid-year Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-28",
+    "name": "Ngày Gia đình Việt Nam",
+    "nameEn": "Vietnamese Family Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-27",
+    "name": "Ngày Thương Binh Liệt Sĩ",
+    "nameEn": "Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-16",
+    "name": "Rằm Tháng Bảy, Vu Lan",
+    "nameEn": "Ghost Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2027-08-19",
+    "name": "Ngày cách mạng Tháng Tám",
+    "nameEn": "August Revolution Commemoration Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-15",
+    "name": "Tết Trung thu",
+    "nameEn": "Mid-Autumn Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-10",
+    "name": "Ngày giải phóng Thủ Đô",
+    "nameEn": "Capital Liberation Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-20",
+    "name": "Ngày Phụ nữ Việt Nam",
+    "nameEn": "Vietnamese Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-20",
+    "name": "Ngày Nhà giáo Việt Nam",
+    "nameEn": "Vietnamese Teacher's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-22",
+    "name": "Ngày hội Quốc phòng Toàn dân",
+    "nameEn": "National Defence Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-19",
+    "name": "Ông Táo chầu trời",
+    "nameEn": "Kitchen guardians",
+    "type": "observance"
+   },
+   {
+    "date": "2028-01-30",
+    "name": "Chiến thắng Ngọc Hồi - Đống Đa",
+    "nameEn": "Victory of Ngọc Hồi-Đống Đa",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-03",
+    "name": "Ngày thành lập Đảng",
+    "nameEn": "Communist Party of Viet Nam Foundation Anniversary",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-09",
+    "name": "Tết Nguyên Tiêu",
+    "nameEn": "Lantern Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Quốc tế Phụ nữ",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-21",
+    "name": "Ngày Sách Việt Nam",
+    "nameEn": "Vietnam Book Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Ngày Chiến thắng Điện Biện Phủ",
+    "nameEn": "Dien Bien Phu Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Lễ Phật đản",
+    "nameEn": "Buddha's Birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-19",
+    "name": "Ngày sinh Chủ tịch Hồ Chí Minh",
+    "nameEn": "President Ho Chi Minh's Birthday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-28",
+    "name": "Tết Đoan ngọ",
+    "nameEn": "Mid-year Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-01",
+    "name": "Ngày quốc tế Thiếu nhi",
+    "nameEn": "International Children's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-28",
+    "name": "Ngày Gia đình Việt Nam",
+    "nameEn": "Vietnamese Family Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-27",
+    "name": "Ngày Thương Binh Liệt Sĩ",
+    "nameEn": "Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-08-19",
+    "name": "Ngày cách mạng Tháng Tám",
+    "nameEn": "August Revolution Commemoration Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-03",
+    "name": "Rằm Tháng Bảy, Vu Lan",
+    "nameEn": "Ghost Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-03",
+    "name": "Tết Trung thu",
+    "nameEn": "Mid-Autumn Festival",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-10",
+    "name": "Ngày giải phóng Thủ Đô",
+    "nameEn": "Capital Liberation Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-20",
+    "name": "Ngày Phụ nữ Việt Nam",
+    "nameEn": "Vietnamese Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-20",
+    "name": "Ngày Nhà giáo Việt Nam",
+    "nameEn": "Vietnamese Teacher's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-22",
+    "name": "Ngày hội Quốc phòng Toàn dân",
+    "nameEn": "National Defence Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:55.238Z"
+}

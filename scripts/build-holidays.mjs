@@ -29,8 +29,21 @@ const THIS_YEAR = new Date().getUTCFullYear()
 const YEARS = [THIS_YEAR, THIS_YEAR + 1, THIS_YEAR + 2]
 
 /**
- * The country set. Deliberately small: a country is only here if the
- * `date-holidays` output has been checked against the official calendar.
+ * Every country the library knows, with what is known about each one recorded
+ * rather than assumed.
+ *
+ * A handful have been checked by hand against the official calendar, and those
+ * carry notes about where the library and the government disagree. The rest ship
+ * as the library has them. That difference is written into each file as
+ * `verified`, and the app says so on screen, because a date nobody has checked
+ * should not look the same as one somebody has.
+ *
+ * A country is dropped entirely if it yields no days off at all: an empty
+ * calendar is worse than no calendar, because it looks like an answer.
+ */
+
+/**
+ * Countries checked against the official calendar, with what was found.
  *
  * subdivisions: 'all'  -> emit every subdivision the library knows
  *               false  -> country-level only
@@ -39,12 +52,9 @@ const YEARS = [THIS_YEAR, THIS_YEAR + 1, THIS_YEAR + 2]
  * requireSubdivision: the UI preselects `defaultSubdivision` and makes the choice
  *               explicit, because a country-level answer would mislead.
  */
-const COUNTRIES = [
-  { code: 'RO', name: 'Romania', subdivisions: false },
-  {
-    code: 'GB',
-    name: 'United Kingdom',
-    subdivisions: 'all',
+const CURATED = {
+  RO: { subdivisions: false },
+  GB: {
     only: ['ENG', 'SCT', 'WLS', 'NIR'],
     subdivisionLabel: 'Nation',
     requireSubdivision: true,
@@ -55,54 +65,49 @@ const COUNTRIES = [
       'Scotland and Northern Ireland have genuinely different bank holidays. Pick your nation.'
     ]
   },
-  {
-    code: 'DE',
-    name: 'Germany',
-    subdivisions: 'all',
+  DE: {
     subdivisionLabel: 'Bundesland',
     requireSubdivision: true,
     defaultSubdivision: 'BY',
     notes: [
-      'Christmas Eve and New Year’s Eve are listed here as bank holidays, but they are not statutory public holidays in any Bundesland. Some employers give them, some give a half day, some give neither. Check your contract.',
-      'Assumption in Bayern and Corpus Christi in Sachsen and Thüringen apply only in some municipalities, not across the whole Bundesland.'
+      'Christmas Eve and New Year\u2019s Eve are listed here as bank holidays, but they are not statutory public holidays in any Bundesland. Some employers give them, some give a half day, some give neither. Check your contract.',
+      'Assumption in Bayern and Corpus Christi in Sachsen and Th\u00fcringen apply only in some municipalities, not across the whole Bundesland.'
     ]
   },
-  { code: 'FR', name: 'France', subdivisions: false },
-  {
-    code: 'ES',
-    name: 'Spain',
-    subdivisions: 'all',
+  FR: { subdivisions: false },
+  ES: {
     subdivisionLabel: 'Region',
     requireSubdivision: true,
     defaultSubdivision: 'MD',
     notes: ['Spanish towns add two local holidays of their own each year. Those are not in this data.']
   },
-  {
-    code: 'IT',
-    name: 'Italy',
+  IT: {
     subdivisions: false,
     notes: ['Italian towns observe their own patron saint day, which is not in this data.']
   },
-  {
-    code: 'NL',
-    name: 'Netherlands',
+  NL: {
     subdivisions: false,
     notes: ['Good Friday and Liberation Day are days off at some Dutch employers and not others. Check your contract.']
   },
-  { code: 'PL', name: 'Poland', subdivisions: false },
-  {
-    code: 'US',
-    name: 'United States',
-    subdivisions: 'all',
+  PL: { subdivisions: false },
+  US: {
     subdivisionLabel: 'State',
     defaultSubdivision: null,
     notes: [
       'These are federal holidays. Private employers in the United States do not have to give any of them off, and most give fewer.'
     ]
   },
-  { code: 'CA', name: 'Canada', subdivisions: 'all', subdivisionLabel: 'Province', requireSubdivision: true, defaultSubdivision: 'ON' },
-  { code: 'AU', name: 'Australia', subdivisions: 'all', subdivisionLabel: 'State', requireSubdivision: true, defaultSubdivision: 'NSW' }
-]
+  CA: { subdivisionLabel: 'Province', requireSubdivision: true, defaultSubdivision: 'ON' },
+  AU: { subdivisionLabel: 'State', requireSubdivision: true, defaultSubdivision: 'NSW' }
+}
+
+/**
+ * Holidays set by a calendar that is not the Gregorian one. Their dates are
+ * computed rather than announced, so every dataset approximates them and the
+ * real day can land a day either side of what is printed here.
+ */
+const OTHER_CALENDAR =
+  /eid|al-fitr|al-adha|ramadan|ramazan|hijri|islamic|muharram|ashura|mawlid|lunar|chinese new year|seollal|chuseok|vesak|wesak|deepavali|diwali|hari raya|songkran|rosh hashan|yom kippur|pesach|passover|sukkot|shavuot|hanukk|purim|simchat|buddha|buddhist|visakha|asalha|nyepi|waisak|holi|navratri|dussehra|janmashtami|ganesh|onam|pongal|baisakhi|guru nanak|prophet|lailat|laylat|thaipusam|tet|tết/i
 
 /** Holiday types kept in the main layer. Observances go in their own, off by default. */
 const OFF_TYPES = new Set(['public', 'bank'])
@@ -181,15 +186,20 @@ function readVariant(code, sub, year) {
 /** Stable identity for merging the same holiday across subdivisions. */
 const keyOf = (h) => `${h.date}|${h.name}|${h.type}|${h.substitute ? 1 : 0}`
 
-function buildCountry(cfg) {
+function buildCountry(code, name) {
+  const cfg = CURATED[code] || {}
+  const verified = Boolean(CURATED[code])
+
   const probe = new Holidays()
-  const statesMap = cfg.subdivisions === 'all' ? probe.getStates(cfg.code) || {} : {}
+  const statesMap = cfg.subdivisions === false ? {} : probe.getStates(code) || {}
   let subCodes = Object.keys(statesMap)
   if (cfg.only) subCodes = subCodes.filter((c) => cfg.only.includes(c))
   const subdivisions = subCodes.map((c) => ({ code: c, name: statesMap[c] }))
 
   const years = {}
   const observances = {}
+  let totalDaysOff = 0
+  const otherCalendarNames = new Set()
 
   for (const year of YEARS) {
     // Every variant is treated the same way, including the country-level one,
@@ -198,12 +208,18 @@ function buildCountry(cfg) {
     // Monday nor the late-August bank holiday, so the UK-wide list must not claim
     // those apply to every nation.
     const variants = [[NO_SUBDIVISION, cfg.nationalFrom || null], ...subCodes.map((sc) => [sc, sc])]
-    const allVariantCodes = variants.map(([code]) => code)
+    const allVariantCodes = variants.map(([c]) => c)
 
     /** @type {Map<string, {h: object, regions: Set<string>}>} */
     const merged = new Map()
     for (const [variantCode, initArg] of variants) {
-      for (const h of readVariant(cfg.code, initArg, year)) {
+      let rows
+      try {
+        rows = readVariant(code, initArg, year)
+      } catch {
+        continue // a subdivision the library cannot build is simply not offered
+      }
+      for (const h of rows) {
         const k = keyOf(h)
         const hit = merged.get(k)
         if (hit) hit.regions.add(variantCode)
@@ -220,22 +236,45 @@ function buildCountry(cfg) {
       row.type = h.type
       if (h.substitute) row.substitute = true
       if (!everywhere) row.regions = [...regions].sort()
-      ;(OFF_TYPES.has(h.type) ? rows : obsRows).push(row)
+      if (OFF_TYPES.has(h.type)) {
+        if (OTHER_CALENDAR.test(`${h.name} ${h.nameEn || ''}`)) otherCalendarNames.add(h.nameEn || h.name)
+        rows.push(row)
+      } else {
+        obsRows.push(row)
+      }
     }
 
     const byDate = (x, y) => (x.date < y.date ? -1 : x.date > y.date ? 1 : x.name < y.name ? -1 : 1)
     years[year] = rows.sort(byDate)
     observances[year] = obsRows.sort(byDate)
+    totalDaysOff += rows.length
+  }
+
+  // A country with nothing to show is not a country the app can answer for.
+  if (totalDaysOff === 0) return null
+
+  const notes = [...(cfg.notes || [])]
+  if (otherCalendarNames.size) {
+    const sample = [...otherCalendarNames].slice(0, 3).join(', ')
+    notes.push(
+      `Some days here follow a calendar other than the Gregorian one, such as ${sample}. Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.`
+    )
+  }
+  if (!verified) {
+    notes.push(
+      'These dates come straight from the holiday library and have not been checked against this country\u2019s official calendar by hand. Treat them as a starting point.'
+    )
   }
 
   return {
-    country: cfg.code,
-    countryName: cfg.name,
-    subdivisionLabel: cfg.subdivisionLabel || null,
+    country: code,
+    countryName: name,
+    verified,
+    subdivisionLabel: cfg.subdivisionLabel || (subdivisions.length ? 'Region' : null),
     requireSubdivision: Boolean(cfg.requireSubdivision),
     defaultSubdivision: cfg.defaultSubdivision ?? null,
     subdivisions,
-    notes: cfg.notes || [],
+    notes,
     years,
     observances,
     source: {
@@ -249,27 +288,44 @@ function buildCountry(cfg) {
 
 function main() {
   mkdirSync(OUT_DIR, { recursive: true })
+
+  const catalogue = new Holidays().getCountries('en')
+  const codes = Object.keys(catalogue).sort()
+
   const index = []
+  const skipped = []
   let total = 0
 
-  for (const cfg of COUNTRIES) {
-    const data = buildCountry(cfg)
-    const file = resolve(OUT_DIR, `${cfg.code.toLowerCase()}.json`)
+  for (const code of codes) {
+    let data
+    try {
+      data = buildCountry(code, catalogue[code])
+    } catch (err) {
+      skipped.push(`${code} (${catalogue[code]}): ${err.message}`)
+      continue
+    }
+    if (!data) {
+      skipped.push(`${code} (${catalogue[code]}): no days off in any year`)
+      continue
+    }
+
+    const file = resolve(OUT_DIR, `${code.toLowerCase()}.json`)
     writeFileSync(file, JSON.stringify(data, null, 1) + '\n', 'utf8')
-    const bytes = readFileSync(file).length
-    total += bytes
-    const counts = YEARS.map((y) => `${y}:${data.years[y].length}`).join('  ')
-    console.log(
-      `${cfg.code}  ${String(Math.round(bytes / 1024)).padStart(4)}KB  subs:${String(data.subdivisions.length).padStart(2)}  ${counts}`
-    )
-    index.push({
-      code: cfg.code,
-      name: cfg.name,
-      subdivisionLabel: data.subdivisionLabel,
-      requireSubdivision: data.requireSubdivision,
-      defaultSubdivision: data.defaultSubdivision,
-      subdivisions: data.subdivisions
-    })
+    total += readFileSync(file).length
+
+    // The index is the only thing every visitor downloads, so it carries the
+    // least it can: enough to fill the country list and nothing else. The
+    // subdivisions live in each country's own file, which is fetched only when
+    // somebody actually picks that country.
+    const entry = { code, name: data.countryName }
+    if (data.verified) entry.verified = true
+    if (data.subdivisions.length) {
+      entry.hasSubdivisions = true
+      if (data.requireSubdivision) entry.requireSubdivision = true
+      if (data.defaultSubdivision) entry.defaultSubdivision = data.defaultSubdivision
+      if (data.subdivisionLabel) entry.subdivisionLabel = data.subdivisionLabel
+    }
+    index.push(entry)
   }
 
   writeFileSync(
@@ -291,7 +347,14 @@ function main() {
     'utf8'
   )
 
-  console.log(`\n${COUNTRIES.length} countries + index.json, ${Math.round(total / 1024)}KB total, years ${YEARS.join(', ')}`)
+  const indexBytes = readFileSync(resolve(OUT_DIR, 'index.json')).length
+  const verified = index.filter((c) => c.verified).length
+  console.log(`${index.length} countries written, ${verified} of them checked by hand`)
+  console.log(`country files ${Math.round(total / 1024)}KB total, index.json ${Math.round(indexBytes / 1024)}KB`)
+  if (skipped.length) {
+    console.log(`\nskipped ${skipped.length}:`)
+    for (const s of skipped) console.log('  ' + s)
+  }
 }
 
 main()

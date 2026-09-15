@@ -1,0 +1,529 @@
+{
+ "country": "IS",
+ "countryName": "Iceland",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Nýársdagur",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Skírdagur",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Föstudagurinn langi",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Páskadagur",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Annar í páskum",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-23",
+    "name": "Sumardagurinn fyrsti",
+    "nameEn": "First Day of Summer",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Hátíðisdagur Verkamanna",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Uppstigningardagur",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Hvítasunnudagur",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Annar í hvítasunnu",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-17",
+    "name": "Íslenski þjóðhátíðardagurinn",
+    "nameEn": "Icelandic National Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Frídagur verslunarmanna",
+    "nameEn": "Commerce Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Aðfangadagur",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Jóladagur",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Annar í jólum",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Gamlársdagur",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Nýársdagur",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Skírdagur",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Föstudagurinn langi",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Páskadagur",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Annar í páskum",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-22",
+    "name": "Sumardagurinn fyrsti",
+    "nameEn": "First Day of Summer",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Hátíðisdagur Verkamanna",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Uppstigningardagur",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Hvítasunnudagur",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Annar í hvítasunnu",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-17",
+    "name": "Íslenski þjóðhátíðardagurinn",
+    "nameEn": "Icelandic National Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Frídagur verslunarmanna",
+    "nameEn": "Commerce Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Aðfangadagur",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Jóladagur",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Annar í jólum",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Gamlársdagur",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Nýársdagur",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Skírdagur",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Föstudagurinn langi",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Páskadagur",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Annar í páskum",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-20",
+    "name": "Sumardagurinn fyrsti",
+    "nameEn": "First Day of Summer",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Hátíðisdagur Verkamanna",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Uppstigningardagur",
+    "nameEn": "Ascension Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Hvítasunnudagur",
+    "nameEn": "Pentecost",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Annar í hvítasunnu",
+    "nameEn": "Whit Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-17",
+    "name": "Íslenski þjóðhátíðardagurinn",
+    "nameEn": "Icelandic National Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-07",
+    "name": "Frídagur verslunarmanna",
+    "nameEn": "Commerce Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Aðfangadagur",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Jóladagur",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Annar í jólum",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Gamlársdagur",
+    "nameEn": "New Year's Eve",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-06",
+    "name": "Þrettándinn",
+    "nameEn": "Epiphany",
+    "type": "observance"
+   },
+   {
+    "date": "2026-01-23",
+    "name": "Bóndadagur",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Bolludagur",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Sprengidagur",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Konudagur",
+    "nameEn": "Woman's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Öskudagur",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-29",
+    "name": "Pálmasunnudagur",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Mæðradagurinn",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-07",
+    "name": "Sjómannadagurinn",
+    "nameEn": "The Seamen's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-24",
+    "name": "Fyrsti vetrardagur",
+    "nameEn": "First Day of Winter",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-16",
+    "name": "Dagur íslenskrar tungu",
+    "nameEn": "Icelandic Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-23",
+    "name": "Þorláksmessa",
+    "nameEn": "St Þorlákur's Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-06",
+    "name": "Þrettándinn",
+    "nameEn": "Epiphany",
+    "type": "observance"
+   },
+   {
+    "date": "2027-01-22",
+    "name": "Bóndadagur",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Bolludagur",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Sprengidagur",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-10",
+    "name": "Öskudagur",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-02-18",
+    "name": "Konudagur",
+    "nameEn": "Woman's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-21",
+    "name": "Pálmasunnudagur",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Mæðradagurinn",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-06",
+    "name": "Sjómannadagurinn",
+    "nameEn": "The Seamen's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-23",
+    "name": "Fyrsti vetrardagur",
+    "nameEn": "First Day of Winter",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-16",
+    "name": "Dagur íslenskrar tungu",
+    "nameEn": "Icelandic Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-23",
+    "name": "Þorláksmessa",
+    "nameEn": "St Þorlákur's Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-06",
+    "name": "Þrettándinn",
+    "nameEn": "Epiphany",
+    "type": "observance"
+   },
+   {
+    "date": "2028-01-21",
+    "name": "Bóndadagur",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-18",
+    "name": "Konudagur",
+    "nameEn": "Woman's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-28",
+    "name": "Bolludagur",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Sprengidagur",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-01",
+    "name": "Öskudagur",
+    "nameEn": "Ash Wednesday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-09",
+    "name": "Pálmasunnudagur",
+    "nameEn": "Palm Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Mæðradagurinn",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Sjómannadagurinn",
+    "nameEn": "The Seamen's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-21",
+    "name": "Fyrsti vetrardagur",
+    "nameEn": "First Day of Winter",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-16",
+    "name": "Dagur íslenskrar tungu",
+    "nameEn": "Icelandic Language Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-23",
+    "name": "Þorláksmessa",
+    "nameEn": "St Þorlákur's Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.703Z"
+}

@@ -1,0 +1,226 @@
+{
+ "country": "MZ",
+ "countryName": "Mozambique",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Dia da Fraternidade universal",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-03",
+    "name": "Dia dos heróis moçambicanos",
+    "nameEn": "Heroes’ Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-07",
+    "name": "Dia da Mulher Moçambicana",
+    "nameEn": "Women’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Dia Internacional dos Trabalhadores",
+    "nameEn": "Workers' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-25",
+    "name": "Dia da Independência Nacional",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-07",
+    "name": "Dia da Vitória",
+    "nameEn": "Lusaka Peace Agreement",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-25",
+    "name": "Dia das Forças Armadas de Libertação Nacional",
+    "nameEn": "Defense Force’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-04",
+    "name": "Dia da Paz e Reconciliação",
+    "nameEn": "Peace and Reconciliation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-05",
+    "name": "Feriado Obrigatório",
+    "nameEn": "Public Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Dia da Família",
+    "nameEn": "Family Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Dia da Fraternidade universal",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-03",
+    "name": "Dia dos heróis moçambicanos",
+    "nameEn": "Heroes’ Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-07",
+    "name": "Dia da Mulher Moçambicana",
+    "nameEn": "Women’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Dia Internacional dos Trabalhadores",
+    "nameEn": "Workers' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-25",
+    "name": "Dia da Independência Nacional",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-07",
+    "name": "Dia da Vitória",
+    "nameEn": "Lusaka Peace Agreement",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-25",
+    "name": "Dia das Forças Armadas de Libertação Nacional",
+    "nameEn": "Defense Force’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-04",
+    "name": "Dia da Paz e Reconciliação",
+    "nameEn": "Peace and Reconciliation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Dia da Família",
+    "nameEn": "Family Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Dia da Fraternidade universal",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-03",
+    "name": "Dia dos heróis moçambicanos",
+    "nameEn": "Heroes’ Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-07",
+    "name": "Dia da Mulher Moçambicana",
+    "nameEn": "Women’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Dia Internacional dos Trabalhadores",
+    "nameEn": "Workers' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-25",
+    "name": "Dia da Independência Nacional",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-26",
+    "name": "Feriado Obrigatório",
+    "nameEn": "Public Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-07",
+    "name": "Dia da Vitória",
+    "nameEn": "Lusaka Peace Agreement",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-25",
+    "name": "Dia das Forças Armadas de Libertação Nacional",
+    "nameEn": "Defense Force’s Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-04",
+    "name": "Dia da Paz e Reconciliação",
+    "nameEn": "Peace and Reconciliation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Dia da Família",
+    "nameEn": "Family Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-05-03",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-05-02",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-05-07",
+    "name": "Dia das Mães",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.641Z"
+}

@@ -1,0 +1,1701 @@
+{
+ "country": "BE",
+ "countryName": "Belgium",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "BRU",
+   "name": "Bruxelles"
+  },
+  {
+   "code": "DE",
+   "name": "Deutschsprachige Gemeinschaft"
+  },
+  {
+   "code": "VLG",
+   "name": "Vlaamse Gemeenschap"
+  },
+  {
+   "code": "WAL",
+   "name": "Communauté française"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-01-01",
+    "name": "Nouvel An",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Paasmaandag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Dag van de Arbeid",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Fête du travail",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Ascension",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Christi Himmelfahrt",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-05-14",
+    "name": "Hemelvaartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Pinkstermaandag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-07-21",
+    "name": "Fête nationale",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-07-21",
+    "name": "Nationale feestdag",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-07-21",
+    "name": "Nationalfeiertag",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Assomption",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Tenhemelopneming",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "DE",
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Toussaint",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Armistice",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Waffenstillstand",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Wapenstilstand",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Noël",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Weihnachten",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-01-01",
+    "name": "Nouvel An",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Paasmaandag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Dag van de Arbeid",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Fête du travail",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Ascension",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Christi Himmelfahrt",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Hemelvaartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-05-17",
+    "name": "Pinkstermaandag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-07-21",
+    "name": "Fête nationale",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-07-21",
+    "name": "Nationale feestdag",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-07-21",
+    "name": "Nationalfeiertag",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Assomption",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Tenhemelopneming",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "DE",
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Toussaint",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Armistice",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Waffenstillstand",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Wapenstilstand",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Noël",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Weihnachten",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Neujahr",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-01-01",
+    "name": "Nieuwjaar",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-01-01",
+    "name": "Nouvel An",
+    "nameEn": "New Year's Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Lundi de Pâques",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Ostermontag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Paasmaandag",
+    "nameEn": "Easter Monday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Dag van de Arbeid",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Fête du travail",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Tag der Arbeit",
+    "nameEn": "Labour Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Ascension",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Christi Himmelfahrt",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-05-25",
+    "name": "Hemelvaartsdag",
+    "nameEn": "Ascension Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Lundi de Pentecôte",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Pfingstmontag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Pinkstermaandag",
+    "nameEn": "Whit Monday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-07-21",
+    "name": "Fête nationale",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-07-21",
+    "name": "Nationale feestdag",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-07-21",
+    "name": "Nationalfeiertag",
+    "nameEn": "National Holiday",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Assomption",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Mariä Himmelfahrt",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Tenhemelopneming",
+    "nameEn": "Assumption",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Allerheiligen",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "DE",
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Toussaint",
+    "nameEn": "All Saints' Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Armistice",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Waffenstillstand",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Wapenstilstand",
+    "nameEn": "Armistice Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Kerstmis",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Noël",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Weihnachten",
+    "nameEn": "Christmas Day",
+    "type": "public",
+    "regions": [
+     "DE"
+    ]
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-06",
+    "name": "Driekoningen",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Erscheinung des Herrn",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-01-06",
+    "name": "l’Épiphanie",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-02-14",
+    "name": "Saint-Valentin",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-02-14",
+    "name": "Valentijnsdag",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-02-14",
+    "name": "Valentinstag",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pâques",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-05-08",
+    "name": "Fête de l'Iris",
+    "nameEn": "Iris Festival",
+    "type": "observance",
+    "regions": [
+     "BRU"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Fête des Mères",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Moederdag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pentecôte",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Pinksteren",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-07-11",
+    "name": "Feestdag van de Vlaamse Gemeenschap",
+    "nameEn": "Day of the Flemish Community",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-09-27",
+    "name": "La fête de la communauté française",
+    "nameEn": "French Community Holiday",
+    "type": "observance",
+    "regions": [
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Allerseelen",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Allerzielen",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Fête des morts",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-11-15",
+    "name": "Fête du Roi",
+    "nameEn": "King's Feast",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-11-15",
+    "name": "Koningsdag",
+    "nameEn": "King's Feast",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-11-15",
+    "name": "Tag der Deutschsprachigen Gemeinschaft",
+    "nameEn": "Day of the German-speaking Community",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-12-06",
+    "name": "Saint-Nicolas",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2026-12-06",
+    "name": "Sankt Nikolaus",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2026-12-06",
+    "name": "Sinterklaas",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-06",
+    "name": "Driekoningen",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Erscheinung des Herrn",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-01-06",
+    "name": "l’Épiphanie",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Saint-Valentin",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Valentijnsdag",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-02-14",
+    "name": "Valentinstag",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pâques",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-05-08",
+    "name": "Fête de l'Iris",
+    "nameEn": "Iris Festival",
+    "type": "observance",
+    "regions": [
+     "BRU"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Fête des Mères",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Moederdag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pentecôte",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Pinksteren",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-07-11",
+    "name": "Feestdag van de Vlaamse Gemeenschap",
+    "nameEn": "Day of the Flemish Community",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-09-27",
+    "name": "La fête de la communauté française",
+    "nameEn": "French Community Holiday",
+    "type": "observance",
+    "regions": [
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Allerseelen",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Allerzielen",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Fête des morts",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-11-15",
+    "name": "Fête du Roi",
+    "nameEn": "King's Feast",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-11-15",
+    "name": "Koningsdag",
+    "nameEn": "King's Feast",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-11-15",
+    "name": "Tag der Deutschsprachigen Gemeinschaft",
+    "nameEn": "Day of the German-speaking Community",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-12-06",
+    "name": "Saint-Nicolas",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2027-12-06",
+    "name": "Sankt Nikolaus",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2027-12-06",
+    "name": "Sinterklaas",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-06",
+    "name": "Driekoningen",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Erscheinung des Herrn",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-01-06",
+    "name": "l’Épiphanie",
+    "nameEn": "Epiphany",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-02-14",
+    "name": "Saint-Valentin",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-02-14",
+    "name": "Valentijnsdag",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-02-14",
+    "name": "Valentinstag",
+    "nameEn": "Valentine's Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Ostersonntag",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pasen",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pâques",
+    "nameEn": "Easter Sunday",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-05-08",
+    "name": "Fête de l'Iris",
+    "nameEn": "Iris Festival",
+    "type": "observance",
+    "regions": [
+     "BRU"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Fête des Mères",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Moederdag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Muttertag",
+    "nameEn": "Mother's Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pentecôte",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pfingstsonntag",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-06-04",
+    "name": "Pinksteren",
+    "nameEn": "Pentecost",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-07-11",
+    "name": "Feestdag van de Vlaamse Gemeenschap",
+    "nameEn": "Day of the Flemish Community",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-09-27",
+    "name": "La fête de la communauté française",
+    "nameEn": "French Community Holiday",
+    "type": "observance",
+    "regions": [
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Allerseelen",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Allerzielen",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Fête des morts",
+    "nameEn": "All Souls' Day",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-11-15",
+    "name": "Fête du Roi",
+    "nameEn": "King's Feast",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-11-15",
+    "name": "Koningsdag",
+    "nameEn": "King's Feast",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-11-15",
+    "name": "Tag der Deutschsprachigen Gemeinschaft",
+    "nameEn": "Day of the German-speaking Community",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-12-06",
+    "name": "Saint-Nicolas",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "*",
+     "BRU",
+     "WAL"
+    ]
+   },
+   {
+    "date": "2028-12-06",
+    "name": "Sankt Nikolaus",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "DE"
+    ]
+   },
+   {
+    "date": "2028-12-06",
+    "name": "Sinterklaas",
+    "nameEn": "Saint Nicholas",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Tweede kerstdag",
+    "nameEn": "Boxing Day",
+    "type": "observance",
+    "regions": [
+     "VLG"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.074Z"
+}

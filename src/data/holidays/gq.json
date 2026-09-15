@@ -1,0 +1,215 @@
+{
+ "country": "GQ",
+ "countryName": "Republic of Equatorial Guinea",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-05",
+    "name": "Natalicio de Teodoro Obiang",
+    "nameEn": "President's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-03",
+    "name": "Día del Golpe de Libertad",
+    "nameEn": "Armed Forces Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Día de la Constitución",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-27",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-05",
+    "name": "Natalicio de Teodoro Obiang",
+    "nameEn": "President's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-03",
+    "name": "Día del Golpe de Libertad",
+    "nameEn": "Armed Forces Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Día de la Constitución",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-16",
+    "name": "Día de la Constitución (día sustituto)",
+    "nameEn": "Constitution Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-10-12",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-05",
+    "name": "Natalicio de Teodoro Obiang",
+    "nameEn": "President's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-15",
+    "name": "Corpus Christi",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-03",
+    "name": "Día del Golpe de Libertad",
+    "nameEn": "Armed Forces Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Día de la Constitución",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-12",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-08",
+    "name": "La inmaculada concepción",
+    "nameEn": "Immaculate Conception",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.296Z"
+}

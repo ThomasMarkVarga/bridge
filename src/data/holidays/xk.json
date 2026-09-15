@@ -1,0 +1,230 @@
+{
+ "country": "XK",
+ "countryName": "Kosovo",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as End of Ramadan (Eid al-Fitr), Feast of the Sacrifice (Eid al-Adha). Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Viti i Ri",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-07",
+    "name": "Krishtlindjet Ortodokse",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Dita e Pavarësisë",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Fitër Bajrami",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pashkët Katolike",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-09",
+    "name": "Dita e Kushtetutës",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "Pashkët Ortodokse",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Dita Ndërkombëtare e Punonjësve",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-09",
+    "name": "Dita e Evropës",
+    "nameEn": "Europe Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Kurban Bajrami",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Krishtlindja",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Viti i Ri",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-07",
+    "name": "Krishtlindjet Ortodokse",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-17",
+    "name": "Dita e Pavarësisë",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Fitër Bajrami",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pashkët Katolike",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-09",
+    "name": "Dita e Kushtetutës",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Dita Ndërkombëtare e Punonjësve",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Pashkët Ortodokse",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Dita e Evropës",
+    "nameEn": "Europe Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Kurban Bajrami",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Krishtlindja",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Viti i Ri",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-07",
+    "name": "Krishtlindjet Ortodokse",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-17",
+    "name": "Dita e Pavarësisë",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Fitër Bajrami",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-09",
+    "name": "Dita e Kushtetutës",
+    "nameEn": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pashkët Katolike",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pashkët Ortodokse",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Dita Ndërkombëtare e Punonjësve",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Kurban Bajrami",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Dita e Evropës",
+    "nameEn": "Europe Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Krishtlindja",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:55.260Z"
+}

@@ -1,0 +1,337 @@
+{
+ "country": "SK",
+ "countryName": "Slovakia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Deň vzniku Slovenskej republiky",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Zjavenie Pána",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Veľký piatok",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Veľkonočný pondelok",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Sviatok práce",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-05",
+    "name": "Sviatok svätého Cyrila a Metoda",
+    "nameEn": "Saints Cyril and Methodius Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-29",
+    "name": "Výročie Slovenského národného povstania",
+    "nameEn": "Slovak National Uprising anniversary",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Sviatok všetkých svätých",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Štedrý deň",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Prvý sviatok vianočný",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "Druhý sviatok vianočný",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Deň vzniku Slovenskej republiky",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Zjavenie Pána",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Veľký piatok",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Veľkonočný pondelok",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Sviatok práce",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-05",
+    "name": "Sviatok svätého Cyrila a Metoda",
+    "nameEn": "Saints Cyril and Methodius Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-29",
+    "name": "Výročie Slovenského národného povstania",
+    "nameEn": "Slovak National Uprising anniversary",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Sviatok všetkých svätých",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Štedrý deň",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Prvý sviatok vianočný",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "Druhý sviatok vianočný",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Deň vzniku Slovenskej republiky",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Zjavenie Pána",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Veľký piatok",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Veľkonočný pondelok",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Sviatok práce",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-05",
+    "name": "Sviatok svätého Cyrila a Metoda",
+    "nameEn": "Saints Cyril and Methodius Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-29",
+    "name": "Výročie Slovenského národného povstania",
+    "nameEn": "Slovak National Uprising anniversary",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Sviatok všetkých svätých",
+    "nameEn": "All Saints' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Štedrý deň",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Prvý sviatok vianočný",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "Druhý sviatok vianočný",
+    "nameEn": "Boxing Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Veľká noc",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-08",
+    "name": "Deň víťazstva nad fašizmom",
+    "nameEn": "Day of victory over fascism",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-01",
+    "name": "Deň Ústavy",
+    "nameEn": "Constitution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-15",
+    "name": "Sviatok Panny Márie Sedembolestnej",
+    "nameEn": "Day of Our Lady of the Seven Sorrows",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-17",
+    "name": "Deň boja za slobodu a demokraciu",
+    "nameEn": "Struggle for Freedom and Democracy Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Veľká noc",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-08",
+    "name": "Deň víťazstva nad fašizmom",
+    "nameEn": "Day of victory over fascism",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-01",
+    "name": "Deň Ústavy",
+    "nameEn": "Constitution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-09-15",
+    "name": "Sviatok Panny Márie Sedembolestnej",
+    "nameEn": "Day of Our Lady of the Seven Sorrows",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-17",
+    "name": "Deň boja za slobodu a demokraciu",
+    "nameEn": "Struggle for Freedom and Democracy Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Veľká noc",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-08",
+    "name": "Deň víťazstva nad fašizmom",
+    "nameEn": "Day of victory over fascism",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-01",
+    "name": "Deň Ústavy",
+    "nameEn": "Constitution Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-15",
+    "name": "Sviatok Panny Márie Sedembolestnej",
+    "nameEn": "Day of Our Lady of the Seven Sorrows",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-17",
+    "name": "Deň boja za slobodu a demokraciu",
+    "nameEn": "Struggle for Freedom and Democracy Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.203Z"
+}

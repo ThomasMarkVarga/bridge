@@ -1,0 +1,262 @@
+{
+ "country": "TH",
+ "countryName": "Thailand",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as Songkran Festival, Vesak Day, Asalha Puja. Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-03",
+    "name": "Makha Bucha",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Chakri Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-14",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-15",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-04",
+    "name": "Coronation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-31",
+    "name": "Vesak Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-03",
+    "name": "Queen Suthida's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-28",
+    "name": "King's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-29",
+    "name": "Asalha Puja",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-30",
+    "name": "Buddhist Lent",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-12",
+    "name": "The Queen Mother's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-13",
+    "name": "King Bhumibol Adulyadej Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-23",
+    "name": "King Chulalongkorn Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-05",
+    "name": "King Bhumibol Adulyadej's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-10",
+    "name": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-06",
+    "name": "Chakri Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-13",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-14",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-15",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-04",
+    "name": "Coronation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-03",
+    "name": "Queen Suthida's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-28",
+    "name": "King's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-12",
+    "name": "The Queen Mother's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-13",
+    "name": "King Bhumibol Adulyadej Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-23",
+    "name": "King Chulalongkorn Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-05",
+    "name": "King Bhumibol Adulyadej's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-10",
+    "name": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "New Year's Eve",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-06",
+    "name": "Chakri Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-15",
+    "name": "Songkran Festival",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-04",
+    "name": "Coronation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-03",
+    "name": "Queen Suthida's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-28",
+    "name": "King's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-12",
+    "name": "The Queen Mother's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-13",
+    "name": "King Bhumibol Adulyadej Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-23",
+    "name": "King Chulalongkorn Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-05",
+    "name": "King Bhumibol Adulyadej's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-10",
+    "name": "Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "New Year's Eve",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.338Z"
+}

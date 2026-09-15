@@ -1,0 +1,327 @@
+{
+ "country": "EC",
+ "countryName": "Ecuador",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "P",
+   "name": "Pichincha"
+  }
+ ],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Batalla del Pichincha",
+    "nameEn": "The Battle of Pichincha",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-10",
+    "name": "Día del Primer Grito de Independencia de Quito",
+    "nameEn": "Declaration of Independence of Quito",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-10",
+    "name": "Independencia de Guayaquil",
+    "nameEn": "Independence of Guayaquil",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-03",
+    "name": "Independencia de Cuenca",
+    "nameEn": "Independence of Cuenca",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-08",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-09",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-24",
+    "name": "Batalla del Pichincha",
+    "nameEn": "The Battle of Pichincha",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-10",
+    "name": "Día del Primer Grito de Independencia de Quito",
+    "nameEn": "Declaration of Independence of Quito",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-10",
+    "name": "Independencia de Guayaquil",
+    "nameEn": "Independence of Guayaquil",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-03",
+    "name": "Independencia de Cuenca",
+    "nameEn": "Independence of Cuenca",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-28",
+    "name": "Carnaval",
+    "nameEn": "Carnival",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-29",
+    "name": "Carnaval",
+    "nameEn": "Shrove Tuesday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-24",
+    "name": "Batalla del Pichincha",
+    "nameEn": "The Battle of Pichincha",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-10",
+    "name": "Día del Primer Grito de Independencia de Quito",
+    "nameEn": "Declaration of Independence of Quito",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-10",
+    "name": "Independencia de Guayaquil",
+    "nameEn": "Independence of Guayaquil",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-02",
+    "name": "Día de los Difuntos",
+    "nameEn": "All Souls' Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-03",
+    "name": "Independencia de Cuenca",
+    "nameEn": "Independence of Cuenca",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-07-24",
+    "name": "El Natalicio de Simón Bolívar",
+    "nameEn": "The Birthday of Simón Bolívar",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Dia de La Bandera",
+    "nameEn": "Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-07-24",
+    "name": "El Natalicio de Simón Bolívar",
+    "nameEn": "The Birthday of Simón Bolívar",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Dia de La Bandera",
+    "nameEn": "Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-07-24",
+    "name": "El Natalicio de Simón Bolívar",
+    "nameEn": "The Birthday of Simón Bolívar",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-31",
+    "name": "Dia de La Bandera",
+    "nameEn": "Flag Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.047Z"
+}

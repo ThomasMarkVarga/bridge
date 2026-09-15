@@ -1,0 +1,624 @@
+{
+ "country": "PR",
+ "countryName": "Puerto Rico",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-12",
+    "name": "Natalicio de Eugenio María de Hostos",
+    "nameEn": "Birthday of Eugenio María de Hostos",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-19",
+    "name": "Natalicio de Martin Luther King, Jr.",
+    "nameEn": "Martin Luther King Jr. Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Día de los Presidentes",
+    "nameEn": "Washington's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Natalicio de Luis Muñoz Marín",
+    "nameEn": "Birthday of Luis Muñoz Marín",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-02",
+    "name": "Día de la Ciudadanía Americana",
+    "nameEn": "American Citizenship Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-22",
+    "name": "Día de la Abolición de Esclavitud",
+    "nameEn": "Emancipation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-16",
+    "name": "Natalicio de José de Diego",
+    "nameEn": "Birthday of José de Diego",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-25",
+    "name": "Recordación de los Muertos de la Guerra",
+    "nameEn": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-03",
+    "name": "Día de la Independencia (día sustituto)",
+    "nameEn": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2026-07-04",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-20",
+    "name": "Natalicio de Don Luis Muñoz Rivera",
+    "nameEn": "Birthday of Don Luis Muñoz Rivera",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-25",
+    "name": "Constitución de Puerto Rico",
+    "nameEn": "Puerto Rico Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-27",
+    "name": "Natalicio de Dr. José Celso Barbosa",
+    "nameEn": "Birthday of Dr. José Celso Barbosa",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-07",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-12",
+    "name": "Descubrimiento de América",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Día del Veterano",
+    "nameEn": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-19",
+    "name": "Día del Descubrimiento de Puerto Rico",
+    "nameEn": "Discovery of Puerto Rico",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-26",
+    "name": "Acción de Gracias",
+    "nameEn": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-11",
+    "name": "Natalicio de Eugenio María de Hostos",
+    "nameEn": "Birthday of Eugenio María de Hostos",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-18",
+    "name": "Natalicio de Martin Luther King, Jr.",
+    "nameEn": "Martin Luther King Jr. Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Día de los Presidentes",
+    "nameEn": "Washington's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-18",
+    "name": "Natalicio de Luis Muñoz Marín",
+    "nameEn": "Birthday of Luis Muñoz Marín",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-02",
+    "name": "Día de la Ciudadanía Americana",
+    "nameEn": "American Citizenship Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-22",
+    "name": "Día de la Abolición de Esclavitud",
+    "nameEn": "Emancipation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-16",
+    "name": "Natalicio de José de Diego",
+    "nameEn": "Birthday of José de Diego",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-31",
+    "name": "Recordación de los Muertos de la Guerra",
+    "nameEn": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-18",
+    "name": "Juneteenth (día sustituto)",
+    "nameEn": "Juneteenth (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-04",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-05",
+    "name": "Día de la Independencia (día sustituto)",
+    "nameEn": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-07-19",
+    "name": "Natalicio de Don Luis Muñoz Rivera",
+    "nameEn": "Birthday of Don Luis Muñoz Rivera",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-25",
+    "name": "Constitución de Puerto Rico",
+    "nameEn": "Puerto Rico Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-27",
+    "name": "Natalicio de Dr. José Celso Barbosa",
+    "nameEn": "Birthday of Dr. José Celso Barbosa",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-06",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Descubrimiento de América",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Día del Veterano",
+    "nameEn": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-19",
+    "name": "Día del Descubrimiento de Puerto Rico",
+    "nameEn": "Discovery of Puerto Rico",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-25",
+    "name": "Acción de Gracias",
+    "nameEn": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Navidad (día sustituto)",
+    "nameEn": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Año Nuevo (día sustituto)",
+    "nameEn": "New Year's Day (substitute day)",
+    "type": "public",
+    "substitute": true
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Día de los Reyes Magos",
+    "nameEn": "Epiphany",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-10",
+    "name": "Natalicio de Eugenio María de Hostos",
+    "nameEn": "Birthday of Eugenio María de Hostos",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-17",
+    "name": "Natalicio de Martin Luther King, Jr.",
+    "nameEn": "Martin Luther King Jr. Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-18",
+    "name": "Natalicio de Luis Muñoz Marín",
+    "nameEn": "Birthday of Luis Muñoz Marín",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-21",
+    "name": "Día de los Presidentes",
+    "nameEn": "Washington's Birthday",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-02",
+    "name": "Día de la Ciudadanía Americana",
+    "nameEn": "American Citizenship Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-22",
+    "name": "Día de la Abolición de Esclavitud",
+    "nameEn": "Emancipation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Natalicio de José de Diego",
+    "nameEn": "Birthday of José de Diego",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-29",
+    "name": "Recordación de los Muertos de la Guerra",
+    "nameEn": "Memorial Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-19",
+    "name": "Juneteenth",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-04",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-17",
+    "name": "Natalicio de Don Luis Muñoz Rivera",
+    "nameEn": "Birthday of Don Luis Muñoz Rivera",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-25",
+    "name": "Constitución de Puerto Rico",
+    "nameEn": "Puerto Rico Constitution Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-27",
+    "name": "Natalicio de Dr. José Celso Barbosa",
+    "nameEn": "Birthday of Dr. José Celso Barbosa",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-04",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-09",
+    "name": "Descubrimiento de América",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-10",
+    "name": "Día del Veterano (día sustituto)",
+    "nameEn": "Veterans Day (substitute day)",
+    "type": "bank",
+    "substitute": true
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Día del Veterano",
+    "nameEn": "Veterans Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-19",
+    "name": "Día del Descubrimiento de Puerto Rico",
+    "nameEn": "Discovery of Puerto Rico",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-23",
+    "name": "Acción de Gracias",
+    "nameEn": "Thanksgiving Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-15",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-04-22",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-10",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-06-21",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-27",
+    "name": "Dia despues Acción de Gracias",
+    "nameEn": "Day after Thanksgiving Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2026-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-15",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-04-21",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-06-20",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-26",
+    "name": "Dia despues Acción de Gracias",
+    "nameEn": "Day after Thanksgiving Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2027-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-02-14",
+    "name": "Valentine's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-18",
+    "name": "Tax Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-04-26",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-14",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-18",
+    "name": "Día del Padre",
+    "nameEn": "Father's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-10-31",
+    "name": "Halloween",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-07",
+    "name": "Election Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-24",
+    "name": "Dia despues Acción de Gracias",
+    "nameEn": "Day after Thanksgiving Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Nochebuena",
+    "nameEn": "Christmas Eve",
+    "type": "optional"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "Fin del Año",
+    "nameEn": "New Year's Eve",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.933Z"
+}

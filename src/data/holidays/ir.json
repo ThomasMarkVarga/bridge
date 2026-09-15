@@ -1,0 +1,536 @@
+{
+ "country": "IR",
+ "countryName": "Iran",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as Anniversary of Islamic Revolution, End of Ramadan (Eid al-Fitr), Islamic Republic Day. Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-02",
+    "name": "وﻻدت ﺣﻀﺮت اﻣﺎم ﻋﻠﯽ ﻋﻠﯿﻪ اﻟﺴﻼم",
+    "nameEn": "Birthday of Imam Ali",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-16",
+    "name": "ﻣﺒﻌﺚ ﺣﻀﺮت رﺳﻮل اﮐﺮم ﺻﻠﯽ اﷲ ﻋﻠﯿﻪ و آﻟﻪ",
+    "nameEn": "Mabaas of Muhammad",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-03",
+    "name": "وﻻدت ﺣﻀﺮت ﻗﺎﺋﻢ ﻋﺠﻞاﷲ ﺗﻌﺎﻟﯽ ﻓﺮﺟﻪ شریف",
+    "nameEn": "Birthday of Imam Mahdi",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-11",
+    "name": "انقلاب اسلامی پنجاه و هفت",
+    "nameEn": "Anniversary of Islamic Revolution",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-10",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت ﻋﻠﯽ ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Ali",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "ملی شدن صنعت نفت",
+    "nameEn": "Nationalization of the Iranian oil industry",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-21",
+    "name": "ﺑﻪ ﻣﻨﺎﺳﺒﺖ ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ",
+    "nameEn": "Holyday for Fetr Eeid",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-22",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-23",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-24",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-01",
+    "name": "روز جمهوری اسلامی",
+    "nameEn": "Islamic Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "سیزده بدر",
+    "nameEn": "Sizdah Bedar",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت اﻣﺎم ﺟﻌﻔﺮ ﺻﺎدق ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Jafar",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻗﺮﺑﺎن",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "رﺣﻠﺖ اﻣﺎم ﺧﻤﯿﻨﯽ",
+    "nameEn": "Imam Khomeini's Demise",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-04",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻏﺪﯾﺮ ﺧﻢ",
+    "nameEn": "Eid al-Ghadeer",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-05",
+    "name": "قیام ۱۵ خرداد",
+    "nameEn": "Revolt of Khordad 15",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-24",
+    "name": "ﺗﺎﺳﻮﻋﺎی ﺣﺴﯿﻨﯽ",
+    "nameEn": "Tasoua",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-25",
+    "name": "ﻋﺎﺷﻮرای ﺣﺴﯿﻨﯽ",
+    "nameEn": "Ashoura",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-03",
+    "name": "اربعین حسینی",
+    "nameEn": "Arbaeen-e Hosseini",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-11",
+    "name": "رﺣﻠﺖ ﺣﻀﺮت رﺳﻮل اﮐﺮم صلّی الله علیه وآله و سلّم",
+    "nameEn": "Demise of Prophet Muhammad and Imam Hassan (Mujtaba)",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-13",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت اﻣﺎم رﺿﺎ ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Reza",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-21",
+    "name": "شهادت امام حسن عسكری علیه‌السلام",
+    "nameEn": "Martyrdom of Imam Hassan",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-30",
+    "name": "ولادت حضرت رسول اکرم صلّی الله علیه وآله و سلّم",
+    "nameEn": "Birthday of Muhammad Prophet",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-13",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت ﻓﺎﻃﻤﻪ زﻫﺮا ﺳﻼم اﷲ ﻋﻠﯿﻬﺎ",
+    "nameEn": "Martyrdom of Fatima-Zahara",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-22",
+    "name": "وﻻدت ﺣﻀﺮت اﻣﺎم ﻋﻠﯽ ﻋﻠﯿﻪ اﻟﺴﻼم",
+    "nameEn": "Birthday of Imam Ali",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-05",
+    "name": "ﻣﺒﻌﺚ ﺣﻀﺮت رﺳﻮل اﮐﺮم ﺻﻠﯽ اﷲ ﻋﻠﯿﻪ و آﻟﻪ",
+    "nameEn": "Mabaas of Muhammad",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-23",
+    "name": "وﻻدت ﺣﻀﺮت ﻗﺎﺋﻢ ﻋﺠﻞاﷲ ﺗﻌﺎﻟﯽ ﻓﺮﺟﻪ شریف",
+    "nameEn": "Birthday of Imam Mahdi",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-11",
+    "name": "انقلاب اسلامی پنجاه و هفت",
+    "nameEn": "Anniversary of Islamic Revolution",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-28",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت ﻋﻠﯽ ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Ali",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-10",
+    "name": "ﺑﻪ ﻣﻨﺎﺳﺒﺖ ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ",
+    "nameEn": "Holyday for Fetr Eeid",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-20",
+    "name": "ملی شدن صنعت نفت",
+    "nameEn": "Nationalization of the Iranian oil industry",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-21",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-22",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-23",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-24",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-01",
+    "name": "روز جمهوری اسلامی",
+    "nameEn": "Islamic Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-02",
+    "name": "سیزده بدر",
+    "nameEn": "Sizdah Bedar",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-02",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت اﻣﺎم ﺟﻌﻔﺮ ﺻﺎدق ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Jafar",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻗﺮﺑﺎن",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-24",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻏﺪﯾﺮ ﺧﻢ",
+    "nameEn": "Eid al-Ghadeer",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-04",
+    "name": "رﺣﻠﺖ اﻣﺎم ﺧﻤﯿﻨﯽ",
+    "nameEn": "Imam Khomeini's Demise",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-05",
+    "name": "قیام ۱۵ خرداد",
+    "nameEn": "Revolt of Khordad 15",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-14",
+    "name": "ﺗﺎﺳﻮﻋﺎی ﺣﺴﯿﻨﯽ",
+    "nameEn": "Tasoua",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-15",
+    "name": "ﻋﺎﺷﻮرای ﺣﺴﯿﻨﯽ",
+    "nameEn": "Ashoura",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-24",
+    "name": "اربعین حسینی",
+    "nameEn": "Arbaeen-e Hosseini",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-01",
+    "name": "رﺣﻠﺖ ﺣﻀﺮت رﺳﻮل اﮐﺮم صلّی الله علیه وآله و سلّم",
+    "nameEn": "Demise of Prophet Muhammad and Imam Hassan (Mujtaba)",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-03",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت اﻣﺎم رﺿﺎ ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Reza",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-10",
+    "name": "شهادت امام حسن عسكری علیه‌السلام",
+    "nameEn": "Martyrdom of Imam Hassan",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-19",
+    "name": "ولادت حضرت رسول اکرم صلّی الله علیه وآله و سلّم",
+    "nameEn": "Birthday of Muhammad Prophet",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-02",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت ﻓﺎﻃﻤﻪ زﻫﺮا ﺳﻼم اﷲ ﻋﻠﯿﻬﺎ",
+    "nameEn": "Martyrdom of Fatima-Zahara",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-11",
+    "name": "وﻻدت ﺣﻀﺮت اﻣﺎم ﻋﻠﯽ ﻋﻠﯿﻪ اﻟﺴﻼم",
+    "nameEn": "Birthday of Imam Ali",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "ﻣﺒﻌﺚ ﺣﻀﺮت رﺳﻮل اﮐﺮم ﺻﻠﯽ اﷲ ﻋﻠﯿﻪ و آﻟﻪ",
+    "nameEn": "Mabaas of Muhammad",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-12",
+    "name": "وﻻدت ﺣﻀﺮت ﻗﺎﺋﻢ ﻋﺠﻞاﷲ ﺗﻌﺎﻟﯽ ﻓﺮﺟﻪ شریف",
+    "nameEn": "Birthday of Imam Mahdi",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-11",
+    "name": "انقلاب اسلامی پنجاه و هفت",
+    "nameEn": "Anniversary of Islamic Revolution",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-17",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت ﻋﻠﯽ ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Ali",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-27",
+    "name": "ﺑﻪ ﻣﻨﺎﺳﺒﺖ ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ",
+    "nameEn": "Holyday for Fetr Eeid",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-19",
+    "name": "ملی شدن صنعت نفت",
+    "nameEn": "Nationalization of the Iranian oil industry",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-20",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-21",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-21",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت اﻣﺎم ﺟﻌﻔﺮ ﺻﺎدق ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Jafar",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-22",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-23",
+    "name": "نوروز",
+    "nameEn": "Nowruz",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-31",
+    "name": "روز جمهوری اسلامی",
+    "nameEn": "Islamic Republic Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-01",
+    "name": "سیزده بدر",
+    "nameEn": "Sizdah Bedar",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻗﺮﺑﺎن",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-13",
+    "name": "ﻋﯿﺪ ﺳﻌﯿﺪ ﻏﺪﯾﺮ ﺧﻢ",
+    "nameEn": "Eid al-Ghadeer",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-02",
+    "name": "ﺗﺎﺳﻮﻋﺎی ﺣﺴﯿﻨﯽ",
+    "nameEn": "Tasoua",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-03",
+    "name": "رﺣﻠﺖ اﻣﺎم ﺧﻤﯿﻨﯽ",
+    "nameEn": "Imam Khomeini's Demise",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-03",
+    "name": "ﻋﺎﺷﻮرای ﺣﺴﯿﻨﯽ",
+    "nameEn": "Ashoura",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-04",
+    "name": "قیام ۱۵ خرداد",
+    "nameEn": "Revolt of Khordad 15",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-13",
+    "name": "اربعین حسینی",
+    "nameEn": "Arbaeen-e Hosseini",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-21",
+    "name": "رﺣﻠﺖ ﺣﻀﺮت رﺳﻮل اﮐﺮم صلّی الله علیه وآله و سلّم",
+    "nameEn": "Demise of Prophet Muhammad and Imam Hassan (Mujtaba)",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-23",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت اﻣﺎم رﺿﺎ ﻋﻠﯿﻪاﻟﺴﻼم",
+    "nameEn": "Martyrdom of Imam Reza",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-30",
+    "name": "شهادت امام حسن عسكری علیه‌السلام",
+    "nameEn": "Martyrdom of Imam Hassan",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-08",
+    "name": "ولادت حضرت رسول اکرم صلّی الله علیه وآله و سلّم",
+    "nameEn": "Birthday of Muhammad Prophet",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-21",
+    "name": "ﺷﻬﺎدت ﺣﻀﺮت ﻓﺎﻃﻤﻪ زﻫﺮا ﺳﻼم اﷲ ﻋﻠﯿﻬﺎ",
+    "nameEn": "Martyrdom of Fatima-Zahara",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-30",
+    "name": "وﻻدت ﺣﻀﺮت اﻣﺎم ﻋﻠﯽ ﻋﻠﯿﻪ اﻟﺴﻼم",
+    "nameEn": "Birthday of Imam Ali",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-14",
+    "name": "ﻣﺒﻌﺚ ﺣﻀﺮت رﺳﻮل اﮐﺮم ﺻﻠﯽ اﷲ ﻋﻠﯿﻪ و آﻟﻪ",
+    "nameEn": "Mabaas of Muhammad",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-31",
+    "name": "وﻻدت ﺣﻀﺮت ﻗﺎﺋﻢ ﻋﺠﻞاﷲ ﺗﻌﺎﻟﯽ ﻓﺮﺟﻪ شریف",
+    "nameEn": "Birthday of Imam Mahdi",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:52.694Z"
+}

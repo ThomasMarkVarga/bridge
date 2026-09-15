@@ -1,0 +1,448 @@
+{
+ "country": "RS",
+ "countryName": "Serbia",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Нова година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Нова година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-07",
+    "name": "Божић",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-16",
+    "name": "Дан државности Србије",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-17",
+    "name": "Дан државности Србије",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-10",
+    "name": "Велики петак",
+    "nameEn": "Orthodox Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "Васкрс",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "Васкрсни понедељак",
+    "nameEn": "Orthodox Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Празник рада",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-02",
+    "name": "Празник рада",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-11",
+    "name": "Дан примирја",
+    "nameEn": "Armistice Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Нова година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Нова година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-07",
+    "name": "Божић",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-15",
+    "name": "Дан државности Србије",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-16",
+    "name": "Дан државности Србије",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-30",
+    "name": "Велики петак",
+    "nameEn": "Orthodox Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Празник рада",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Васкрс",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "Васкрсни понедељак",
+    "nameEn": "Orthodox Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "Празник рада",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-11",
+    "name": "Дан примирја",
+    "nameEn": "Armistice Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Нова година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-03",
+    "name": "Нова година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-07",
+    "name": "Божић",
+    "nameEn": "Orthodox Christmas",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-15",
+    "name": "Дан државности Србије",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-16",
+    "name": "Дан државности Србије",
+    "nameEn": "Statehood Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Велики петак",
+    "nameEn": "Orthodox Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Васкрс",
+    "nameEn": "Orthodox Easter",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Васкрсни понедељак",
+    "nameEn": "Orthodox Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Празник рада",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-02",
+    "name": "Празник рада",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-11",
+    "name": "Дан примирја",
+    "nameEn": "Armistice Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-01-27",
+    "name": "Свети Сава",
+    "nameEn": "Saint Sava Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Рамазански Бајрам",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Католички Велики петак",
+    "nameEn": "Good Friday",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-05",
+    "name": "Католички Васкрс",
+    "nameEn": "Easter Sunday",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-06",
+    "name": "Католички Васкрсни понедељак",
+    "nameEn": "Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2026-04-22",
+    "name": "Дан сећања на жртве холокауста",
+    "nameEn": "Holocaust Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-09",
+    "name": "Дан победе",
+    "nameEn": "Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Курбански Бајрам",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2026-06-28",
+    "name": "Видовдан",
+    "nameEn": "Saint Vitus Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-09-21",
+    "name": "Јом Кипур",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2026-10-21",
+    "name": "Дан сећања на српске жртве у Другом светском рату",
+    "nameEn": "World War II Serbian Victims Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Католички Божић",
+    "nameEn": "Christmas Day",
+    "type": "optional"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-27",
+    "name": "Свети Сава",
+    "nameEn": "Saint Sava Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Рамазански Бајрам",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "optional"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Католички Велики петак",
+    "nameEn": "Good Friday",
+    "type": "optional"
+   },
+   {
+    "date": "2027-03-28",
+    "name": "Католички Васкрс",
+    "nameEn": "Easter Sunday",
+    "type": "optional"
+   },
+   {
+    "date": "2027-03-29",
+    "name": "Католички Васкрсни понедељак",
+    "nameEn": "Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2027-04-22",
+    "name": "Дан сећања на жртве холокауста",
+    "nameEn": "Holocaust Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-09",
+    "name": "Дан победе",
+    "nameEn": "Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Курбански Бајрам",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2027-06-28",
+    "name": "Видовдан",
+    "nameEn": "Saint Vitus Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-10-11",
+    "name": "Јом Кипур",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2027-10-21",
+    "name": "Дан сећања на српске жртве у Другом светском рату",
+    "nameEn": "World War II Serbian Victims Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Католички Божић",
+    "nameEn": "Christmas Day",
+    "type": "optional"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-27",
+    "name": "Свети Сава",
+    "nameEn": "Saint Sava Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Рамазански Бајрам",
+    "nameEn": "End of Ramadan (Eid al-Fitr)",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Католички Велики петак",
+    "nameEn": "Good Friday",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Католички Васкрс",
+    "nameEn": "Easter Sunday",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Католички Васкрсни понедељак",
+    "nameEn": "Easter Monday",
+    "type": "optional"
+   },
+   {
+    "date": "2028-04-22",
+    "name": "Дан сећања на жртве холокауста",
+    "nameEn": "Holocaust Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Курбански Бајрам",
+    "nameEn": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "optional"
+   },
+   {
+    "date": "2028-05-09",
+    "name": "Дан победе",
+    "nameEn": "Victory Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-06-28",
+    "name": "Видовдан",
+    "nameEn": "Saint Vitus Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-09-30",
+    "name": "Јом Кипур",
+    "nameEn": "Yom Kippur",
+    "type": "optional"
+   },
+   {
+    "date": "2028-10-21",
+    "name": "Дан сећања на српске жртве у Другом светском рату",
+    "nameEn": "World War II Serbian Victims Remembrance Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Католички Божић",
+    "nameEn": "Christmas Day",
+    "type": "optional"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:53.974Z"
+}

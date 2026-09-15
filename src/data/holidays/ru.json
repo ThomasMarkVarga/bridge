@@ -1,0 +1,1552 @@
+{
+ "country": "RU",
+ "countryName": "Russia",
+ "verified": false,
+ "subdivisionLabel": "Region",
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [
+  {
+   "code": "AD",
+   "name": "Республика Адыгея"
+  },
+  {
+   "code": "AL",
+   "name": "Республика Алтай"
+  },
+  {
+   "code": "BA",
+   "name": "Республика Башкортостан"
+  },
+  {
+   "code": "BEL",
+   "name": "Белгородская область"
+  },
+  {
+   "code": "BRY",
+   "name": "Брянская область"
+  },
+  {
+   "code": "BU",
+   "name": "Республика Бурятия"
+  },
+  {
+   "code": "CE",
+   "name": "Чеченская Республика"
+  },
+  {
+   "code": "CR",
+   "name": "Республика Крым"
+  },
+  {
+   "code": "CU",
+   "name": "Чувашская Республика"
+  },
+  {
+   "code": "DA",
+   "name": "Республика Дагестан"
+  },
+  {
+   "code": "IN",
+   "name": "Республика Ингушетия"
+  },
+  {
+   "code": "IRK",
+   "name": "Иркутская область"
+  },
+  {
+   "code": "KB",
+   "name": "Кабардино-Балкарская Республика"
+  },
+  {
+   "code": "KC",
+   "name": "Карачаево-Черкесская Республика"
+  },
+  {
+   "code": "KDA",
+   "name": "Краснодарский край"
+  },
+  {
+   "code": "KL",
+   "name": "Республика Калмыкия"
+  },
+  {
+   "code": "KO",
+   "name": "Республика Коми"
+  },
+  {
+   "code": "KR",
+   "name": "Республика Карелия"
+  },
+  {
+   "code": "MR",
+   "name": "Республика Мордовия"
+  },
+  {
+   "code": "NO",
+   "name": "Республика Северная Осетия - Алания"
+  },
+  {
+   "code": "OMS",
+   "name": "Омская область"
+  },
+  {
+   "code": "PNZ",
+   "name": "Пензенская область"
+  },
+  {
+   "code": "SA",
+   "name": "Республика Саха (Якутия)"
+  },
+  {
+   "code": "SAR",
+   "name": "Саратовская область"
+  },
+  {
+   "code": "SEV",
+   "name": "город Севастополь"
+  },
+  {
+   "code": "STA",
+   "name": "Ставропольский край"
+  },
+  {
+   "code": "TA",
+   "name": "Республика Татарстан"
+  },
+  {
+   "code": "TY",
+   "name": "Республика Тыва"
+  },
+  {
+   "code": "ZAB",
+   "name": "Забайкальский край"
+  }
+ ],
+ "notes": [
+  "Some days here follow a calendar other than the Gregorian one, such as Eid al-Fitr (Markhash), Eid al-Adha (Ghurba), Birthday of Buddha Shakyamuni. Those dates are calculated rather than announced, so the real day can fall a day either side of what is shown. Check them against an official calendar before you book around one.",
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Новый год",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-02",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-03",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-04",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-05",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-06",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-07",
+    "name": "Рождество Христово",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-01-08",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Праздник Белого месяца \"Сагаалган\"",
+    "nameEn": "White Month Festival (Sagaalgan)",
+    "type": "public",
+    "regions": [
+     "ZAB"
+    ]
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Праздник Белого месяца «Сагаалган»",
+    "nameEn": "White Month Festival (Sagaalgan)",
+    "type": "public",
+    "regions": [
+     "BU"
+    ]
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Цаган Сар",
+    "nameEn": "Tsagan Sar",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2026-02-18",
+    "name": "Шагаа",
+    "nameEn": "Shagaa",
+    "type": "public",
+    "regions": [
+     "TY"
+    ]
+   },
+   {
+    "date": "2026-02-23",
+    "name": "День защитника Отечества",
+    "nameEn": "Defender of the Fatherland Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Международный женский день",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-09",
+    "name": "Международный женский день",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-18",
+    "name": "День возвращения города Севастополя в Россию",
+    "nameEn": "Day of Sevastopol's Return to Russia",
+    "type": "public",
+    "regions": [
+     "SEV"
+    ]
+   },
+   {
+    "date": "2026-03-18",
+    "name": "День воссоединения Крыма с Россией",
+    "nameEn": "Day of the Reunification of Crimea with Russia",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Ид аль-Фитр (Мархаш)",
+    "nameEn": "Eid al-Fitr (Markhash)",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Ораза-байрам",
+    "nameEn": "Uraza-Bayram",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2026-03-20",
+    "name": "Ураза-байрам",
+    "nameEn": "Uraza-Bayram",
+    "type": "public",
+    "regions": [
+     "AD",
+     "BA",
+     "CE",
+     "DA",
+     "KB",
+     "KC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2026-03-23",
+    "name": "День Конституции Чеченской Республики",
+    "nameEn": "Constitution Day of the Chechen Republic",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2026-03-28",
+    "name": "День возрождения балкарского народа",
+    "nameEn": "Day of the Revival of the Balkar People",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2026-04-13",
+    "name": "Светлое Христово Воскресение (Пасха)",
+    "nameEn": "Orthodox Easter",
+    "type": "public",
+    "regions": [
+     "CR",
+     "DA"
+    ]
+   },
+   {
+    "date": "2026-04-16",
+    "name": "День мира в Чеченской Республике",
+    "nameEn": "Peace Day in the Chechen Republic",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "День особого поминовения усопших - Радоница",
+    "nameEn": "Day of Special Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "День памяти усопших - Радоница",
+    "nameEn": "Day of Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "KC"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "День поминовения усопших (Радоница)",
+    "nameEn": "Day of Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "AD",
+     "KDA",
+     "STA"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Единый День памяти",
+    "nameEn": "Unity Day of Remembrance",
+    "type": "public",
+    "regions": [
+     "IRK"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Единый день поминовения усопших",
+    "nameEn": "Unified Day of Remembrance of the Departed",
+    "type": "public",
+    "regions": [
+     "PNZ"
+    ]
+   },
+   {
+    "date": "2026-04-21",
+    "name": "Радоница - день особого поминовения усопших",
+    "nameEn": "Radonitsa - Day of Special Remembrance of the Departed",
+    "type": "public",
+    "regions": [
+     "BRY",
+     "KB",
+     "OMS",
+     "SAR"
+    ]
+   },
+   {
+    "date": "2026-04-27",
+    "name": "День Республики Саха (Якутия)",
+    "nameEn": "Republic of Sakha (Yakutia) Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "name": "День весны и труда",
+    "nameEn": "Spring and Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-03",
+    "name": "День возрождения карачаевского народа",
+    "nameEn": "Day of the Revival of the Karachay People",
+    "type": "public",
+    "regions": [
+     "KC"
+    ]
+   },
+   {
+    "date": "2026-05-08",
+    "name": "День Конституции Республики Тыва",
+    "nameEn": "Constitution Day of the Republic of Tuva",
+    "type": "public",
+    "regions": [
+     "TY"
+    ]
+   },
+   {
+    "date": "2026-05-09",
+    "name": "День Победы",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-21",
+    "name": "День памяти адыгов (черкесов) - жертв Русско-Кавказской войны",
+    "nameEn": "Day of Remembrance of the Adyghe (Circassian) Victims of the Russian-Caucasian War",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Ид аль-Адха (Г1урба)",
+    "nameEn": "Eid al-Adha (Ghurba)",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2026-05-27",
+    "name": "Курбан-байрам",
+    "nameEn": "Kurban-Bayram",
+    "type": "public",
+    "regions": [
+     "AD",
+     "BA",
+     "CE",
+     "CR",
+     "DA",
+     "KB",
+     "KC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2026-05-31",
+    "name": "День рождения Будды Шакьямуни",
+    "nameEn": "Birthday of Buddha Shakyamuni",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2026-06-01",
+    "name": "День Святой Троицы",
+    "nameEn": "Trinity Sunday",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2026-06-08",
+    "name": "День Республики Карелии",
+    "nameEn": "Republic of Karelia Day",
+    "type": "public",
+    "regions": [
+     "KR"
+    ]
+   },
+   {
+    "date": "2026-06-12",
+    "name": "День России",
+    "nameEn": "Russia Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-06-14",
+    "name": "День основания города Севастополя",
+    "nameEn": "Sevastopol City Foundation Day",
+    "type": "public",
+    "regions": [
+     "SEV"
+    ]
+   },
+   {
+    "date": "2026-06-21",
+    "name": "День национального праздника Ысыах",
+    "nameEn": "Ysyakh National Holiday",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2026-06-24",
+    "name": "День Чувашской Республики",
+    "nameEn": "Day of the Chuvash Republic",
+    "type": "public",
+    "regions": [
+     "CU"
+    ]
+   },
+   {
+    "date": "2026-07-03",
+    "name": "День образования Республики Алтай",
+    "nameEn": "Day of the Formation of the Altai Republic",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2026-07-05",
+    "name": "День Республики Калмыкия",
+    "nameEn": "Republic of Kalmykia Day",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2026-07-12",
+    "name": "День Прохоровского поля - Третьего ратного поля России",
+    "nameEn": "Prokhorovka Field Day - Russia's Third Military Field",
+    "type": "public",
+    "regions": [
+     "BEL"
+    ]
+   },
+   {
+    "date": "2026-07-24",
+    "name": "Наадым",
+    "nameEn": "Naadym",
+    "type": "public",
+    "regions": [
+     "TY"
+    ]
+   },
+   {
+    "date": "2026-07-26",
+    "name": "День Конституции Республики Дагестан",
+    "nameEn": "Constitution Day of the Republic of Dagestan",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2026-08-05",
+    "name": "День 25-летия канонизации святого праведного воина Феодора Ушакова",
+    "nameEn": "25th Anniversary of the Canonization of Righteous Warrior Fyodor Ushakov",
+    "type": "public",
+    "regions": [
+     "MR"
+    ]
+   },
+   {
+    "date": "2026-08-15",
+    "name": "День Республики Тыва",
+    "nameEn": "Republic of Tuva Day",
+    "type": "public",
+    "regions": [
+     "TY"
+    ]
+   },
+   {
+    "date": "2026-08-22",
+    "name": "День Республики Коми",
+    "nameEn": "Republic of Komi Day",
+    "type": "public",
+    "regions": [
+     "KO"
+    ]
+   },
+   {
+    "date": "2026-08-30",
+    "name": "День Республики Татарстан",
+    "nameEn": "Republic of Tatarstan Day",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2026-09-01",
+    "name": "День государственности Кабардино-Балкарской Республики",
+    "nameEn": "Statehood Day of the Kabardino-Balkar Republic",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2026-09-15",
+    "name": "День единства народов Дагестана",
+    "nameEn": "Day of Unity of the Peoples of Dagestan",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2026-09-20",
+    "name": "День адыгов (черкесов)",
+    "nameEn": "Adyghe (Circassian) Day",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2026-10-05",
+    "name": "День образования Республики Адыгея",
+    "nameEn": "Republic of Adygea Formation Day",
+    "type": "public",
+    "regions": [
+     "AD"
+    ]
+   },
+   {
+    "date": "2026-10-11",
+    "name": "День Республики Башкортостан",
+    "nameEn": "Republic of Bashkortostan Day",
+    "type": "public",
+    "regions": [
+     "BA"
+    ]
+   },
+   {
+    "date": "2026-11-04",
+    "name": "День народного единства",
+    "nameEn": "Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-11-06",
+    "name": "День Конституции Республики Татарстан",
+    "nameEn": "Constitution Day of the Republic of Tatarstan",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2026-11-23",
+    "name": "Первый понедельник праздника Уастырджи (Джеоргуыба)",
+    "nameEn": "First Monday of the Uastyrdzhi (Djeorguiba) Festival",
+    "type": "public",
+    "regions": [
+     "NO"
+    ]
+   },
+   {
+    "date": "2026-12-28",
+    "name": "День памяти жертв депортации калмыцкого народа",
+    "nameEn": "Day of Remembrance of the Victims of the Deportation of the Kalmyk People",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Новый год",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-02",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-03",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-04",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-05",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-06",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-07",
+    "name": "Рождество Христово",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-01-08",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2027-02-23",
+    "name": "День защитника Отечества",
+    "nameEn": "Defender of the Fatherland Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Международный женский день",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Ид аль-Фитр (Мархаш)",
+    "nameEn": "Eid al-Fitr (Markhash)",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Ораза-байрам",
+    "nameEn": "Uraza-Bayram",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2027-03-09",
+    "name": "Ураза-байрам",
+    "nameEn": "Uraza-Bayram",
+    "type": "public",
+    "regions": [
+     "AD",
+     "BA",
+     "CE",
+     "DA",
+     "KB",
+     "KC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2027-03-18",
+    "name": "День возвращения города Севастополя в Россию",
+    "nameEn": "Day of Sevastopol's Return to Russia",
+    "type": "public",
+    "regions": [
+     "SEV"
+    ]
+   },
+   {
+    "date": "2027-03-18",
+    "name": "День воссоединения Крыма с Россией",
+    "nameEn": "Day of the Reunification of Crimea with Russia",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2027-03-23",
+    "name": "День Конституции Чеченской Республики",
+    "nameEn": "Constitution Day of the Chechen Republic",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2027-03-28",
+    "name": "День возрождения балкарского народа",
+    "nameEn": "Day of the Revival of the Balkar People",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2027-04-16",
+    "name": "День мира в Чеченской Республике",
+    "nameEn": "Peace Day in the Chechen Republic",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2027-04-27",
+    "name": "День Республики Саха (Якутия)",
+    "nameEn": "Republic of Sakha (Yakutia) Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2027-05-01",
+    "name": "День весны и труда",
+    "nameEn": "Spring and Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "День возрождения карачаевского народа",
+    "nameEn": "Day of the Revival of the Karachay People",
+    "type": "public",
+    "regions": [
+     "KC"
+    ]
+   },
+   {
+    "date": "2027-05-03",
+    "name": "Светлое Христово Воскресение (Пасха)",
+    "nameEn": "Orthodox Easter",
+    "type": "public",
+    "regions": [
+     "CR",
+     "DA"
+    ]
+   },
+   {
+    "date": "2027-05-09",
+    "name": "День Победы",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-11",
+    "name": "День особого поминовения усопших - Радоница",
+    "nameEn": "Day of Special Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2027-05-11",
+    "name": "День памяти усопших - Радоница",
+    "nameEn": "Day of Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "KC"
+    ]
+   },
+   {
+    "date": "2027-05-11",
+    "name": "День поминовения усопших (Радоница)",
+    "nameEn": "Day of Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "AD"
+    ]
+   },
+   {
+    "date": "2027-05-11",
+    "name": "Радоница - день особого поминовения усопших",
+    "nameEn": "Day of Special Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Ид аль-Адха (Г1урба)",
+    "nameEn": "Eid al-Adha (Ghurba)",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2027-05-16",
+    "name": "Курбан-байрам",
+    "nameEn": "Kurban-Bayram",
+    "type": "public",
+    "regions": [
+     "AD",
+     "BA",
+     "CE",
+     "CR",
+     "DA",
+     "KB",
+     "KC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2027-05-21",
+    "name": "День памяти адыгов (черкесов) - жертв Русско-Кавказской войны",
+    "nameEn": "Day of Remembrance of the Adyghe (Circassian) Victims of the Russian-Caucasian War",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2027-06-08",
+    "name": "День Республики Карелии",
+    "nameEn": "Republic of Karelia Day",
+    "type": "public",
+    "regions": [
+     "KR"
+    ]
+   },
+   {
+    "date": "2027-06-12",
+    "name": "День России",
+    "nameEn": "Russia Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-06-14",
+    "name": "День основания города Севастополя",
+    "nameEn": "Sevastopol City Foundation Day",
+    "type": "public",
+    "regions": [
+     "SEV"
+    ]
+   },
+   {
+    "date": "2027-06-21",
+    "name": "День Святой Троицы",
+    "nameEn": "Trinity Sunday",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2027-06-21",
+    "name": "День национального праздника Ысыах",
+    "nameEn": "Ysyakh National Holiday",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2027-06-24",
+    "name": "День Чувашской Республики",
+    "nameEn": "Day of the Chuvash Republic",
+    "type": "public",
+    "regions": [
+     "CU"
+    ]
+   },
+   {
+    "date": "2027-07-03",
+    "name": "День образования Республики Алтай",
+    "nameEn": "Day of the Formation of the Altai Republic",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2027-07-05",
+    "name": "День Республики Калмыкия",
+    "nameEn": "Republic of Kalmykia Day",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2027-07-12",
+    "name": "День Прохоровского поля - Третьего ратного поля России",
+    "nameEn": "Prokhorovka Field Day - Russia's Third Military Field",
+    "type": "public",
+    "regions": [
+     "BEL"
+    ]
+   },
+   {
+    "date": "2027-07-26",
+    "name": "День Конституции Республики Дагестан",
+    "nameEn": "Constitution Day of the Republic of Dagestan",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2027-08-15",
+    "name": "День Республики Тыва",
+    "nameEn": "Republic of Tuva Day",
+    "type": "public",
+    "regions": [
+     "TY"
+    ]
+   },
+   {
+    "date": "2027-08-22",
+    "name": "День Республики Коми",
+    "nameEn": "Republic of Komi Day",
+    "type": "public",
+    "regions": [
+     "KO"
+    ]
+   },
+   {
+    "date": "2027-08-30",
+    "name": "День Республики Татарстан",
+    "nameEn": "Republic of Tatarstan Day",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2027-09-01",
+    "name": "День государственности Кабардино-Балкарской Республики",
+    "nameEn": "Statehood Day of the Kabardino-Balkar Republic",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2027-09-15",
+    "name": "День единства народов Дагестана",
+    "nameEn": "Day of Unity of the Peoples of Dagestan",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2027-09-20",
+    "name": "День адыгов (черкесов)",
+    "nameEn": "Adyghe (Circassian) Day",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2027-10-05",
+    "name": "День образования Республики Адыгея",
+    "nameEn": "Republic of Adygea Formation Day",
+    "type": "public",
+    "regions": [
+     "AD"
+    ]
+   },
+   {
+    "date": "2027-10-11",
+    "name": "День Республики Башкортостан",
+    "nameEn": "Republic of Bashkortostan Day",
+    "type": "public",
+    "regions": [
+     "BA"
+    ]
+   },
+   {
+    "date": "2027-11-04",
+    "name": "День народного единства",
+    "nameEn": "Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-11-06",
+    "name": "День Конституции Республики Татарстан",
+    "nameEn": "Constitution Day of the Republic of Tatarstan",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2027-12-28",
+    "name": "День памяти жертв депортации калмыцкого народа",
+    "nameEn": "Day of Remembrance of the Victims of the Deportation of the Kalmyk People",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Новый год",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-02",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-03",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-04",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-05",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-06",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-07",
+    "name": "Рождество Христово",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-01-08",
+    "name": "Новогодние каникулы",
+    "nameEn": "New Year Holiday",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-23",
+    "name": "День защитника Отечества",
+    "nameEn": "Defender of the Fatherland Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Ид аль-Фитр (Мархаш)",
+    "nameEn": "Eid al-Fitr (Markhash)",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Ораза-байрам",
+    "nameEn": "Uraza-Bayram",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2028-02-26",
+    "name": "Ураза-байрам",
+    "nameEn": "Uraza-Bayram",
+    "type": "public",
+    "regions": [
+     "AD",
+     "BA",
+     "CE",
+     "DA",
+     "KB",
+     "KC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Международный женский день",
+    "nameEn": "International Women's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-18",
+    "name": "День возвращения города Севастополя в Россию",
+    "nameEn": "Day of Sevastopol's Return to Russia",
+    "type": "public",
+    "regions": [
+     "SEV"
+    ]
+   },
+   {
+    "date": "2028-03-18",
+    "name": "День воссоединения Крыма с Россией",
+    "nameEn": "Day of the Reunification of Crimea with Russia",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2028-03-23",
+    "name": "День Конституции Чеченской Республики",
+    "nameEn": "Constitution Day of the Chechen Republic",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2028-03-28",
+    "name": "День возрождения балкарского народа",
+    "nameEn": "Day of the Revival of the Balkar People",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2028-04-16",
+    "name": "День мира в Чеченской Республике",
+    "nameEn": "Peace Day in the Chechen Republic",
+    "type": "public",
+    "regions": [
+     "CE"
+    ]
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Светлое Христово Воскресение (Пасха)",
+    "nameEn": "Orthodox Easter",
+    "type": "public",
+    "regions": [
+     "CR",
+     "DA"
+    ]
+   },
+   {
+    "date": "2028-04-25",
+    "name": "День особого поминовения усопших - Радоница",
+    "nameEn": "Day of Special Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2028-04-25",
+    "name": "День памяти усопших - Радоница",
+    "nameEn": "Day of Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "KC"
+    ]
+   },
+   {
+    "date": "2028-04-25",
+    "name": "День поминовения усопших (Радоница)",
+    "nameEn": "Day of Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "AD"
+    ]
+   },
+   {
+    "date": "2028-04-25",
+    "name": "Радоница - день особого поминовения усопших",
+    "nameEn": "Day of Special Remembrance of the Departed (Radonitsa)",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2028-04-27",
+    "name": "День Республики Саха (Якутия)",
+    "nameEn": "Republic of Sakha (Yakutia) Day",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2028-05-01",
+    "name": "День весны и труда",
+    "nameEn": "Spring and Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-03",
+    "name": "День возрождения карачаевского народа",
+    "nameEn": "Day of the Revival of the Karachay People",
+    "type": "public",
+    "regions": [
+     "KC"
+    ]
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Ид аль-Адха (Г1урба)",
+    "nameEn": "Eid al-Adha (Ghurba)",
+    "type": "public",
+    "regions": [
+     "IN"
+    ]
+   },
+   {
+    "date": "2028-05-05",
+    "name": "Курбан-байрам",
+    "nameEn": "Kurban-Bayram",
+    "type": "public",
+    "regions": [
+     "AD",
+     "BA",
+     "CE",
+     "CR",
+     "DA",
+     "KB",
+     "KC",
+     "TA"
+    ]
+   },
+   {
+    "date": "2028-05-09",
+    "name": "День Победы",
+    "nameEn": "Victory Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-21",
+    "name": "День памяти адыгов (черкесов) - жертв Русско-Кавказской войны",
+    "nameEn": "Day of Remembrance of the Adyghe (Circassian) Victims of the Russian-Caucasian War",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2028-06-05",
+    "name": "День Святой Троицы",
+    "nameEn": "Trinity Sunday",
+    "type": "public",
+    "regions": [
+     "CR"
+    ]
+   },
+   {
+    "date": "2028-06-08",
+    "name": "День Республики Карелии",
+    "nameEn": "Republic of Karelia Day",
+    "type": "public",
+    "regions": [
+     "KR"
+    ]
+   },
+   {
+    "date": "2028-06-12",
+    "name": "День России",
+    "nameEn": "Russia Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-06-14",
+    "name": "День основания города Севастополя",
+    "nameEn": "Sevastopol City Foundation Day",
+    "type": "public",
+    "regions": [
+     "SEV"
+    ]
+   },
+   {
+    "date": "2028-06-21",
+    "name": "День национального праздника Ысыах",
+    "nameEn": "Ysyakh National Holiday",
+    "type": "public",
+    "regions": [
+     "SA"
+    ]
+   },
+   {
+    "date": "2028-06-24",
+    "name": "День Чувашской Республики",
+    "nameEn": "Day of the Chuvash Republic",
+    "type": "public",
+    "regions": [
+     "CU"
+    ]
+   },
+   {
+    "date": "2028-07-03",
+    "name": "День образования Республики Алтай",
+    "nameEn": "Day of the Formation of the Altai Republic",
+    "type": "public",
+    "regions": [
+     "AL"
+    ]
+   },
+   {
+    "date": "2028-07-05",
+    "name": "День Республики Калмыкия",
+    "nameEn": "Republic of Kalmykia Day",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   },
+   {
+    "date": "2028-07-12",
+    "name": "День Прохоровского поля - Третьего ратного поля России",
+    "nameEn": "Prokhorovka Field Day - Russia's Third Military Field",
+    "type": "public",
+    "regions": [
+     "BEL"
+    ]
+   },
+   {
+    "date": "2028-07-26",
+    "name": "День Конституции Республики Дагестан",
+    "nameEn": "Constitution Day of the Republic of Dagestan",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2028-08-15",
+    "name": "День Республики Тыва",
+    "nameEn": "Republic of Tuva Day",
+    "type": "public",
+    "regions": [
+     "TY"
+    ]
+   },
+   {
+    "date": "2028-08-22",
+    "name": "День Республики Коми",
+    "nameEn": "Republic of Komi Day",
+    "type": "public",
+    "regions": [
+     "KO"
+    ]
+   },
+   {
+    "date": "2028-08-30",
+    "name": "День Республики Татарстан",
+    "nameEn": "Republic of Tatarstan Day",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2028-09-01",
+    "name": "День государственности Кабардино-Балкарской Республики",
+    "nameEn": "Statehood Day of the Kabardino-Balkar Republic",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2028-09-15",
+    "name": "День единства народов Дагестана",
+    "nameEn": "Day of Unity of the Peoples of Dagestan",
+    "type": "public",
+    "regions": [
+     "DA"
+    ]
+   },
+   {
+    "date": "2028-09-20",
+    "name": "День адыгов (черкесов)",
+    "nameEn": "Adyghe (Circassian) Day",
+    "type": "public",
+    "regions": [
+     "KB"
+    ]
+   },
+   {
+    "date": "2028-10-05",
+    "name": "День образования Республики Адыгея",
+    "nameEn": "Republic of Adygea Formation Day",
+    "type": "public",
+    "regions": [
+     "AD"
+    ]
+   },
+   {
+    "date": "2028-10-11",
+    "name": "День Республики Башкортостан",
+    "nameEn": "Republic of Bashkortostan Day",
+    "type": "public",
+    "regions": [
+     "BA"
+    ]
+   },
+   {
+    "date": "2028-11-04",
+    "name": "День народного единства",
+    "nameEn": "Unity Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-11-06",
+    "name": "День Конституции Республики Татарстан",
+    "nameEn": "Constitution Day of the Republic of Tatarstan",
+    "type": "public",
+    "regions": [
+     "TA"
+    ]
+   },
+   {
+    "date": "2028-12-28",
+    "name": "День памяти жертв депортации калмыцкого народа",
+    "nameEn": "Day of Remembrance of the Victims of the Deportation of the Kalmyk People",
+    "type": "public",
+    "regions": [
+     "KL"
+    ]
+   }
+  ]
+ },
+ "observances": {
+  "2026": [],
+  "2027": [],
+  "2028": []
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:54.068Z"
+}

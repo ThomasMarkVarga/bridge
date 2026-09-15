@@ -1,0 +1,247 @@
+{
+ "country": "CR",
+ "countryName": "Costa Rica",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-02",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-03",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-11",
+    "name": "Gesta Heroica de Juan Santamaría",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-07-25",
+    "name": "Anexión del Partido de Nicoya",
+    "nameEn": "Guanacaste Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-02",
+    "name": "Día de la Virgen de los Ángeles",
+    "nameEn": "Our Lady of Los Ángeles",
+    "type": "public"
+   },
+   {
+    "date": "2026-08-15",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-10-09",
+    "name": "Día de la Raza",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-25",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-26",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-11",
+    "name": "Gesta Heroica de Juan Santamaría",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-07-25",
+    "name": "Anexión del Partido de Nicoya",
+    "nameEn": "Guanacaste Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-02",
+    "name": "Día de la Virgen de los Ángeles",
+    "nameEn": "Our Lady of Los Ángeles",
+    "type": "public"
+   },
+   {
+    "date": "2027-08-15",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-10-12",
+    "name": "Día de la Raza",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Año Nuevo",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-11",
+    "name": "Gesta Heroica de Juan Santamaría",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-13",
+    "name": "Jueves Santo",
+    "nameEn": "Maundy Thursday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Viernes Santo",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Día del Trabajador",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-07-25",
+    "name": "Anexión del Partido de Nicoya",
+    "nameEn": "Guanacaste Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-02",
+    "name": "Día de la Virgen de los Ángeles",
+    "nameEn": "Our Lady of Los Ángeles",
+    "type": "public"
+   },
+   {
+    "date": "2028-08-15",
+    "name": "Día de la Madre",
+    "nameEn": "Mother's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-15",
+    "name": "Día de la Independencia",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-10-12",
+    "name": "Día de la Raza",
+    "nameEn": "Columbus Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Navidad",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-04-05",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-28",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-04-16",
+    "name": "Pascua",
+    "nameEn": "Easter Sunday",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.812Z"
+}

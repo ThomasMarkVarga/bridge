@@ -1,0 +1,340 @@
+{
+ "country": "BG",
+ "countryName": "Bulgaria",
+ "verified": false,
+ "subdivisionLabel": null,
+ "requireSubdivision": false,
+ "defaultSubdivision": null,
+ "subdivisions": [],
+ "notes": [
+  "These dates come straight from the holiday library and have not been checked against this country’s official calendar by hand. Treat them as a starting point."
+ ],
+ "years": {
+  "2026": [
+   {
+    "date": "2026-01-01",
+    "name": "Нова Година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-03-03",
+    "name": "Ден на Освобождението на България от Османската Империя",
+    "nameEn": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-10",
+    "name": "Разпети петък",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-12",
+    "name": "Великден",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2026-04-13",
+    "name": "Велики понеделник",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-01",
+    "name": "Ден на труда",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-06",
+    "name": "Гергьовден",
+    "nameEn": "St. George's Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-05-24",
+    "name": "Ден на азбуката, културата и просветата",
+    "nameEn": "Bulgarian Education and Culture, and Slavonic Literature Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-06",
+    "name": "Ден на съединението",
+    "nameEn": "Unification Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-09-22",
+    "name": "Ден на независимостта",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-24",
+    "name": "Бъдни вечер",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2026-12-25",
+    "name": "Коледа",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-01-01",
+    "name": "Нова Година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-03-03",
+    "name": "Ден на Освобождението на България от Османската Империя",
+    "nameEn": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-04-30",
+    "name": "Разпети петък",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-01",
+    "name": "Ден на труда",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-02",
+    "name": "Великден",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-03",
+    "name": "Велики понеделник",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-06",
+    "name": "Гергьовден",
+    "nameEn": "St. George's Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-05-24",
+    "name": "Ден на азбуката, културата и просветата",
+    "nameEn": "Bulgarian Education and Culture, and Slavonic Literature Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-06",
+    "name": "Ден на съединението",
+    "nameEn": "Unification Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-09-22",
+    "name": "Ден на независимостта",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-24",
+    "name": "Бъдни вечер",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2027-12-25",
+    "name": "Коледа",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-01-01",
+    "name": "Нова Година",
+    "nameEn": "New Year's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-03-03",
+    "name": "Ден на Освобождението на България от Османската Империя",
+    "nameEn": "Liberation Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-14",
+    "name": "Разпети петък",
+    "nameEn": "Good Friday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-16",
+    "name": "Великден",
+    "nameEn": "Easter Sunday",
+    "type": "public"
+   },
+   {
+    "date": "2028-04-17",
+    "name": "Велики понеделник",
+    "nameEn": "Easter Monday",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-01",
+    "name": "Ден на труда",
+    "nameEn": "Labour Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-06",
+    "name": "Гергьовден",
+    "nameEn": "St. George's Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-05-24",
+    "name": "Ден на азбуката, културата и просветата",
+    "nameEn": "Bulgarian Education and Culture, and Slavonic Literature Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-06",
+    "name": "Ден на съединението",
+    "nameEn": "Unification Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-09-22",
+    "name": "Ден на независимостта",
+    "nameEn": "Independence Day",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-24",
+    "name": "Бъдни вечер",
+    "nameEn": "Christmas Eve",
+    "type": "public"
+   },
+   {
+    "date": "2028-12-25",
+    "name": "Коледа",
+    "nameEn": "Christmas Day",
+    "type": "public"
+   }
+  ]
+ },
+ "observances": {
+  "2026": [
+   {
+    "date": "2026-03-01",
+    "name": "Баба Марта",
+    "nameEn": "Granny March Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-03-08",
+    "name": "Ден на жената",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-05-07",
+    "name": "Ден на радиото и телевизията",
+    "nameEn": "Radio and Television Day",
+    "type": "observance"
+   },
+   {
+    "date": "2026-11-01",
+    "name": "Ден на народните будители",
+    "nameEn": "Revival Leaders' Day",
+    "type": "school"
+   },
+   {
+    "date": "2026-12-26",
+    "name": "2-ри ден на Коледа",
+    "nameEn": "Boxing Day",
+    "type": "observance"
+   }
+  ],
+  "2027": [
+   {
+    "date": "2027-03-01",
+    "name": "Баба Марта",
+    "nameEn": "Granny March Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-03-08",
+    "name": "Ден на жената",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-05-07",
+    "name": "Ден на радиото и телевизията",
+    "nameEn": "Radio and Television Day",
+    "type": "observance"
+   },
+   {
+    "date": "2027-11-01",
+    "name": "Ден на народните будители",
+    "nameEn": "Revival Leaders' Day",
+    "type": "school"
+   },
+   {
+    "date": "2027-12-26",
+    "name": "2-ри ден на Коледа",
+    "nameEn": "Boxing Day",
+    "type": "observance"
+   }
+  ],
+  "2028": [
+   {
+    "date": "2028-03-01",
+    "name": "Баба Марта",
+    "nameEn": "Granny March Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-03-08",
+    "name": "Ден на жената",
+    "nameEn": "International Women's Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-05-07",
+    "name": "Ден на радиото и телевизията",
+    "nameEn": "Radio and Television Day",
+    "type": "observance"
+   },
+   {
+    "date": "2028-11-01",
+    "name": "Ден на народните будители",
+    "nameEn": "Revival Leaders' Day",
+    "type": "school"
+   },
+   {
+    "date": "2028-12-26",
+    "name": "2-ри ден на Коледа",
+    "nameEn": "Boxing Day",
+    "type": "observance"
+   }
+  ]
+ },
+ "source": {
+  "library": "date-holidays",
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
+ },
+ "generatedAt": "2026-09-15T05:52:51.090Z"
+}
