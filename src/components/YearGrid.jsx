@@ -22,7 +22,8 @@
  * ring for a public holiday, a diamond for a day you pinned, and diagonal stripes
  * with a struck-through number for a day you ruled out.
  */
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { dayOfWeek } from '../solver/plainDate.js'
 import Icon from './Icon.jsx'
 
@@ -170,16 +171,21 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
   const [month, setMonth] = useState(null)
   const activeMonth = month && months.some((m) => m.key === month) ? month : months[0]?.key
 
+  /*
+   * The month you are looking at is yours. Pinning a day in December can move
+   * leave to April, and jumping there because the solver did is disorienting: you
+   * came back to a month you did not choose and lost the one you were working on.
+   * Changes elsewhere are offered as a link instead, below the calendar.
+   */
+  const changedElsewhere = useMemo(
+    () => changedDates.filter((d) => d.slice(0, 7) !== activeMonth),
+    [changedDates, activeMonth]
+  )
+
   useEffect(() => {
     if (!breaks.length || month) return
     setMonth(calendar[breaks[0].startIndex].date.slice(0, 7))
   }, [breaks, calendar, month])
-
-  // When the plan re-solves and days move, follow them.
-  useEffect(() => {
-    if (!changedDates.length) return
-    setMonth(changedDates[0].slice(0, 7))
-  }, [changedDates])
 
   const [focused, setFocused] = useState(0)
   const [menuFor, setMenuFor] = useState(null)
@@ -383,6 +389,28 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
         })}
       </div>
 
+      {changedElsewhere.length > 0 && (
+        <p className="mt-3 text-sm font-semibold" role="status">
+          {changedElsewhere.length === 1
+            ? 'One day that moved is in '
+            : `${changedElsewhere.length} of the days that moved are in `}
+          {[...new Set(changedElsewhere.map((d) => d.slice(0, 7)))].map((key, i, all) => (
+            <span key={key}>
+              <button
+                type="button"
+                className="underline"
+                style={{ color: 'var(--stamp)' }}
+                onClick={() => goToMonth(key)}
+              >
+                {MONTHS[Number(key.slice(5, 7)) - 1]}
+              </button>
+              {i < all.length - 2 ? ', ' : i === all.length - 2 ? ' and ' : ''}
+            </span>
+          ))}
+          .
+        </p>
+      )}
+
       <p className="hint mt-2">
         Days either side of {MONTHS[Number(monthPart) - 1]} are shown faded, so a break that runs over the turn of the
         month stays in one piece.
@@ -475,6 +503,7 @@ function DayCell({
 }) {
   const dayNumber = Number(day.date.slice(8))
   const label = describeDay(day, inBreak, isLeave)
+  const anchorRef = useRef(null)
 
   let background = 'transparent'
   let outline
@@ -507,18 +536,11 @@ function DayCell({
   return (
     <div
       role="gridcell"
-      className="relative min-w-0"
-      style={{
-        gridColumn: column + 1,
-        gridRow: row,
-        opacity: outsideMonth ? 0.42 : 1,
-        // Later rows are separate stacking contexts at the same depth, so an open
-        // menu has to out-rank them here rather than from inside the cell, or the
-        // next week paints straight over it.
-        zIndex: menuOpen ? 60 : 10
-      }}
+      className="relative z-10 min-w-0"
+      style={{ gridColumn: column + 1, gridRow: row, opacity: outsideMonth ? 0.42 : 1 }}
     >
       <button
+        ref={anchorRef}
         type="button"
         data-day-index={day.index}
         tabIndex={focused ? 0 : -1}
@@ -565,7 +587,7 @@ function DayCell({
       </button>
 
       {menuOpen && (
-        <DayMenu day={day} column={column} onPin={onPin} onBlackout={onBlackout} onClose={onToggleMenu} />
+        <DayMenu day={day} anchorRef={anchorRef} onPin={onPin} onBlackout={onBlackout} onClose={onToggleMenu} />
       )}
     </div>
   )
@@ -608,35 +630,112 @@ function Marker({ kind }) {
   )
 }
 
-/** A small menu for fixing or refusing a day. */
-function DayMenu({ day, column, onPin, onBlackout, onClose }) {
-  const ref = useRef(null)
+/**
+ * A small menu for fixing or refusing a day.
+ *
+ * It is rendered into the document body rather than into the cell it belongs to,
+ * and positioned against that cell. That is not fussiness: the section it sits in
+ * is a card with an entrance animation, and an element with a filling animation
+ * keeps a stacking context of its own for good. Nothing inside such a card can be
+ * raised above the card that follows it, however high a z-index it is given. It
+ * would also be clipped by any ancestor that scrolls.
+ *
+ * Out here the menu answers to nobody: it cannot be painted over and it cannot be
+ * cut off.
+ *
+ * It is placed in page coordinates rather than pinned to the viewport, so it
+ * scrolls with the day it belongs to without listening for anything. A scroll
+ * handler would be one more thing to miss a frame or never fire; the page moving
+ * the menu itself cannot go wrong. It still flips above the day when there is no
+ * room below it.
+ */
+const MENU_WIDTH = 240
+const MENU_GAP = 6
+const VIEWPORT_MARGIN = 8
 
+function DayMenu({ day, anchorRef, onPin, onBlackout, onClose }) {
+  const ref = useRef(null)
+  const [pos, setPos] = useState(null)
+
+  const place = useCallback(() => {
+    const anchor = anchorRef.current
+    const menu = ref.current
+    if (!anchor) return
+    const a = anchor.getBoundingClientRect()
+    const height = menu ? menu.offsetHeight : 0
+    const width = Math.min(MENU_WIDTH, document.documentElement.clientWidth - VIEWPORT_MARGIN * 2)
+
+    // Page coordinates, so scrolling carries the menu along with the day.
+    const scrollX = window.scrollX
+    const scrollY = window.scrollY
+    const pageWidth = document.documentElement.clientWidth
+
+    let left = a.left + a.width / 2 - width / 2
+    left = Math.max(VIEWPORT_MARGIN, Math.min(left, pageWidth - width - VIEWPORT_MARGIN))
+
+    // Below the day if it fits on screen, above it if not.
+    const fitsBelow = a.bottom + MENU_GAP + height <= window.innerHeight - VIEWPORT_MARGIN
+    const top = fitsBelow ? a.bottom + MENU_GAP : Math.max(VIEWPORT_MARGIN, a.top - MENU_GAP - height)
+
+    setPos({ top: top + scrollY, left: left + scrollX, width })
+  }, [anchorRef])
+
+  // Measured before the browser paints, so it never appears in the wrong place.
+  // Run twice: once to size it, once with the real height for the flip decision.
+  useLayoutEffect(place, [place])
+
+  // Opening the menu moves focus into it. Kept apart from the listeners below so
+  // a reposition cannot yank focus back to the first item mid-interaction.
   useEffect(() => {
     ref.current?.querySelector('button')?.focus()
+  }, [])
+
+  useEffect(() => {
     const away = (e) => {
-      if (ref.current && !ref.current.contains(e.target)) onClose()
+      if (ref.current?.contains(e.target)) return
+      if (anchorRef.current?.contains(e.target)) return
+      onClose()
     }
+    const onKey = (e) => {
+      if (e.key === 'Escape') {
+        e.stopPropagation()
+        anchorRef.current?.focus()
+        onClose()
+      }
+    }
+
     document.addEventListener('mousedown', away)
-    return () => document.removeEventListener('mousedown', away)
-  }, [onClose])
+    document.addEventListener('keydown', onKey, true)
+    window.addEventListener('resize', place)
+    return () => {
+      document.removeEventListener('mousedown', away)
+      document.removeEventListener('keydown', onKey, true)
+      window.removeEventListener('resize', place)
+    }
+  }, [onClose, place, anchorRef])
 
   const pretty = `${Number(day.date.slice(8))} ${MONTHS_SHORT[Number(day.date.slice(5, 7)) - 1]}`
 
-  // Centred in the middle of the week, tucked in at either edge, so the menu
-  // never hangs off the side of a phone.
-  const align = column <= 1 ? 'left-0' : column >= 5 ? 'right-0' : 'left-1/2 -translate-x-1/2'
-
-  return (
+  return createPortal(
     <div
       ref={ref}
       role="menu"
       aria-label={`Options for ${pretty}`}
-      className={`panel absolute top-full mt-1 w-60 max-w-[80vw] p-1 text-left text-sm ${align}`}
+      className="panel absolute p-1 text-left text-sm"
+      style={{
+        top: pos ? pos.top : -9999,
+        left: pos ? pos.left : -9999,
+        width: pos ? pos.width : MENU_WIDTH,
+        zIndex: 1000,
+        visibility: pos ? 'visible' : 'hidden'
+      }}
     >
       <p className="px-2 py-1.5 text-xs font-extrabold text-[var(--muted-foreground)]">{pretty}</p>
       {day.isFree && !day.pinned ? (
-        <p className="px-2 pb-2 text-xs leading-snug text-[var(--muted-foreground)]" style={{ overflowWrap: 'anywhere' }}>
+        <p
+          className="px-2 pb-2 text-xs leading-snug text-[var(--muted-foreground)]"
+          style={{ overflowWrap: 'anywhere' }}
+        >
           {day.holidayName ? `${day.holidayName}. ` : ''}You already have this day off.
         </p>
       ) : (
@@ -659,7 +758,8 @@ function DayMenu({ day, column, onPin, onBlackout, onClose }) {
           </button>
         </>
       )}
-    </div>
+    </div>,
+    document.body
   )
 }
 
