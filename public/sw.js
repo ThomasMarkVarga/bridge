@@ -62,14 +62,20 @@ self.addEventListener('fetch', (event) => {
   // Navigations: try the network so an update is picked up, fall back to the
   // cached shell when there is nothing to talk to.
   if (request.mode === 'navigate') {
+    // Only the app itself is stored as the shell. A country page is cached under its
+    // own address, so visiting one can never replace the app that works offline.
+    const isApp = url.pathname === '/' || url.pathname === '/index.html'
+    const key = isApp ? '/index.html' : request
     event.respondWith(
       fetch(request)
         .then((response) => {
-          const copy = response.clone()
-          caches.open(CACHE).then((cache) => cache.put('/index.html', copy))
+          if (response.ok) {
+            const copy = response.clone()
+            caches.open(CACHE).then((cache) => cache.put(key, copy))
+          }
           return response
         })
-        .catch(() => caches.match('/index.html').then((hit) => hit || caches.match('/')))
+        .catch(() => caches.match(key).then((hit) => hit || caches.match('/index.html')).then((hit) => hit || caches.match('/')))
     )
     return
   }

@@ -482,6 +482,11 @@ function Footer() {
         project.
       </p>
       <p className="hint mt-2">
+        <a className="underline" href="/countries/">
+          Public holidays by country
+        </a>
+      </p>
+      <p className="hint mt-2">
         More free tools from vibe-coding.fans:{' '}
         <a className="underline" href="https://pastesafe.vibe-coding.fans/" rel="noreferrer noopener" target="_blank">
           PasteSafe, which masks API keys and personal data in logs

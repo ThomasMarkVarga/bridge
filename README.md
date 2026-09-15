@@ -146,6 +146,10 @@ United States, is 4.3KB. The list everybody downloads carries names only and is
 
 Report a wrong date as an issue rather than assuming the plan is right.
 
+## Country pages
+
+`npm run build` also writes a static page for every country and year the data covers, plus region pages for Australia, Canada, Germany, Spain, the United Kingdom and the United States, an index at `/countries/` and `sitemap.xml`. Each page lists the public holidays, the long weekends that cost no leave, the best bridge days and what 20 days of leave buys, all computed by the same solver the app uses. They are plain HTML with no script, so search engines and AI assistants can read them. The generator is `scripts/build-pages.mjs` with the logic in `scripts/pages-lib.mjs`; `scripts/__tests__/pages.test.js` checks titles, descriptions, unique paths and that the FAQ structured data matches the visible text.
+
 ## Running it locally
 
 ```bash

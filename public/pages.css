@@ -1,0 +1,78 @@
+/*
+ * Static country pages. The app's own stylesheet loads first and supplies the
+ * fonts and colour tokens (--paper, --ink, --coral, --sea, --sun, --line and the
+ * rest, light and dark). This file only lays the pages out, in the same flat,
+ * outlined look: hard offset shadows, thick ink borders, tight corners.
+ */
+.pg {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans, 'Public Sans', system-ui, sans-serif);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.pg a { color: inherit; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.pg a:hover { text-decoration-color: var(--coral); }
+.pg a:focus-visible, .pg summary:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; border-radius: 4px; }
+
+.pg-skip { position: absolute; left: 1rem; top: -4rem; padding: .5rem .9rem; background: var(--sun); color: var(--ink-fixed); border: var(--b) solid var(--line); border-radius: var(--r-sm); z-index: 10; }
+.pg-skip:focus { top: 1rem; }
+
+.pg-top, .pg-main, .pg-foot { width: min(100% - 2rem, 58rem); margin-inline: auto; }
+.pg-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; padding-block: 1rem; }
+.pg-brand { display: inline-flex; align-items: center; gap: .5rem; font-family: var(--font-display, 'Archivo Black', sans-serif); font-size: 1.15rem; text-decoration: none; }
+.pg-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.pg-nav > a:not(.pg-btn) { display: inline-flex; align-items: center; min-height: 44px; }
+
+.pg-btn {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .55rem 1rem;
+  background: var(--sun); color: var(--ink-fixed) !important; font-weight: 800; text-decoration: none;
+  border: var(--b) solid var(--line); border-radius: var(--r-sm); box-shadow: 3px 3px 0 0 var(--shadow-ink);
+  transition: transform 120ms var(--ease), box-shadow 120ms var(--ease);
+}
+.pg-btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 0 var(--shadow-ink); }
+.pg-btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 0 var(--shadow-ink); }
+.pg-btn-sm { min-height: 40px; padding: .35rem .8rem; font-size: .9rem; }
+
+.pg-main { padding-block: .5rem 3rem; display: grid; gap: 1.25rem; }
+.pg-crumbs { font-size: .9rem; color: var(--ink-2); }
+.pg h1 { margin: 0; font-family: var(--font-display, 'Archivo Black', sans-serif); font-weight: 400; font-size: clamp(1.8rem, 1.2rem + 2.6vw, 2.9rem); line-height: 1.08; letter-spacing: -.01em; text-wrap: balance; }
+.pg h2 { margin: 0 0 .6rem; font-family: var(--font-display, 'Archivo Black', sans-serif); font-weight: 400; font-size: clamp(1.2rem, 1rem + .9vw, 1.55rem); line-height: 1.2; text-wrap: balance; }
+.pg h3 { margin: 1rem 0 .25rem; font-size: 1.05rem; font-weight: 800; }
+.pg p { margin: 0 0 .6rem; max-width: 70ch; }
+.pg-lead { font-size: 1.12rem; color: var(--ink); }
+
+.pg-card {
+  padding: 1.1rem 1.1rem .6rem; background: var(--surface);
+  border: var(--b-thick) solid var(--line); border-radius: var(--r-lg); box-shadow: 4px 4px 0 0 var(--shadow-ink);
+}
+.pg-note { padding: 1rem 1.1rem .4rem; border: var(--b) dashed var(--line); border-radius: var(--r-lg); font-size: .95rem; color: var(--ink-2); }
+
+.pg-table-wrap { overflow-x: auto; margin-bottom: .6rem; }
+.pg table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.pg th, .pg td { padding: .5rem .6rem; text-align: left; border-bottom: var(--b-thin) solid color-mix(in srgb, var(--line) 25%, transparent); vertical-align: top; }
+.pg th { font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-2); }
+.pg tr.is-weekend td { color: var(--ink-2); }
+.pg-local { display: block; font-size: .88rem; color: var(--ink-2); }
+
+.pg-list { margin: 0 0 .6rem; padding-left: 1.25rem; display: grid; gap: .45rem; }
+.pg-list strong { font-weight: 800; }
+
+.pg-more { display: grid; gap: .25rem; }
+.pg-more span[aria-current] { font-weight: 800; padding: 0 .3rem; background: var(--sun); color: var(--ink-fixed); border-radius: 4px; }
+.pg-more a { display: inline-block; min-height: 32px; padding-inline: .15rem; }
+.pg-label { font-weight: 800; margin-right: .4rem; }
+
+.pg-countries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .5rem 1.5rem; }
+.pg-countries > li { padding: .45rem 0; border-bottom: var(--b-thin) solid color-mix(in srgb, var(--line) 20%, transparent); }
+.pg-countries a { display: inline-block; min-width: 2.75rem; min-height: 32px; margin-right: .15rem; }
+.pg-country { display: block; font-weight: 800; }
+.pg-regions summary { cursor: pointer; font-size: .9rem; color: var(--ink-2); min-height: 32px; }
+.pg-regions ul { margin: .25rem 0 .4rem; padding-left: 1rem; font-size: .92rem; }
+
+.pg-foot { padding-block: 1.5rem 2.5rem; border-top: var(--b) solid var(--line); font-size: .92rem; color: var(--ink-2); }
+
+@media (prefers-reduced-motion: reduce) {
+  .pg-btn { transition: none; }
+}
