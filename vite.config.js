@@ -115,8 +115,37 @@ function stampServiceWorker() {
   }
 }
 
+/**
+ * Give the dev server a real stylesheet link, the way the build has one.
+ *
+ * The stylesheets enter through an import in main.jsx, so in production Vite
+ * extracts them and puts a render-blocking <link> in the head. In dev it injects
+ * them with JavaScript instead, after the module graph has loaded. That was
+ * invisible while the body was an empty div, but the page now ships a screenful
+ * of prose in the document for crawlers and for readers without JavaScript, and
+ * that paints the moment it arrives: unstyled, until the CSS turns up.
+ *
+ * The ?direct suffix is what makes Vite serve the compiled CSS as text/css
+ * rather than as the JavaScript module that injects it. The import in main.jsx
+ * stays exactly as it is, so hot reloading still works; this only removes the
+ * gap before the first paint.
+ */
+function devStylesheet() {
+  return {
+    name: 'dev-stylesheet',
+    apply: 'serve',
+    transformIndexHtml: {
+      order: 'pre',
+      handler: () => [
+        { tag: 'link', attrs: { rel: 'stylesheet', href: '/src/styles.css?direct' }, injectTo: 'head' },
+        { tag: 'link', attrs: { rel: 'stylesheet', href: '/src/showcase.css?direct' }, injectTo: 'head' }
+      ]
+    }
+  }
+}
+
 export default defineConfig({
-  plugins: [react(), tailwindcss(), stampServiceWorker(), languageSwap()],
+  plugins: [react(), tailwindcss(), stampServiceWorker(), languageSwap(), devStylesheet()],
   server: {
     port: 8765,
     strictPort: true,
