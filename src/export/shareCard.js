@@ -9,6 +9,9 @@
  * Someone glancing at it should get "that is a lot of time off" before they read
  * a single word.
  */
+import { t as tr } from '../i18n/core.js'
+import { counted, formatRange, monthsShort } from '../format.js'
+
 const WIDTH = 1200
 const HEIGHT = 630
 
@@ -109,6 +112,25 @@ export function drawShareCard({ plan, calendar, countryLabel, periodLabel, theme
   const body = (size, weight = 600) =>
     `${weight} ${size}px 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif`
 
+  /**
+   * The largest size at or below `size` that keeps the text inside `maxWidth`.
+   *
+   * The card is drawn in whatever language the page is in, and a line that fits
+   * in English is not a line that fits anywhere else. The sticker label is
+   * "DAYS OFF PER DAY BOOKED" in English and half again as long in Romanian,
+   * inside a sticker that is a fixed 250 wide, so it ran off both edges.
+   * Measuring is the only thing that holds for a language nobody has added yet.
+   */
+  const fit = (str, maxWidth, make, size) => {
+    let px = size
+    ctx.font = make(px)
+    while (px > 8 && ctx.measureText(str).width > maxWidth) {
+      px -= 1
+      ctx.font = make(px)
+    }
+    return make(px)
+  }
+
   const write = (str, x, y, font, fill, align = 'left') => {
     ctx.font = font
     ctx.fillStyle = fill
@@ -133,9 +155,18 @@ export function drawShareCard({ plan, calendar, countryLabel, periodLabel, theme
   write(tagLabel, L + 15, 96, display(15), INK_FIXED)
 
   // The number, as large as it will go. This is the whole point of the card.
-  write(`${plan.totalDaysOff} days off`, L, 206, display(104), t.ink)
+  // Worked out before the headline is drawn, because the headline has to stop
+  // short of it and the amount of room left is not a number worth guessing.
+  const stickW = 250
+  const stickX = PANEL_RIGHT - stickW - 36
+
+  const headline = counted('daysOff', plan.totalDaysOff)
+  write(headline, L, 206, fit(headline, stickX - L - 24, display, 104), t.ink)
   write(
-    `from ${plan.leaveSpent} days of leave, in ${plan.breaks.length} ${plan.breaks.length === 1 ? 'break' : 'breaks'}`,
+    tr('card.fromLeave', {
+      leave: counted('leaveDays', plan.leaveSpent),
+      breaks: counted('breaks', plan.breaks.length)
+    }),
     L,
     252,
     body(31),
@@ -144,41 +175,70 @@ export function drawShareCard({ plan, calendar, countryLabel, periodLabel, theme
 
   // The multiplier, as a sticker, because it is the line people repeat.
   const ratio = plan.leaveSpent > 0 ? (plan.totalDaysOff / plan.leaveSpent).toFixed(1) : '0'
-  const stickW = 250
-  const stickX = PANEL_RIGHT - stickW - 36
   hardRect(ctx, stickX, 96, stickW, 118, 14, t.leave, INK_FIXED, 6)
   write(`${ratio}\u00d7`, stickX + stickW / 2, 172, display(62), INK_FIXED, 'center')
-  write('DAYS OFF PER DAY BOOKED', stickX + stickW / 2, 199, body(15, 800), INK_FIXED, 'center')
+  const perDay = tr('card.perDayBooked')
+  write(
+    perDay,
+    stickX + stickW / 2,
+    199,
+    fit(perDay, stickW - 20, (px) => body(px, 800), 15),
+    INK_FIXED,
+    'center'
+  )
 
   drawMonthBars(ctx, { calendar, plan, t, L, write, display, body, right: PANEL_RIGHT })
 
   // A key, so the two halves of each bar are not a guess.
+  //
+  // The second swatch is placed after the first label rather than at a fixed
+  // offset. The offset used to be 168, which is the width of "days you book"
+  // and nothing else: in Romanian the label is "zile pe care le ceri" and the
+  // second swatch landed on top of it.
   const keyY = 546
   swatch(ctx, L, keyY - 11, t.leave, t.rule)
-  write('days you book', L + 22, keyY, body(16), t.muted)
-  swatch(ctx, L + 168, keyY - 11, t.band, t.rule)
-  write('days they unlock', L + 190, keyY, body(16), t.muted)
+  write(tr('card.daysYouBook'), L + 22, keyY, body(16), t.muted)
+  ctx.font = body(16)
+  const secondSwatchX = L + 22 + ctx.measureText(tr('card.daysYouBook')).width + 28
+  swatch(ctx, secondSwatchX, keyY - 11, t.band, t.rule)
+  write(tr('card.daysUnlocked'), secondSwatchX + 22, keyY, body(16), t.muted)
 
   const longest = plan.breaks.reduce((a, b) => (b.length > (a?.length || 0) ? b : a), null)
   if (longest) {
     write(
-      `Longest: ${formatSpan(longest.start, longest.end)}, ${longest.length} days for ${longest.cost} booked`,
+      tr('card.longest', {
+        range: formatRange(longest.start, longest.end),
+        days: counted('daysOff', longest.length),
+        cost: counted('days', longest.cost)
+      }),
       PANEL_RIGHT - 36,
       keyY,
-      body(16),
+      fit(
+        tr('card.longest', {
+          range: formatRange(longest.start, longest.end),
+          days: counted('daysOff', longest.length),
+          cost: counted('days', longest.cost)
+        }),
+        PANEL_RIGHT - 36 - (secondSwatchX + 22 + ctx.measureText(tr('card.daysUnlocked')).width + 24),
+        body,
+        16
+      ),
       t.muted,
       'right'
     )
   }
 
   write('BridgeDays', L, 578, display(21), t.ink)
-  write('Work out which days to book. Nothing leaves your device.', L + 102, 578, body(17), t.muted)
+  ctx.font = display(21)
+  const taglineX = L + ctx.measureText('BridgeDays').width + 14
+  const tagline = tr('card.tagline')
+  write(tagline, taglineX, 578, fit(tagline, PANEL_RIGHT - taglineX - 36, body, 17), t.muted)
 
   return c
 }
 
 function drawMonthBars(ctx, { calendar, plan, t, L, write, display, body, right }) {
-  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+  const MONTHS = monthsShort()
   const months = byMonth(calendar, plan)
   const peak = Math.max(1, ...months.map((m) => m.booked + m.free))
 
@@ -283,21 +343,12 @@ function roundRect(ctx, x, y, w, h, r) {
   ctx.closePath()
 }
 
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-
-function formatSpan(start, end) {
-  const [, sm, sd] = start.split('-').map(Number)
-  const [, em, ed] = end.split('-').map(Number)
-  if (sm === em) return `${sd}–${ed} ${MONTHS[em - 1]}`
-  return `${sd} ${MONTHS[sm - 1]} – ${ed} ${MONTHS[em - 1]}`
-}
-
 /** Turn the canvas into a file the browser saves. */
 export function downloadCard(canvas, filename = 'bridge.png') {
   return new Promise((resolve, reject) => {
     canvas.toBlob((blob) => {
       if (!blob) {
-        reject(new Error('The image could not be created.'))
+        reject(new Error(tr('card.imageFailed')))
         return
       }
       const url = URL.createObjectURL(blob)
@@ -316,10 +367,10 @@ export function downloadCard(canvas, filename = 'bridge.png') {
 /** Put the image straight on the clipboard where the browser allows it. */
 export async function copyCardToClipboard(canvas) {
   if (!navigator.clipboard || typeof window.ClipboardItem !== 'function') {
-    throw new Error('This browser will not let a page copy an image. Use Save image instead.')
+    throw new Error(tr('card.copyUnsupported'))
   }
   const blob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png'))
-  if (!blob) throw new Error('The image could not be created.')
+  if (!blob) throw new Error(tr('card.imageFailed'))
   await navigator.clipboard.write([new window.ClipboardItem({ 'image/png': blob })])
 }
 
@@ -330,25 +381,36 @@ export function shareText({ plan, countryLabel, periodLabel }) {
   const longest = plan.breaks.reduce((a, b) => (b.length > (a?.length || 0) ? b : a), null)
   const ratio = plan.leaveSpent > 0 ? (plan.totalDaysOff / plan.leaveSpent).toFixed(1) : '0'
   const lines = [
-    `${plan.leaveSpent} days of leave become ${plan.totalDaysOff} days off in ${periodLabel}.`,
-    `That is ${ratio} days off for every day I book.`
+    tr('card.shareLine1', {
+      count: plan.leaveSpent,
+      leave: counted('leaveDays', plan.leaveSpent),
+      off: counted('daysOff', plan.totalDaysOff),
+      period: periodLabel
+    }),
+    tr('card.shareLine2', { ratio })
   ]
   if (longest) {
     lines.push(
-      `The best one: ${formatSpan(longest.start, longest.end)}, ${longest.length} days off for ${longest.cost} booked.`
+      tr('card.shareBest', {
+        range: formatRange(longest.start, longest.end),
+        off: counted('daysOff', longest.length),
+        cost: counted('days', longest.cost)
+      })
     )
   }
-  lines.push(`Worked out with BridgeDays for ${countryLabel}.`)
+  lines.push(tr('card.shareFooter', { country: countryLabel }))
   return lines.join('\n')
 }
 
 /** Alt text, so the image is not a dead end for anyone. */
 export function shareCardAlt({ plan, countryLabel, periodLabel }) {
   const ratio = plan.leaveSpent > 0 ? (plan.totalDaysOff / plan.leaveSpent).toFixed(1) : '0'
-  return (
-    `${plan.leaveSpent} days of leave become ${plan.totalDaysOff} days off in ${periodLabel}, for ` +
-    `${countryLabel}, across ${plan.breaks.length} ${plan.breaks.length === 1 ? 'break' : 'breaks'}, ` +
-    `which is ${ratio} days off for every day booked. A bar for each month shows how many days off ` +
-    `it holds, split into the days you book and the weekends and holidays they unlock.`
-  )
+  return tr('card.alt', {
+    leave: counted('leaveDays', plan.leaveSpent),
+    off: counted('daysOff', plan.totalDaysOff),
+    period: periodLabel,
+    country: countryLabel,
+    breaks: counted('breaks', plan.breaks.length),
+    ratio
+  })
 }

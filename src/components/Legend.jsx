@@ -4,23 +4,18 @@
  * The legend repeats each day state exactly as the grid draws it, marker included,
  * so it doubles as the proof that none of the states need colour to be told apart.
  */
+import { useT } from '../i18n/index.jsx'
 
-const ITEMS = [
-  { key: 'leave', label: 'A day to book', swatch: 'leave' },
-  { key: 'break', label: 'Inside a break', swatch: 'break' },
-  { key: 'holiday', label: 'Public holiday', swatch: 'holiday' },
-  { key: 'weekend', label: 'Not a working day', swatch: 'weekend' },
-  { key: 'pinned', label: 'You fixed it', swatch: 'pinned' },
-  { key: 'blackout', label: 'You ruled it out', swatch: 'blackout' }
-]
+const ITEMS = ['leave', 'break', 'holiday', 'weekend', 'pinned', 'blackout']
 
 export default function Legend({ className = '' }) {
+  const { t } = useT()
   return (
     <ul className={`flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-[var(--muted-foreground)] ${className}`}>
       {ITEMS.map((item) => (
-        <li key={item.key} className="flex items-center gap-1.5">
-          <Swatch kind={item.swatch} />
-          <span>{item.label}</span>
+        <li key={item} className="flex items-center gap-1.5">
+          <Swatch kind={item} />
+          <span>{t(`legend.${item}`)}</span>
         </li>
       ))}
     </ul>

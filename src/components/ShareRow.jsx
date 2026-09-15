@@ -10,6 +10,7 @@ import Icon from './Icon.jsx'
 import { breaksToIcs, leaveDaysToIcs, downloadIcs } from '../export/ics.js'
 import { drawShareCard, downloadCard, copyCardToClipboard, shareText, shareCardAlt } from '../export/shareCard.js'
 import { permalink } from '../state/urlState.js'
+import { useT } from '../i18n/index.jsx'
 
 /**
  * @param {object} props
@@ -21,6 +22,7 @@ import { permalink } from '../state/urlState.js'
  * @param {'light'|'dark'} props.theme
  */
 export default function ShareRow({ state, plan, calendar, countryLabel, periodLabel, theme }) {
+  const { t, lang } = useT()
   const [said, setSaid] = useState(null)
   const [cardOpen, setCardOpen] = useState(false)
   const canvasRef = useRef(null)
@@ -33,75 +35,71 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
   useEffect(() => {
     if (!cardOpen || !canvasRef.current) return
     drawShareCard({ plan, calendar, countryLabel, periodLabel, theme, canvas: canvasRef.current })
-  }, [cardOpen, plan, calendar, countryLabel, periodLabel, theme])
+    // `lang` is a dependency even though it is not read here: the card writes
+    // words on itself, so it has to be drawn again when the language changes.
+  }, [cardOpen, plan, calendar, countryLabel, periodLabel, theme, lang])
 
   if (!plan.feasible) return null
 
   const copyLink = async () => {
     try {
       await navigator.clipboard.writeText(permalink(state))
-      announce('Link copied. It carries the whole plan.')
+      announce(t('share.linkCopied'))
     } catch {
-      announce('Your browser would not let the page copy. Copy the address bar instead.')
+      announce(t('share.copyBlocked'))
     }
   }
 
   const copyPost = async () => {
     try {
       await navigator.clipboard.writeText(shareText({ plan, countryLabel, periodLabel }))
-      announce('Text copied.')
+      announce(t('share.textCopied'))
     } catch {
-      announce('Your browser would not let the page copy that.')
+      announce(t('share.copyBlockedText'))
     }
   }
 
   return (
     <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 4 }} aria-labelledby="share-heading">
-      <span className="pill pill-pink mb-2">Yours to keep</span>
+      <span className="pill pill-pink mb-2">{t('share.pill')}</span>
       <h2 id="share-heading" className="mb-1 text-2xl">
-        Take it with you
+        {t('share.heading')}
       </h2>
-      <p className="hint mb-4">
-        Everything here is made on your device. Nothing is uploaded, and the link works because the whole plan is
-        written into it.
-      </p>
+      <p className="hint mb-4">{t('share.hint')}</p>
 
       <div className="grid gap-2 sm:flex sm:flex-wrap">
         <button type="button" className="btn btn-primary" onClick={copyLink}>
           <Icon name="link" size={18} />
-          Copy the link
+          {t('share.copyLink')}
         </button>
         <button
           type="button"
           className="btn btn-quiet"
           onClick={() => {
             downloadIcs(breaksToIcs(plan.breaks), `time-off-${periodLabel.replace(/\s+/g, '-')}.ics`)
-            announce('Calendar file saved, one event per break.')
+            announce(t('share.icsBreaksSaved'))
           }}
         >
           <Icon name="calendar" size={18} />
-          Add breaks to my calendar
+          {t('share.addBreaks')}
         </button>
         <button
           type="button"
           className="btn btn-quiet"
           onClick={() => {
             downloadIcs(leaveDaysToIcs(plan.leaveDates), `leave-days-${periodLabel.replace(/\s+/g, '-')}.ics`)
-            announce('Calendar file saved, one event per booked day.')
+            announce(t('share.icsDaysSaved'))
           }}
         >
           <Icon name="download" size={18} />
-          Add each day separately
+          {t('share.addEach')}
         </button>
         <button type="button" className="btn btn-quiet" onClick={() => setCardOpen((v) => !v)} aria-expanded={cardOpen}>
           <Icon name="image" size={18} />
-          {cardOpen ? 'Hide the picture' : 'Make a picture'}
+          {cardOpen ? t('share.hidePicture') : t('share.makePicture')}
         </button>
       </div>
 
-      <p className="hint mt-2">
-        The second calendar file is for HR systems that count days rather than stretches.
-      </p>
 
       {cardOpen && (
         <div className="mt-4">
@@ -120,11 +118,11 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
               className="btn btn-quiet"
               onClick={async () => {
                 await downloadCard(canvasRef.current, `bridge-${periodLabel.replace(/\s+/g, '-')}.png`)
-                announce('Picture saved.')
+                announce(t('share.pictureSaved'))
               }}
             >
               <Icon name="download" size={18} />
-              Save the picture
+              {t('share.savePicture')}
             </button>
             <button
               type="button"
@@ -132,18 +130,18 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
               onClick={async () => {
                 try {
                   await copyCardToClipboard(canvasRef.current)
-                  announce('Picture copied.')
+                  announce(t('share.pictureCopied'))
                 } catch (err) {
                   announce(err.message)
                 }
               }}
             >
               <Icon name="copy" size={18} />
-              Copy the picture
+              {t('share.copyPicture')}
             </button>
             <button type="button" className="btn btn-quiet" onClick={copyPost}>
               <Icon name="copy" size={18} />
-              Copy text for a post
+              {t('share.copyPost')}
             </button>
           </div>
         </div>

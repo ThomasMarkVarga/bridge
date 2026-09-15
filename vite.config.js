@@ -4,6 +4,74 @@ import { createHash } from 'node:crypto'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+import { applyLanguage, pickLanguage, DEFAULT_LANGUAGE } from './worker/language-html.js'
+
+/**
+ * Do locally what the Worker does at the edge.
+ *
+ * The static half of the page is translated by rewriting the document before it
+ * is sent, which in production is the Worker's job. Without this the dev server
+ * and `vite preview` serve the English prose under a Romanian interface, so the
+ * feature is invisible until somebody deploys it, which is not a state worth
+ * developing in. Both call the same function, so there is no second rule to
+ * keep in step.
+ *
+ * There is no country here: nothing in front of localhost works out where a
+ * visitor is. So this honours ?lang= and otherwise serves English, which is what
+ * the edge does for everyone outside Romania and Moldova.
+ */
+function languageSwap() {
+  const swap = (server) => (req, res, next) => {
+    const url = new URL(req.url, 'http://localhost')
+    if (url.pathname !== '/' && !url.pathname.endsWith('.html')) return next()
+    if (url.pathname.startsWith('/countries/')) return next()
+
+    const lang = pickLanguage({ url: url.href, cf: undefined })
+    if (lang === DEFAULT_LANGUAGE) return next()
+
+    let fragment = null
+    try {
+      fragment = readFileSync(resolve(process.cwd(), `public/seo.${lang}.html`), 'utf8')
+    } catch {
+      return next()
+    }
+
+    // Let Vite build the page as it normally would, then rewrite what it wrote.
+    const write = res.write.bind(res)
+    const end = res.end.bind(res)
+    const chunks = []
+    res.write = (chunk, ...rest) => {
+      chunks.push(Buffer.from(chunk))
+      return true
+    }
+    res.end = (chunk, ...rest) => {
+      if (chunk) chunks.push(Buffer.from(chunk))
+      const type = res.getHeader('content-type') || ''
+      let body = Buffer.concat(chunks)
+      if (String(type).includes('text/html')) {
+        body = Buffer.from(applyLanguage(body.toString('utf8'), lang, fragment), 'utf8')
+        res.setHeader('content-language', lang)
+      }
+      res.setHeader('content-length', body.length)
+      write(body)
+      return end()
+    }
+    next()
+  }
+
+  // Registered directly rather than by returning a function. Returning one makes
+  // it a post hook, which runs after Vite has already answered the request, and
+  // this has to be in place beforehand to wrap the response it writes.
+  return {
+    name: 'language-swap',
+    configureServer(server) {
+      server.middlewares.use(swap(server))
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use(swap(server))
+    }
+  }
+}
 
 /**
  * Stamp the service worker with a build id derived from what was actually built.
@@ -48,7 +116,7 @@ function stampServiceWorker() {
 }
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), stampServiceWorker()],
+  plugins: [react(), tailwindcss(), stampServiceWorker(), languageSwap()],
   server: {
     port: 8765,
     strictPort: true,

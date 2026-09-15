@@ -1,18 +1,31 @@
 /**
  * Turning dates and counts into something a person would say out loud.
  *
- * All of it is calendar arithmetic on ISO strings, so nothing here can be shifted
- * by a timezone. Month and weekday names are English, matching the page language.
+ * All of it is calendar arithmetic on ISO strings, so nothing here can be
+ * shifted by a timezone. Month and weekday names follow the page's language,
+ * and the separator in a range is part of the translation rather than a hard
+ * coded "to": English says "30 May to 7 June" and Romanian says "30 mai - 7
+ * iunie", and neither is a good default for the other.
+ *
+ * The names are read at call time rather than captured at import, because the
+ * language can change while the page is open and a calendar drawn before the
+ * switch must not keep the old month names.
  */
 import { dayOfWeek } from './solver/plainDate.js'
+import { getLanguage, t } from './i18n/core.js'
+import { CALENDAR_NAMES } from './i18n/calendarNames.js'
 
-const MONTHS = [
-  'January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December'
-]
-const MONTHS_SHORT = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-const WEEKDAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-const WEEKDAYS_SHORT = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+const names = () => CALENDAR_NAMES[getLanguage()] || CALENDAR_NAMES.en
+
+export const months = () => names().months
+export const monthsShort = () => names().monthsShort
+export const weekdays = () => names().weekdays
+export const weekdaysShort = () => names().weekdaysShort
+export const weekdaysInitial = () => names().weekdaysInitial
+
+/** One month's name, from a 1-based number. */
+export const monthName = (month, { short = false } = {}) =>
+  (short ? monthsShort() : months())[month - 1]
 
 const parts = (iso) => ({
   year: Number(iso.slice(0, 4)),
@@ -23,18 +36,18 @@ const parts = (iso) => ({
 /** "6 June" or "6 June 2026" when the year matters. */
 export function formatDate(iso, { withYear = false, short = false } = {}) {
   const { year, month, day } = parts(iso)
-  const name = short ? MONTHS_SHORT[month - 1] : MONTHS[month - 1]
+  const name = monthName(month, { short })
   return withYear ? `${day} ${name} ${year}` : `${day} ${name}`
 }
 
 /** "Mon 6 Jun" */
 export function formatDayShort(iso) {
   const { month, day } = parts(iso)
-  return `${WEEKDAYS_SHORT[dayOfWeek(iso) - 1]} ${day} ${MONTHS_SHORT[month - 1]}`
+  return `${weekdaysShort()[dayOfWeek(iso) - 1]} ${day} ${monthsShort()[month - 1]}`
 }
 
 export function weekdayName(iso) {
-  return WEEKDAYS[dayOfWeek(iso) - 1]
+  return weekdays()[dayOfWeek(iso) - 1]
 }
 
 /**
@@ -44,10 +57,13 @@ export function weekdayName(iso) {
 export function formatRange(start, end) {
   const a = parts(start)
   const b = parts(end)
+  const join = t('format.rangeSeparator')
   if (start === end) return formatDate(start)
-  if (a.year !== b.year) return `${formatDate(start, { withYear: true })} to ${formatDate(end, { withYear: true })}`
-  if (a.month === b.month) return `${a.day} to ${b.day} ${MONTHS[a.month - 1]}`
-  return `${formatDate(start)} to ${formatDate(end)}`
+  if (a.year !== b.year) {
+    return `${formatDate(start, { withYear: true })} ${join} ${formatDate(end, { withYear: true })}`
+  }
+  if (a.month === b.month) return `${a.day} ${join} ${b.day} ${monthName(a.month)}`
+  return `${formatDate(start)} ${join} ${formatDate(end)}`
 }
 
 /** A list of dates as someone would paste into an email. */
@@ -60,22 +76,32 @@ export function formatIsoList(dates) {
   return dates.join('\n')
 }
 
-/** "1 day" or "3 days", never "1 days". */
-export function plural(count, one, many) {
-  return `${count} ${count === 1 ? one : many}`
-}
+/**
+ * A count with the right form of its noun.
+ *
+ * This replaced a `plural(n, 'day', 'days')` helper. Two forms is an English
+ * assumption, and picking between them by asking whether the number is 1 is the
+ * other one: Romanian wants "21 de zile" and there was no way to say that.
+ * @param {string} unit a units.* key
+ * @param {number} count
+ */
+export const counted = (unit, count) => t(`units.${unit}`, { count })
 
-/** The sentence at the top of the page. */
+/** The sentence at the top of the page, for a screen reader. */
 export function headlineSentence(plan) {
   if (!plan.feasible) return null
-  const breaks = plural(plan.breaks.length, 'break', 'breaks')
-  return `${plural(plan.leaveSpent, 'leave day', 'leave days')} become ${plan.totalDaysOff} days off, in ${breaks}`
+  return t('headline.sentence', {
+    count: plan.leaveSpent,
+    leave: counted('leaveDays', plan.leaveSpent),
+    off: counted('daysOff', plan.totalDaysOff),
+    breaks: counted('breaks', plan.breaks.length)
+  })
 }
 
 /** "2.6 days off for every day you book." */
 export function ratioSentence(plan) {
   if (!plan.feasible || plan.leaveSpent === 0) return null
-  return `${(plan.totalDaysOff / plan.leaveSpent).toFixed(1)} days off for every day you book`
+  return t('headline.ratioSentence', { ratio: (plan.totalDaysOff / plan.leaveSpent).toFixed(1) })
 }
 
 /** The planning period, named. */
@@ -84,8 +110,8 @@ export function periodLabel(range) {
   const b = parts(range.end)
   const wholeYear = range.start === `${a.year}-01-01` && range.end === `${a.year}-12-31`
   if (wholeYear) return String(a.year)
-  if (a.year === b.year) return `${MONTHS_SHORT[a.month - 1]} to ${MONTHS_SHORT[b.month - 1]} ${a.year}`
-  return `${MONTHS_SHORT[a.month - 1]} ${a.year} to ${MONTHS_SHORT[b.month - 1]} ${b.year}`
+  const join = t('format.rangeSeparator')
+  const short = monthsShort()
+  if (a.year === b.year) return `${short[a.month - 1]} ${join} ${short[b.month - 1]} ${a.year}`
+  return `${short[a.month - 1]} ${a.year} ${join} ${short[b.month - 1]} ${b.year}`
 }
-
-export { MONTHS, MONTHS_SHORT, WEEKDAYS, WEEKDAYS_SHORT }

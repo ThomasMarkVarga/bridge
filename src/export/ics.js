@@ -9,6 +9,8 @@
  * systems read, because they count days rather than stretches.
  */
 import { addDays } from '../solver/plainDate.js'
+import { t } from '../i18n/core.js'
+import { counted } from '../format.js'
 
 /** RFC 5545 wants CRLF, always. */
 const CRLF = '\r\n'
@@ -78,7 +80,7 @@ function stamp(now = new Date()) {
  */
 
 /** Wrap events into a complete calendar. */
-function calendar(events, { name = 'Time off' } = {}) {
+function calendar(events, { name = t('ics.calendarName') } = {}) {
   const dtstamp = stamp()
   const lines = [
     'BEGIN:VCALENDAR',
@@ -111,13 +113,16 @@ function calendar(events, { name = 'Time off' } = {}) {
 function describeBreak(brk) {
   const per = brk.cost > 0 ? (brk.length / brk.cost).toFixed(1) : null
   const parts = [
-    `${brk.length} days off, using ${brk.cost} ${brk.cost === 1 ? 'day' : 'days'} of leave.`,
-    per ? `That is ${per} days off for every day booked.` : null,
+    t('ics.breakDescription', {
+      off: counted('daysOff', brk.length),
+      leave: counted('leaveDays', brk.cost)
+    }),
+    per ? t('ics.perDay', { ratio: per }) : null,
     '',
-    'Days to request:',
+    t('ics.daysToRequest'),
     ...brk.leaveDates.map((d) => `  ${d}`),
     '',
-    'Planned with BridgeDays. Check the dates against your own calendar before booking.'
+    t('ics.plannedWith')
   ]
   return parts.filter((p) => p !== null).join('\n')
 }
@@ -126,11 +131,11 @@ function describeBreak(brk) {
  * One all-day event per break.
  * @param {object[]} breaks
  */
-export function breaksToIcs(breaks, { name = 'Time off' } = {}) {
+export function breaksToIcs(breaks, { name = t('ics.calendarName') } = {}) {
   const events = breaks.map((b) => ({
     start: b.start,
     end: b.end,
-    summary: `Time off, ${b.length} ${b.length === 1 ? 'day' : 'days'}`,
+    summary: t('ics.breakSummary', { days: counted('days', b.length) }),
     description: describeBreak(b)
   }))
   return calendar(events, { name })
@@ -138,7 +143,7 @@ export function breaksToIcs(breaks, { name = 'Time off' } = {}) {
 
 /** A single break, on its own, because people book one break at a time. */
 export function breakToIcs(brk) {
-  return breaksToIcs([brk], { name: `Time off, ${brk.start}` })
+  return breaksToIcs([brk], { name: t('ics.singleBreakName', { date: brk.start }) })
 }
 
 /**
@@ -146,12 +151,12 @@ export function breakToIcs(brk) {
  * days rather than stretches.
  * @param {string[]} leaveDates
  */
-export function leaveDaysToIcs(leaveDates, { name = 'Leave days' } = {}) {
+export function leaveDaysToIcs(leaveDates, { name = t('ics.leaveCalendarName') } = {}) {
   const events = leaveDates.map((d) => ({
     start: d,
     end: d,
-    summary: 'Annual leave',
-    description: 'One day of annual leave. Planned with BridgeDays.'
+    summary: t('ics.annualLeave'),
+    description: t('ics.annualLeaveDescription')
   }))
   return calendar(events, { name })
 }

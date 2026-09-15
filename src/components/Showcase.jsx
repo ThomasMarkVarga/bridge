@@ -18,6 +18,7 @@
  */
 import { useEffect, useRef, useState } from 'react'
 import { MAKERS, INTERVAL_MS } from '../ads/makers.js'
+import { useT } from '../i18n/index.jsx'
 
 const RAIL_CARDS = 3
 
@@ -180,6 +181,7 @@ const MOTIFS = { data: DataMotif, order: OrderMotif, redact: RedactMotif, site: 
 /* ----------------------------------------------------------------- the unit -- */
 
 export default function Showcase({ ads = MAKERS }) {
+  const { t } = useT()
   const rail = useMedia('(min-width: 75rem)')
   const reduce = useMedia('(prefers-reduced-motion: reduce)')
   // The card at the top of the stack. Cards are rendered starting from it, so
@@ -248,7 +250,7 @@ export default function Showcase({ ads = MAKERS }) {
       onFocus={() => setPaused(true)}
       onBlur={(e) => setPaused(unitRef.current?.contains(e.relatedTarget) || false)}
     >
-      <button type="button" className="showcase-close" aria-label="Close" onClick={() => setDismissed(true)}>
+      <button type="button" className="showcase-close" aria-label={t('showcase.close')} onClick={() => setDismissed(true)}>
         &times;
       </button>
 

@@ -9,6 +9,7 @@
 import { useEffect, useState } from 'react'
 import Icon from './Icon.jsx'
 import { DATA_SOURCE, DATA_GENERATED_AT } from '../data/loadHolidays.js'
+import { useT, useTx } from '../i18n/index.jsx'
 
 const REPO = 'https://github.com/qxZap/bridge'
 /*
@@ -19,18 +20,18 @@ const REPO = 'https://github.com/qxZap/bridge'
 const DATA_SOURCE_URL = 'https://github.com/commenthol/date-holidays'
 
 export default function Verification({ countryNotes = [], countryName, dataGeneratedAt }) {
+  const { t } = useT()
+  const tx = useTx()
   const { total, offSite } = useNetworkCount()
   const online = useOnline()
 
   return (
     <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 5 }} aria-labelledby="verify-heading">
-      <span className="pill pill-blue mb-2">Do not take our word for it</span>
+      <span className="pill pill-blue mb-2">{t('verify.pill')}</span>
       <h2 id="verify-heading" className="text-2xl">
-        Check it yourself
+        {t('verify.heading')}
       </h2>
-      <p className="hint mt-1 mb-4">
-        You should not take our word for any of this. Here is how to confirm it.
-      </p>
+      <p className="hint mt-1 mb-4">{t('verify.hint')}</p>
 
       <div className="grid gap-3 sm:grid-cols-2">
         <div
@@ -42,64 +43,39 @@ export default function Verification({ countryNotes = [], countryName, dataGener
           }}
         >
           <p className="label mb-1" style={{ color: 'var(--ink-fixed)' }}>
-            Requests to anywhere else
+            {t('verify.offSiteLabel')}
           </p>
           <p className="tabular display text-5xl">{offSite}</p>
-          <p className="mt-1 text-sm font-semibold">
-            Counted live in this page. {total} {total === 1 ? 'request' : 'requests'} in total, all of them to this
-            site, for the page itself and the holiday dates.
-          </p>
-          <p className="mt-2 text-sm font-semibold">
-            To check: open your browser&rsquo;s developer tools, go to the Network tab and reload. Nothing should point
-            anywhere but this domain.
-          </p>
+          <p className="mt-1 text-sm font-semibold">{t('verify.countedLive', { count: total })}</p>
+          <p className="mt-2 text-sm font-semibold">{t('verify.howToCheck')}</p>
         </div>
 
         <div className="rounded-[10px] border-[2px] p-3" style={{ borderColor: 'var(--line)' }}>
-          <p className="label mb-1">Works without a connection</p>
+          <p className="label mb-1">{t('verify.worksOffline')}</p>
           <p className="flex items-center gap-2 text-base font-extrabold">
             <Icon name={online ? 'check' : 'offline'} size={20} />
-            {online ? 'You are online' : 'You are offline, and it still works'}
+            {online ? t('verify.online') : t('verify.offline')}
           </p>
-          <p className="hint mt-2">
-            Turn off your wifi and reload this page. The plan still works out, because the calculation and the holiday
-            dates are both already on your device.
-          </p>
+          <p className="hint mt-2">{t('verify.offlineHint')}</p>
         </div>
       </div>
 
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <div>
-          <h3 className="mb-2 text-base">How it works</h3>
+          <h3 className="mb-2 text-base">{t('verify.howItWorks')}</h3>
           <ul className="grid gap-1.5 text-sm">
-            <li>The whole calculation runs in this page, on your device.</li>
-            <li>Holiday dates ship with the app as plain files. Nothing is looked up.</li>
-            <li>
-              Your plan lives in the address bar. That is why the link reproduces it, and why we never need to store
-              anything.
-            </li>
-            <li>There is no account, no analytics, no cookie and no tracking. There is nothing to consent to.</li>
-            <li>
-              The only thing that can be saved on this device is your country and allowance, and only if you tick the
-              box to ask for it.
-            </li>
+            {['how1', 'how2', 'how3', 'how4', 'how5', 'how6'].map((key) => (
+              <li key={key}>{t(`verify.${key}`)}</li>
+            ))}
           </ul>
         </div>
 
         <div>
-          <h3 className="mb-2 text-base">What this cannot do</h3>
+          <h3 className="mb-2 text-base">{t('verify.limits')}</h3>
           <ul className="grid gap-1.5 text-sm">
-            <li>
-              Holiday dates can be wrong or change. Governments move them, and some are announced only weeks ahead.
-              Check anything that matters against an official calendar.
-            </li>
-            <li>
-              Your employer has rules this knows nothing about: notice periods, blackout seasons, how many people can be
-              off at once, whether you can carry days over.
-            </li>
-            <li>Some contracts count public holidays against your allowance. This assumes they do not.</li>
-            <li>Your colleagues want the same weeks you do, and somebody has to ask first.</li>
-            <li>This does arithmetic, not negotiation.</li>
+            {['limit1', 'limit2', 'limit3', 'limit4', 'limit5'].map((key) => (
+              <li key={key}>{t(`verify.${key}`)}</li>
+            ))}
           </ul>
         </div>
       </div>
@@ -111,7 +87,7 @@ export default function Verification({ countryNotes = [], countryName, dataGener
         >
           <h3 className="mb-1 flex items-center gap-2 text-base">
             <Icon name="info" size={18} />
-            Worth knowing about {countryName}
+            {t('verify.countryNotes', { country: countryName })}
           </h3>
           <ul className="grid gap-1.5 text-sm">
             {countryNotes.map((note) => (
@@ -122,15 +98,19 @@ export default function Verification({ countryNotes = [], countryName, dataGener
       )}
 
       <p className="hint mt-4">
-        Holiday dates come from{' '}
-        <a className="underline" href={DATA_SOURCE_URL} rel="noreferrer noopener" target="_blank">
-          {DATA_SOURCE.library} {DATA_SOURCE.version}
-        </a>
-        , generated on {(dataGeneratedAt || DATA_GENERATED_AT || '').slice(0, 10)}.{' '}
-        <a className="underline" href={`${REPO}/issues/new`} rel="noreferrer noopener" target="_blank">
-          Report a wrong date
-        </a>
-        .
+        {tx('verify.source', {
+          link: (
+            <a className="underline" href={DATA_SOURCE_URL} rel="noreferrer noopener" target="_blank">
+              {DATA_SOURCE.library} {DATA_SOURCE.version}
+            </a>
+          ),
+          date: (dataGeneratedAt || DATA_GENERATED_AT || '').slice(0, 10),
+          report: (
+            <a className="underline" href={`${REPO}/issues/new`} rel="noreferrer noopener" target="_blank">
+              {t('verify.reportDate')}
+            </a>
+          )
+        })}
       </p>
     </section>
   )

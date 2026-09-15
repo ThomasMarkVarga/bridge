@@ -12,6 +12,8 @@
  * picture is never the only way to read the numbers.
  */
 import { useId, useState } from 'react'
+import { counted } from '../format.js'
+import { useT } from '../i18n/index.jsx'
 
 /**
  * @param {object} props
@@ -19,6 +21,7 @@ import { useId, useState } from 'react'
  * @param {number} props.spent  how many days the current plan uses
  */
 export default function ReturnsCurve({ curve, spent }) {
+  const { t } = useT()
   const [hover, setHover] = useState(null)
   const tableId = useId()
 
@@ -29,14 +32,14 @@ export default function ReturnsCurve({ curve, spent }) {
   if (steps.length === 0) return null
 
   const max = Math.max(...steps.map((s) => s.gain), 1)
-  const summary = describe(steps)
+  const summary = describe(steps, t)
   const current = steps.find((s) => s.day === hover) || null
 
   return (
     <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 3 }} aria-labelledby="returns-heading">
-      <span className="pill pill-sun mb-2">Nobody else shows you this</span>
+      <span className="pill pill-sun mb-2">{t('curve.pill')}</span>
       <h2 id="returns-heading" className="text-2xl">
-        What each day of leave buys you
+        {t('curve.heading')}
       </h2>
       <p className="hint mt-1">{summary}</p>
 
@@ -52,15 +55,19 @@ export default function ReturnsCurve({ curve, spent }) {
         aria-hidden="true"
       >
         {current
-          ? `Leave day ${current.day} adds ${current.gain} ${current.gain === 1 ? 'day' : 'days'} off, ${current.total} in total`
-          : 'Point at a bar for the exact numbers.'}
+          ? t('curve.readout', {
+              day: current.day,
+              gain: counted('daysOff', current.gain),
+              total: current.total
+            })
+          : t('curve.pointAtBar')}
       </p>
 
       <div
         className="flex items-end gap-[2px] overflow-x-auto pb-1"
         style={{ height: 132 }}
         role="img"
-        aria-label={`Bar chart. ${summary} The same numbers are in the table below.`}
+        aria-label={t('curve.chartLabel', { summary })}
       >
         {steps.map((s) => {
           const active = hover === s.day
@@ -73,7 +80,11 @@ export default function ReturnsCurve({ curve, spent }) {
               onMouseLeave={() => setHover(null)}
               onFocus={() => setHover(s.day)}
               onBlur={() => setHover(null)}
-              aria-label={`Leave day ${s.day} adds ${s.gain} days off, for ${s.total} in total`}
+              aria-label={t('curve.barLabel', {
+                day: s.day,
+                gain: counted('daysOff', s.gain),
+                total: s.total
+              })}
               className="group relative flex min-w-[10px] flex-1 flex-col justify-end rounded-t transition-colors duration-150"
               style={{ height: '100%' }}
             >
@@ -95,20 +106,20 @@ export default function ReturnsCurve({ curve, spent }) {
       </div>
 
       <div className="tabular mt-1 flex justify-between text-[11px] text-[var(--muted-foreground)]">
-        <span>1st day</span>
-        <span>{steps.length}th day</span>
+        <span>{t('curve.firstDay')}</span>
+        <span>{t('curve.lastDay', { count: steps.length })}</span>
       </div>
 
       <details className="mt-3">
-        <summary className="text-sm font-extrabold">See the numbers</summary>
+        <summary className="text-sm font-extrabold">{t('curve.seeNumbers')}</summary>
         <div className="mt-2 max-h-56 overflow-y-auto">
           <table className="tabular w-full text-left text-sm" id={tableId}>
-            <caption className="sr-only">Days off gained for each day of leave spent</caption>
+            <caption className="sr-only">{t('curve.tableCaption')}</caption>
             <thead>
               <tr className="border-b" style={{ borderColor: 'var(--border)' }}>
-                <th scope="col" className="py-1 pr-3 font-semibold">Leave day</th>
-                <th scope="col" className="py-1 pr-3 font-semibold">Adds</th>
-                <th scope="col" className="py-1 font-semibold">Total days off</th>
+                <th scope="col" className="py-1 pr-3 font-semibold">{t('curve.colLeaveDay')}</th>
+                <th scope="col" className="py-1 pr-3 font-semibold">{t('curve.colAdds')}</th>
+                <th scope="col" className="py-1 font-semibold">{t('curve.colTotal')}</th>
               </tr>
             </thead>
             <tbody>
@@ -116,7 +127,7 @@ export default function ReturnsCurve({ curve, spent }) {
                 <tr key={s.day} className="border-b" style={{ borderColor: 'var(--border)' }}>
                   <th scope="row" className="py-1 pr-3 font-normal">
                     {s.day}
-                    {s.day > spent ? ' (not used)' : ''}
+                    {s.day > spent ? t('curve.notUsed') : ''}
                   </th>
                   <td className="py-1 pr-3">+{s.gain}</td>
                   <td className="py-1">{s.total}</td>
@@ -130,16 +141,21 @@ export default function ReturnsCurve({ curve, spent }) {
   )
 }
 
-/** Say the shape of the curve in a sentence, because most people want only that. */
-function describe(steps) {
+/**
+ * Say the shape of the curve in a sentence, because most people want only that.
+ *
+ * Every number goes into the sentence already carrying its noun, rather than
+ * being glued to a bare word. In Romanian the noun changes shape three times
+ * and grows a preposition at twenty, so "N" plus "days" is not a thing that can
+ * be assembled here and translated later.
+ */
+function describe(steps, t) {
   if (steps.length === 0) return ''
   const first = steps[0].gain
   const last = steps[steps.length - 1].gain
+  const off = (n) => counted('daysOff', n)
 
-  const plural = (n) => `${n} ${n === 1 ? 'day' : 'days'}`
-  if (first === last) {
-    return `Every day of leave buys you ${plural(first)} off.`
-  }
+  if (first === last) return t('curve.everyDayBuys', { days: off(first) })
 
   // Where the return first drops below the opening rate for good.
   let cliff = steps.length
@@ -150,18 +166,17 @@ function describe(steps) {
     }
   }
 
-  if (cliff === 0) return `Your first day buys ${plural(first)} off, and later days buy ${plural(last)}.`
-  if (cliff >= steps.length) return `Every day of leave buys you ${plural(first)} off.`
+  if (cliff === 0) return t('curve.firstThenLater', { first: off(first), last: off(last) })
+  if (cliff >= steps.length) return t('curve.everyDayBuys', { days: off(first) })
 
-  const days = (n) => `${n} ${n === 1 ? 'day' : 'days'}`
   const opening =
     cliff === 1
-      ? `Your first day buys ${days(first)} off.`
-      : `Your first ${cliff} days buy ${days(first)} off each.`
+      ? t('curve.firstDayBuys', { days: off(first) })
+      : t('curve.firstDaysBuyEach', { span: counted('days', cliff), days: off(first) })
   const remaining = steps.length - cliff
   const rest =
     remaining === 1
-      ? `The last one buys ${days(last)} or fewer.`
-      : `After that the remaining ${remaining} buy ${days(last)} or fewer.`
+      ? t('curve.lastOneBuys', { days: off(last) })
+      : t('curve.afterThatRemaining', { span: counted('days', remaining), days: off(last) })
   return `${opening} ${rest}`
 }

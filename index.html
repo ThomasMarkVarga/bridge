@@ -85,7 +85,7 @@
   }
 }
     </script>
-    <script type="application/ld+json">
+    <script id="faq-schema" type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -170,6 +170,13 @@
       in the head must match the FAQ below word for word (seo.test.js checks).
     -->
     <div class="mx-auto w-full max-w-5xl px-4 pb-16 sm:px-6 xl:max-w-[78rem]">
+      <!--
+        Everything inside #seo is replaced wholesale by public/seo.ro.html when the
+        Worker decides the visitor is shown Romanian, so a crawler and a reader
+        without JavaScript both get this prose in their own language. The footer
+        slot below is outside it, because the app fills that one.
+      -->
+      <div id="seo">
       <div class="mt-10 grid gap-5 lg:grid-cols-2 lg:items-start">
         <section id="how-it-works" class="card p-4 sm:p-5" aria-labelledby="how-heading">
           <span class="pill pill-lime mb-2">The method</span>
@@ -300,6 +307,8 @@
           </div>
         </div>
       </section>
+
+      </div>
 
       <!-- The app renders its footer here, so it stays at the very bottom of the page. -->
       <div id="site-footer"></div>
