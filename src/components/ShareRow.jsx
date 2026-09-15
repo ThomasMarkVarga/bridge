@@ -66,7 +66,7 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
         written into it.
       </p>
 
-      <div className="flex flex-wrap gap-2">
+      <div className="grid gap-2 sm:flex sm:flex-wrap">
         <button type="button" className="btn btn-primary" onClick={copyLink}>
           <Icon name="link" size={18} />
           Copy the link
@@ -80,7 +80,7 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
           }}
         >
           <Icon name="calendar" size={18} />
-          Add every break to my calendar
+          Add breaks to my calendar
         </button>
         <button
           type="button"
@@ -91,7 +91,7 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
           }}
         >
           <Icon name="download" size={18} />
-          One event per booked day
+          Add each day separately
         </button>
         <button type="button" className="btn btn-quiet" onClick={() => setCardOpen((v) => !v)} aria-expanded={cardOpen}>
           <Icon name="image" size={18} />
@@ -114,7 +114,7 @@ export default function ShareRow({ state, plan, calendar, countryLabel, periodLa
               aria-label={shareCardAlt({ plan, countryLabel, periodLabel })}
             />
           </div>
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="mt-3 grid gap-2 sm:flex sm:flex-wrap">
             <button
               type="button"
               className="btn btn-quiet"

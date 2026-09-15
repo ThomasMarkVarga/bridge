@@ -53,7 +53,7 @@ export default function RequestDates({ dates, periodLabel }) {
         ))}
       </ol>
 
-      <div className="perf flex flex-wrap gap-2">
+      <div className="perf grid gap-2 sm:flex sm:flex-wrap">
         <button type="button" onClick={() => copy(readable, 'readable')} className="btn btn-primary">
           <Icon name={copied === 'readable' ? 'check' : 'copy'} size={18} />
           {copied === 'readable' ? 'Copied' : 'Copy the dates'}
