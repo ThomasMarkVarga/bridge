@@ -6,12 +6,14 @@
  * patterns, leave years that start in April, blackout seasons and the rest live in
  * a panel that stays shut until somebody wants them.
  */
-import { useId } from 'react'
+import { useId, useMemo } from 'react'
 import Icon from './Icon.jsx'
 import Picker from './Picker.jsx'
 import { COUNTRIES, subdivisionsOf } from '../data/loadHolidays.js'
-import { OBJECTIVE_LABELS, OBJECTIVES } from '../solver/objectives.js'
-import { WEEKDAYS_SHORT, MONTHS } from '../format.js'
+import { OBJECTIVES } from '../solver/objectives.js'
+import { weekdaysShort, months, counted } from '../format.js'
+import { useT } from '../i18n/index.jsx'
+import { countryNamer } from '../i18n/calendarNames.js'
 import { toMonthDay, partsOf, daysInBirthdayMonth, isMonthDay } from '../solver/birthday.js'
 
 /** Other names people type for a country, so that "uk" finds the United Kingdom. */
@@ -26,12 +28,24 @@ const ALIASES = {
   US: 'usa america'
 }
 
-const COUNTRY_OPTIONS = COUNTRIES.map((c) => ({
-  value: c.code,
-  label: c.name,
-  badge: c.code,
-  keywords: `${c.code} ${ALIASES[c.code] || ''}`
-}))
+/**
+ * Built per language rather than once at import: the names are the reader's own
+ * (Germania, not Germany) and alphabetical order differs between languages. The
+ * English name stays in the keywords, so somebody typing "Germany" into a
+ * Romanian page still finds it.
+ */
+function countryOptions(lang) {
+  const nameOf = countryNamer(lang)
+  return COUNTRIES.map((c) => {
+    const label = nameOf(c.code, c.name)
+    return {
+      value: c.code,
+      label,
+      badge: c.code,
+      keywords: `${c.code} ${c.name} ${ALIASES[c.code] || ''}`
+    }
+  }).sort((a, b) => a.label.localeCompare(b.label, lang))
+}
 
 /**
  * @param {object} props
@@ -43,6 +57,8 @@ const COUNTRY_OPTIONS = COUNTRIES.map((c) => ({
  * @param {(open: boolean) => void} props.setOptionsOpen
  */
 export default function Controls({ state, onChange, countryData, years, optionsOpen, setOptionsOpen }) {
+  const { t, lang } = useT()
+  const countryOpts = useMemo(() => countryOptions(lang), [lang])
   const countryId = useId()
   const daysId = useId()
   const yearId = useId()
@@ -61,14 +77,14 @@ export default function Controls({ state, onChange, countryData, years, optionsO
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-[1.4fr_0.8fr_0.9fr]">
         <div className="col-span-2 sm:col-span-1">
           <label className="label" htmlFor={countryId}>
-            Country
+            {t('controls.country')}
           </label>
           <Picker
             id={countryId}
-            label="Country"
+            label={t('controls.country')}
             searchable
             value={state.country}
-            options={COUNTRY_OPTIONS}
+            options={countryOpts}
             onChange={(code) => {
               const next = COUNTRIES.find((c) => c.code === code)
               onChange({ country: code, subdivision: next ? next.defaultSubdivision : null })
@@ -78,7 +94,7 @@ export default function Controls({ state, onChange, countryData, years, optionsO
 
         <div>
           <label className="label" htmlFor={daysId}>
-            Days of leave
+            {t('controls.days')}
           </label>
           <input
             id={daysId}
@@ -98,11 +114,11 @@ export default function Controls({ state, onChange, countryData, years, optionsO
 
         <div>
           <label className="label" htmlFor={yearId}>
-            Year
+            {t('controls.year')}
           </label>
           <Picker
             id={yearId}
-            label="Year"
+            label={t('controls.year')}
             className="tabular"
             value={state.year}
             disabled={Boolean(state.range)}
@@ -115,22 +131,22 @@ export default function Controls({ state, onChange, countryData, years, optionsO
       {needsRegion && (
         <div className="mt-3">
           <label className="label" htmlFor={regionId}>
-            {country.subdivisionLabel || 'Region'}
-            {country.requireSubdivision ? '' : ' (optional)'}
+            {country.subdivisionLabel || t('controls.region')}
+            {country.requireSubdivision ? '' : ` ${t('controls.optional')}`}
           </label>
           <Picker
             id={regionId}
-            label={country.subdivisionLabel || 'Region'}
+            label={country.subdivisionLabel || t('controls.region')}
             searchable={regions.length > 12}
             value={state.subdivision || ''}
             options={[
-              ...(country.requireSubdivision ? [] : [{ value: '', label: 'The whole country' }]),
+              ...(country.requireSubdivision ? [] : [{ value: '', label: t('controls.wholeCountry') }]),
               ...regions.map((s) => ({ value: s.code, label: s.name }))
             ]}
             onChange={(code) => onChange({ subdivision: code || null })}
           />
           {country.requireSubdivision && (
-            <p className="hint mt-1">Holidays genuinely differ here, so this changes the answer.</p>
+            <p className="hint mt-1">{t('controls.regionMatters')}</p>
           )}
         </div>
       )}
@@ -142,7 +158,7 @@ export default function Controls({ state, onChange, countryData, years, optionsO
         onClick={() => setOptionsOpen(!optionsOpen)}
       >
         <Icon name="sliders" size={18} />
-        More options
+        {t('controls.moreOptions')}
         <Icon
           name="caret"
           size={16}
@@ -157,6 +173,7 @@ export default function Controls({ state, onChange, countryData, years, optionsO
 }
 
 function MoreOptions({ state, onChange, countryData }) {
+  const { t } = useT()
   const workId = useId()
   const objId = useId()
   const birthdayMonthId = useId()
@@ -178,10 +195,10 @@ function MoreOptions({ state, onChange, countryData }) {
     <div className="anim-pop mt-4 grid gap-5 border-t-[3px] pt-4" style={{ borderColor: 'var(--border)' }}>
       <fieldset>
         <legend className="label mb-2" id={workId}>
-          Which days do you work?
+          {t('controls.workDays')}
         </legend>
         <div className="flex flex-wrap gap-1.5" role="group" aria-labelledby={workId}>
-          {WEEKDAYS_SHORT.map((name, i) => {
+          {weekdaysShort().map((name, i) => {
             const day = i + 1
             const on = pattern.has(day)
             return (
@@ -205,29 +222,30 @@ function MoreOptions({ state, onChange, countryData }) {
         </div>
         <p className="hint mt-1.5">
           {state.workPattern.length === 0
-            ? 'You have no working days selected, so there is nothing to book.'
-            : `${state.workPattern.length} working days a week.`}
+            ? t('controls.noWorkDays')
+            : t('controls.workDaysCount', { count: state.workPattern.length })}
         </p>
       </fieldset>
 
       <div>
         <label className="label" htmlFor={objId}>
-          What are you after?
+          {t('controls.objective')}
         </label>
         <Picker
           id={objId}
-          label="What are you after?"
+          label={t('controls.objective')}
           value={state.objective}
-          options={OBJECTIVES.map((o) => ({ value: o, label: OBJECTIVE_LABELS[o].name }))}
+          options={OBJECTIVES.map((o) => ({ value: o, label: t(`objective.${o}.name`) }))}
           onChange={(objective) => onChange({ objective })}
         />
-        <p className="hint mt-1">{OBJECTIVE_LABELS[state.objective]?.hint}</p>
+        <p className="hint mt-1">{t(`objective.${state.objective}.hint`)}</p>
       </div>
 
       {state.objective === 'spread' && (
         <div>
           <label className="label" htmlFor={minLenId}>
-            Shortest break worth booking: <span className="tabular">{state.minBreakLength} days</span>
+            {t('controls.minBreak', { days: '' })}
+            <span className="tabular">{counted('days', state.minBreakLength)}</span>
           </label>
           <input
             id={minLenId}
@@ -240,13 +258,13 @@ function MoreOptions({ state, onChange, countryData }) {
             className="w-full"
             style={{ accentColor: 'var(--primary)' }}
           />
-          <p className="hint">Anything shorter than this is left out of the plan.</p>
+          <p className="hint">{t('controls.minBreakHint')}</p>
         </div>
       )}
 
       <div>
         <label className="label" htmlFor={maxBreaksId}>
-          Most separate breaks (optional)
+          {t('controls.maxBreaks')}
         </label>
         <input
           id={maxBreaksId}
@@ -255,23 +273,23 @@ function MoreOptions({ state, onChange, countryData }) {
           inputMode="numeric"
           min="1"
           max="60"
-          placeholder="No limit"
+          placeholder={t('controls.maxBreaksPlaceholder')}
           value={state.maxBreaks ?? ''}
           onChange={(e) => {
             const n = Number.parseInt(e.target.value, 10)
             onChange({ maxBreaks: Number.isFinite(n) && n > 0 ? n : null })
           }}
         />
-        <p className="hint mt-1">Useful if your employer only lets you book a few times a year.</p>
+        <p className="hint mt-1">{t('controls.maxBreaksHint')}</p>
       </div>
 
       <fieldset>
-        <legend className="label mb-2">Leave year</legend>
+        <legend className="label mb-2">{t('controls.leaveYear')}</legend>
         {state.range ? (
           <div className="grid gap-2 sm:grid-cols-2">
             <div>
               <label className="hint mb-1 block" htmlFor={startId}>
-                Starts
+                {t('controls.starts')}
               </label>
               <input
                 id={startId}
@@ -283,7 +301,7 @@ function MoreOptions({ state, onChange, countryData }) {
             </div>
             <div>
               <label className="hint mb-1 block" htmlFor={endId}>
-                Ends
+                {t('controls.ends')}
               </label>
               <input
                 id={endId}
@@ -298,7 +316,7 @@ function MoreOptions({ state, onChange, countryData }) {
               className="btn btn-quiet sm:col-span-2"
               onClick={() => onChange({ range: null })}
             >
-              Use the whole calendar year instead
+              {t('controls.useCalendarYear')}
             </button>
           </div>
         ) : (
@@ -309,18 +327,18 @@ function MoreOptions({ state, onChange, countryData }) {
               onChange({ range: { start: `${state.year}-04-01`, end: `${state.year + 1}-03-31` } })
             }
           >
-            My leave year does not start in January
+            {t('controls.customLeaveYear')}
           </button>
         )}
       </fieldset>
 
       <fieldset>
-        <legend className="label mb-2">Your birthday</legend>
+        <legend className="label mb-2">{t('controls.birthday')}</legend>
         <Switch
           checked={state.birthdayOff}
           onChange={(v) => onChange({ birthdayOff: v })}
-          label="My employer gives me my birthday off"
-          hint="It becomes a free day like a public holiday, so the plan can build a break around it."
+          label={t('controls.birthdayOff')}
+          hint={t('controls.birthdayOffHint')}
         />
 
         {state.birthdayOff && <BirthdayPicker state={state} onChange={onChange} monthId={birthdayMonthId} dayId={birthdayDayId} />}
@@ -329,15 +347,15 @@ function MoreOptions({ state, onChange, countryData }) {
       <Switch
         checked={state.weekendHolidaysGivenBack}
         onChange={(v) => onChange({ weekendHolidaysGivenBack: v })}
-        label="My employer gives a day back when a holiday falls on a weekend"
-        hint="Adds one day to your allowance for each one. Check your contract, because many employers do not do this."
+        label={t('controls.givenBack')}
+        hint={t('controls.givenBackHint')}
       />
 
       <Switch
         checked={state.includeObservances}
         onChange={(v) => onChange({ includeObservances: v })}
-        label="Count observances as days off too"
-        hint="Days like Mother's Day that are marked but are not usually a day off work."
+        label={t('controls.observances')}
+        hint={t('controls.observancesHint')}
       />
     </div>
   )
@@ -351,6 +369,7 @@ function MoreOptions({ state, onChange, countryData }) {
  * native one opens on the current year and makes you scroll decades back.
  */
 function BirthdayPicker({ state, onChange, monthId, dayId }) {
+  const { t } = useT()
   const { month, day } = partsOf(state.birthday)
   const selectedMonth = month || 1
   const maxDay = daysInBirthdayMonth(selectedMonth)
@@ -360,7 +379,7 @@ function BirthdayPicker({ state, onChange, monthId, dayId }) {
 
   return (
     <div className="mt-3">
-      <p className="label">Which day is it?</p>
+      <p className="label">{t('controls.birthdayWhich')}</p>
       <div className="grid grid-cols-[1.4fr_0.8fr] gap-2">
         <div>
           <label className="sr-only" htmlFor={monthId}>
@@ -368,10 +387,10 @@ function BirthdayPicker({ state, onChange, monthId, dayId }) {
           </label>
           <Picker
             id={monthId}
-            label="Month of your birthday"
-            placeholder="Month"
+            label={t('controls.birthdayMonthLabel')}
+            placeholder={t('controls.month')}
             value={month || ''}
-            options={MONTHS.map((name, i) => ({ value: i + 1, label: name }))}
+            options={months().map((name, i) => ({ value: i + 1, label: name }))}
             onChange={setMonth}
           />
         </div>
@@ -381,8 +400,8 @@ function BirthdayPicker({ state, onChange, monthId, dayId }) {
           </label>
           <Picker
             id={dayId}
-            label="Day of your birthday"
-            placeholder="Day"
+            label={t('controls.birthdayDayLabel')}
+            placeholder={t('controls.day')}
             className="tabular"
             value={day || ''}
             options={Array.from({ length: maxDay }, (_, i) => ({ value: i + 1, label: String(i + 1) }))}
@@ -392,9 +411,9 @@ function BirthdayPicker({ state, onChange, monthId, dayId }) {
       </div>
 
       {!isMonthDay(state.birthday) ? (
-        <p className="hint mt-1">Pick a month and a day. It counts as a day off every year.</p>
+        <p className="hint mt-1">{t('controls.birthdayPick')}</p>
       ) : (
-        <p className="hint mt-1">No year is asked for or stored, so a link you share cannot say how old you are.</p>
+        <p className="hint mt-1">{t('controls.birthdayNoYear')}</p>
       )}
 
       {state.birthday === '02-29' && (

@@ -4,3 +4,6 @@ dist/
 .claude/
 *.local
 .DS_Store
+
+# wrangler dev writes its local cache and bundles here.
+.wrangler/

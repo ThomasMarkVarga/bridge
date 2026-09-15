@@ -26,14 +26,9 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } fr
 import { createPortal } from 'react-dom'
 import { dayOfWeek } from '../solver/plainDate.js'
 import Icon from './Icon.jsx'
-
-const WEEKDAY_SHORT = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-const WEEKDAY_INITIAL = ['M', 'T', 'W', 'T', 'F', 'S', 'S']
-const MONTHS = [
-  'January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December'
-]
-const MONTHS_SHORT = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+// Aliased: this file already has a local 'months', the month bars along the top.
+import { months as monthNames, monthsShort as shortMonthNames, weekdaysShort, weekdaysInitial } from '../format.js'
+import { useT } from '../i18n/index.jsx'
 
 /** One week of spill either side of the month, so a break at the turn stays whole. */
 const SPILL_WEEKS = 1
@@ -109,19 +104,20 @@ function dominantMonths(rows) {
 }
 
 /** What a day is, said plainly, for a screen reader and for the tooltip. */
-function describeDay(day, inBreak, isLeave) {
-  const parts = [`${Number(day.date.slice(8))} ${MONTHS[Number(day.date.slice(5, 7)) - 1]}`]
-  parts.push(WEEKDAY_SHORT[day.dayOfWeek - 1])
-  if (day.blackout) parts.push('blacked out, will not be booked')
-  else if (day.pinned) parts.push('pinned, you fixed this day')
-  else if (isLeave) parts.push('a day to book')
+function describeDay(day, inBreak, isLeave, t) {
+  const parts = [`${Number(day.date.slice(8))} ${monthNames()[Number(day.date.slice(5, 7)) - 1]}`]
+  parts.push(weekdaysShort()[day.dayOfWeek - 1])
+  if (day.blackout) parts.push(t('day.blackedOut'))
+  else if (day.pinned) parts.push(t('day.pinned'))
+  else if (isLeave) parts.push(t('day.toBook'))
   if (day.holidayName) {
     // A birthday is a day off, but it is not a public holiday, and saying so out
     // loud to a screen reader would be wrong.
-    parts.push(day.personal ? `a day off, ${day.holidayName}` : `public holiday, ${day.holidayName}`)
-  } else if (day.weekend) parts.push('not a working day')
-  if (inBreak && !isLeave && !day.pinned) parts.push('inside a break')
-  if (!inBreak && !day.isFree && !day.blackout && !day.pinned) parts.push('a normal working day')
+    const key = day.personal ? 'day.personalOff' : 'day.publicHoliday'
+    parts.push(t(key, { name: day.holidayName }))
+  } else if (day.weekend) parts.push(t('day.notWorking'))
+  if (inBreak && !isLeave && !day.pinned) parts.push(t('day.insideBreak'))
+  if (!inBreak && !day.isFree && !day.blackout && !day.pinned) parts.push(t('day.normalWorking'))
   return parts.join(', ')
 }
 
@@ -134,6 +130,7 @@ function describeDay(day, inBreak, isLeave) {
  * @param {string[]} [props.changedDates]  days that moved in the last re-solve
  */
 export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDates = [] }) {
+  const { t } = useT()
   const rows = useMemo(() => buildRows(calendar), [calendar])
   const breaks = plan.feasible ? plan.breaks : []
   const segments = useMemo(() => breakSegments(rows, breaks), [rows, breaks])
@@ -260,7 +257,7 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
   if (!calendar.length) return null
 
   const [yearPart, monthPart] = (activeMonth || '').split('-')
-  const monthLabel = `${MONTHS[Number(monthPart) - 1]} ${yearPart}`
+  const monthLabel = `${monthNames()[Number(monthPart) - 1]} ${yearPart}`
 
   return (
     <div className="w-full max-w-[520px]">
@@ -272,7 +269,7 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
           className="btn min-h-10 px-3"
           disabled={monthIndex <= 0}
           onClick={() => goToMonth(months[monthIndex - 1].key)}
-          aria-label="Show the month before"
+          aria-label={t('year.prevMonth')}
         >
           <Icon name="caret" size={18} className="rotate-90" />
         </button>
@@ -286,7 +283,7 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
           className="btn min-h-10 px-3"
           disabled={monthIndex < 0 || monthIndex >= months.length - 1}
           onClick={() => goToMonth(months[monthIndex + 1].key)}
-          aria-label="Show the month after"
+          aria-label={t('year.nextMonth')}
         >
           <Icon name="caret" size={18} className="-rotate-90" />
         </button>
@@ -297,10 +294,10 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
         aria-hidden="true"
       >
         <div className="grid min-w-0 flex-1 grid-cols-7 gap-[3px]">
-          {WEEKDAY_SHORT.map((d, i) => (
+          {weekdaysShort().map((d, i) => (
             <div key={d + i} className="text-center">
               <span className="hidden sm:inline">{d}</span>
-              <span className="sm:hidden">{WEEKDAY_INITIAL[i]}</span>
+              <span className="sm:hidden">{weekdaysInitial()[i]}</span>
             </div>
           ))}
         </div>
@@ -309,7 +306,7 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
       <div
         ref={gridRef}
         role="grid"
-        aria-label={`${monthLabel}, week by week`}
+        aria-label={t('year.weekByWeek', { month: monthLabel })}
         aria-rowcount={visibleRows.length}
         className="relative"
       >
@@ -391,9 +388,7 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
 
       {changedElsewhere.length > 0 && (
         <p className="mt-3 text-sm font-semibold" role="status">
-          {changedElsewhere.length === 1
-            ? 'One day that moved is in '
-            : `${changedElsewhere.length} of the days that moved are in `}
+          {t('year.movedHere', { count: changedElsewhere.length })}
           {[...new Set(changedElsewhere.map((d) => d.slice(0, 7)))].map((key, i, all) => (
             <span key={key}>
               <button
@@ -402,9 +397,9 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
                 style={{ color: 'var(--stamp)' }}
                 onClick={() => goToMonth(key)}
               >
-                {MONTHS[Number(key.slice(5, 7)) - 1]}
+                {monthNames()[Number(key.slice(5, 7)) - 1]}
               </button>
-              {i < all.length - 2 ? ', ' : i === all.length - 2 ? ' and ' : ''}
+              {i < all.length - 2 ? ', ' : i === all.length - 2 ? t('year.listAnd') : ''}
             </span>
           ))}
           .
@@ -412,8 +407,7 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
       )}
 
       <p className="hint mt-2">
-        Days either side of {MONTHS[Number(monthPart) - 1]} are shown faded, so a break that runs over the turn of the
-        month stays in one piece.
+        {t('year.fadedHint', { month: monthNames()[Number(monthPart) - 1] })}
       </p>
     </div>
   )
@@ -424,17 +418,18 @@ export default function YearGrid({ calendar, plan, onPin, onBlackout, changedDat
  * off, filled in proportion to how much of it you pay for. It is the overview and
  * the navigation at once, so the year is never out of sight.
  */
-function YearStrip({ months, active, onPick }) {
-  if (months.length < 2) return null
-  const peak = Math.max(1, ...months.map((m) => m.daysOff))
+function YearStrip({ months: bars, active, onPick }) {
+  const { t } = useT()
+  if (bars.length < 2) return null
+  const peak = Math.max(1, ...bars.map((m) => m.daysOff))
 
   return (
     <div>
-      <p className="label mb-1">The whole range</p>
+      <p className="label mb-1">{t('year.wholeRange')}</p>
       <ul className="flex items-end gap-[3px]" style={{ height: 58 }}>
-        {months.map((m) => {
+        {bars.map((m) => {
           const [y, mo] = m.key.split('-')
-          const name = MONTHS_SHORT[Number(mo) - 1]
+          const name = shortMonthNames()[Number(mo) - 1]
           const isActive = m.key === active
           const h = m.daysOff === 0 ? 5 : Math.max(9, Math.round((m.daysOff / peak) * 40))
           const bookedH = m.daysOff === 0 ? 0 : Math.round((m.booked / m.daysOff) * h)
@@ -445,7 +440,12 @@ function YearStrip({ months, active, onPick }) {
                 type="button"
                 onClick={() => onPick(m.key)}
                 aria-current={isActive ? 'true' : undefined}
-                aria-label={`${MONTHS[Number(mo) - 1]} ${y}, ${m.daysOff} days off, ${m.booked} booked`}
+                aria-label={t('year.monthBar', {
+                  month: monthNames()[Number(mo) - 1],
+                  year: y,
+                  daysOff: m.daysOff,
+                  booked: m.booked
+                })}
                 className="flex w-full flex-col items-center justify-end"
                 style={{ height: 52 }}
               >
@@ -501,8 +501,9 @@ function DayCell({
   onPin,
   onBlackout
 }) {
+  const { t } = useT()
   const dayNumber = Number(day.date.slice(8))
-  const label = describeDay(day, inBreak, isLeave)
+  const label = describeDay(day, inBreak, isLeave, t)
   const anchorRef = useRef(null)
 
   let background = 'transparent'
@@ -547,7 +548,7 @@ function DayCell({
         onFocus={onFocusCell}
         onKeyDown={onKeyDown}
         onClick={onToggleMenu}
-        aria-label={outsideMonth ? `${label}, outside this month` : label}
+        aria-label={outsideMonth ? t('year.outsideMonth', { label }) : label}
         aria-expanded={menuOpen}
         aria-haspopup="menu"
         title={day.holidayName || undefined}
@@ -654,6 +655,7 @@ const MENU_GAP = 6
 const VIEWPORT_MARGIN = 8
 
 function DayMenu({ day, anchorRef, onPin, onBlackout, onClose }) {
+  const { t } = useT()
   const ref = useRef(null)
   const [pos, setPos] = useState(null)
 
@@ -714,13 +716,13 @@ function DayMenu({ day, anchorRef, onPin, onBlackout, onClose }) {
     }
   }, [onClose, place, anchorRef])
 
-  const pretty = `${Number(day.date.slice(8))} ${MONTHS_SHORT[Number(day.date.slice(5, 7)) - 1]}`
+  const pretty = `${Number(day.date.slice(8))} ${shortMonthNames()[Number(day.date.slice(5, 7)) - 1]}`
 
   return createPortal(
     <div
       ref={ref}
       role="menu"
-      aria-label={`Options for ${pretty}`}
+      aria-label={t('daymenu.options', { date: pretty })}
       className="panel absolute p-1 text-left text-sm"
       style={{
         top: pos ? pos.top : -9999,
@@ -736,7 +738,8 @@ function DayMenu({ day, anchorRef, onPin, onBlackout, onClose }) {
           className="px-2 pb-2 text-xs leading-snug text-[var(--muted-foreground)]"
           style={{ overflowWrap: 'anywhere' }}
         >
-          {day.holidayName ? `${day.holidayName}. ` : ''}You already have this day off.
+          {day.holidayName ? `${day.holidayName}. ` : ''}
+          {t('daymenu.alreadyOff')}
         </p>
       ) : (
         <>
@@ -746,7 +749,7 @@ function DayMenu({ day, anchorRef, onPin, onBlackout, onClose }) {
             onClick={onPin}
             className="flex w-full items-center gap-2 rounded px-2 py-2 text-left font-semibold hover:bg-[var(--muted)]"
           >
-            {day.pinned ? 'Stop fixing this day' : 'Always take this day off'}
+            {day.pinned ? t('daymenu.unpin') : t('daymenu.pin')}
           </button>
           <button
             type="button"
@@ -754,7 +757,7 @@ function DayMenu({ day, anchorRef, onPin, onBlackout, onClose }) {
             onClick={onBlackout}
             className="flex w-full items-center gap-2 rounded px-2 py-2 text-left font-semibold hover:bg-[var(--muted)]"
           >
-            {day.blackout ? 'Allow this day again' : 'Never take this day off'}
+            {day.blackout ? t('daymenu.unblackout') : t('daymenu.blackout')}
           </button>
         </>
       )}

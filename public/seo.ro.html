@@ -1,0 +1,212 @@
+<!--
+  The static part of the page, in Romanian.
+
+  index.html carries the English original. This is the same sections in the same
+  order with the same ids, and the Worker swaps one for the other when the
+  visitor is shown Romanian, so a reader with JavaScript switched off and a
+  crawler that does not run it get the prose in their own language rather than a
+  Romanian interface wrapped around English copy.
+
+  The FAQ structured data at the bottom has to say exactly what the visible FAQ
+  above it says, word for word, the same rule index.html follows. seo.test.js
+  checks both files against that rule.
+-->
+<div class="mt-10 grid gap-5 lg:grid-cols-2 lg:items-start">
+  <section id="how-it-works" class="card p-4 sm:p-5" aria-labelledby="how-heading">
+    <span class="pill pill-lime mb-2">Metoda</span>
+    <h2 id="how-heading" class="text-2xl">Cum să profiți la maximum de zilele de concediu</h2>
+    <p class="mt-2">
+      Fie că îi spui concediu de odihnă, vacanță sau zile libere, șmecheria e aceeași: folosește concediul în zilele
+      lucrătoare lipite de zile în care oricum stai acasă. BridgeDays face socoteala.
+    </p>
+    <ol class="mt-3 grid list-decimal gap-2 pl-5">
+      <li><strong>Alege-ți țara</strong> și județul, provincia sau regiunea, acolo unde sărbătorile diferă.</li>
+      <li><strong>Spune câte zile de concediu ai</strong> și alege anul: 2026, 2027 sau 2028.</li>
+      <li>
+        <strong>Alege ce fel de timp liber vrei</strong>: mai multe vacanțe adevărate, de cel puțin cinci zile, o
+        singură vacanță lungă, sau cât mai multe zile libere în total, chiar dacă asta înseamnă un șir de weekenduri
+        prelungite.
+      </li>
+      <li>
+        <strong>Citește răspunsul.</strong> BridgeDays calculează cel mai bun plan posibil, nu o aproximare, și îți
+        arată vacanțele, datele exacte de cerut și tot anul sub formă de calendar.
+      </li>
+      <li>
+        <strong>Ajustează-l.</strong> Apasă pe o zi lucrătoare ca să o fixezi în plan sau ca să o excluzi, iar planul se
+        recalculează. Apoi copiază linkul sau salvează-ți datele în calendar.
+      </li>
+    </ol>
+  </section>
+
+  <section id="bridge-days" class="card p-4 sm:p-5" aria-labelledby="bridge-heading">
+    <span class="pill pill-pink mb-2">Pe scurt</span>
+    <h2 id="bridge-heading" class="text-2xl">Ce este o zi punte?</h2>
+    <p class="mt-2">
+      O zi punte este o zi lucrătoare prinsă între o sărbătoare legală și un weekend. Iei liber în ea și sărbătoarea se
+      leagă cu weekendul într-o singură perioadă mai lungă. Când o sărbătoare cade joi, dacă îți iei vinerea liberă,
+      transformi o zi de concediu în patru zile libere.
+    </p>
+    <p class="hint mt-2">
+      În România, guvernul mai declară zile punte prin hotărâre, uneori cu doar câteva săptămâni înainte. Acelea nu pot
+      fi prevăzute, așa că nu sunt incluse.
+    </p>
+
+    <h3 class="mt-5 text-lg">Exemplu: România în 2026</h3>
+    <p class="mt-2">
+      Cu 21 de zile de concediu în România în 2026, BridgeDays transformă 21 de zile de concediu în 54 de zile libere,
+      în 6 vacanțe. Una dintre ele: ceri de miercuri 2 până vineri 4 decembrie. Cele trei zile se leagă cu Sfântul
+      Andrei, luni 30 noiembrie, cu Ziua Națională, marți 1 decembrie, și cu weekendurile de o parte și de alta, în
+      nouă zile libere, de sâmbătă 28 noiembrie până duminică 6 decembrie.
+    </p>
+  </section>
+
+  <section id="coverage" class="card p-4 sm:p-5 lg:col-span-2" aria-labelledby="coverage-heading">
+    <span class="pill pill-blue mb-2">Unde funcționează</span>
+    <h2 id="coverage-heading" class="text-2xl">Ce țări acoperă BridgeDays?</h2>
+    <p class="mt-2">
+      BridgeDays acoperă 206 țări, cu sărbătorile legale pentru 2026, 2027 și 2028 incluse. Unsprezece au fost
+      verificate manual față de calendarul oficial: România, Regatul Unit, Germania, Franța, Spania, Italia, Țările de
+      Jos, Polonia, Statele Unite, Canada și Australia. Restul folosesc biblioteca
+      <a class="underline" href="https://github.com/commenthol/date-holidays" rel="noreferrer noopener" target="_blank">date-holidays</a>
+      așa cum este ea, și scrie asta pe ecran. Sărbătorile regionale sunt incluse pentru 33 de țări, printre care statele
+      americane, provinciile canadiene, statele australiene și cele patru națiuni ale Regatului Unit.
+    </p>
+    <p class="mt-2">
+      <a class="underline" href="/countries/">Sărbătorile legale și cele mai bune zile de luat liber, țară cu țară</a>.
+    </p>
+    <p class="hint mt-2">
+      Ai găsit o dată greșită?
+      <a class="underline" href="https://github.com/qxZap/bridge/issues/new" rel="noreferrer noopener" target="_blank">Semnaleaz-o pe GitHub</a>.
+    </p>
+  </section>
+</div>
+
+<section id="faq" class="card mt-5 p-4 sm:p-5" aria-labelledby="faq-heading">
+  <span class="pill pill-sun mb-2">Întrebări</span>
+  <h2 id="faq-heading" class="text-2xl">Întrebări frecvente</h2>
+  <div class="mt-4 grid gap-x-8 gap-y-5 md:grid-cols-2">
+    <div>
+      <h3 class="text-lg">Care sunt cele mai bune zile de luat liber în 2027?</h3>
+      <p class="mt-1">
+        Zilele lucrătoare prinse între o sărbătoare legală și un weekend, pentru că fiecare dintre ele leagă zile în
+        care oricum stai acasă. Care sunt acelea depinde de țara și de regiunea ta, așa că alege-le, spune câte zile ai
+        și pune anul 2027. BridgeDays îți dă datele exacte de cerut.
+      </p>
+    </div>
+    <div>
+      <h3 class="text-lg">Câte zile libere pot obține din concediul meu?</h3>
+      <p class="mt-1">
+        Depinde de cum cad sărbătorile în țara ta. Ca reper, 21 de zile de concediu în România în 2026 devin 54 de zile
+        libere în șase vacanțe adevărate, sau 74 de zile libere dacă vrei doar totalul cel mai mare, mai ales sub formă
+        de weekenduri prelungite. Planul îți arată și cât aduce fiecare zi de concediu în plus.
+      </p>
+    </div>
+    <div>
+      <h3 class="text-lg">Funcționează în Statele Unite, Regatul Unit, Canada și Australia?</h3>
+      <p class="mt-1">
+        Da. Toate patru sunt printre cele unsprezece țări verificate manual, cu sărbători pe stat, națiune sau
+        provincie: sărbătorile bancare britanice pentru Anglia, Scoția, Țara Galilor sau Irlanda de Nord și sărbătorile
+        canadiene pentru Ontario sau orice altă provincie, de exemplu. Sunt incluse și zilele bancare de înlocuire și
+        zilele observate din Statele Unite.
+      </p>
+    </div>
+    <div>
+      <h3 class="text-lg">Îmi pot adăuga zilele libere în Google Calendar sau Outlook?</h3>
+      <p class="mt-1">
+        Da. BridgeDays salvează un fișier de calendar .ics standard, pe care Google Calendar, Outlook și Apple Calendar
+        îl pot importa toate. Salvează câte un eveniment pentru fiecare vacanță, sau câte unul pentru fiecare zi cerută,
+        pentru sistemele de HR care numără zile.
+      </p>
+    </div>
+    <div>
+      <h3 class="text-lg">Am nevoie de cont?</h3>
+      <p class="mt-1">
+        Nu. Nu există înregistrare, nu există email și nu există cookie-uri. Calculul rulează în browserul tău, iar
+        planul stă în adresa paginii, așa că un link copiat trimite exact același plan și nimic despre concediul tău nu
+        pleacă nicăieri. Odată încărcată, pagina funcționează și offline.
+      </p>
+    </div>
+    <div>
+      <h3 class="text-lg">Poate ține cont de o săptămână de patru zile sau de un an de concediu care începe în aprilie?</h3>
+      <p class="mt-1">
+        Da. În opțiuni poți alege în ce zile lucrezi, poți muta începutul anului de concediu, poți exclude zilele în
+        care nu poți lipsi, îți poți adăuga ziua de naștere dacă angajatorul ți-o dă liberă și poți primi o zi înapoi
+        când o sărbătoare cade în weekend.
+      </p>
+    </div>
+    <div>
+      <h3 class="text-lg">Cât de exacte sunt datele sărbătorilor?</h3>
+      <p class="mt-1">
+        Vin din biblioteca open source date-holidays și sunt incluse în aplicație, iar unsprezece țări au fost
+        verificate manual. Guvernele chiar mută sărbători sau le adaugă în ultimul moment, așa că verifică într-un
+        calendar oficial și în propriul contract orice contează cu adevărat, înainte să ceri concediu.
+      </p>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "ro",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Care sunt cele mai bune zile de luat liber în 2027?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zilele lucrătoare prinse între o sărbătoare legală și un weekend, pentru că fiecare dintre ele leagă zile în care oricum stai acasă. Care sunt acelea depinde de țara și de regiunea ta, așa că alege-le, spune câte zile ai și pune anul 2027. BridgeDays îți dă datele exacte de cerut."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Câte zile libere pot obține din concediul meu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depinde de cum cad sărbătorile în țara ta. Ca reper, 21 de zile de concediu în România în 2026 devin 54 de zile libere în șase vacanțe adevărate, sau 74 de zile libere dacă vrei doar totalul cel mai mare, mai ales sub formă de weekenduri prelungite. Planul îți arată și cât aduce fiecare zi de concediu în plus."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Funcționează în Statele Unite, Regatul Unit, Canada și Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da. Toate patru sunt printre cele unsprezece țări verificate manual, cu sărbători pe stat, națiune sau provincie: sărbătorile bancare britanice pentru Anglia, Scoția, Țara Galilor sau Irlanda de Nord și sărbătorile canadiene pentru Ontario sau orice altă provincie, de exemplu. Sunt incluse și zilele bancare de înlocuire și zilele observate din Statele Unite."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Îmi pot adăuga zilele libere în Google Calendar sau Outlook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da. BridgeDays salvează un fișier de calendar .ics standard, pe care Google Calendar, Outlook și Apple Calendar îl pot importa toate. Salvează câte un eveniment pentru fiecare vacanță, sau câte unul pentru fiecare zi cerută, pentru sistemele de HR care numără zile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Am nevoie de cont?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nu. Nu există înregistrare, nu există email și nu există cookie-uri. Calculul rulează în browserul tău, iar planul stă în adresa paginii, așa că un link copiat trimite exact același plan și nimic despre concediul tău nu pleacă nicăieri. Odată încărcată, pagina funcționează și offline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Poate ține cont de o săptămână de patru zile sau de un an de concediu care începe în aprilie?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da. În opțiuni poți alege în ce zile lucrezi, poți muta începutul anului de concediu, poți exclude zilele în care nu poți lipsi, îți poți adăuga ziua de naștere dacă angajatorul ți-o dă liberă și poți primi o zi înapoi când o sărbătoare cade în weekend."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cât de exacte sunt datele sărbătorilor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vin din biblioteca open source date-holidays și sunt incluse în aplicație, iar unsprezece țări au fost verificate manual. Guvernele chiar mută sărbători sau le adaugă în ultimul moment, așa că verifică într-un calendar oficial și în propriul contract orice contează cu adevărat, înainte să ceri concediu."
+      }
+    }
+  ]
+}
+</script>

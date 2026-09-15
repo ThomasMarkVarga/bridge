@@ -31,7 +31,6 @@ export {
   LONGEST,
   SPREAD,
   OBJECTIVES,
-  OBJECTIVE_LABELS,
   DEFAULT_MIN_BREAK_LENGTH,
   isObjective
 } from './objectives.js'

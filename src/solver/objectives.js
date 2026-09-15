@@ -49,24 +49,13 @@ export const DEFAULT_MIN_BREAK_LENGTH = 5
  */
 export const DEFAULT_LONG_BREAK_MIN_LEVERAGE = 1.8
 
-/**
- * Wording for the interface. Never says "optimise" or "efficiency": these are
- * choices about a holiday, not settings on a machine.
+/*
+ * The wording for these lives in the dictionaries, under objective.<name>.name
+ * and objective.<name>.hint, because it is read by people and therefore has to
+ * exist in more than one language. The rule it follows is the same in every
+ * language: never "optimise" and never "efficiency". These are choices about a
+ * holiday, not settings on a machine.
  */
-export const OBJECTIVE_LABELS = {
-  [SPREAD]: {
-    name: 'Several proper breaks',
-    hint: 'Real holidays rather than a string of long weekends.'
-  },
-  [LONGEST]: {
-    name: 'One long trip',
-    hint: 'Puts most of your leave into a single stretch.'
-  },
-  [TOTAL]: {
-    name: 'Most days off, any length',
-    hint: 'The highest total, mostly by turning Fridays into long weekends.'
-  }
-}
 
 /** @param {string} objective */
 export function isObjective(objective) {

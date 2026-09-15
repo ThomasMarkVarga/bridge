@@ -21,7 +21,10 @@ import {
 } from './state/urlState.js'
 import { loadCountry, countryInfo, subdivisionName, holidaysForRange, yearsAvailable, DATA_YEARS } from './data/loadHolidays.js'
 import { birthdayHolidays } from './solver/birthday.js'
-import { periodLabel as makePeriodLabel, plural } from './format.js'
+import { periodLabel as makePeriodLabel, counted } from './format.js'
+import { useT, useTx } from './i18n/index.jsx'
+import { LANGUAGES, LANGUAGE_CODES } from './i18n/core.js'
+import { countryNamer } from './i18n/calendarNames.js'
 
 import Controls from './components/Controls.jsx'
 import Headline from './components/Headline.jsx'
@@ -37,6 +40,9 @@ import Claims from './components/Claims.jsx'
 import Showcase from './components/Showcase.jsx'
 
 export default function App() {
+  const { t, lang } = useT()
+  const tx = useTx()
+
   const [state, setState] = useState(() => {
     const fromUrl = readState()
     // A remembered country only applies to a bare visit, never to a shared link,
@@ -178,20 +184,25 @@ export default function App() {
       dates: added,
       note:
         added.length === 0
-          ? `The plan dropped ${plural(removed.length, 'day', 'days')}.`
-          : `The plan moved ${plural(added.length, 'day', 'days')} and dropped ${plural(removed.length, 'day', 'days')}.`
+          ? t('changed.dropped', { days: counted('days', removed.length) })
+          : t('changed.movedAndDropped', {
+              added: counted('days', added.length),
+              removed: counted('days', removed.length)
+            })
     })
-    const t = setTimeout(() => setChanged({ dates: [], note: null }), 6000)
-    return () => clearTimeout(t)
-  }, [plan])
+    const timer = setTimeout(() => setChanged({ dates: [], note: null }), 6000)
+    return () => clearTimeout(timer)
+  }, [plan, t])
 
   const countryLabel = useMemo(() => {
     if (!info) return state.country
+    const name = countryNamer(lang)(state.country, info.name)
     const sub = subdivisionName(countryData, state.subdivision)
-    return sub ? `${info.name} (${sub})` : info.name
-  }, [info, countryData, state.country, state.subdivision])
+    return sub ? `${name} (${sub})` : name
+  }, [info, countryData, state.country, state.subdivision, lang])
 
-  const periodLabel = useMemo(() => makePeriodLabel(range), [range])
+  // Recomputed on a language change: the month names inside it are translated.
+  const periodLabel = useMemo(() => makePeriodLabel(range), [range, lang])
 
   // A tab title and a bookmark that actually say something, once the plan is
   // somebody's: a shared link, or a change from the defaults. A bare visit keeps
@@ -200,11 +211,21 @@ export default function App() {
   useEffect(() => {
     const personal = arrivedWithPlan.current || state !== firstState.current
     if (personal && plan && plan.feasible && plan.leaveSpent > 0) {
-      document.title = `${plan.leaveSpent} days become ${plan.totalDaysOff} days off · ${periodLabel} · BridgeDays`
+      document.title = t('meta.titlePlan', {
+        spent: counted('leaveDays', plan.leaveSpent),
+        total: counted('daysOff', plan.totalDaysOff),
+        period: periodLabel
+      })
     } else {
-      document.title = staticTitle.current
+      // The served title is written in English in index.html, and for an English
+      // reader it is left exactly as it arrived so a crawler and a person see the
+      // same words. In any other language it has to be replaced, because the
+      // alternative is an English title over a translated page.
+      document.title = lang === 'en' ? staticTitle.current : t('meta.title')
+      const description = document.querySelector('meta[name="description"]')
+      if (description && lang !== 'en') description.setAttribute('content', t('meta.description'))
     }
-  }, [plan, periodLabel, state])
+  }, [plan, periodLabel, state, t, lang])
 
   const update = useCallback((patch) => setState((prev) => ({ ...prev, ...patch })), [])
 
@@ -240,7 +261,7 @@ export default function App() {
   return (
     <>
       <a className="skip-link" href="#answer">
-        Skip to the answer
+        {t('a11y.skipToAnswer')}
       </a>
 
       <div className="mx-auto w-full max-w-5xl px-4 pt-4 sm:px-6 xl:max-w-[78rem]">
@@ -250,11 +271,16 @@ export default function App() {
               BridgeDays<span style={{ color: 'var(--stamp)' }}>.</span>
             </h1>
             <p className="mt-2 text-base font-extrabold sm:text-lg">
-              Take <span className="hl hl-lime tabular">12</span> days off. Get{' '}
-              <span className="hl tabular">28</span>.
+              {tx('header.tagline', {
+                days: <span className="hl hl-lime tabular">12</span>,
+                off: <span className="hl tabular">28</span>
+              })}
             </p>
           </div>
-          <ThemeToggle theme={theme} setTheme={setTheme} />
+          <div className="flex shrink-0 items-center gap-2">
+            <LanguageToggle />
+            <ThemeToggle theme={theme} setTheme={setTheme} />
+          </div>
         </header>
 
         <div className="mb-5">
@@ -275,11 +301,11 @@ export default function App() {
           <div id="answer" tabIndex={-1}>
             {loadError ? (
               <div className="card p-5" style={{ background: 'var(--destructive)', color: 'var(--ink-fixed)' }} role="alert">
-                <h2 className="text-xl">The holiday dates would not load</h2>
+                <h2 className="text-xl">{t('error.holidaysHeading')}</h2>
                 <p className="mt-1 text-sm">{loadError}</p>
                 <button type="button" className="btn btn-primary mt-3" onClick={() => update({ country: state.country })}>
                   <Icon name="reset" size={18} />
-                  Try again
+                  {t('error.tryAgain')}
                 </button>
               </div>
             ) : (
@@ -289,8 +315,7 @@ export default function App() {
 
           {missingYears.length > 0 && (
             <p className="card p-3 text-sm font-semibold" role="status">
-              There are no holiday dates yet for {missingYears.join(' and ')}. Those days are counted as ordinary
-              working days, so the plan will be conservative.
+              {t('error.missingYears', { years: missingYears.join(t('error.yearsJoin')) })}
             </p>
           )}
 
@@ -303,9 +328,9 @@ export default function App() {
               <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 2 }} aria-labelledby="year-heading">
                 <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
                   <div>
-                    <span className="pill pill-blue mb-2">The whole year</span>
+                    <span className="pill pill-blue mb-2">{t('year.pill')}</span>
                     <h2 id="year-heading" className="text-2xl">
-                      {periodLabel} at a glance
+                      {t('year.heading', { period: periodLabel })}
                     </h2>
                   </div>
                   {adjustments > 0 && (
@@ -315,15 +340,12 @@ export default function App() {
                       onClick={() => update({ pinned: [], blackouts: [] })}
                     >
                       <Icon name="reset" size={16} />
-                      Clear my {plural(adjustments, 'change', 'changes')}
+                      {t('year.clearChanges', { changes: counted('changes', adjustments) })}
                     </button>
                   )}
                 </div>
 
-                <p className="hint mb-3">
-                  Tap any working day to fix it into the plan or rule it out. The plan works itself out again around
-                  whatever you choose.
-                </p>
+                <p className="hint mb-3">{t('year.tapHint')}</p>
 
                 {changed.note && (
                   <p
@@ -331,7 +353,7 @@ export default function App() {
                     style={{ borderColor: 'var(--line)', background: 'var(--sun)', color: 'var(--ink-fixed)' }}
                     role="status"
                   >
-                    {changed.note} The days that moved are outlined below.
+                    {t('year.movedNote', { note: changed.note })}
                   </p>
                 )}
 
@@ -351,7 +373,7 @@ export default function App() {
                     className="border-t-[3px] pt-4 lg:border-l-[3px] lg:border-t-0 lg:pl-6 lg:pt-0"
                     style={{ borderColor: 'var(--border)' }}
                   >
-                    <h3 className="mb-3 text-base">What the marks mean</h3>
+                    <h3 className="mb-3 text-base">{t('year.whatMarksMean')}</h3>
                     <Legend className="lg:flex-col lg:items-start lg:gap-3" />
                   </div>
                 </div>
@@ -386,7 +408,7 @@ export default function App() {
           />
         </main>
 
-          <aside className="showcase-slot" aria-label="Our other apps">
+          <aside className="showcase-slot" aria-label={t('showcase.label')}>
             <Showcase />
           </aside>
         </div>
@@ -398,6 +420,7 @@ export default function App() {
 }
 
 function RememberBox({ remembering, onToggle }) {
+  const { t } = useT()
   return (
     <div className="card flex items-start gap-3 p-4">
       <input
@@ -410,28 +433,55 @@ function RememberBox({ remembering, onToggle }) {
       />
       <div>
         <label htmlFor="remember" className="block text-sm font-medium">
-          Remember my country and allowance on this device
+          {t('remember.label')}
         </label>
-        <p className="hint">
-          Off unless you ask. It saves those two things in this browser and nothing else: no plan, no dates, nothing
-          that leaves the device.
-        </p>
+        <p className="hint">{t('remember.hint')}</p>
       </div>
     </div>
   )
 }
 
 function ThemeToggle({ theme, setTheme }) {
+  const { t } = useT()
   const next = theme === 'dark' ? 'light' : 'dark'
   return (
     <button
       type="button"
       className="btn btn-quiet min-h-11 px-3"
       onClick={() => setTheme(next)}
-      aria-label={`Switch to the ${next} theme`}
+      aria-label={t('header.themeSwitch', { theme: t(`header.theme${next === 'dark' ? 'Dark' : 'Light'}Name`) })}
     >
       <Icon name={theme === 'dark' ? 'sun' : 'moon'} size={18} />
-      <span className="hidden sm:inline">{next === 'dark' ? 'Dark' : 'Light'}</span>
+      <span className="hidden sm:inline">
+        {next === 'dark' ? t('header.themeDark') : t('header.themeLight')}
+      </span>
+    </button>
+  )
+}
+
+/**
+ * Two languages, so it is a switch rather than a menu: the button says the
+ * language you would get, and pressing it gets you there.
+ *
+ * The name is written in its own language and carries a lang attribute, so a
+ * screen reader says "Romana" the Romanian way rather than reading it as
+ * English. The choice is kept on this device and beats whatever the edge
+ * guessed from the connection, because a guess from an address is wrong for
+ * anybody travelling or living abroad.
+ */
+function LanguageToggle() {
+  const { lang, setLang, t } = useT()
+  const next = LANGUAGE_CODES[(LANGUAGE_CODES.indexOf(lang) + 1) % LANGUAGE_CODES.length]
+  return (
+    <button
+      type="button"
+      className="btn btn-quiet min-h-11 px-3"
+      onClick={() => setLang(next)}
+      aria-label={`${t('lang.pick')}: ${LANGUAGES[next].endonym}`}
+      lang={LANGUAGES[next].htmlLang}
+    >
+      <Icon name="globe" size={18} />
+      <span className="hidden sm:inline">{LANGUAGES[next].endonym}</span>
     </button>
   )
 }
@@ -470,6 +520,8 @@ function useTheme() {
  * after the static guide and FAQ rather than above them.
  */
 function Footer() {
+  const { t } = useT()
+  const tx = useTx()
   const slot = document.getElementById('site-footer')
   const footer = (
     <footer className="mt-10 border-t-[3px] pt-5 text-sm" style={{ borderColor: 'var(--border)' }}>
@@ -487,30 +539,30 @@ function Footer() {
             strokeLinejoin="round"
           />
         </svg>
-        <span>
-          More free apps on <b>vibe-coding.fans</b>
-        </span>
+        <span>{tx('footer.moreApps', { brand: <b>vibe-coding.fans</b> })}</span>
       </a>
       <p className="hint mt-3">
         <a className="underline" href="/countries/">
-          Public holidays by country
+          {t('footer.holidaysByCountry')}
         </a>
       </p>
       <p className="hint mt-2">
-        BridgeDays is free and open source under the MIT licence. Holiday dates come from the{' '}
-        <a
-          className="underline"
-          href="https://github.com/commenthol/date-holidays"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          date-holidays
-        </a>{' '}
-        project and ship with the app.
+        {tx('footer.licence', {
+          link: (
+            <a
+              className="underline"
+              href="https://github.com/commenthol/date-holidays"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              date-holidays
+            </a>
+          )
+        })}
       </p>
       <p className="hint mt-2">
         <a className="underline" href="https://github.com/qxZap/bridge" rel="noreferrer noopener" target="_blank">
-          Read the source
+          {t('footer.source')}
         </a>{' '}
         ·{' '}
         <a
@@ -519,10 +571,10 @@ function Footer() {
           rel="noreferrer noopener"
           target="_blank"
         >
-          Report a wrong date
+          {t('footer.reportDate')}
         </a>
       </p>
-      <p className="hint mt-2">Check your own contract before you book anything.</p>
+      <p className="hint mt-2">{t('footer.contract')}</p>
     </footer>
   )
   return slot ? createPortal(footer, slot) : footer

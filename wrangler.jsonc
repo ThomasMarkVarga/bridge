@@ -1,11 +1,26 @@
-// Cloudflare Workers static assets. No Worker script: every request is a static file from dist/.
+// Cloudflare Workers static assets, with one small Worker in front of them.
+//
+// The Worker exists only to read the visitor's country off the request and stamp
+// the language onto the document, so the page can open in Romanian for somebody
+// in Romania without asking a third party where they are. Everything it serves
+// is still a static file out of dist/.
 {
   "name": "bridge",
   "compatibility_date": "2026-09-01",
+  "main": "./worker/index.js",
   // wrangler deploy runs the build first, so the deploy command alone produces dist/.
   "build": { "command": "npm run build" },
   "assets": {
     "directory": "./dist",
+    // The Worker serves assets through this binding rather than them being served
+    // over its head, which is what lets it see the request first.
+    "binding": "ASSETS",
+    // Without this, a request that matches a file is answered by the asset layer
+    // and the Worker never runs, which is exactly what happens to "/". Documents
+    // go through the Worker so it can stamp the language on them; the hashed
+    // bundles and the fonts are left to be served directly, because the Worker
+    // has nothing to say about them and they are the bulk of the traffic.
+    "run_worker_first": ["/*", "!/assets/*", "!/fonts/*", "!/makers/*"],
     // The plan lives in the URL hash, so any unknown path is answered by index.html.
     "not_found_handling": "single-page-application"
   },

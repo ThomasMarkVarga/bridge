@@ -8,7 +8,8 @@
 import { useState } from 'react'
 import Icon from './Icon.jsx'
 import { breakToIcs, downloadIcs } from '../export/ics.js'
-import { formatRange, formatDayList, plural } from '../format.js'
+import { formatRange, formatDayList, counted } from '../format.js'
+import { useT } from '../i18n/index.jsx'
 
 /**
  * @param {object} props
@@ -28,6 +29,7 @@ export default function BreakList({ breaks }) {
 }
 
 function BreakCard({ brk, position, index }) {
+  const { t } = useT()
   const [copied, setCopied] = useState(false)
 
   const copy = async () => {
@@ -50,20 +52,20 @@ function BreakCard({ brk, position, index }) {
       </div>
 
       <p className="text-sm font-semibold">
-        <span className="hl tabular text-lg">{brk.length} days off</span> for{' '}
-        {plural(brk.cost, 'day', 'days')} booked.
-        {perDay ? ` That is ${perDay} days off for every day you book.` : ''}
+        {t('breaks.daysOffFor', {
+          daysOff: counted('daysOff', brk.length),
+          cost: counted('days', brk.cost)
+        })}
+        {perDay ? t('breaks.perDay', { ratio: perDay }) : ''}
       </p>
 
       <div>
-        <p className="label mb-1">Days to request</p>
+        <p className="label mb-1">{t('breaks.daysToRequest')}</p>
         <p className="tabular text-sm font-bold leading-relaxed">{formatDayList(brk.leaveDates)}</p>
       </div>
 
       {brk.pinnedDates.length > 0 && (
-        <p className="hint">
-          {plural(brk.pinnedDates.length, 'day', 'days')} here you fixed yourself.
-        </p>
+        <p className="hint">{t('breaks.pinnedHere', { count: brk.pinnedDates.length })}</p>
       )}
 
       {/* Stacked rather than side by side: a card is narrow at every width once the
@@ -72,7 +74,7 @@ function BreakCard({ brk, position, index }) {
       <div className="mt-auto grid gap-2">
         <button type="button" onClick={copy} className="btn btn-quiet w-full text-sm">
           <Icon name={copied ? 'check' : 'copy'} size={17} />
-          {copied ? 'Copied' : 'Copy the dates'}
+          {copied ? t('breaks.copied') : t('breaks.copy')}
         </button>
         <button
           type="button"
@@ -80,7 +82,7 @@ function BreakCard({ brk, position, index }) {
           className="btn btn-quiet w-full text-sm"
         >
           <Icon name="calendar" size={17} />
-          Add to calendar
+          {t('breaks.addToCalendar')}
         </button>
       </div>
     </li>
