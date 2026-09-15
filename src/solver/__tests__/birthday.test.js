@@ -4,7 +4,7 @@
  * not start in January, and a range that contains the day twice or not at all.
  */
 import { describe, it, expect } from 'vitest'
-import { isMonthDay, birthdayInYear, birthdayHolidays, toMonthDay, toInputDate } from '../birthday.js'
+import { isMonthDay, birthdayInYear, birthdayHolidays, toMonthDay, partsOf, daysInBirthdayMonth } from '../birthday.js'
 import { buildCalendar, calendarStats, holidaysLostToWeekends } from '../calendar.js'
 import { solve } from '../solve.js'
 import { TOTAL } from '../objectives.js'
@@ -24,9 +24,24 @@ describe('reading a birthday', () => {
     }
   })
 
-  it('round-trips through a full date', () => {
-    expect(toMonthDay('2026-06-14')).toBe('06-14')
-    expect(toInputDate('06-14', 2026)).toBe('2026-06-14')
+  it('round-trips through the month and day pickers', () => {
+    expect(toMonthDay(6, 14)).toBe('06-14')
+    expect(partsOf('06-14')).toEqual({ month: 6, day: 14 })
+    expect(partsOf('nonsense')).toEqual({ month: null, day: null })
+  })
+
+  it('never composes a day the month does not have', () => {
+    // Switching from the 31st to a 30-day month has to land somewhere real.
+    expect(toMonthDay(4, 31)).toBe('04-30')
+    expect(toMonthDay(2, 31)).toBe('02-29')
+    expect(toMonthDay(6, 0)).toBe('06-01')
+    expect(toMonthDay(13, 5)).toBe('12-05')
+  })
+
+  it('offers 29 days in February, because the 29th is a real birthday', () => {
+    expect(daysInBirthdayMonth(2)).toBe(29)
+    expect(daysInBirthdayMonth(4)).toBe(30)
+    expect(daysInBirthdayMonth(1)).toBe(31)
   })
 })
 
@@ -43,8 +58,10 @@ describe('the twenty-ninth of February', () => {
     expect(birthdayInYear('02-29', 2100)).toBe('2100-02-28')
   })
 
-  it('offers a date the picker can actually show', () => {
-    expect(toInputDate('02-29', 2026)).toBe('2024-02-29')
+  it('is selectable in the picker all the same', () => {
+    expect(daysInBirthdayMonth(2)).toBe(29)
+    expect(toMonthDay(2, 29)).toBe('02-29')
+    expect(isMonthDay('02-29')).toBe(true)
   })
 })
 

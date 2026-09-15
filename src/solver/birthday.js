@@ -81,25 +81,26 @@ export function birthdayHolidays(range, monthDay) {
   return out
 }
 
-/** Turn a full ISO date into the `MM-DD` the setting stores. */
-export function toMonthDay(iso) {
-  parseISO(iso)
-  return iso.slice(5)
+/**
+ * How many days a month has, for a day that comes round every year rather than
+ * one that belongs to a particular one. February gets 29: the 29th is a real
+ * birthday, and `birthdayInYear` decides what to do in the years it is missing.
+ * @param {number} month 1-12
+ */
+export function daysInBirthdayMonth(month) {
+  if (month === 2) return 29
+  return month === 4 || month === 6 || month === 9 || month === 11 ? 30 : 31
 }
 
-/**
- * A date input needs a real year to show anything, so pair the stored month and
- * day with a year that actually has that day in it.
- * @param {string} monthDay
- * @param {number} nearYear
- */
-export function toInputDate(monthDay, nearYear) {
-  if (!isMonthDay(monthDay)) return ''
-  if (monthDay === '02-29') {
-    // Walk back to a leap year so the 29th is selectable at all.
-    let y = nearYear
-    while (!isLeapYear(y)) y -= 1
-    return format(y, 2, 29)
-  }
-  return `${nearYear}-${monthDay}`
+/** Compose the stored `MM-DD` from a month and a day, clamped to a real date. */
+export function toMonthDay(month, day) {
+  const m = Math.min(12, Math.max(1, Math.floor(month) || 1))
+  const d = Math.min(daysInBirthdayMonth(m), Math.max(1, Math.floor(day) || 1))
+  return `${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`
+}
+
+/** Pull the month and the day back out, for the two pickers. */
+export function partsOf(monthDay) {
+  if (!isMonthDay(monthDay)) return { month: null, day: null }
+  return { month: Number(monthDay.slice(0, 2)), day: Number(monthDay.slice(3, 5)) }
 }

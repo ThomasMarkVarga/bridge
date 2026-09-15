@@ -10,8 +10,8 @@ import { useId } from 'react'
 import Icon from './Icon.jsx'
 import { COUNTRIES } from '../data/loadHolidays.js'
 import { OBJECTIVE_LABELS, OBJECTIVES } from '../solver/objectives.js'
-import { WEEKDAYS_SHORT } from '../format.js'
-import { toMonthDay, toInputDate, isMonthDay } from '../solver/birthday.js'
+import { WEEKDAYS_SHORT, MONTHS } from '../format.js'
+import { toMonthDay, partsOf, daysInBirthdayMonth, isMonthDay } from '../solver/birthday.js'
 
 /**
  * @param {object} props
@@ -146,7 +146,8 @@ export default function Controls({ state, onChange, countryData, years, optionsO
 function MoreOptions({ state, onChange, countryData }) {
   const workId = useId()
   const objId = useId()
-  const birthdayId = useId()
+  const birthdayMonthId = useId()
+  const birthdayDayId = useId()
   const minLenId = useId()
   const maxBreaksId = useId()
   const startId = useId()
@@ -314,35 +315,7 @@ function MoreOptions({ state, onChange, countryData }) {
           hint="It becomes a free day like a public holiday, so the plan can build a break around it."
         />
 
-        {state.birthdayOff && (
-          <div className="mt-3">
-            <label className="label" htmlFor={birthdayId}>
-              Which day is it?
-            </label>
-            <input
-              id={birthdayId}
-              type="date"
-              className="field tabular"
-              value={toInputDate(state.birthday, state.year) || ''}
-              onChange={(e) => {
-                const v = e.target.value
-                onChange({ birthday: v ? toMonthDay(v) : null })
-              }}
-            />
-            <p className="hint mt-1">
-              Only the day and month are kept, never the year, so a link you share cannot say how old you are.
-            </p>
-            {state.birthday === '02-29' && (
-              <p className="hint mt-1">
-                The 29th of February only exists every fourth year. Bridge uses the 28th in the others, which may not
-                be what your employer does.
-              </p>
-            )}
-            {!isMonthDay(state.birthday) && (
-              <p className="hint mt-1">Pick a date and it will be counted as a day off every year.</p>
-            )}
-          </div>
-        )}
+        {state.birthdayOff && <BirthdayPicker state={state} onChange={onChange} monthId={birthdayMonthId} dayId={birthdayDayId} />}
       </fieldset>
 
       <Switch
@@ -358,6 +331,83 @@ function MoreOptions({ state, onChange, countryData }) {
         label="Count observances as days off too"
         hint="Days like Mother's Day that are marked but are not usually a day off work."
       />
+    </div>
+  )
+}
+
+/**
+ * A month and a day, and nothing else.
+ *
+ * A date field would demand a year, and a birthday does not have one that is
+ * anybody's business. Two lists also beat a date picker on a phone, where the
+ * native one opens on the current year and makes you scroll decades back.
+ */
+function BirthdayPicker({ state, onChange, monthId, dayId }) {
+  const { month, day } = partsOf(state.birthday)
+  const selectedMonth = month || 1
+  const maxDay = daysInBirthdayMonth(selectedMonth)
+
+  const setMonth = (m) => onChange({ birthday: toMonthDay(m, day || 1) })
+  const setDay = (d) => onChange({ birthday: toMonthDay(selectedMonth, d) })
+
+  return (
+    <div className="mt-3">
+      <p className="label">Which day is it?</p>
+      <div className="grid grid-cols-[1.4fr_0.8fr] gap-2">
+        <div>
+          <label className="sr-only" htmlFor={monthId}>
+            Month of your birthday
+          </label>
+          <select
+            id={monthId}
+            className="field"
+            value={month || ''}
+            onChange={(e) => setMonth(Number(e.target.value))}
+          >
+            <option value="" disabled>
+              Month
+            </option>
+            {MONTHS.map((name, i) => (
+              <option key={name} value={i + 1}>
+                {name}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label className="sr-only" htmlFor={dayId}>
+            Day of your birthday
+          </label>
+          <select
+            id={dayId}
+            className="field tabular"
+            value={day || ''}
+            onChange={(e) => setDay(Number(e.target.value))}
+          >
+            <option value="" disabled>
+              Day
+            </option>
+            {Array.from({ length: maxDay }, (_, i) => i + 1).map((d) => (
+              <option key={d} value={d}>
+                {d}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      {!isMonthDay(state.birthday) ? (
+        <p className="hint mt-1">Pick a month and a day. It counts as a day off every year.</p>
+      ) : (
+        <p className="hint mt-1">No year is asked for or stored, so a link you share cannot say how old you are.</p>
+      )}
+
+      {state.birthday === '02-29' && (
+        <p className="hint mt-1">
+          The 29th only comes round every fourth year. Bridge uses the 28th in the others, which may not be what your
+          employer does.
+        </p>
+      )}
     </div>
   )
 }
