@@ -1,7 +1,7 @@
 /**
  * Calendar-day arithmetic. No timezones, no instants, no `Date`.
  *
- * Bridge only ever deals in calendar days: "the 4th of June" means the same thing
+ * BridgeDays only ever deals in calendar days: "the 4th of June" means the same thing
  * to everyone who reads the plan, wherever they are. So every date here is an ISO
  * `YYYY-MM-DD` string, and all arithmetic goes through a day number: the count of
  * days since 1970-01-01, which is exact for every Gregorian date.
@@ -11,7 +11,7 @@
  *
  * This module is a drop-in for the slice of `Temporal.PlainDate` the solver needs.
  * `plainDate.test.js` checks every function against `@js-temporal/polyfill` across
- * a multi-year span, so the two are provably identical over the range Bridge uses.
+ * a multi-year span, so the two are provably identical over the range BridgeDays uses.
  * The polyfill costs 46KB gzipped; this file costs about 0.4KB. If Temporal is ever
  * wanted at runtime instead, it is this one file that changes.
  *

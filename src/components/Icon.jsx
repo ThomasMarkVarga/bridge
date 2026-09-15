@@ -2,7 +2,7 @@
  * Icons, inlined.
  *
  * One family, one stroke weight, one corner treatment, drawn on a 24 unit grid.
- * They are inlined rather than installed because the whole set Bridge uses is
+ * They are inlined rather than installed because the whole set BridgeDays uses is
  * under two kilobytes, and a page that must make no network requests should not
  * pull in an icon package to draw eleven shapes.
  *

@@ -1,5 +1,5 @@
 /**
- * Bridge.
+ * BridgeDays.
  *
  * Everything happens here and nowhere else: read the plan out of the address bar,
  * load the country's dates, work out the answer, draw it. There is no server in
@@ -32,6 +32,7 @@ import ShareRow from './components/ShareRow.jsx'
 import Verification from './components/Verification.jsx'
 import Icon from './components/Icon.jsx'
 import Marquee from './components/Marquee.jsx'
+import Showcase from './components/Showcase.jsx'
 
 export default function App() {
   const [state, setState] = useState(() => {
@@ -185,7 +186,7 @@ export default function App() {
 
   // A tab title and a bookmark that actually say something.
   useEffect(() => {
-    const base = 'Bridge'
+    const base = 'BridgeDays'
     if (plan && plan.feasible && plan.leaveSpent > 0) {
       document.title = `${plan.leaveSpent} days become ${plan.totalDaysOff} days off · ${periodLabel} · ${base}`
     } else {
@@ -230,11 +231,11 @@ export default function App() {
         Skip to the answer
       </a>
 
-      <div className="mx-auto w-full max-w-5xl px-4 pb-16 pt-4 sm:px-6">
+      <div className="mx-auto w-full max-w-5xl px-4 pb-16 pt-4 sm:px-6 xl:max-w-[78rem]">
         <header className="mb-4 flex items-start justify-between gap-3">
           <div>
             <h1 className="text-3xl sm:text-5xl">
-              Bridge<span style={{ color: 'var(--stamp)' }}>.</span>
+              BridgeDays<span style={{ color: 'var(--stamp)' }}>.</span>
             </h1>
             <p className="mt-2 text-base font-extrabold sm:text-lg">
               Take <span className="hl hl-lime tabular">12</span> days off. Get{' '}
@@ -248,6 +249,7 @@ export default function App() {
           <Marquee />
         </div>
 
+        <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_20rem] xl:items-start xl:gap-6">
         <main className="grid gap-5">
           <Controls
             state={state}
@@ -372,6 +374,11 @@ export default function App() {
           />
         </main>
 
+          <aside className="showcase-slot" aria-label="Our other apps">
+            <Showcase />
+          </aside>
+        </div>
+
         <Footer />
       </div>
     </>
@@ -450,7 +457,7 @@ function Footer() {
   return (
     <footer className="mt-10 border-t-[3px] pt-5 text-sm" style={{ borderColor: 'var(--border)' }}>
       <p className="hint">
-        Bridge is free and open source under the MIT licence. Holiday dates come from the{' '}
+        BridgeDays is free and open source under the MIT licence. Holiday dates come from the{' '}
         <a
           className="underline"
           href="https://github.com/commenthol/date-holidays"

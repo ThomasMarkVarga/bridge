@@ -3,7 +3,7 @@
  * reason: this app deals in calendar days, so nothing may ever touch a timezone or
  * an instant.
  *
- * Bridge keeps that guarantee but does not ship the polyfill, which costs 46KB
+ * BridgeDays keeps that guarantee but does not ship the polyfill, which costs 46KB
  * gzipped, roughly what React itself costs, to provide day arithmetic. Instead
  * `plainDate.js` does the same job in about 0.4KB, and this file holds it to
  * account: every function is checked against `@js-temporal/polyfill` across a

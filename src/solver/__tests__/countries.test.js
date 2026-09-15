@@ -106,7 +106,7 @@ describe('the United Kingdom', () => {
   })
 
   it('keeps the late-August bank holiday that the country-level data leaves out', () => {
-    // This is the bug that made Bridge use a nation rather than a UK-wide list.
+    // This is the bug that made BridgeDays use a nation rather than a UK-wide list.
     expect(datesFor(gb, 2026, 'ENG')).toContain('2026-08-31')
     expect(datesFor(gb, 2026, 'WLS')).toContain('2026-08-31')
     expect(datesFor(gb, 2026, 'NIR')).toContain('2026-08-31')

@@ -61,7 +61,7 @@ export default function Headline({ plan, periodLabel, countryLabel, busy }) {
           {birthdayOff ? ', and your birthday' : ''}.
         </p>
         <p className="hint mt-3">
-          Put your leave allowance in the box above and Bridge will work out which days to book.
+          Put your leave allowance in the box above and BridgeDays will work out which days to book.
         </p>
       </div>
     )

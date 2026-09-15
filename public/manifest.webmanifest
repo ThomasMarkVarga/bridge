@@ -1,6 +1,6 @@
 {
-  "name": "Bridge — work out which days to book",
-  "short_name": "Bridge",
+  "name": "BridgeDays — work out which days to book",
+  "short_name": "BridgeDays",
   "description": "Turn your annual leave into the longest possible stretches off, without a server or an account.",
   "start_url": "/",
   "scope": "/",

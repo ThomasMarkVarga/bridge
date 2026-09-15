@@ -2,7 +2,7 @@
  * Other plans worth looking at.
  *
  * The best plan is one answer, not the only reasonable one. Someone might not want
- * the week the solver picked, so Bridge offers a few genuinely different shapes.
+ * the week the solver picked, so BridgeDays offers a few genuinely different shapes.
  *
  * "Different" has to mean different breaks, not the same break shifted by a day.
  * Each alternative is produced by refusing one of the breaks the previous plan

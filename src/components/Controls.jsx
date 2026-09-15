@@ -404,7 +404,7 @@ function BirthdayPicker({ state, onChange, monthId, dayId }) {
 
       {state.birthday === '02-29' && (
         <p className="hint mt-1">
-          The 29th only comes round every fourth year. Bridge uses the 28th in the others, which may not be what your
+          The 29th only comes round every fourth year. BridgeDays uses the 28th in the others, which may not be what your
           employer does.
         </p>
       )}

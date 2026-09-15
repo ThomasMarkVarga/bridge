@@ -83,7 +83,7 @@ function calendar(events, { name = 'Time off' } = {}) {
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Bridge//Leave planner//EN',
+    'PRODID:-//BridgeDays//Leave planner//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     `X-WR-CALNAME:${escapeText(name)}`
@@ -117,7 +117,7 @@ function describeBreak(brk) {
     'Days to request:',
     ...brk.leaveDates.map((d) => `  ${d}`),
     '',
-    'Planned with Bridge. Check the dates against your own calendar before booking.'
+    'Planned with BridgeDays. Check the dates against your own calendar before booking.'
   ]
   return parts.filter((p) => p !== null).join('\n')
 }
@@ -151,7 +151,7 @@ export function leaveDaysToIcs(leaveDates, { name = 'Leave days' } = {}) {
     start: d,
     end: d,
     summary: 'Annual leave',
-    description: 'One day of annual leave. Planned with Bridge.'
+    description: 'One day of annual leave. Planned with BridgeDays.'
   }))
   return calendar(events, { name })
 }

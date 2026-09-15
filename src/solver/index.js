@@ -1,5 +1,5 @@
 /**
- * Bridge's solver. Pure JavaScript, no DOM, no React, no network.
+ * BridgeDays's solver. Pure JavaScript, no DOM, no React, no network.
  *
  * Typical use:
  *

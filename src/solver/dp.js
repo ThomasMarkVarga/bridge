@@ -2,7 +2,7 @@
  * The exact solver.
  *
  * This is dynamic programming over candidate windows, not a heuristic and not a
- * greedy pass. For the sizes Bridge deals with (a year of days, a few dozen days
+ * greedy pass. For the sizes BridgeDays deals with (a year of days, a few dozen days
  * of leave) the problem is small enough to solve properly, and the whole point of
  * the app is that the answer it gives is the best one available.
  *

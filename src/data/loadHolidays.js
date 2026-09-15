@@ -8,7 +8,7 @@
  */
 import index from './holidays/index.json'
 
-/** Every country Bridge has checked data for. */
+/** Every country BridgeDays has checked data for. */
 export const COUNTRIES = index.countries
 export const DATA_YEARS = index.years
 export const DATA_SOURCE = index.source

@@ -51,7 +51,7 @@ const COUNTRIES = [
     defaultSubdivision: 'ENG',
     nationalFrom: 'ENG',
     notes: [
-      'The country-level list in date-holidays leaves out the late-August bank holiday that England, Wales and Northern Ireland all observe, so Bridge always uses a nation here rather than a UK-wide list.',
+      'The country-level list in date-holidays leaves out the late-August bank holiday that England, Wales and Northern Ireland all observe, so BridgeDays always uses a nation here rather than a UK-wide list.',
       'Scotland and Northern Ireland have genuinely different bank holidays. Pick your nation.'
     ]
   },

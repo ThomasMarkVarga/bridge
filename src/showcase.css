@@ -1,0 +1,194 @@
+/* Rotating ad unit, built by js/showcase.js into the page's .showcase-slot element.
+   Small screens: an anchor bar fixed to the bottom edge, with a close button.
+   Wide screens (75rem and up): a half-page unit, sticky in the page's right rail.
+   Each ad paints itself from its brand theme (--sc-* set from makers.js), so it reads the same on any page theme. */
+
+.showcase {
+  position: fixed;
+  z-index: 40;
+  inset: auto .75rem calc(.75rem + env(safe-area-inset-bottom)) .75rem;
+  max-width: 34rem;
+  margin-inline: auto;
+}
+.showcase.is-dismissed { display: none; }
+@media (max-width: 74.99rem) {
+  body.has-showcase-bar { padding-bottom: calc(6.5rem + env(safe-area-inset-bottom)); }
+  .showcase .sc-motif { display: none; } /* beats the later .sc-motif-data/.sc-motif-redact display rules */
+}
+
+.showcase-close {
+  position: absolute; z-index: 2; top: -.7rem; right: -.35rem;
+  display: grid; place-items: center; width: 1.9rem; height: 1.9rem; padding: 0;
+  border: 0; border-radius: 50%; cursor: pointer; touch-action: manipulation;
+  font: 700 1.15rem/1 system-ui, sans-serif; color: #1b2230; background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+}
+.showcase-close::before { content: ""; position: absolute; inset: -.4rem; } /* 44px touch target around the 30px button */
+.showcase-close:hover { background: #eef1f6; }
+.showcase-close:focus-visible, .showcase-seg:focus-visible { outline: 3px solid #4d90fe; outline-offset: 2px; }
+
+.showcase-stage {
+  display: grid;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(10, 14, 24, .3), 0 2px 8px rgba(10, 14, 24, .2);
+  isolation: isolate;
+}
+.sc-slide {
+  grid-area: 1 / 1;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas: "brand head cta";
+  align-items: center;
+  gap: .75rem;
+  padding: .8rem .9rem 1.05rem;
+  color: var(--sc-fg);
+  background: var(--sc-bg);
+  text-decoration: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(.4rem);
+  transition: opacity .22s ease-in, transform .22s ease-in, visibility 0s linear .22s;
+}
+.sc-slide.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity .42s cubic-bezier(.2, .8, .2, 1), transform .42s cubic-bezier(.2, .8, .2, 1);
+}
+.sc-slide:focus-visible { outline: 3px solid var(--sc-accent); outline-offset: -3px; }
+.sc-motif, .sc-name, .sc-line { display: none; }
+.sc-brand { grid-area: brand; display: flex; align-items: center; gap: .6rem; }
+.sc-logo { display: block; width: 2.5rem; height: 2.5rem; border-radius: 10px; }
+.sc-headline {
+  grid-area: head;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  font-size: .9375rem; font-weight: 700; line-height: 1.3;
+}
+.sc-cta {
+  grid-area: cta;
+  display: inline-flex; align-items: center; justify-content: center; gap: .4rem;
+  min-height: 2.25rem; padding: .45rem .85rem; border-radius: 999px;
+  font-size: .8125rem; font-weight: 700; white-space: nowrap;
+  color: var(--sc-cta-ink); background: var(--sc-cta-bg);
+}
+.sc-arrow { transition: transform .2s ease-out; }
+.sc-slide:hover .sc-arrow, .sc-slide:focus-visible .sc-arrow { transform: translateX(.2rem); }
+@media (max-width: 26rem) {
+  .sc-cta { width: 2.25rem; padding: 0; }
+  .sc-cta-text { display: none; }
+}
+
+/* Timing. The anchor bar shows a thin timer line with no controls: tap targets on top of the ad link would overlap it.
+   The half-page unit shows a clickable segment per ad. Whichever is visible fills over the interval, then the next ad shows
+   (display: none elements run no animation, so only the visible one fires animationend). */
+.showcase-progress { display: none; }
+.showcase-timer { position: absolute; z-index: 1; left: 1rem; right: 1rem; bottom: .4rem; height: 3px; overflow: hidden; border-radius: 2px; background: rgba(255, 255, 255, .3); pointer-events: none; }
+.showcase-timer i, .showcase-seg i { position: absolute; inset: 0; border-radius: inherit; background: rgba(255, 255, 255, .92); transform: scaleX(0); transform-origin: left; }
+.showcase-timer.is-running i, .showcase-seg.is-active i { animation: sc-progress var(--sc-interval, 7s) linear forwards; }
+.showcase.is-paused :is(.showcase-timer.is-running, .showcase-seg.is-active) i,
+.showcase.is-hidden-tab :is(.showcase-timer.is-running, .showcase-seg.is-active) i { animation-play-state: paused; }
+/* Logo tabs under the half-page unit: all three products stay visible, and the active tab carries the timer bar. */
+.showcase-seg {
+  position: relative; flex: 1; display: grid; justify-items: center; align-content: start; gap: .3rem;
+  min-width: 0; min-height: 3.75rem; padding: .5rem .25rem .8rem; cursor: pointer;
+  font-family: inherit; font-size: .75rem; font-weight: 650; line-height: 1.2; color: inherit;
+  background: none; border: 1px solid transparent; border-radius: 10px; opacity: .7;
+  transition: opacity .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
+}
+.showcase-seg:hover { opacity: 1; }
+.showcase-seg.is-active { opacity: 1; background: color-mix(in srgb, currentColor 6%, transparent); border-color: color-mix(in srgb, currentColor 16%, transparent); }
+.showcase-seg img { display: block; width: 1.75rem; height: 1.75rem; border-radius: 7px; }
+.showcase-seg-name { max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.showcase-seg i { inset: auto .6rem .35rem; height: 3px; background: currentColor; opacity: .75; }
+@keyframes sc-progress { to { transform: scaleX(1); } }
+
+@media (min-width: 75rem) {
+  .showcase-slot { position: sticky; top: 1.5rem; align-self: start; }
+  .showcase { position: relative; inset: auto; max-width: none; margin: 0; }
+  .showcase.is-dismissed { display: block; }
+  .showcase-close { display: none; }
+  .sc-slide {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "motif" "brand" "head" "line" "cta";
+    align-items: start;
+    align-content: start;
+    gap: .8rem;
+    padding: 1.1rem;
+  }
+  .sc-motif { display: block; grid-area: motif; }
+  .sc-name { display: inline; font-size: .9375rem; font-weight: 700; }
+  .sc-logo { width: 2rem; height: 2rem; border-radius: 8px; }
+  .sc-headline { display: block; font-size: 1.375rem; line-height: 1.2; letter-spacing: -.01em; text-wrap: balance; }
+  .sc-line { display: block; grid-area: line; font-size: .875rem; line-height: 1.5; color: var(--sc-muted); }
+  .sc-cta { justify-self: stretch; min-height: 2.75rem; margin-top: .2rem; font-size: .9375rem; }
+  .showcase-progress { display: flex; gap: .3rem; margin-top: .75rem; }
+  .showcase-timer { display: none; }
+}
+
+/* Motifs, only shown in the half-page unit */
+.sc-motif { position: relative; height: 10.5rem; overflow: hidden; border-radius: 12px; background: var(--sc-panel); }
+
+.sc-motif-data { display: grid; align-content: center; gap: .7rem; padding: 0 1.1rem; font: 500 .8125rem/1 "JetBrains Mono", ui-monospace, Consolas, monospace; }
+.sc-row { display: flex; align-items: center; gap: .6rem; }
+.sc-key { flex: 0 0 5.4rem; color: var(--sc-accent); }
+.sc-val { flex: 1; height: .55rem; border-radius: 4px; background: linear-gradient(90deg, var(--sc-accent), var(--sc-accent-2)); transform: scaleX(.06); transform-origin: left; opacity: .4; }
+.sc-slide.is-active .sc-val { animation: sc-fill .7s cubic-bezier(.2, .8, .2, 1) calc(.5s + var(--i) * .2s) forwards; }
+@keyframes sc-fill { to { transform: scaleX(var(--w)); opacity: 1; } }
+.sc-beam { position: absolute; left: 0; right: 0; top: -3rem; height: 3rem; background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--sc-accent) 30%, transparent), transparent); }
+.sc-slide.is-active .sc-beam { animation: sc-beam 1.4s ease-in-out .15s 2; }
+@keyframes sc-beam { to { transform: translateY(13.5rem); } }
+
+/* Penholder: a phone showing the team's list in Penholder's own colours. The phone runs past the bottom of the panel.
+   Slots come from showcase.js (--y start, --dy move): the pen holder drags the last card above the line, the rest shift down. */
+.sc-motif-order { display: grid; justify-items: center; padding-top: .7rem; }
+.sc-phone { width: 11.75rem; height: 12rem; padding: .35rem .35rem 0; border-radius: 1.7rem 1.7rem 0 0; background: #0e1017; box-shadow: 0 10px 24px rgba(15, 12, 50, .35); }
+.sc-screen { position: relative; height: 100%; padding: .8rem .6rem 0; border-radius: 1.4rem 1.4rem 0 0; background: #fbfbfd; color: #0e1017; font-size: .625rem; line-height: 1; }
+.sc-screen::before { content: ""; position: absolute; top: .3rem; left: 50%; width: 2.4rem; height: .3rem; margin-left: -1.2rem; border-radius: .2rem; background: #0e1017; }
+.sc-app-bar { display: flex; align-items: center; justify-content: space-between; height: 1.2rem; margin-bottom: .45rem; font-size: .6875rem; font-weight: 750; }
+.sc-pen { position: relative; width: 1rem; height: 1rem; border-radius: .3rem; background: linear-gradient(135deg, #4f46e5, #7c3aed); }
+.sc-pen::after { content: ""; position: absolute; left: .45rem; top: .2rem; width: .12rem; height: .6rem; border-radius: .1rem; background: #fff; transform: rotate(35deg); }
+.sc-list { position: relative; height: 7.3rem; }
+.sc-rank { position: absolute; left: 0; top: var(--y); display: grid; place-items: center; width: .8rem; height: 1.35rem; font-weight: 700; color: #5f677a; font-variant-numeric: tabular-nums; }
+.sc-divider { position: absolute; left: 0; right: 0; top: var(--y); display: flex; align-items: center; gap: .3rem; height: .6rem; font-size: .5rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: #4f46e5; white-space: nowrap; }
+.sc-divider::after { content: ""; flex: 1; height: 1.5px; border-radius: 1px; background: #4f46e5; }
+.sc-card { position: absolute; left: 1.05rem; right: 0; top: var(--y); display: flex; align-items: center; height: 1.35rem; padding: 0 .45rem; font-weight: 600; white-space: nowrap; background: #fff; border: 1px solid #e5e7ef; border-radius: .4rem; }
+.sc-card.is-rising { z-index: 1; }
+.sc-finger { position: absolute; right: .35rem; top: 50%; width: 1rem; height: 1rem; margin-top: -.5rem; border-radius: 50%; background: rgba(79, 70, 229, .22); box-shadow: 0 0 0 2px rgba(79, 70, 229, .55); opacity: 0; }
+.sc-slide.is-active .sc-card { animation: sc-shift .6s cubic-bezier(.3, .7, .2, 1) 1.15s forwards; }
+.sc-slide.is-active .sc-card.is-rising { animation: sc-drag 1.4s cubic-bezier(.45, 0, .2, 1) .75s forwards; }
+.sc-slide.is-active .sc-finger { animation: sc-finger 1.9s ease-out .45s forwards; }
+@keyframes sc-shift { to { transform: translateY(var(--dy)); } }
+@keyframes sc-drag {
+  18% { transform: scale(1.06); border-color: #4f46e5; box-shadow: 0 6px 14px rgba(15, 12, 50, .22); }
+  82% { transform: translateY(var(--dy)) scale(1.06); border-color: #4f46e5; box-shadow: 0 6px 14px rgba(15, 12, 50, .22); }
+  100% { transform: translateY(var(--dy)); color: #3730a3; background: #eef0ff; border-color: #4f46e5; box-shadow: none; }
+}
+@keyframes sc-finger { 0% { opacity: 0; transform: scale(.6); } 15%, 80% { opacity: 1; transform: none; } 100% { opacity: 0; transform: scale(1.25); } }
+
+/* Censory: a document with made-up personal data. A gold box marks each value as found, then a bar blacks it out. */
+.sc-motif-redact { display: grid; align-content: center; gap: .3rem; padding: 0 .9rem; font-size: .6875rem; line-height: 1.5; color: #1f2430; }
+.sc-doc-title { display: flex; justify-content: space-between; margin-bottom: .15rem; padding-bottom: .3rem; border-bottom: 1px solid #d8cfbb; font-size: .625rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: #111a26; }
+.sc-doc-title span { font-weight: 600; letter-spacing: 0; text-transform: none; color: #6b6457; }
+.sc-doc-row { display: flex; gap: .5rem; white-space: nowrap; }
+.sc-doc-label { flex: 0 0 3.1rem; color: #6b6457; }
+.sc-pii { position: relative; font-weight: 600; }
+.sc-pii::before, .sc-pii::after { content: ""; position: absolute; inset: -.08rem -.2rem; border-radius: 3px; }
+.sc-pii::before { background: rgba(201, 162, 74, .18); box-shadow: 0 0 0 1.5px #c9a24a; opacity: 0; }
+.sc-pii::after { background: #111a26; transform: scaleX(0); transform-origin: left; }
+.sc-slide.is-active .sc-pii::before { animation: sc-detect .55s ease-out calc(.5s + var(--i) * .42s) forwards; }
+.sc-slide.is-active .sc-pii::after { animation: sc-close .35s cubic-bezier(.2, .8, .2, 1) calc(.8s + var(--i) * .42s) forwards; }
+@keyframes sc-detect { 35% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes sc-close { to { transform: scaleX(1); } }
+
+@media (prefers-reduced-motion: reduce) {
+  /* No autoplay and no scenes: the progress never runs, so the ad only changes when a segment is clicked. */
+  .sc-slide, .sc-slide.is-active, .sc-arrow { transition: none; }
+  .showcase *, .showcase *::before, .showcase *::after { animation: none !important; }
+  .showcase-seg.is-active i { transform: scaleX(1); }
+  .showcase-timer { display: none; }
+  .sc-val { transform: scaleX(var(--w)); opacity: 1; }
+  .sc-card { transform: translateY(var(--dy)); }
+  .sc-card.is-rising { color: #3730a3; background: #eef0ff; border-color: #4f46e5; }
+  .sc-pii::after { transform: scaleX(1); }
+}

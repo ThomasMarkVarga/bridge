@@ -1,8 +1,8 @@
-# Bridge
+# BridgeDays
 
 **Take 12 days off. Get 28.**
 
-Pick your country and how many days of annual leave you have. Bridge works out which
+Pick your country and how many days of annual leave you have. BridgeDays works out which
 specific days to book so your leave joins up with weekends and public holidays into
 the longest possible stretches of continuous time off. It shows the year as a
 calendar, lists the exact dates to request, and exports them to your calendar.
@@ -11,7 +11,7 @@ Romania, 21 days, 2026: **21 leave days become 54 days off, across 6 breaks.** F
 days booked in early June buys nine days off, because Whit Monday and Children's Day
 both land on the 1st. Six days in December buys eleven.
 
-![Bridge showing a year calendar with six breaks marked](public/og.png)
+![BridgeDays showing a year calendar with six breaks marked](public/og.png)
 
 ## Why it works this way
 
@@ -120,7 +120,7 @@ genuinely differ. Each country's file is loaded on demand and is under 4KB gzipp
   around some holidays by decision, sometimes only weeks ahead. Those cannot be
   predicted and are not in here.
 - **The library's UK-wide list is wrong.** It omits the late-August bank holiday that
-  England, Wales and Northern Ireland all observe. Bridge therefore always uses a
+  England, Wales and Northern Ireland all observe. BridgeDays therefore always uses a
   nation rather than a UK-wide list, with England preselected.
 - **German Christmas Eve and New Year's Eve** are marked as bank holidays but are not
   statutory public holidays in any Bundesland. Some employers give them, some give a

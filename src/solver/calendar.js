@@ -168,7 +168,7 @@ export function buildCalendar({
 /**
  * Public holidays that fall on a day the user was not going to work anyway.
  *
- * Some employers hand one of these back as an extra day of leave. Bridge does not
+ * Some employers hand one of these back as an extra day of leave. BridgeDays does not
  * assume that: it is a switch the user turns on, because it depends entirely on
  * their contract.
  *

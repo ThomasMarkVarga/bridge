@@ -182,7 +182,7 @@ function buildSvg({ plan, calendar, countryName, year }) {
     )
   }
 
-  p.push(text(L, 578, 21, INK, 'Bridge', 'Archivo Black'))
+  p.push(text(L, 578, 21, INK, 'BridgeDays', 'Archivo Black'))
   p.push(text(L + 102, 578, 17, MUTED, 'Work out which days to book. Nothing leaves your device.', 'Public Sans', 600))
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">${p.join('')}</svg>`

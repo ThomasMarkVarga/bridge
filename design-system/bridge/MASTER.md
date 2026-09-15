@@ -6,7 +6,7 @@
 
 ---
 
-**Project:** Bridge
+**Project:** BridgeDays
 **Generated:** 2026-09-15 01:16:06
 **Category:** Productivity Tool
 **Design Dials:** Variance 4/10 (Balanced / Modern) | Motion 2/10 (Subtle) | Density 6/10 (Standard)

@@ -36,7 +36,7 @@ export function isMonthDay(monthDay) {
  *
  * Someone born on the 29th of February has no birthday at all in three years out
  * of four. Employers land on different answers for that and there is no standard
- * one, so Bridge takes the 28th, which keeps the day in the month it belongs to,
+ * one, so BridgeDays takes the 28th, which keeps the day in the month it belongs to,
  * and says so plainly in the interface rather than deciding quietly.
  *
  * @param {string} monthDay `MM-DD`

@@ -171,7 +171,7 @@ export function drawShareCard({ plan, calendar, countryLabel, periodLabel, theme
     )
   }
 
-  write('Bridge', L, 578, display(21), t.ink)
+  write('BridgeDays', L, 578, display(21), t.ink)
   write('Work out which days to book. Nothing leaves your device.', L + 102, 578, body(17), t.muted)
 
   return c
@@ -338,7 +338,7 @@ export function shareText({ plan, countryLabel, periodLabel }) {
       `The best one: ${formatSpan(longest.start, longest.end)}, ${longest.length} days off for ${longest.cost} booked.`
     )
   }
-  lines.push(`Worked out with Bridge for ${countryLabel}.`)
+  lines.push(`Worked out with BridgeDays for ${countryLabel}.`)
   return lines.join('\n')
 }
 

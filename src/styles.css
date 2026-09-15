@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 /*
- * Bridge's visual layer.
+ * BridgeDays's visual layer.
  *
  * The whole interface is built on one idea: a bridge. Your leave days are the
  * piers and the weekends and holidays they connect are the deck. That is what the
@@ -466,7 +466,7 @@
 
   /*
    * A tag, not a round badge: one corner is square so it reads as a luggage
-   * label, which is a shape of Bridge's own rather than a borrowed one.
+   * label, which is a shape of BridgeDays's own rather than a borrowed one.
    */
   .pill {
     display: inline-flex;
