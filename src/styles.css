@@ -313,6 +313,19 @@
     bottom: 26px;
   }
 
+  /*
+   * The same stock as a card, minus the punched holes. Those two holes say "tear
+   * this off and carry it", which is true of a card and nonsense on a popover,
+   * where they just look like something has gone wrong.
+   */
+  .panel {
+    background: var(--card);
+    color: var(--card-foreground);
+    border: var(--b-thick) solid var(--line);
+    border-radius: var(--r);
+    box-shadow: 4px 4px 0 0 var(--shadow-ink);
+  }
+
   /* A perforated tear line, for the row of actions at the foot of a ticket. */
   .perf {
     position: relative;

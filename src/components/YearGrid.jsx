@@ -507,8 +507,16 @@ function DayCell({
   return (
     <div
       role="gridcell"
-      className="relative z-10 min-w-0"
-      style={{ gridColumn: column + 1, gridRow: row, opacity: outsideMonth ? 0.42 : 1 }}
+      className="relative min-w-0"
+      style={{
+        gridColumn: column + 1,
+        gridRow: row,
+        opacity: outsideMonth ? 0.42 : 1,
+        // Later rows are separate stacking contexts at the same depth, so an open
+        // menu has to out-rank them here rather than from inside the cell, or the
+        // next week paints straight over it.
+        zIndex: menuOpen ? 60 : 10
+      }}
     >
       <button
         type="button"
@@ -556,7 +564,9 @@ function DayCell({
         )}
       </button>
 
-      {menuOpen && <DayMenu day={day} onPin={onPin} onBlackout={onBlackout} onClose={onToggleMenu} />}
+      {menuOpen && (
+        <DayMenu day={day} column={column} onPin={onPin} onBlackout={onBlackout} onClose={onToggleMenu} />
+      )}
     </div>
   )
 }
@@ -599,7 +609,7 @@ function Marker({ kind }) {
 }
 
 /** A small menu for fixing or refusing a day. */
-function DayMenu({ day, onPin, onBlackout, onClose }) {
+function DayMenu({ day, column, onPin, onBlackout, onClose }) {
   const ref = useRef(null)
 
   useEffect(() => {
@@ -613,16 +623,20 @@ function DayMenu({ day, onPin, onBlackout, onClose }) {
 
   const pretty = `${Number(day.date.slice(8))} ${MONTHS_SHORT[Number(day.date.slice(5, 7)) - 1]}`
 
+  // Centred in the middle of the week, tucked in at either edge, so the menu
+  // never hangs off the side of a phone.
+  const align = column <= 1 ? 'left-0' : column >= 5 ? 'right-0' : 'left-1/2 -translate-x-1/2'
+
   return (
     <div
       ref={ref}
       role="menu"
       aria-label={`Options for ${pretty}`}
-      className="card absolute left-1/2 top-full z-50 mt-1 w-52 -translate-x-1/2 p-1 text-left text-sm"
+      className={`panel absolute top-full mt-1 w-60 max-w-[80vw] p-1 text-left text-sm ${align}`}
     >
       <p className="px-2 py-1.5 text-xs font-extrabold text-[var(--muted-foreground)]">{pretty}</p>
       {day.isFree && !day.pinned ? (
-        <p className="px-2 pb-2 text-xs text-[var(--muted-foreground)]">
+        <p className="px-2 pb-2 text-xs leading-snug text-[var(--muted-foreground)]" style={{ overflowWrap: 'anywhere' }}>
           {day.holidayName ? `${day.holidayName}. ` : ''}You already have this day off.
         </p>
       ) : (
