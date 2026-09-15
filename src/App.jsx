@@ -18,6 +18,7 @@ import {
   isRemembering
 } from './state/urlState.js'
 import { loadCountry, countryInfo, subdivisionName, holidaysForRange, yearsAvailable, DATA_YEARS } from './data/loadHolidays.js'
+import { birthdayHolidays } from './solver/birthday.js'
 import { periodLabel as makePeriodLabel, plural } from './format.js'
 
 import Controls from './components/Controls.jsx'
@@ -103,18 +104,36 @@ export default function App() {
     const applicable = selectHolidays(holidays, state.subdivision, {
       types: state.includeObservances ? ['public', 'bank', 'observance'] : ['public', 'bank']
     })
+
+    // A birthday your employer gives you is a free day exactly like a public
+    // holiday, so the solver can bridge from it the same way. It is added here
+    // rather than in the data files because it is yours, not the country's.
+    const personal =
+      state.birthdayOff && state.birthday ? birthdayHolidays(range, state.birthday) : []
+
     return {
       calendar: buildCalendar({
         range,
         workPattern: state.workPattern,
-        holidays: applicable,
+        holidays: [...applicable, ...personal],
         blackouts: state.blackouts,
         pinned: state.pinned,
         booked: state.booked
       }),
       missingYears: missing
     }
-  }, [countryData, range, state.subdivision, state.includeObservances, state.workPattern, state.blackouts, state.pinned, state.booked])
+  }, [
+    countryData,
+    range,
+    state.subdivision,
+    state.includeObservances,
+    state.workPattern,
+    state.blackouts,
+    state.pinned,
+    state.booked,
+    state.birthday,
+    state.birthdayOff
+  ])
 
   const plan = useMemo(() => {
     if (!calendar.length) return null

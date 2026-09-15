@@ -11,9 +11,14 @@
  *
  *   #c=RO&d=21&y=2026&o=spread
  *   #c=DE&r=BY&d=30&y=2026&o=longest&w=1234&p=2026-06-01,2026-06-02
+ *
+ * A birthday is stored as a month and a day, never a year: it is nobody's
+ * business how old you are, and a link that carried your year of birth would be
+ * a worse thing to paste into a group chat than a leave plan.
  */
 import { DEFAULT_WORK_PATTERN } from '../solver/calendar.js'
 import { SPREAD, isObjective, DEFAULT_MIN_BREAK_LENGTH } from '../solver/objectives.js'
+import { isMonthDay } from '../solver/birthday.js'
 
 /** @typedef {object} AppState */
 
@@ -30,6 +35,9 @@ export const DEFAULT_STATE = Object.freeze({
   workPattern: DEFAULT_WORK_PATTERN,
   weekendHolidaysGivenBack: false,
   includeObservances: false,
+  /** `MM-DD`, or null. Only used when `birthdayOff` is on. */
+  birthday: null,
+  birthdayOff: false,
   pinned: [],
   blackouts: [],
   booked: []
@@ -83,6 +91,10 @@ export function decodeState(hash = '') {
   state.weekendHolidaysGivenBack = q.get('gb') === '1'
   state.includeObservances = q.get('ob') === '1'
 
+  const bd = q.get('bd')
+  if (isMonthDay(bd)) state.birthday = bd
+  state.birthdayOff = q.get('bo') === '1'
+
   state.pinned = listOf(q.get('p'))
   state.blackouts = listOf(q.get('x'))
   state.booked = listOf(q.get('b'))
@@ -119,6 +131,8 @@ export function encodeState(state) {
 
   if (state.weekendHolidaysGivenBack) q.set('gb', '1')
   if (state.includeObservances) q.set('ob', '1')
+  if (isMonthDay(state.birthday)) q.set('bd', state.birthday)
+  if (state.birthdayOff) q.set('bo', '1')
   if (state.pinned?.length) q.set('p', [...state.pinned].sort().join(','))
   if (state.blackouts?.length) q.set('x', [...state.blackouts].sort().join(','))
   if (state.booked?.length) q.set('b', [...state.booked].sort().join(','))

@@ -30,6 +30,7 @@ export default function ReturnsCurve({ curve, spent }) {
 
   const max = Math.max(...steps.map((s) => s.gain), 1)
   const summary = describe(steps)
+  const current = steps.find((s) => s.day === hover) || null
 
   return (
     <section className="card anim-pop p-4 sm:p-5" style={{ '--i': 3 }} aria-labelledby="returns-heading">
@@ -37,7 +38,23 @@ export default function ReturnsCurve({ curve, spent }) {
       <h2 id="returns-heading" className="text-2xl">
         What each day of leave buys you
       </h2>
-      <p className="hint mt-1 mb-4">{summary}</p>
+      <p className="hint mt-1">{summary}</p>
+
+      {/*
+       * A readout above the chart rather than a bubble floating over a bar. The
+       * bars scroll sideways, and a scroll container clips anything poking out of
+       * its top, so the tallest bar's label was being cut in half. This also works
+       * on a touch screen, where there is no hover to reveal anything.
+       */}
+      <p
+        className="tabular mb-3 mt-2 min-h-6 text-sm font-extrabold"
+        style={{ color: current ? 'var(--stamp)' : 'var(--muted-foreground)' }}
+        aria-hidden="true"
+      >
+        {current
+          ? `Leave day ${current.day} adds ${current.gain} ${current.gain === 1 ? 'day' : 'days'} off, ${current.total} in total`
+          : 'Point at a bar for the exact numbers.'}
+      </p>
 
       <div
         className="flex items-end gap-[2px] overflow-x-auto pb-1"
@@ -72,14 +89,6 @@ export default function ReturnsCurve({ curve, spent }) {
                   borderStyle: used ? 'solid' : 'dashed'
                 }}
               />
-              {active && (
-                <span
-                  className="tabular pointer-events-none absolute -top-2 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded-md border-[2px] px-1.5 py-0.5 text-[11px] font-extrabold"
-                  style={{ background: 'var(--sun)', color: 'var(--ink-fixed)', borderColor: 'var(--ink-fixed)' }}
-                >
-                  +{s.gain}
-                </span>
-              )}
             </button>
           )
         })}
@@ -127,8 +136,9 @@ function describe(steps) {
   const first = steps[0].gain
   const last = steps[steps.length - 1].gain
 
+  const plural = (n) => `${n} ${n === 1 ? 'day' : 'days'}`
   if (first === last) {
-    return `Every day of leave buys you ${first} days off.`
+    return `Every day of leave buys you ${plural(first)} off.`
   }
 
   // Where the return first drops below the opening rate for good.
@@ -140,10 +150,18 @@ function describe(steps) {
     }
   }
 
-  if (cliff === 0) return `Your first day buys ${first} days off, and later days buy ${last}.`
-  if (cliff >= steps.length) return `Every day of leave buys you ${first} days off.`
+  if (cliff === 0) return `Your first day buys ${plural(first)} off, and later days buy ${plural(last)}.`
+  if (cliff >= steps.length) return `Every day of leave buys you ${plural(first)} off.`
 
-  const opening = cliff === 1 ? 'Your first day' : `Your first ${cliff} days`
-  const rest = steps.length - cliff === 1 ? 'the last one' : `the remaining ${steps.length - cliff}`
-  return `${opening} buy ${first} days off each. After that ${rest} buy ${last} or fewer.`
+  const days = (n) => `${n} ${n === 1 ? 'day' : 'days'}`
+  const opening =
+    cliff === 1
+      ? `Your first day buys ${days(first)} off.`
+      : `Your first ${cliff} days buy ${days(first)} off each.`
+  const remaining = steps.length - cliff
+  const rest =
+    remaining === 1
+      ? `The last one buys ${days(last)} or fewer.`
+      : `After that the remaining ${remaining} buy ${days(last)} or fewer.`
+  return `${opening} ${rest}`
 }

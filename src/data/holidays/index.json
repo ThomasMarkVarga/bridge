@@ -547,6 +547,7 @@
  "generatedAt": "2026-09-14T21:53:18.612Z",
  "source": {
   "library": "date-holidays",
-  "version": "3.36.1"
+  "version": "3.36.1",
+  "url": "https://github.com/commenthol/date-holidays"
  }
 }

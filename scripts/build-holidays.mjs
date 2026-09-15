@@ -279,7 +279,11 @@ function main() {
         countries: index,
         years: YEARS,
         generatedAt: new Date().toISOString(),
-        source: { library: 'date-holidays', version: LIB_VERSION }
+        source: {
+          library: 'date-holidays',
+          version: LIB_VERSION,
+          url: 'https://github.com/commenthol/date-holidays'
+        }
       },
       null,
       1

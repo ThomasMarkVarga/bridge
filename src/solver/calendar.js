@@ -33,6 +33,7 @@ export const DEFAULT_WORK_PATTERN = [1, 2, 3, 4, 5]
  * @property {string} [holidayName]
  * @property {string} [holidayNameEn]
  * @property {boolean} [holidaySubstitute]
+ * @property {boolean} [personal]   yours rather than the country's, like a birthday
  * @property {string} [label]
  */
 
@@ -44,6 +45,7 @@ export const DEFAULT_WORK_PATTERN = [1, 2, 3, 4, 5]
  * @property {string} [type]
  * @property {boolean} [substitute]
  * @property {string[]|null} [regions]
+ * @property {boolean} [personal]
  */
 
 /**
@@ -148,6 +150,10 @@ export function buildCalendar({
       const en = hs.map((h) => h.nameEn || h.name).join(' / ')
       if (en !== day.holidayName) day.holidayNameEn = en
       if (hs.some((h) => h.substitute)) day.holidaySubstitute = true
+      // A day that is yours rather than the country's, such as a birthday your
+      // employer gives you. It is off exactly like a public holiday, but it is
+      // not one, so anything that counts or claims public holidays skips it.
+      if (hs.every((h) => h.personal)) day.personal = true
       day.label = day.holidayName
     } else if (weekend) {
       day.label = 'Weekend'
@@ -170,7 +176,10 @@ export function buildCalendar({
  * @returns {Day[]}
  */
 export function holidaysLostToWeekends(calendar) {
-  return calendar.filter((d) => d.weekend && d.holidayName && !d.holidaySubstitute)
+  // Personal days are excluded on purpose. The rule is about public holidays, and
+  // claiming a day back for a birthday nobody was working anyway would be
+  // inventing an entitlement out of thin air.
+  return calendar.filter((d) => d.weekend && d.holidayName && !d.holidaySubstitute && !d.personal)
 }
 
 /**
@@ -184,6 +193,7 @@ export function calendarStats(calendar) {
   let blackoutDays = 0
   let pinnedCost = 0
   let holidayCount = 0
+  let personalDays = 0
 
   for (const d of calendar) {
     if (d.isFree) freeDays++
@@ -191,6 +201,7 @@ export function calendarStats(calendar) {
     if (d.blackout) blackoutDays++
     if (d.pinned) pinnedCost++
     if (d.holidayName) holidayCount++
+    if (d.personal) personalDays++
   }
 
   return {
@@ -200,6 +211,8 @@ export function calendarStats(calendar) {
     blackoutDays,
     pinnedCost,
     holidayCount,
+    personalDays,
+    publicHolidayCount: holidayCount - personalDays,
     holidaysOnNonWorkingDays: holidaysLostToWeekends(calendar).length
   }
 }

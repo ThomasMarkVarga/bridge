@@ -11,6 +11,7 @@ import Icon from './Icon.jsx'
 import { COUNTRIES } from '../data/loadHolidays.js'
 import { OBJECTIVE_LABELS, OBJECTIVES } from '../solver/objectives.js'
 import { WEEKDAYS_SHORT } from '../format.js'
+import { toMonthDay, toInputDate, isMonthDay } from '../solver/birthday.js'
 
 /**
  * @param {object} props
@@ -145,6 +146,7 @@ export default function Controls({ state, onChange, countryData, years, optionsO
 function MoreOptions({ state, onChange, countryData }) {
   const workId = useId()
   const objId = useId()
+  const birthdayId = useId()
   const minLenId = useId()
   const maxBreaksId = useId()
   const startId = useId()
@@ -300,6 +302,46 @@ function MoreOptions({ state, onChange, countryData }) {
           >
             My leave year does not start in January
           </button>
+        )}
+      </fieldset>
+
+      <fieldset>
+        <legend className="label mb-2">Your birthday</legend>
+        <Switch
+          checked={state.birthdayOff}
+          onChange={(v) => onChange({ birthdayOff: v })}
+          label="My employer gives me my birthday off"
+          hint="It becomes a free day like a public holiday, so the plan can build a break around it."
+        />
+
+        {state.birthdayOff && (
+          <div className="mt-3">
+            <label className="label" htmlFor={birthdayId}>
+              Which day is it?
+            </label>
+            <input
+              id={birthdayId}
+              type="date"
+              className="field tabular"
+              value={toInputDate(state.birthday, state.year) || ''}
+              onChange={(e) => {
+                const v = e.target.value
+                onChange({ birthday: v ? toMonthDay(v) : null })
+              }}
+            />
+            <p className="hint mt-1">
+              Only the day and month are kept, never the year, so a link you share cannot say how old you are.
+            </p>
+            {state.birthday === '02-29' && (
+              <p className="hint mt-1">
+                The 29th of February only exists every fourth year. Bridge uses the 28th in the others, which may not
+                be what your employer does.
+              </p>
+            )}
+            {!isMonthDay(state.birthday) && (
+              <p className="hint mt-1">Pick a date and it will be counted as a day off every year.</p>
+            )}
+          </div>
         )}
       </fieldset>
 

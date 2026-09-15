@@ -46,7 +46,8 @@ export default function Headline({ plan, periodLabel, countryLabel, busy }) {
   // Nothing to spend yet. Saying "0 days off" is true and useless, so say what
   // they already have and what to do next instead.
   if (plan.leaveSpent === 0 && plan.breaks.length === 0) {
-    const holidaysOff = plan.stats.holidayCount - plan.stats.holidaysOnNonWorkingDays
+    const publicOff = plan.stats.publicHolidayCount - plan.stats.holidaysOnNonWorkingDays
+    const birthdayOff = plan.stats.personalDays > 0
     return (
       <div className="card p-5 sm:p-7">
         <span className="pill pill-sun mb-3">Before you book a thing</span>
@@ -55,8 +56,9 @@ export default function Headline({ plan, periodLabel, countryLabel, busy }) {
           <span className="hl hl-lime tabular">{plan.stats.freeDays}</span> days off in {periodLabel}
         </p>
         <p className="mt-3 text-base font-semibold">
-          That is every weekend, plus {plural(holidaysOff, 'public holiday', 'public holidays')} that
-          {holidaysOff === 1 ? ' falls' : ' fall'} on a day you would have worked, in {countryLabel}.
+          That is every weekend, plus {plural(publicOff, 'public holiday', 'public holidays')} that
+          {publicOff === 1 ? ' falls' : ' fall'} on a day you would have worked, in {countryLabel}
+          {birthdayOff ? ', and your birthday' : ''}.
         </p>
         <p className="hint mt-3">
           Put your leave allowance in the box above and Bridge will work out which days to book.

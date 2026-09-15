@@ -11,6 +11,12 @@ import Icon from './Icon.jsx'
 import { DATA_SOURCE, DATA_GENERATED_AT } from '../data/loadHolidays.js'
 
 const REPO = 'https://github.com/ThomasMarkVarga/bridge'
+/*
+ * Where the dates actually come from. Held here rather than read from the data
+ * file with a fallback: the index file has no url on it, so the fallback was
+ * quietly crediting this repository for somebody else's work.
+ */
+const DATA_SOURCE_URL = 'https://github.com/commenthol/date-holidays'
 
 export default function Verification({ countryNotes = [], countryName, dataGeneratedAt }) {
   const { total, offSite } = useNetworkCount()
@@ -117,7 +123,7 @@ export default function Verification({ countryNotes = [], countryName, dataGener
 
       <p className="hint mt-4">
         Holiday dates come from{' '}
-        <a className="underline" href={DATA_SOURCE.url || REPO} rel="noreferrer noopener" target="_blank">
+        <a className="underline" href={DATA_SOURCE_URL} rel="noreferrer noopener" target="_blank">
           {DATA_SOURCE.library} {DATA_SOURCE.version}
         </a>
         , generated on {(dataGeneratedAt || DATA_GENERATED_AT || '').slice(0, 10)}.{' '}

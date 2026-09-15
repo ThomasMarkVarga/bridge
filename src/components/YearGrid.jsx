@@ -114,8 +114,11 @@ function describeDay(day, inBreak, isLeave) {
   if (day.blackout) parts.push('blacked out, will not be booked')
   else if (day.pinned) parts.push('pinned, you fixed this day')
   else if (isLeave) parts.push('a day to book')
-  if (day.holidayName) parts.push(`public holiday, ${day.holidayName}`)
-  else if (day.weekend && !day.holidayName) parts.push('not a working day')
+  if (day.holidayName) {
+    // A birthday is a day off, but it is not a public holiday, and saying so out
+    // loud to a screen reader would be wrong.
+    parts.push(day.personal ? `a day off, ${day.holidayName}` : `public holiday, ${day.holidayName}`)
+  } else if (day.weekend) parts.push('not a working day')
   if (inBreak && !isLeave && !day.pinned) parts.push('inside a break')
   if (!inBreak && !day.isFree && !day.blackout && !day.pinned) parts.push('a normal working day')
   return parts.join(', ')
