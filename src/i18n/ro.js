@@ -82,6 +82,11 @@ export default {
   'controls.birthdayWhich': 'Ce zi este?',
   'controls.month': 'Luna',
   'controls.day': 'Ziua',
+
+  'picker.choose': 'Alege',
+  'picker.search': 'Caută: {label}',
+  'picker.searchPlaceholder': 'Scrie ca să cauți',
+  'picker.empty': 'Nimic nu se potrivește cu „{query}”.',
   'controls.birthdayMonthLabel': 'Luna în care e ziua ta de naștere',
   'controls.birthdayDayLabel': 'Ziua în care e ziua ta de naștere',
   'controls.birthdayPick': 'Alege o lună și o zi. Contează ca zi liberă în fiecare an.',

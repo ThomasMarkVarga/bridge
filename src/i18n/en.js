@@ -76,6 +76,12 @@ export default {
   'controls.birthdayWhich': 'Which day is it?',
   'controls.month': 'Month',
   'controls.day': 'Day',
+
+  // The dropdowns themselves: what an empty one says, and the search box inside a long list.
+  'picker.choose': 'Choose',
+  'picker.search': 'Search: {label}',
+  'picker.searchPlaceholder': 'Type to search',
+  'picker.empty': 'Nothing matches “{query}”.',
   'controls.birthdayMonthLabel': 'Month of your birthday',
   'controls.birthdayDayLabel': 'Day of your birthday',
   'controls.birthdayPick': 'Pick a month and a day. It counts as a day off every year.',

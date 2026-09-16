@@ -15,6 +15,7 @@
  */
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import Icon from './Icon.jsx'
+import { useT } from '../i18n/index.jsx'
 
 const fold = (s) =>
   String(s)
@@ -51,7 +52,7 @@ const isTypingKey = (e) => e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.
  * @param {(value: string|number) => void} props.onChange
  * @param {boolean} [props.searchable]
  * @param {boolean} [props.disabled]
- * @param {string} [props.placeholder]  shown while no option is chosen
+ * @param {string} [props.placeholder]  shown while no option is chosen, already translated
  * @param {string} [props.className]
  */
 export default function Picker({
@@ -62,9 +63,10 @@ export default function Picker({
   onChange,
   searchable = false,
   disabled = false,
-  placeholder = 'Choose',
+  placeholder,
   className = ''
 }) {
+  const { t } = useT()
   const listId = useId()
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
@@ -168,7 +170,7 @@ export default function Picker({
         onKeyDown={onButtonKeyDown}
       >
         {selected?.badge && <span className="picker-badge">{selected.badge}</span>}
-        <span className="picker-value">{selected ? selected.label : placeholder}</span>
+        <span className="picker-value">{selected ? selected.label : placeholder || t('picker.choose')}</span>
         <span className="picker-caret" aria-hidden="true">
           <Icon name="caret" size={16} />
         </span>
@@ -187,8 +189,8 @@ export default function Picker({
                 aria-controls={listId}
                 aria-autocomplete="list"
                 aria-activedescendant={activeId}
-                aria-label={`Search: ${label}`}
-                placeholder="Type to search"
+                aria-label={t('picker.search', { label })}
+                placeholder={t('picker.searchPlaceholder')}
                 autoComplete="off"
                 spellCheck={false}
                 value={query}
@@ -228,7 +230,7 @@ export default function Picker({
             ))}
             {shown.length === 0 && (
               <li className="picker-empty" role="presentation">
-                Nothing matches &ldquo;{query}&rdquo;.
+                {t('picker.empty', { query })}
               </li>
             )}
           </ul>
